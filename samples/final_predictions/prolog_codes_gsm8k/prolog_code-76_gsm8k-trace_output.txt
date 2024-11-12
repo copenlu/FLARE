@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-76_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_total_revenue(_5830)
+   Call: (14) total_revenue(12, 9, 17, _5830)
+   Call: (15) _15128 is round(2.74)
+   Exit: (15) 3 is round(2.74)
+   Call: (15) _16364 is round(1.87)
+   Exit: (15) 2 is round(1.87)
+   Call: (15) _17600 is round(2.12)
+   Exit: (15) 2 is round(2.12)
+   Call: (15) _18836 is 12*3
+   Exit: (15) 36 is 12*3
+   Call: (15) _20068 is 9*2
+   Exit: (15) 18 is 9*2
+   Call: (15) _21300 is 17*2
+   Exit: (15) 34 is 17*2
+   Call: (15) _5830 is 36+18+34
+   Exit: (15) 88 is 36+18+34
+   Exit: (14) total_revenue(12, 9, 17, 88)
+   Exit: (13) query_total_revenue(88)
+   Exit: (12) query(88)
+path_result:query(88)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-76_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-76_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

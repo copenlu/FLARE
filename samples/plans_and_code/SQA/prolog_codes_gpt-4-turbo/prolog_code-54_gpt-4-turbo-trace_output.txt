@@ -1,0 +1,24 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-54_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) could_walt_disney_use_email(_13884)
+   Call: (14) could_use_email(walt_disney)
+   Call: (15) lived(walt_disney, _15102, _15104)
+   Exit: (15) lived(walt_disney, 1901, 1966)
+   Call: (15) email_development(_16338)
+   Exit: (15) email_development(1971)
+   Call: (15) 1901=<1971
+   Exit: (15) 1901=<1971
+   Call: (15) 1966>=1971
+   Fail: (15) 1966>=1971
+   Fail: (14) could_use_email(walt_disney)
+   Redo: (13) could_walt_disney_use_email(_13884)
+   Call: (14) _13884=false
+   Exit: (14) false=false
+   Exit: (13) could_walt_disney_use_email(false)
+   Call: (13) false=false
+   Exit: (13) false=false
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-54_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-54_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

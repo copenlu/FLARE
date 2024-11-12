@@ -1,0 +1,199 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-6_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_cost(_5830)
+   Call: (14) total_cost(16, _5830)
+^  Call: (15) findall(_15120, (between(1, 16, _15134), glass_cost(_15134, _15120)), _15142)
+   Call: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 1)
+   Call: (20) glass_cost(1, _15120)
+   Call: (21) 1 mod 2=:=1
+   Exit: (21) 1 mod 2=:=1
+   Call: (21) _15120 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(1, 5)
+   Redo: (20) glass_cost(1, _15120)
+   Call: (21) 1 mod 2=:=0
+   Fail: (21) 1 mod 2=:=0
+   Fail: (20) glass_cost(1, _15120)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 2)
+   Call: (20) glass_cost(2, _15120)
+   Call: (21) 2 mod 2=:=1
+   Fail: (21) 2 mod 2=:=1
+   Redo: (20) glass_cost(2, _15120)
+   Call: (21) 2 mod 2=:=0
+   Exit: (21) 2 mod 2=:=0
+   Call: (21) _15120 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(2, 3.0)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 3)
+   Call: (20) glass_cost(3, _15120)
+   Call: (21) 3 mod 2=:=1
+   Exit: (21) 3 mod 2=:=1
+   Call: (21) _15120 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(3, 5)
+   Redo: (20) glass_cost(3, _15120)
+   Call: (21) 3 mod 2=:=0
+   Fail: (21) 3 mod 2=:=0
+   Fail: (20) glass_cost(3, _15120)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 4)
+   Call: (20) glass_cost(4, _15120)
+   Call: (21) 4 mod 2=:=1
+   Fail: (21) 4 mod 2=:=1
+   Redo: (20) glass_cost(4, _15120)
+   Call: (21) 4 mod 2=:=0
+   Exit: (21) 4 mod 2=:=0
+   Call: (21) _15120 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(4, 3.0)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 5)
+   Call: (20) glass_cost(5, _15120)
+   Call: (21) 5 mod 2=:=1
+   Exit: (21) 5 mod 2=:=1
+   Call: (21) _15120 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(5, 5)
+   Redo: (20) glass_cost(5, _15120)
+   Call: (21) 5 mod 2=:=0
+   Fail: (21) 5 mod 2=:=0
+   Fail: (20) glass_cost(5, _15120)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 6)
+   Call: (20) glass_cost(6, _15120)
+   Call: (21) 6 mod 2=:=1
+   Fail: (21) 6 mod 2=:=1
+   Redo: (20) glass_cost(6, _15120)
+   Call: (21) 6 mod 2=:=0
+   Exit: (21) 6 mod 2=:=0
+   Call: (21) _15120 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(6, 3.0)
+   Redo: (20) between(1, 16, _15134)
+   Exit: (20) between(1, 16, 7)
+   Call: (20) glass_cost(7, _15120)
+   Call: (21) 7 mod 2=:=1
+   Exit: (21) 7 mod 2=:=1
+   Call: (21) _15120 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(7, 5)
+   Redo: (20) glass_cost(7, _15120)
+   Call: (21) 7 mod 2=:=0
+   Fail: (21) 7 mod 2=:=0
+   Fail: (20) glass_cost(7, _158)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 8)
+   Call: (20) glass_cost(8, _158)
+   Call: (21) 8 mod 2=:=1
+   Fail: (21) 8 mod 2=:=1
+   Redo: (20) glass_cost(8, _158)
+   Call: (21) 8 mod 2=:=0
+   Exit: (21) 8 mod 2=:=0
+   Call: (21) _158 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(8, 3.0)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 9)
+   Call: (20) glass_cost(9, _158)
+   Call: (21) 9 mod 2=:=1
+   Exit: (21) 9 mod 2=:=1
+   Call: (21) _158 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(9, 5)
+   Redo: (20) glass_cost(9, _158)
+   Call: (21) 9 mod 2=:=0
+   Fail: (21) 9 mod 2=:=0
+   Fail: (20) glass_cost(9, _158)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 10)
+   Call: (20) glass_cost(10, _158)
+   Call: (21) 10 mod 2=:=1
+   Fail: (21) 10 mod 2=:=1
+   Redo: (20) glass_cost(10, _158)
+   Call: (21) 10 mod 2=:=0
+   Exit: (21) 10 mod 2=:=0
+   Call: (21) _158 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(10, 3.0)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 11)
+   Call: (20) glass_cost(11, _158)
+   Call: (21) 11 mod 2=:=1
+   Exit: (21) 11 mod 2=:=1
+   Call: (21) _158 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(11, 5)
+   Redo: (20) glass_cost(11, _158)
+   Call: (21) 11 mod 2=:=0
+   Fail: (21) 11 mod 2=:=0
+   Fail: (20) glass_cost(11, _158)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 12)
+   Call: (20) glass_cost(12, _158)
+   Call: (21) 12 mod 2=:=1
+   Fail: (21) 12 mod 2=:=1
+   Redo: (20) glass_cost(12, _158)
+   Call: (21) 12 mod 2=:=0
+   Exit: (21) 12 mod 2=:=0
+   Call: (21) _158 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(12, 3.0)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 13)
+   Call: (20) glass_cost(13, _158)
+   Call: (21) 13 mod 2=:=1
+   Exit: (21) 13 mod 2=:=1
+   Call: (21) _158 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(13, 5)
+   Redo: (20) glass_cost(13, _158)
+   Call: (21) 13 mod 2=:=0
+   Fail: (21) 13 mod 2=:=0
+   Fail: (20) glass_cost(13, _158)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 14)
+   Call: (20) glass_cost(14, _158)
+   Call: (21) 14 mod 2=:=1
+   Fail: (21) 14 mod 2=:=1
+   Redo: (20) glass_cost(14, _158)
+   Call: (21) 14 mod 2=:=0
+   Exit: (21) 14 mod 2=:=0
+   Call: (21) _158 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(14, 3.0)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 15)
+   Call: (20) glass_cost(15, _158)
+   Call: (21) 15 mod 2=:=1
+   Exit: (21) 15 mod 2=:=1
+   Call: (21) _158 is 5
+   Exit: (21) 5 is 5
+   Exit: (20) glass_cost(15, 5)
+   Redo: (20) glass_cost(15, _158)
+   Call: (21) 15 mod 2=:=0
+   Fail: (21) 15 mod 2=:=0
+   Fail: (20) glass_cost(15, _158)
+   Redo: (20) between(1, 16, _172)
+   Exit: (20) between(1, 16, 16)
+   Call: (20) glass_cost(16, _158)
+   Call: (21) 16 mod 2=:=1
+   Fail: (21) 16 mod 2=:=1
+   Redo: (20) glass_cost(16, _158)
+   Call: (21) 16 mod 2=:=0
+   Exit: (21) 16 mod 2=:=0
+   Call: (21) _158 is 0.6*5
+   Exit: (21) 3.0 is 0.6*5
+   Exit: (20) glass_cost(16, 3.0)
+^  Exit: (15) findall(_158, user:(between(1, 16, _172), glass_cost(_172, _158)), [5, 3.0, 5, 3.0, 5, 3.0, 5, 3.0|...])
+   Call: (15) lists:sum_list([5, 3.0, 5, 3.0, 5, 3.0, 5|...], _76)
+   Exit: (15) lists:sum_list([5, 3.0, 5, 3.0, 5, 3.0, 5|...], 64.0)
+   Exit: (14) total_cost(16, 64.0)
+   Exit: (13) calculate_total_cost(64.0)
+   Exit: (12) query(64.0)
+path_result:query(64.0)
+^  Exit: (10) forall(user:call(query(_76)), user:write(path_result:query(_76)))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-6_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

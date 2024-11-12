@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-4_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_distance_weekly(_5830)
+   Call: (14) total_distance_one_sprint(60, _14508)
+   Call: (15) _14508 is 60*3
+   Exit: (15) 180 is 60*3
+   Exit: (14) total_distance_one_sprint(60, 180)
+   Call: (14) total_distance_weekly(3, 180, _5830)
+   Call: (15) _5830 is 3*180
+   Exit: (15) 540 is 3*180
+   Exit: (14) total_distance_weekly(3, 180, 540)
+   Exit: (13) calculate_total_distance_weekly(540)
+   Exit: (12) query(540)
+path_result:query(540)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-4_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-4_gsm8k-trace_output.txt"), forall(call(query(TotalDistanceWeekly)), (write(path_result: query(TotalDistanceWeekly)))).')

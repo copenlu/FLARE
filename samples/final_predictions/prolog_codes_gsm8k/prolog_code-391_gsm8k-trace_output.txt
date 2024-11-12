@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-391_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) difference_hiked(_5830)
+   Call: (14) distance_hiked_cho(_14508)
+   Call: (15) distance_hiked(14, 8, _14508)
+   Call: (16) _14508 is 14*8
+   Exit: (16) 112 is 14*8
+   Exit: (15) distance_hiked(14, 8, 112)
+   Exit: (14) distance_hiked_cho(112)
+   Call: (14) distance_hiked_chloe(_18188)
+   Call: (15) distance_hiked(9, 5, _18188)
+   Call: (16) _18188 is 9*5
+   Exit: (16) 45 is 9*5
+   Exit: (15) distance_hiked(9, 5, 45)
+   Exit: (14) distance_hiked_chloe(45)
+   Call: (14) difference_distance(112, 45, _5830)
+   Call: (15) _5830 is 112-45
+   Exit: (15) 67 is 112-45
+   Exit: (14) difference_distance(112, 45, 67)
+   Exit: (13) difference_hiked(67)
+   Exit: (12) query(67)
+path_result:query(67)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-391_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-391_gsm8k-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

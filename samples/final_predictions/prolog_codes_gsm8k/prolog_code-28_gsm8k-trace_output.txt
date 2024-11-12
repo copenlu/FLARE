@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-28_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_cost_of_ice_cream(60, _5830)
+   Call: (14) _14512=15
+   Exit: (14) 15=15
+   Call: (14) _15738=4.0
+   Exit: (14) 4.0=4.0
+   Call: (14) _16970 is 60*1
+   Exit: (14) 60 is 60*1
+   Call: (14) _18202 is ceil(60/15)
+   Exit: (14) 4 is ceil(60/15)
+   Call: (14) _5830 is 4*4.0
+   Exit: (14) 16.0 is 4*4.0
+   Exit: (13) total_cost_of_ice_cream(60, 16.0)
+   Exit: (12) query(16.0)
+path_result:query(16.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-28_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-28_gsm8k-trace_output.txt"), forall(call(query(Cost)), (write(path_result: query(Cost)))).')

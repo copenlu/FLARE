@@ -1,0 +1,98 @@
+[
+    {
+        "index": 1334,
+        "question": "Rachel is stuffing envelopes. She has eight hours to complete the task, and there are 1,500 envelopes. In the first hour, Rachel stuffs 135 envelopes. The second hour she stuffs 141 envelopes. How many envelopes will Rachel need to stuff per hour to finish the job?",
+        "answer": "204",
+        "gold_explanation": "Rachel has 1500 - 135 - 141 envelopes = 1224 envelopes remaining to stuff. Rachel has 8 hours - 2 hours = 6 hours left to finish the task. Rachel needs to stuff 1224 envelopes / 6 hours = 204 envelopes per hour."
+    },
+    {
+        "index": 4051,
+        "question": "Five friends eat at Wendy's and ordered the following: a platter of Taco Salad that cost $10, 5 orders of Dave's Single hamburger that cost $5 each, 4 sets of french fries that cost $2.50, and 5 cups of peach lemonade that cost $2 each. How much will each of them pay if they will split the bill equally?",
+        "answer": "11",
+        "gold_explanation": "The cost of 5 pieces of Dave's Single hamburger is $5 x 5 = $25. The cost of 4 sets of french fries is $2.50 x 4 = $10. The cost of 5 cups of peach lemonade is $2 x 5 = $10. So, their total bill is $10 + $25 + $10 +$10 = $55. Therefore, each of them will contribute $55/5 = $11."
+    },
+    {
+        "index": 569,
+        "question": "At a gym, the blue weights are 2 pounds each, and the green weights are 3 pounds each. Harry put 4 blue weights and 5 green weights onto a metal bar. The bar itself weighs 2 pounds. What is the total amount of weight, in pounds, of Harry's custom creation?",
+        "answer": "25",
+        "gold_explanation": "The blue weights weigh 4*2=8 pounds. The green weights weigh 5*3=15 pounds. The weights weigh 8+15=23 pounds. The total is then 23+2=25."
+    },
+    {
+        "index": 2124,
+        "question": "James earns $10 per week as an allowance. After saving all his money for four weeks, he spends half of it on a new video game. He then spends a quarter of what is left to buy a new book. How much money does he have left?",
+        "answer": "15",
+        "gold_explanation": "He starts out with $10 * 4 = $40. James spend $40 / 2 = $20 on the video game. After buying the game, he has $40 - $20 = $20 left. He spent $20 / 4 = $5 on the book. He has $20 - $5 = $15 left."
+    },
+    {
+        "index": 4058,
+        "question": "Tom's brother is 4 times as old as Tom's dog. If in 6 years, Tom's brother will be 30 years, how old is Tom's dog going to be in six years?",
+        "answer": "12",
+        "gold_explanation": "If in six years Tom's brother will be 30 years old, he is currently 30-6 = 24 years old. Since Tom's brother is 4 times as old as Tom's dog, Tom's dog is 24/4 = 6 years old currently. Tom's dog will be 6+6 = 12 years old in six years."
+    },
+    {
+        "index": 5936,
+        "question": "Traci and Harris are baking cakes together. Traci has brought flour from her own house and Harris has 400g of flour in his house. Each cake needs 100g of flour and Traci and Harris have created 9 cakes each. How much flour, in grams, did Traci bring from her own house?",
+        "answer": "500",
+        "gold_explanation": "To make the cakes, Traci and Harris used a total of 9 cakes * 100g of flour per cake = 900g of flour. Traci therefore brought 900g of needed flour \u2013 400g of flour from Harris\u2019 flour = 500g of flour from her own house."
+    },
+    {
+        "index": 41,
+        "question": "Rachel and Sara want to attend a beauty and modeling contest. They both want to buy new pairs of shoes and dresses. Sara buys a pair of shoes which costs $50 and a dress which costs $200. How much should Rachel budget if she wants to spend twice as much as what Sara spent on the pair of shoes and dress?",
+        "answer": "500",
+        "gold_explanation": "The cost Rachel should budget for her pair of shoes is $50 * 2 = $100. The cost Rachel should budget for her dress is $200 * 2 = $400. The total Rachel should budget is $100 + $400 = $500."
+    },
+    {
+        "index": 1689,
+        "question": "As a freelancer, Baylor is paid for every finished work of a client he does on a freelance marketplace. Currently, he has $4000 on his dashboard from previous work done. He is currently working for three clients, with the first client paying him half the amount of money he currently has on his dashboard once the job is done. The second client will pay him 2/5 times more money than the first client once Baylor finishes his work. The third client will pay him twice the amount of money the first and second clients pay him together once he finishes the job. How much money will Baylor have in his dashboard after all the clients pay him for his work?",
+        "answer": "18400",
+        "gold_explanation": "The first client will pay Baylor 1/2*$4000=$2000. The second client will pay Baylor 2/5 times more money than the first client, a total of 2/5*$2000 = $800. The total amount of money the second client will pay Baylor once the job is done is $2000+$800 = $2800. The total amount of money the first and the second client will pay Baylor after their work is finished is $2800+$2000 = $4800. The third client will pay him twice the amount of money the first and second clients pay him together, a total of 2*$4800 = $9600. Together, the three clients will pay Baylor $9600+$4800 = $14400 once he finishes their jobs. In his dashboard, Baylor will have $14400+$4000 = $18400."
+    },
+    {
+        "index": 6970,
+        "question": "Joel collected a bin of old toys to donate. By asking his friends, he was able to collect 18 stuffed animals, 42 action figures, 2 board games, and 13 puzzles. His sister gave him some of her old toys from her closet, and then Joel added twice as many toys from his own closet as his sister did from hers. In all, Joel was able to donate 108 toys. How many of the donated toys were Joel\u2019s?",
+        "answer": "22",
+        "gold_explanation": "Let T be the number of toys Joel\u2019s sister donated. Joel donated twice as many toys, so he donated 2T toys. Joel\u2019s friends donated 18 + 42 + 2 + 13 = 75 toys. In all, Joel collected T + 2T + 75 = 3T + 75 = 108 toys. Joel and his sister donated 3T = 108 - 75 = 33 toys together. Therefore, T = 33 / 3 = 11 toys were his sister\u2019s. Thus, 2T = 2 * 11 = 22 toys were Joel\u2019s."
+    },
+    {
+        "index": 5266,
+        "question": "Kenny plans to mow lawns all summer, and then use the profits to buy video-games and books. He charges $15 per lawn. The video-games are $45 each. The books are $5 each. At the end of the summer he has mowed 35 lawns. There are 5 video-games he really wants, and then he will use the rest for books. How many books can he buy?",
+        "answer": "60",
+        "gold_explanation": "Kenny earns $525 because 35 x 15 = 525. He spends $225 on video games because 5 x 45 = 225. He has $300 left because 525 - 225 = 300. He can buy 60 books because 300 / 5 = 60."
+    },
+    {
+        "index": 6821,
+        "question": "Benjamin is tracking how many miles he walks in a week. He walks to work and home five days a week, walks his dog twice a day every day, walks to his best friend\u2019s house once a week, and walks to the convenience store twice a week. Work is six miles away, dog walks are two miles, his best friend\u2019s house is one mile, and the convenience store is three miles. How many miles does Benjamin walk in a week?",
+        "answer": "95",
+        "gold_explanation": "Benjamin walks 6 miles to work and 6 miles home, so he walks 6 * 2 = 12 miles to work and home. He walks to work 5 days a week, so he walks 12 * 5 = 60 miles to work and home a week. He walks his dog 2 times a day for 2 miles, so he walks 2 * 2 = 4 miles a day for his dog. He walks his dog 7 days a week, so he walks 4 * 7 = 28 miles for his dog. He walks 3 miles to the store 2 times a week, so he walks 2 * 3 = 6 miles to the store each week. Adding his weekly 1 mile to his friend\u2019s house, Benjamin walks 60 + 28 + 6 + 1 = 95 miles in a week."
+    },
+    {
+        "index": 399,
+        "question": "Sam works at the Widget Factory, assembling Widgets. He can assemble 1 widget every 10 minutes. Jack from the loading dock can help assemble widgets when he doesn't have anything else to do. When he helps, they put together 2 complete widgets every 15 minutes. Recently the factory hired Tony to help assemble widgets. Being new to the job, he doesn't work as fast as Sam or Jack. Yesterday Sam worked for 6 hours before he had to leave work early for a dentist appointment. Jack was able to help out for 4 hours before he had to go back to the loading dock to unload a new shipment of widget materials. Tony worked the entire 8-hour shift. At the end of the day, they had completed 68 widgets. How long does it take Tony to assemble a Widget, in minutes?",
+        "answer": "30",
+        "gold_explanation": "Sam completes a widget every 10 minutes. When Jack helps they finish 2 in 15 minutes. Sam has finished 1 widget and has begun working on another one, and Jack finishes the second one at 15 minutes. So it takes Jack 15 minutes to complete a widget. Sam worked for 6 hours yesterday, so he was able to complete 6 hours * 60 minutes per hour / 10 minutes per widget = 36 widgets. Jack worked for 4 hours, so he was able to complete 4 hours * 60 minutes per hour / 15 minutes per widget = 16 widgets. Sam, Jack, and Tony were able to complete 68 widgets together. So of those, Tony personally completed 68 widgets - 36 widgets - 16 widgets = 16 widgets. It took Tony 8 hours to complete those 16 widgets, so he takes 8 hours * 60 minutes per hour / 16 widgets = 30 minutes per widget."
+    },
+    {
+        "index": 3822,
+        "question": "Alec is running for Class President. He thinks that if he can get three-quarters of the class to vote for him then there is no chance anyone else can beat him. Half of the class have already said they will vote for him but out of the remaining students, only 5 have said they are thinking about voting for him. He surveys the students who are thinking about voting for someone else, and changes his flyers to reflect the issues these students are concerned about. This results in a fifth of these students saying they'll vote for him. If Alec's class has 60 students and everyone who said they will vote for him does so, how many more votes does Alec need to reach his goal number of votes?",
+        "answer": "5",
+        "gold_explanation": "To calculate Alec's goal number of votes, we need to know that 60 students / 4 = 15 students is equal to one-quarter of the class students. Alec's goal is therefore 15 students * 3 quarters = 45 votes. Half of the class said they will vote for him, so there are already 60 students / 2 = 30 votes. Another 5 students are thinking about voting for him which leaves a total so far of 30 + 5 = 35 votes. This means there are 60 students - 35 voting for Alec = 25 students not voting for Alec. A fifth of these decided to vote, so this is a further 25 students / 5 = 5 votes. Alec is therefore receiving a total of 35 + 5 = 40 votes. So he has missed his goal by 45 goal votes - 40 actual votes = 5 votes."
+    },
+    {
+        "index": 1531,
+        "question": "A man decides to try and do everything off his bucket list while he is still young and fit enough to finish it all.  One of his goals was to climb the seven summits.  He realizes first he has to get in shape to do it and it takes him 2 years of working out to get healthy enough to take up mountain climbing.  He then spends twice that long learning how to be a technically proficient mountain climber.  After that he starts with the simplest mountain on the list and climbs them all.  He spends 5 months climbing each mountain.  After that he takes 13 months learning to dive and dives through all the caves he wants in 2 years.  How much time did it take to get through all these goals?",
+        "answer": "12",
+        "gold_explanation": "He spent 2*2=4 years learning to climb. He spends 5*7=35 months climbing all 7 mountains. After a 13 month break, he starts diving so that is 35+13=48 months. That means it is 48/12=4 years. So in total it all took 2+4+4+2=12 years."
+    },
+    {
+        "index": 5918,
+        "question": "Jo-Bob hopped into the hot air balloon, released the anchor rope, and pulled on the lift chain, which ignited the flame and provided the warm air that caused the balloon to rise.  When the lift chain was pulled, the balloon would rise at a rate of 50 feet per minute.  But when the chain was not being pulled, the balloon would slowly descend at a rate of 10 feet per minute.  During his balloon ride, he pulled the chain for 15 minutes, then released the rope for 10 minutes, then pulled the chain for another 15 minutes, and finally released the chain and allowed the balloon to slowly descend back to the earth.  During his balloon ride, what was the highest elevation reached by the balloon?",
+        "answer": "1400",
+        "gold_explanation": "The first 15-minute chain pull caused the balloon to rise 50*15=750 feet. Releasing the chain for 10 minutes caused the balloon to descend 10*10=100 feet. The second 15-minute chain pull caused the balloon to rise another 50*15=750 feet. Thus, at the end of the second chain pull, when the balloon was at its highest elevation, the balloon had risen to an elevation of 750-100+750=1400 feet above the earth's surface."
+    },
+    {
+        "index": 1202,
+        "question": "A man is trying to maximize the amount of money he saves each month. In particular, he is trying to decide between two different apartments. The first apartment costs $800 per month in rent and will cost an additional $260 per month in utilities. The second apartment costs $900 per month and will cost an additional $200 per month in utilities. The first apartment is slightly further from the man's work, and the man would have to drive 31 miles per day to get to work. The second apartment is closer, and the man would only have to drive 21 miles to get to work. According to the IRS, each mile a person drives has an average cost of 58 cents. If the man must drive to work 20 days each month, what is the difference between the total monthly costs of these two apartments after factoring in utility and driving-related costs (to the nearest whole dollar)?",
+        "answer": "76",
+        "gold_explanation": "The mileage cost for the first apartment will be 31*20*0.58 = $359.60. This makes the total monthly cost of the first apartment 359.60 + 800 + 260 = $1419.60. Similarly, the mileage cost for the second apartment will be 21*20*0.58 = $243.60. Thus, the total monthly cost of the second apartment is 243.60 + 900 + 200 = 1343.60. Therefore, the difference in total monthly costs is 1419.60 - 1343.60 = $76."
+    }
+]

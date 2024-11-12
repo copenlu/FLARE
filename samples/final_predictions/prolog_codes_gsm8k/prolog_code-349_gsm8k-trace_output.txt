@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-349_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7536)), write(path_result:query(_7536)))
+   Call: (12) query(_7536)
+   Call: (13) balls_after_accident(4, 2, 1, _7536)
+   Call: (14) total_balls(4, _16226)
+   Call: (15) _16226 is 3+4
+   Exit: (15) 7 is 3+4
+   Exit: (14) total_balls(4, 7)
+   Call: (14) _7536 is 7-1
+   Exit: (14) 6 is 7-1
+   Exit: (13) balls_after_accident(4, 2, 1, 6)
+   Exit: (12) query(6)
+path_result:query(6)
+^  Exit: (10) forall(user:call(query(_7536)), user:write(path_result:query(_7536)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-349_gsm8k-trace_output.txt"), forall(call(query(_7536)), write(path_result:query(_7536)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-349_gsm8k-trace_output.txt"), forall(call(query(Remaining)), (write(path_result: query(Remaining)))).')

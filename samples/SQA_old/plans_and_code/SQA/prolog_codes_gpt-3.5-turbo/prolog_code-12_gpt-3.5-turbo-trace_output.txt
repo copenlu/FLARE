@@ -1,0 +1,18 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-12_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) check_safety(rice_based)
+   Call: (14) is_safe_for_celiac(rice_based)
+   Call: (15) spaghetti(rice_based, gluten_free)
+   Exit: (15) spaghetti(rice_based, gluten_free)
+   Exit: (14) is_safe_for_celiac(rice_based)
+   Exit: (13) check_safety(rice_based)
+   Call: (13) check_safety(traditional)
+   Call: (14) is_safe_for_celiac(traditional)
+   Call: (15) spaghetti(traditional, gluten_free)
+   Fail: (15) spaghetti(traditional, gluten_free)
+   Fail: (14) is_safe_for_celiac(traditional)
+   Fail: (13) check_safety(traditional)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-12_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-12_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

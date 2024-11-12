@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-368_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_spent_candy_gumballs(_13900)
+   Call: (14) _13900 is 10
+   Exit: (14) 10 is 10
+   Exit: (13) total_spent_candy_gumballs(10)
+   Call: (13) amount_spent_gumballs(10, _16342)
+   Call: (14) _16342 is 10/2
+   Exit: (14) 5 is 10/2
+   Exit: (13) amount_spent_gumballs(10, 5)
+   Call: (13) remaining_amount(10, 5, _18798)
+   Call: (14) _18798 is 10-5
+   Exit: (14) 5 is 10-5
+   Exit: (13) remaining_amount(10, 5, 5)
+   Call: (13) pounds_of_candy(5, _5830)
+   Call: (14) _5830 is 5/1.5
+   Exit: (14) 3.3333333333333335 is 5/1.5
+   Exit: (13) pounds_of_candy(5, 3.3333333333333335)
+   Exit: (12) query(3.3333333333333335)
+path_result:query(3.3333333333333335)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-368_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-368_gsm8k-trace_output.txt"), forall(call(query(Pounds)), (write(path_result: query(Pounds)))).')

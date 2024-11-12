@@ -1,0 +1,28 @@
+##################
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+##################
+
+Write a Prolog code to solve using the plan. If there are unknown or stochastic atoms or predicates, fill in the values for them as a logical assumption and add an comment in the same line "% Assumed atom/predicate".
+Do not use write and read commands within the code. The code should be very detailed and utilize swi prolog capibilites to the fullest.
+
+To run the program, at the end create a predicate named "query" that prints out the solution.
+It is very important that the last line of the program should be the commented-out driver predicate "query". Write only the code.
+
+The code should be enclosed in ``` ```.
+
+##################
+
+Explcilty write out the search paths that are explored by the code:
+#####
+Here are the paths [Starting Search Simulation]:
+
+[Path 1]:
+
+##################
+
+Given the plan, the code and the explored search paths answer the question above. Answer with the correct date in the format MM/DD/YYYY.
+######Here is the answer:

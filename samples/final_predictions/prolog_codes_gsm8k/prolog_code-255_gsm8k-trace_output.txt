@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-255_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) _13900=4
+   Exit: (13) 4=4
+   Call: (13) _15126=50
+   Exit: (13) 50=50
+   Call: (13) _16352=1.5
+   Exit: (13) 1.5=1.5
+   Call: (13) total_cost(4, 50, 1.5, _5830)
+   Call: (14) _18204 is 4*50
+   Exit: (14) 200 is 4*50
+   Call: (14) _5830 is 200*1.5
+   Exit: (14) 300.0 is 200*1.5
+   Exit: (13) total_cost(4, 50, 1.5, 300.0)
+   Exit: (12) query(300.0)
+path_result:query(300.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-255_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-255_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

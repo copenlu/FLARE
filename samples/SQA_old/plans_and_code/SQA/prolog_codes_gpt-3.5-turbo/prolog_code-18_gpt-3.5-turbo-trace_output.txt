@@ -1,0 +1,35 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-18_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) generate_lesson(forgiveness, 5, _16374)
+   Call: (14) find_story_by_moral(forgiveness, _16914)
+   Call: (15) story(_16914, forgiveness, _17528, _17530)
+   Exit: (15) story(jonah_and_the_whale, forgiveness, low, short)
+   Call: (15) low=low
+   Exit: (15) low=low
+   Call: (15) short=short
+   Exit: (15) short=short
+   Exit: (14) find_story_by_moral(forgiveness, jonah_and_the_whale)
+   Call: (14) recommend_activity(5, _21832)
+   Call: (15) activity(_21832, _22522, _22446)
+   Exit: (15) activity(drawing, high, 5)
+   Call: (15) 5=5
+   Exit: (15) 5=5
+   Exit: (14) recommend_activity(5, drawing)
+   Call: (14) _25516=[jonah_and_the_whale, drawing]
+   Exit: (14) [jonah_and_the_whale, drawing]=[jonah_and_the_whale, drawing]
+   Exit: (13) generate_lesson(forgiveness, 5, [jonah_and_the_whale, drawing])
+   Exit: (12) query
+path_result:query
+   Redo: (15) activity(_21832, _28044, _22446)
+   Exit: (15) activity(storytelling, medium, 5)
+   Call: (15) 5=5
+   Exit: (15) 5=5
+   Exit: (14) recommend_activity(5, storytelling)
+   Call: (14) _31038=[jonah_and_the_whale, storytelling]
+   Exit: (14) [jonah_and_the_whale, storytelling]=[jonah_and_the_whale, storytelling]
+   Exit: (13) generate_lesson(forgiveness, 5, [jonah_and_the_whale, storytelling])
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-18_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-18_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,79 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-37_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) query_ideal_locations
+^  Call: (14) findall(_14484, ideal_location(_14484), _14490)
+   Call: (18) ideal_location(_14484)
+   Call: (19) location(_14484, _15756, _15758, _15760, _15762)
+   Exit: (19) location(agadir, 25, 0.5, yes, high)
+   Call: (19) 25>=20
+   Exit: (19) 25>=20
+   Call: (19) 25=<30
+   Exit: (19) 25=<30
+   Call: (19) 0.5<1.2
+   Exit: (19) 0.5<1.2
+   Call: (19) yes==yes
+   Exit: (19) yes==yes
+   Call: (19) high==high
+   Exit: (19) high==high
+   Exit: (18) ideal_location(agadir)
+   Redo: (19) location(_14484, _15756, _15758, _15760, _15762)
+   Exit: (19) location(casablanca, 20, 1.0, yes, high)
+   Call: (19) 20>=20
+   Exit: (19) 20>=20
+   Call: (19) 20=<30
+   Exit: (19) 20=<30
+   Call: (19) 1.0<1.2
+   Exit: (19) 1.0<1.2
+   Call: (19) yes==yes
+   Exit: (19) yes==yes
+   Call: (19) high==high
+   Exit: (19) high==high
+   Exit: (18) ideal_location(casablanca)
+   Redo: (19) location(_14484, _15756, _15758, _15760, _15762)
+   Exit: (19) location(tangier, 22, 1.5, no, medium)
+   Call: (19) 22>=20
+   Exit: (19) 22>=20
+   Call: (19) 22=<30
+   Exit: (19) 22=<30
+   Call: (19) 1.5<1.2
+   Fail: (19) 1.5<1.2
+   Fail: (18) ideal_location(_14484)
+^  Exit: (14) findall(_14484, user:ideal_location(_14484), [agadir, casablanca])
+^  Call: (14) [agadir, casablanca]
+   Call: (25) prolog_load_file(user:agadir, [expand(false), expand(true)])
+   Fail: (25) prolog_load_file(user:agadir, [expand(false), expand(true)])
+   Call: (33) prolog_file_type(_40034, prolog)
+   Exit: (33) prolog_file_type(pl, prolog)
+   Redo: (33) prolog_file_type(_40034, prolog)
+   Exit: (33) prolog_file_type(prolog, prolog)
+   Redo: (33) prolog_file_type(_40034, prolog)
+   Exit: (33) prolog_file_type(qlf, prolog)
+   Call: (25) push_msg(error(existence_error(source_sink, agadir), _202), _228)
+   Exit: (25) push_msg(error(existence_error(source_sink, agadir), _202), [])
+   Call: (32) prolog:message_prefix_hook(thread, _1594)
+   Fail: (32) prolog:message_prefix_hook(thread, _1594)
+ERROR: source_sink `agadir' does not exist
+   Call: (24) pop_msg([])
+   Exit: (24) pop_msg([])
+   Call: (26) prolog_load_file(user:casablanca, [expand(false), expand(true)])
+   Fail: (26) prolog_load_file(user:casablanca, [expand(false), expand(true)])
+   Call: (34) prolog_file_type(_5720, prolog)
+   Exit: (34) prolog_file_type(pl, prolog)
+   Redo: (34) prolog_file_type(_5720, prolog)
+   Exit: (34) prolog_file_type(prolog, prolog)
+   Redo: (34) prolog_file_type(_5720, prolog)
+   Exit: (34) prolog_file_type(qlf, prolog)
+   Call: (26) push_msg(error(existence_error(source_sink, casablanca), _4268), _9610)
+   Exit: (26) push_msg(error(existence_error(source_sink, casablanca), _4268), [])
+   Call: (33) prolog:message_prefix_hook(thread, _10976)
+   Fail: (33) prolog:message_prefix_hook(thread, _10976)
+ERROR: source_sink `casablanca' does not exist
+   Call: (25) pop_msg([])
+   Exit: (25) pop_msg([])
+^  Exit: (14) [user:agadir, casablanca]
+   Exit: (13) query_ideal_locations
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-37_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

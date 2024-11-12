@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-182_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) remaining_money(6000, _5830)
+   Call: (14) _14512 is 6000*1/4
+   Exit: (14) 1500 is 6000*1/4
+   Call: (14) _15750 is 6000-1500
+   Exit: (14) 4500 is 6000-1500
+   Call: (14) _16982 is 4500*1/3
+   Exit: (14) 1500 is 4500*1/3
+   Call: (14) _18220 is 4500-1500
+   Exit: (14) 3000 is 4500-1500
+   Call: (14) _19452 is 3000/2
+   Exit: (14) 1500 is 3000/2
+   Call: (14) _20684 is 3000-1500
+   Exit: (14) 1500 is 3000-1500
+   Call: (14) _21916 is 200
+   Exit: (14) 200 is 200
+   Call: (14) _23142 is 700
+   Exit: (14) 700 is 700
+   Call: (14) _5830 is 1500-200-700
+   Exit: (14) 600 is 1500-200-700
+   Exit: (13) remaining_money(6000, 600)
+   Exit: (12) query(600)
+path_result:query(600)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-182_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-182_gsm8k-trace_output.txt"), forall(call(query(FinalAmountLeft)), (write(path_result: query(FinalAmountLeft)))).')

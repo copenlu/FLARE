@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-10_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) elizas_earnings(45, _5830)
+   Call: (14) regular_earnings(40, _14512)
+   Call: (15) 40=<40
+   Exit: (15) 40=<40
+   Call: (15) _14512 is 40*10
+   Exit: (15) 400 is 40*10
+   Exit: (14) regular_earnings(40, 400)
+   Call: (14) overtime_earnings(45, _18192)
+   Call: (15) 45>40
+   Exit: (15) 45>40
+   Call: (15) _20036 is 45+ -40
+   Exit: (15) 5 is 45+ -40
+   Call: (15) _18192 is 5*10*1.2
+   Exit: (15) 60.0 is 5*10*1.2
+   Exit: (14) overtime_earnings(45, 60.0)
+   Call: (14) total_earnings(400, 60.0, _5830)
+   Call: (15) _5830 is 400+60.0
+   Exit: (15) 460.0 is 400+60.0
+   Exit: (14) total_earnings(400, 60.0, 460.0)
+   Exit: (13) elizas_earnings(45, 460.0)
+   Exit: (12) query(460.0)
+path_result:query(460.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-10_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-10_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

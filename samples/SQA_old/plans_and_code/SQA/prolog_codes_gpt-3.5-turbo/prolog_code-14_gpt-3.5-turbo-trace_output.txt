@@ -1,0 +1,51 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-14_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) report_gabon_colors
+   Call: (14) gabon_flag_colors(_14484)
+   Exit: (14) gabon_flag_colors([green, yellow, blue])
+   Call: (14) lists:member(_15720, [green, yellow, blue])
+   Exit: (14) lists:member(green, [green, yellow, blue])
+   Call: (14) color_in_rainbow(green)
+   Call: (15) rainbow_colors(_19098)
+   Exit: (15) rainbow_colors([red, orange, yellow, green, blue, indigo, violet])
+   Call: (15) lists:member(green, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (15) lists:member(green, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (14) color_in_rainbow(green)
+^  Call: (14) format('~w is in the rainbow.~n', [green])
+green is in the rainbow.
+^  Exit: (14) format('~w is in the rainbow.~n', [green])
+   Call: (14) fail
+   Fail: (14) fail
+   Redo: (14) lists:member(_15720, [green, yellow, blue])
+   Exit: (14) lists:member(yellow, [green, yellow, blue])
+   Call: (14) color_in_rainbow(yellow)
+   Call: (15) rainbow_colors(_26524)
+   Exit: (15) rainbow_colors([red, orange, yellow, green, blue, indigo, violet])
+   Call: (15) lists:member(yellow, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (15) lists:member(yellow, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (14) color_in_rainbow(yellow)
+^  Call: (14) format('~w is in the rainbow.~n', [yellow])
+yellow is in the rainbow.
+^  Exit: (14) format('~w is in the rainbow.~n', [yellow])
+   Call: (14) fail
+   Fail: (14) fail
+   Redo: (14) lists:member(_15720, [green, yellow, blue])
+   Exit: (14) lists:member(blue, [green, yellow, blue])
+   Call: (14) color_in_rainbow(blue)
+   Call: (15) rainbow_colors(_33950)
+   Exit: (15) rainbow_colors([red, orange, yellow, green, blue, indigo, violet])
+   Call: (15) lists:member(blue, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (15) lists:member(blue, [red, orange, yellow, green, blue, indigo, violet])
+   Exit: (14) color_in_rainbow(blue)
+^  Call: (14) format('~w is in the rainbow.~n', [blue])
+blue is in the rainbow.
+^  Exit: (14) format('~w is in the rainbow.~n', [blue])
+   Call: (14) fail
+   Fail: (14) fail
+   Redo: (13) report_gabon_colors
+   Exit: (13) report_gabon_colors
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-14_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-14_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

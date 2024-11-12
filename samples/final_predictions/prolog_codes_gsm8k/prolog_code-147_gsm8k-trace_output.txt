@@ -1,0 +1,33 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-147_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) johns_total_cost(_5830)
+   Call: (14) _14508=2
+   Exit: (14) 2=2
+   Call: (14) _15734=3
+   Exit: (14) 3=3
+   Call: (14) _16960=3
+   Exit: (14) 3=3
+   Call: (14) _18186=3
+   Exit: (14) 3=3
+   Call: (14) _19412=4
+   Exit: (14) 4=4
+   Call: (14) total_cost(2, 3, 3, 3, 4, _20638)
+   Call: (15) _20638 is 2+3+3+3+4
+   Exit: (15) 15 is 2+3+3+3+4
+   Exit: (14) total_cost(2, 3, 3, 3, 4, 15)
+   Call: (14) _23144 is 3+3+4
+   Exit: (14) 10 is 3+3+4
+   Call: (14) calculate_tax(10, _24382)
+   Call: (15) _24382 is 0.1*10
+   Exit: (15) 1.0 is 0.1*10
+   Exit: (14) calculate_tax(10, 1.0)
+   Call: (14) total_cost_with_tax(15, 1.0, _5830)
+   Call: (15) _5830 is 15+1.0
+   Exit: (15) 16.0 is 15+1.0
+   Exit: (14) total_cost_with_tax(15, 1.0, 16.0)
+   Exit: (13) johns_total_cost(16.0)
+   Exit: (12) query(16.0)
+path_result:query(16.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-147_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-147_gsm8k-trace_output.txt"), forall(call(query(TotalCostWithTax)), (write(path_result: query(TotalCostWithTax)))).')

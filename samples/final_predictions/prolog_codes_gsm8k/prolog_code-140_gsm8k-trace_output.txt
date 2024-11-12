@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-140_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) female_scottish_unicorns(27, _5830)
+   Call: (14) scottish_unicorns(27, _14512)
+   Call: (15) _14512 is 27//3
+   Exit: (15) 9 is 27//3
+   Exit: (14) scottish_unicorns(27, 9)
+   Call: (14) _5830 is 2*9//3
+   Exit: (14) 6 is 2*9//3
+   Exit: (13) female_scottish_unicorns(27, 6)
+   Exit: (12) query(6)
+path_result:query(6)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-140_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-140_gsm8k-trace_output.txt"), forall(call(query(FemaleScottishUnicorns)), (write(path_result: query(FemaleScottishUnicorns)))).')

@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-472_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_earnings_in_month(3, 5, _5830)
+   Call: (14) earnings_from_cans(3, _14516)
+   Call: (15) value(aluminum_can, _15130)
+   Exit: (15) value(aluminum_can, 2)
+   Call: (15) _14516 is 3*2
+   Exit: (15) 6 is 3*2
+   Exit: (14) earnings_from_cans(3, 6)
+   Call: (14) earnings_from_bottles(5, _18198)
+   Call: (15) value(plastic_bottle, _18812)
+   Exit: (15) value(plastic_bottle, 3)
+   Call: (15) _18198 is 5*3
+   Exit: (15) 15 is 5*3
+   Exit: (14) earnings_from_bottles(5, 15)
+   Call: (14) _5830 is (6+15)*4
+   Exit: (14) 84 is (6+15)*4
+   Exit: (13) total_earnings_in_month(3, 5, 84)
+   Exit: (12) query(84)
+path_result:query(84)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-472_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-472_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

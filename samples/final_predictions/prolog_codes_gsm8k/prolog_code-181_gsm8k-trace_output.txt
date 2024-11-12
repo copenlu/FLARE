@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-181_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_chinese_participants(_13900)
+   Call: (14) _14510=240
+   Exit: (14) 240=240
+   Call: (14) _15736=80
+   Exit: (14) 80=80
+   Call: (14) _13900 is 240-80
+   Exit: (14) 160 is 240-80
+   Exit: (13) total_chinese_participants(160)
+   Call: (13) boys_on_chinese_team(_18800)
+   Exit: (13) boys_on_chinese_team(60)
+   Call: (13) girls_on_chinese_team(160, 60, _5830)
+   Call: (14) _5830 is 160-60
+   Exit: (14) 100 is 160-60
+   Exit: (13) girls_on_chinese_team(160, 60, 100)
+   Exit: (12) query(100)
+path_result:query(100)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-181_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-181_gsm8k-trace_output.txt"), forall(call(query(Girls)), (write(path_result: query(Girls)))).')

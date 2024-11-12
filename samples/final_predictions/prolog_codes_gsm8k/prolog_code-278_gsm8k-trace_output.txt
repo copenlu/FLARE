@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-278_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_windows(_5830)
+   Call: (14) _14508=3
+   Exit: (14) 3=3
+   Call: (14) _15734=2
+   Exit: (14) 2=2
+   Call: (14) _16960=4
+   Exit: (14) 4=4
+   Call: (14) _18186=2
+   Exit: (14) 2=2
+   Call: (14) total_windows_in_house(3, 2, 4, _19412)
+   Call: (15) _19412 is 3*2+4
+   Exit: (15) 10 is 3*2+4
+   Exit: (14) total_windows_in_house(3, 2, 4, 10)
+   Call: (14) total_windows_in_both_houses(2, 10, _5830)
+   Call: (15) _5830 is 2*10
+   Exit: (15) 20 is 2*10
+   Exit: (14) total_windows_in_both_houses(2, 10, 20)
+   Exit: (13) calculate_total_windows(20)
+   Exit: (12) query(20)
+path_result:query(20)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-278_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-278_gsm8k-trace_output.txt"), forall(call(query(TotalWindowsBothHouses)), (write(path_result: query(TotalWindowsBothHouses)))).')

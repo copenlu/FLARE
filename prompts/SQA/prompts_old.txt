@@ -1,0 +1,7 @@
+#####OLD######
+Write a Prolog code to solve using the plan in the network. If there are unknown or stochastic facts, assume logical values for them and list them at the start of the file with explicit segmentation and assume their value.
+The segment with assumed or fuzzy facts should be segmented from the top and bottom with "% Unknown Facts start" and "% Unknown Facts end". Do not use writes within the code.
+
+
+###OLD###
+Create a Hierarchical task network for the following query. Write only the network.

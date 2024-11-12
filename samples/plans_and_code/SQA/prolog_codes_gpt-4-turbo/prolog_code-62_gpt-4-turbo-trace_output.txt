@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-62_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) conclusion(diana, paparazzi_were_involved)
+   Call: (14) impact_of_paparazzi(diana, contributed_to_accident)
+   Call: (15) paparazzi_chase_before_incident(diana, true)
+   Exit: (15) paparazzi_chase_before_incident(diana, true)
+   Call: (15) official_investigation(diana, found_paparazzi_at_fault)
+   Exit: (15) official_investigation(diana, found_paparazzi_at_fault)
+   Exit: (14) impact_of_paparazzi(diana, contributed_to_accident)
+   Call: (14) legal_outcome(diana, paparazzi_charged)
+   Exit: (14) legal_outcome(diana, paparazzi_charged)
+   Exit: (13) conclusion(diana, paparazzi_were_involved)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-62_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-62_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

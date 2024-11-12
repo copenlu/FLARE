@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-32_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_average_guess(_5830)
+   Call: (14) average_guess(80, _5830)
+   Call: (15) second_guess(80, _15120)
+   Call: (16) _15120 is 80/2+20
+   Exit: (16) 60 is 80/2+20
+   Exit: (15) second_guess(80, 60)
+   Call: (15) third_guess(80, _17582)
+   Call: (16) _17582 is 80*1.25
+   Exit: (16) 100.0 is 80*1.25
+   Exit: (15) third_guess(80, 100.0)
+   Call: (15) _5830 is (80+60+100.0)/3
+   Exit: (15) 80.0 is (80+60+100.0)/3
+   Exit: (14) average_guess(80, 80.0)
+   Exit: (13) calculate_average_guess(80.0)
+   Exit: (12) query(80.0)
+path_result:query(80.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-32_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-32_gsm8k-trace_output.txt"), forall(call(query(Average)), (write(path_result: query(Average)))).')

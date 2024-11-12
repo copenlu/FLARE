@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-155_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_earnings(_5830)
+   Call: (14) earnings_per_bike(bicycle, _14508)
+   Call: (15) _14508 is 2*0.25
+   Exit: (15) 0.5 is 2*0.25
+   Exit: (14) earnings_per_bike(bicycle, 0.5)
+   Call: (14) earnings_per_bike(tricycle, _16976)
+   Call: (15) _16976 is 3*0.25
+   Exit: (15) 0.75 is 3*0.25
+   Exit: (14) earnings_per_bike(tricycle, 0.75)
+   Call: (14) earnings_per_bike(unicycle, _19444)
+   Call: (15) _19444 is 1*0.25
+   Exit: (15) 0.25 is 1*0.25
+   Exit: (14) earnings_per_bike(unicycle, 0.25)
+   Call: (14) _5830 is 0.5*5+0.75*3+0.25
+   Exit: (14) 5.0 is 0.5*5+0.75*3+0.25
+   Exit: (13) total_earnings(5.0)
+   Exit: (12) query(5.0)
+path_result:query(5.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-155_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-155_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

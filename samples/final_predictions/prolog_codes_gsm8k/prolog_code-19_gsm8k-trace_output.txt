@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-19_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_eggs_in_4_weeks(_5830)
+   Call: (14) eggs_per_day(3, 1, _14508)
+   Call: (15) _14508 is 3*1
+   Exit: (15) 3 is 3*1
+   Exit: (14) eggs_per_day(3, 1, 3)
+   Call: (14) eggs_in_4_weeks(3, 28, _16972)
+   Call: (15) _16972 is 3*28
+   Exit: (15) 84 is 3*28
+   Exit: (14) eggs_in_4_weeks(3, 28, 84)
+   Call: (14) dozens_of_eggs(84, _5830)
+   Call: (15) _5830 is 84/12
+   Exit: (15) 7 is 84/12
+   Exit: (14) dozens_of_eggs(84, 7)
+   Exit: (13) calculate_eggs_in_4_weeks(7)
+   Exit: (12) query(7)
+path_result:query(7)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-19_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-19_gsm8k-trace_output.txt"), forall(call(query(Dozens)), (write(path_result: query(Dozens)))).')

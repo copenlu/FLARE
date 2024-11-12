@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-69_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_total_gems_in_chest(_5830)
+   Call: (14) total_gems_in_chest(_5830)
+   Call: (15) _15116=175
+   Exit: (15) 175=175
+   Call: (15) _16348 is 175+ -35
+   Exit: (15) 140 is 175+ -35
+   Call: (15) _17574 is 2*140
+   Exit: (15) 280 is 2*140
+   Call: (15) _5830 is 175+140+280
+   Exit: (15) 595 is 175+140+280
+   Exit: (14) total_gems_in_chest(595)
+   Exit: (13) query_total_gems_in_chest(595)
+   Exit: (12) query(595)
+path_result:query(595)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-69_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-69_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

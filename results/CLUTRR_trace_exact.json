@@ -1,0 +1,18 @@
+{
+    "samples/final_predictions/clutrr/model=command-r_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.28598848368522073,
+        "file_name": "samples/final_predictions/clutrr/model=command-r_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.44145873320537427,
+        "file_name": "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=8_output.json": {
+        "Accuracy": 0.44817658349328215,
+        "file_name": "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=8_output.json"
+    },
+    "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.28502879078694815,
+        "file_name": "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json"
+    }
+}

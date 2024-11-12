@@ -1,0 +1,543 @@
+[Example 1]
+
+Context: [Scott] and [Lewis] are brothers. [Jason] is father of their father.
+Question: How is [Lewis] related to [Jason]?
+
+Relation Transitions:
+
+selfs cousin is cousin
+selfs self is self
+selfs brother-in-law is brother-in-law
+selfs sister-in-law is sister-in-law
+selfs mother-in-law is mother-in-law
+selfs daughter-in-law is daughter-in-law
+selfs father-in-law is father-in-law
+selfs son-in-law is son-in-law
+selfs grandson is grandson
+selfs niece is niece
+selfs grandmother is grandmother
+selfs wife is wife
+selfs grandfather is grandfather
+selfs uncle is uncle
+selfs mother is mother
+selfs nephew is nephew
+selfs brother is brother
+selfs granddaughter is granddaughter
+selfs husband is husband
+selfs father is father
+selfs aunt is aunt
+selfs son is son
+selfs sister is sister
+selfs daughter is daughter
+sister-in-laws brother is brother-in-law
+sister-in-laws sister is sister-in-law
+brother-in-laws brother is brother-in-law
+brother-in-laws sister is sister-in-law
+daughter-in-laws daughter is granddaughter
+daughter-in-laws son is grandson
+son-in-laws daughter is granddaughter
+son-in-laws son is grandson
+nephews sister is niece
+nephews brother is nephew
+nieces sister is niece
+nieces brother is nephew
+grandsons aunt is daughter
+grandsons uncle is son
+granddaughters aunt is daughter
+granddaughters uncle is son
+brother-in-laws son is nephew
+sister-in-laws son is nephew
+brother-in-laws daughter is niece
+sister-in-laws daughter is niece
+sister-in-laws father is father-in-law
+grandsons brother is grandson
+grandsons father is son
+grandsons sister is granddaughter
+nieces grandfather is father
+grandmothers husband is grandfather
+wifes mother is mother-in-law
+wifes brother is brother-in-law
+wifes sister is sister-in-law
+wifes mother-in-law is mother
+wifes daughter-in-law is daughter-in-law
+wifes father-in-law is father
+wifes son-in-law is son-in-law
+wifes grandson is grandson
+wifes granddaughter is granddaughter
+wifes father is father-in-law
+wifes son is son
+wifes daughter is daughter
+grandfathers wife is grandmother
+grandfathers son is father
+grandfathers daughter is mother
+uncles mother is grandmother
+uncles brother is uncle
+uncles father is grandfather
+uncles sister is aunt
+mothers mother-in-law is grandmother
+mothers daughter-in-law is wife
+mothers father-in-law is grandfather
+mothers son-in-law is husband
+mothers grandson is son
+mothers mother is grandmother
+mothers brother is uncle
+mothers granddaughter is daughter
+mothers husband is father
+mothers father is grandfather
+mothers son is brother
+mothers sister is aunt
+mothers daughter is sister
+nephews grandmother is mother
+nephews grandfather is father
+nephews uncle is brother
+nephews mother is sister
+nephews father is brother
+nephews aunt is sister
+brothers niece is niece
+brothers grandmother is grandmother
+brothers grandfather is grandfather
+brothers uncle is uncle
+brothers mother is mother
+brothers nephew is nephew
+brothers brother is brother
+brothers father is father
+brothers aunt is aunt
+brothers son is nephew
+brothers sister is sister
+brothers daughter is niece
+granddaughters grandmother is wife
+granddaughters grandfather is husband
+granddaughters mother is daughter
+granddaughters brother is grandson
+granddaughters father is son
+granddaughters sister is granddaughter
+husbands grandson is grandson
+husbands mother is mother-in-law
+husbands brother is brother-in-law
+husbands granddaughter is granddaughter
+husbands father is father-in-law
+husbands son is son
+husbands sister is sister-in-law
+husbands daughter is daughter
+fathers wife is mother
+fathers mother is grandmother
+fathers brother is uncle
+fathers granddaughter is daughter
+fathers father is grandfather
+fathers son is brother
+fathers sister is aunt
+fathers daughter is sister
+aunts mother is grandmother
+aunts brother is uncle
+aunts father is grandfather
+aunts sister is aunt
+sons grandmother is mother
+sons wife is daughter-in-law
+sons grandfather is father
+sons uncle is brother
+sons mother is wife
+sons brother is son
+sons father is husband
+sons aunt is sister
+sons son is grandson
+sons sister is daughter
+sons daughter is granddaughter
+sisters niece is niece
+sisters grandmother is grandmother
+sisters grandfather is grandfather
+sisters uncle is uncle
+sisters mother is mother
+sisters nephew is nephew
+sisters brother is brother
+sisters husband is brother-in-law
+sisters father is father
+sisters aunt is aunt
+sisters son is nephew
+sisters sister is sister
+sisters daughter is niece
+daughters grandmother is mother
+daughters grandfather is father
+daughters uncle is brother
+daughters mother is wife
+daughters brother is son
+daughters husband is son-in-law
+daughters father is husband
+daughters aunt is sister
+daughters son is grandson
+daughters sister is daughter
+daughters daughter is granddaughter
+nieces father is brother
+nieces mother is sister
+sisters wife is sister-in-law
+brothers husband is brother-in-law
+brothers wife is sister-in-law
+sister-in-laws mother is mother-in-law
+brother-in-laws father is father-in-law
+brother-in-laws mother is mother-in-law
+grandmothers daughter is mother
+grandmothers son is father
+mother-in-laws daughter is wife
+father-in-laws daughter is wife
+sister-in-laws husband is brother-in-law
+brother-in-laws wife is sister-in-law
+mother-in-laws son is brother-in-law
+husbands wife is self
+wifes husband is self
+grandsons mother is daughter
+cousins grandmother is grandmother
+cousins grandfather is grandfather
+aunts son is cousin
+aunts daughter is cousin
+uncles son is cousin
+uncles daughter is cousin
+nieces grandmother is mother
+nieces uncle is brother
+nieces aunt is sister
+cousins uncle is uncle
+cousins aunt is aunt
+grandsons grandfather is husband
+grandsons grandmother is wife
+cousins mother is aunt
+cousins father is uncle
+cousins sister is sister
+cousins brother is brother
+father-in-laws son is husband
+mother-in-laws husband is father-in-law
+father-in-laws wife is mother-in-law
+aunts husband is uncle
+uncles wife is aunt
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer and use the provided Relation Transitions.
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation
+
+In the given context, Scott and Lewis are brothers, and Jason is the father of their father. The question asks for the relationship between Lewis and Jason.
+
+1. **Scott and Lewis are brothers**: This means they share the same parents.
+2. **Jason is the father of their father**: This implies Jason is the grandfather of both Scott and Lewis.
+
+Based on the provided Relation Transitions, we can determine that the father's father is the grandfather.
+
+### Analysis
+
+To find out how Lewis is related to Jason, we need to trace the relationships:
+
+1. **Scott and Lewis's Father**: Let's denote him as [Father].
+2. **Jason is the father of [Father]**: Thus, Jason is the grandfather of Lewis (and Scott).
+
+Using the transitions provided:
+
+- **selfs father is father**: [Father] is Lewis's father.
+- **fathers father is grandfather**: Jason is Lewis's grandfather.
+
+Therefore, Lewis is the grandson of Jason.
+
+### Plan to Generate a Prompt for SWI-Prolog Code
+
+1. **Define Relationships**: Establish predicates to define familial relationships such as father, mother, brother, sister, etc.
+2. **Base Facts**: Provide the base facts for the given context (e.g., Scott and Lewis are brothers, Jason is the father of their father).
+3. **Inference Rules**: Create rules to infer indirect relationships using the provided transitions (e.g., if X is the father of Y and Y is the father of Z, then X is the grandfather of Z).
+4. **Query**: Formulate a query to determine the relationship between Lewis and Jason.
+
+### Constructing the Plan for the Code Prompt
+
+1. **Define the Facts**:
+   - `father(jason, father).`
+   - `father(father, scott).`
+   - `father(father, lewis).`
+
+2. **Define the Rules**:
+   - A rule to establish brother relationship:
+     ```prolog
+     brother(X, Y) :- father(Z, X), father(Z, Y), X \= Y.
+     ```
+   - A rule to establish grandfather relationship:
+     ```prolog
+     grandfather(X, Y) :- father(X, Z), father(Z, Y).
+     ```
+
+3. **Query**:
+   - To find the relationship between Lewis and Jason:
+     ```prolog
+     ?- grandfather(jason, lewis).
+     ```
+
+### SWI-Prolog Code Prompt
+
+```prolog
+% Define the facts
+father(jason, father).
+father(father, scott).
+father(father, lewis).
+
+% Define the rules
+brother(X, Y) :- father(Z, X), father(Z, Y), X \= Y.
+grandfather(X, Y) :- father(X, Z), father(Z, Y).
+
+% Query to determine the relationship
+% To find out how Lewis is related to Jason
+?- grandfather(jason, lewis).
+```
+
+### Logic
+
+1. **Facts**: Establish who is the father of whom.
+2. **Brother Rule**: Use the common father to define brother relationships.
+3. **Grandfather Rule**: Use the chain of father relationships to define the grandfather relationship.
+4. **Query**: Check if Jason is the grandfather of Lewis by traversing the relationships. 
+
+This plan ensures a step-by-step approach to determine the relationship between Lewis and Jason using Prolog's inference capabilities and the given Relation Transitions.
+
+
+[Example 2]
+
+Context: [Jason] always had some great adventure planned for his granddaughter [Guillermina] when she came to visit. So, naturally, when [Myrna] told her daughter [Guillermina] that they would be going to visit [Jason] she could hardly contain herself.
+Question: How is [Jason] related to [Myrna]?
+
+Relation Transitions:
+
+selfs cousin is cousin
+selfs self is self
+selfs brother-in-law is brother-in-law
+selfs sister-in-law is sister-in-law
+selfs mother-in-law is mother-in-law
+selfs daughter-in-law is daughter-in-law
+selfs father-in-law is father-in-law
+selfs son-in-law is son-in-law
+selfs grandson is grandson
+selfs niece is niece
+selfs grandmother is grandmother
+selfs wife is wife
+selfs grandfather is grandfather
+selfs uncle is uncle
+selfs mother is mother
+selfs nephew is nephew
+selfs brother is brother
+selfs granddaughter is granddaughter
+selfs husband is husband
+selfs father is father
+selfs aunt is aunt
+selfs son is son
+selfs sister is sister
+selfs daughter is daughter
+sister-in-laws brother is brother-in-law
+sister-in-laws sister is sister-in-law
+brother-in-laws brother is brother-in-law
+brother-in-laws sister is sister-in-law
+daughter-in-laws daughter is granddaughter
+daughter-in-laws son is grandson
+son-in-laws daughter is granddaughter
+son-in-laws son is grandson
+nephews sister is niece
+nephews brother is nephew
+nieces sister is niece
+nieces brother is nephew
+grandsons aunt is daughter
+grandsons uncle is son
+granddaughters aunt is daughter
+granddaughters uncle is son
+brother-in-laws son is nephew
+sister-in-laws son is nephew
+brother-in-laws daughter is niece
+sister-in-laws daughter is niece
+sister-in-laws father is father-in-law
+grandsons brother is grandson
+grandsons father is son
+grandsons sister is granddaughter
+nieces grandfather is father
+grandmothers husband is grandfather
+wifes mother is mother-in-law
+wifes brother is brother-in-law
+wifes sister is sister-in-law
+wifes mother-in-law is mother
+wifes daughter-in-law is daughter-in-law
+wifes father-in-law is father
+wifes son-in-law is son-in-law
+wifes grandson is grandson
+wifes granddaughter is granddaughter
+wifes father is father-in-law
+wifes son is son
+wifes daughter is daughter
+grandfathers wife is grandmother
+grandfathers son is father
+grandfathers daughter is mother
+uncles mother is grandmother
+uncles brother is uncle
+uncles father is grandfather
+uncles sister is aunt
+mothers mother-in-law is grandmother
+mothers daughter-in-law is wife
+mothers father-in-law is grandfather
+mothers son-in-law is husband
+mothers grandson is son
+mothers mother is grandmother
+mothers brother is uncle
+mothers granddaughter is daughter
+mothers husband is father
+mothers father is grandfather
+mothers son is brother
+mothers sister is aunt
+mothers daughter is sister
+nephews grandmother is mother
+nephews grandfather is father
+nephews uncle is brother
+nephews mother is sister
+nephews father is brother
+nephews aunt is sister
+brothers niece is niece
+brothers grandmother is grandmother
+brothers grandfather is grandfather
+brothers uncle is uncle
+brothers mother is mother
+brothers nephew is nephew
+brothers brother is brother
+brothers father is father
+brothers aunt is aunt
+brothers son is nephew
+brothers sister is sister
+brothers daughter is niece
+granddaughters grandmother is wife
+granddaughters grandfather is husband
+granddaughters mother is daughter
+granddaughters brother is grandson
+granddaughters father is son
+granddaughters sister is granddaughter
+husbands grandson is grandson
+husbands mother is mother-in-law
+husbands brother is brother-in-law
+husbands granddaughter is granddaughter
+husbands father is father-in-law
+husbands son is son
+husbands sister is sister-in-law
+husbands daughter is daughter
+fathers wife is mother
+fathers mother is grandmother
+fathers brother is uncle
+fathers granddaughter is daughter
+fathers father is grandfather
+fathers son is brother
+fathers sister is aunt
+fathers daughter is sister
+aunts mother is grandmother
+aunts brother is uncle
+aunts father is grandfather
+aunts sister is aunt
+sons grandmother is mother
+sons wife is daughter-in-law
+sons grandfather is father
+sons uncle is brother
+sons mother is wife
+sons brother is son
+sons father is husband
+sons aunt is sister
+sons son is grandson
+sons sister is daughter
+sons daughter is granddaughter
+sisters niece is niece
+sisters grandmother is grandmother
+sisters grandfather is grandfather
+sisters uncle is uncle
+sisters mother is mother
+sisters nephew is nephew
+sisters brother is brother
+sisters husband is brother-in-law
+sisters father is father
+sisters aunt is aunt
+sisters son is nephew
+sisters sister is sister
+sisters daughter is niece
+daughters grandmother is mother
+daughters grandfather is father
+daughters uncle is brother
+daughters mother is wife
+daughters brother is son
+daughters husband is son-in-law
+daughters father is husband
+daughters aunt is sister
+daughters son is grandson
+daughters sister is daughter
+daughters daughter is granddaughter
+nieces father is brother
+nieces mother is sister
+sisters wife is sister-in-law
+brothers husband is brother-in-law
+brothers wife is sister-in-law
+sister-in-laws mother is mother-in-law
+brother-in-laws father is father-in-law
+brother-in-laws mother is mother-in-law
+grandmothers daughter is mother
+grandmothers son is father
+mother-in-laws daughter is wife
+father-in-laws daughter is wife
+sister-in-laws husband is brother-in-law
+brother-in-laws wife is sister-in-law
+mother-in-laws son is brother-in-law
+husbands wife is self
+wifes husband is self
+grandsons mother is daughter
+cousins grandmother is grandmother
+cousins grandfather is grandfather
+aunts son is cousin
+aunts daughter is cousin
+uncles son is cousin
+uncles daughter is cousin
+nieces grandmother is mother
+nieces uncle is brother
+nieces aunt is sister
+cousins uncle is uncle
+cousins aunt is aunt
+grandsons grandfather is husband
+grandsons grandmother is wife
+cousins mother is aunt
+cousins father is uncle
+cousins sister is sister
+cousins brother is brother
+father-in-laws son is husband
+mother-in-laws husband is father-in-law
+father-in-laws wife is mother-in-law
+aunts husband is uncle
+uncles wife is aunt
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer and use the provided Relation Transitions.
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation
+
+In this scenario, we have three individuals: Jason, Guillermina, and Myrna. The relationships are as follows:
+- Jason has planned adventures for his granddaughter Guillermina.
+- Myrna told her daughter Guillermina about visiting Jason.
+
+From these relationships, we can deduce that:
+- Guillermina is the daughter of Myrna.
+- Jason is the grandfather of Guillermina.
+
+Therefore, Jason is the father of Myrna. Thus, Myrna is related to Jason as his daughter.
+
+### Analysis
+
+To analyze the relationship between Myrna and Jason, let's break down the family tree:
+1. Guillermina is the daughter of Myrna.
+2. Jason is the grandfather of Guillermina, which means Jason is one generation above Myrna.
+
+In other words, Jason is the parent of Myrna, making Myrna the daughter of Jason.
+
+### Plan to Generate a Prompt for Writing a SWI-Prolog Code
+
+#### Step-by-Step Plan
+
+1. **Define the relationships in Prolog:**
+   - Identify the individuals involved: Jason, Guillermina, and Myrna.
+   - Define the parent-child relationships between them.
+
+2. **Construct the parent relationships:**
+   - Use facts to represent that Jason is the parent of Myrna.
+   - Use facts to represent that Myrna is the parent of Guillermina.
+
+3. **Define a rule to determine grandparent relationships:**
+   - Create a rule that defines a grandparent relationship based on parent relationships.
+
+4. **Query the relationship:**
+   - Formulate a query to find out how Myrna is related to Jason using the parent rule.

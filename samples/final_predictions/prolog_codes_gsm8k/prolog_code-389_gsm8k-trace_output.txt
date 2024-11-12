@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-389_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) cookies_left_for_rachel(23, 42, 44, _5830)
+   Call: (14) total_cookies_bought_and_received(23, 42, _14520)
+   Call: (15) _14520 is 23+42
+   Exit: (15) 65 is 23+42
+   Exit: (14) total_cookies_bought_and_received(23, 42, 65)
+   Call: (14) cookies_left(65, 44, _5830)
+   Call: (15) _5830 is 65-44
+   Exit: (15) 21 is 65-44
+   Exit: (14) cookies_left(65, 44, 21)
+   Exit: (13) cookies_left_for_rachel(23, 42, 44, 21)
+   Exit: (12) query(21)
+path_result:query(21)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-389_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-389_gsm8k-trace_output.txt"), forall(call(query(LeftCookies)), (write(path_result: query(LeftCookies)))).')

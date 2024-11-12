@@ -1,0 +1,28 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-15_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) deliver_message(_17280, 1000, 300)
+   Call: (14) can_deliver(bald_eagle, 1000, 300)
+   Call: (15) speed(bald_eagle, _18440)
+   Exit: (15) speed(bald_eagle, 160)
+   Call: (15) range(bald_eagle, _19666)
+   Exit: (15) range(bald_eagle, 80)
+   Call: (15) 1000=<80
+   Fail: (15) 1000=<80
+   Fail: (14) can_deliver(bald_eagle, 1000, 300)
+   Redo: (13) deliver_message(_22804, 1000, 300)
+   Call: (14) can_deliver(b52, 1000, 300)
+   Call: (15) speed(b52, _23964)
+   Exit: (15) speed(b52, 1046)
+   Call: (15) 1000=<16000
+   Exit: (15) 1000=<16000
+   Call: (15) 1046>=1000
+   Exit: (15) 1046>=1000
+   Exit: (14) can_deliver(b52, 1000, 300)
+   Call: (14) _28254=b52
+   Exit: (14) b52=b52
+   Exit: (13) deliver_message(b52, 1000, 300)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-15_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-15_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

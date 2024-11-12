@@ -1,0 +1,35 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-263_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_amount_in_dollars(_5830)
+   Call: (14) _14508=100
+   Exit: (14) 100=100
+   Call: (14) _15734=40
+   Exit: (14) 40=40
+   Call: (14) _16960=20
+   Exit: (14) 20=20
+   Call: (14) _18186=40
+   Exit: (14) 40=40
+   Call: (14) penny_value(_19412)
+   Exit: (14) penny_value(0.01)
+   Call: (14) nickel_value(_20636)
+   Exit: (14) nickel_value(0.05)
+   Call: (14) dime_value(_21860)
+   Exit: (14) dime_value(0.1)
+   Call: (14) dollar_value(_23084)
+   Exit: (14) dollar_value(1.0)
+   Call: (14) _24308 is 100*0.01
+   Exit: (14) 1.0 is 100*0.01
+   Call: (14) _25546 is 40*0.05
+   Exit: (14) 2.0 is 40*0.05
+   Call: (14) _26784 is 20*0.1
+   Exit: (14) 2.0 is 20*0.1
+   Call: (14) _28022 is 40*1.0
+   Exit: (14) 40.0 is 40*1.0
+   Call: (14) _5830 is 1.0+2.0+2.0+40.0
+   Exit: (14) 45.0 is 1.0+2.0+2.0+40.0
+   Exit: (13) total_amount_in_dollars(45.0)
+   Exit: (12) query(45.0)
+path_result:query(45.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-263_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-263_gsm8k-trace_output.txt"), forall(call(query(TotalAmount)), (write(path_result: query(TotalAmount)))).')

@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-79_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7342)), write(path_result:query(_7342)))
+   Call: (12) query(_7342)
+   Call: (13) query_laundry_difference(_7342)
+   Call: (14) calculate_laundry_difference(_16092, _16094, _7342)
+   Call: (15) _16636 is 400
+   Exit: (15) 400 is 400
+   Call: (15) _17862 is 400/4
+   Exit: (15) 100 is 400/4
+   Call: (15) _19094 is 400/2
+   Exit: (15) 200 is 400/2
+   Call: (15) _7342 is 200-100
+   Exit: (15) 100 is 200-100
+   Exit: (14) calculate_laundry_difference(200, 100, 100)
+   Exit: (13) query_laundry_difference(100)
+   Exit: (12) query(100)
+path_result:query(100)
+^  Exit: (10) forall(user:call(query(_7342)), user:write(path_result:query(_7342)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-79_gsm8k-trace_output.txt"), forall(call(query(_7342)), write(path_result:query(_7342)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-79_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

@@ -1,0 +1,14 @@
+,Accuracy,model,execmode,prompt,icl
+model=Meta-Llama-3.1-8B-Instruct-Turbo_execmode=trace_prompt=standard_icl=8_output.json,0.86,Meta-Llama-3.1-8B-Instruct-Turbo,trace,standard,8
+model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json,0.831,command-r-plus,trace,standard,4
+model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json,0.823,command-r-plus,trace,standard,2
+model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json,0.821,command-r-plus,trace,standard,6
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json,0.817,gpt-3.5-turbo,trace,standard,2
+model=command-r-plus_execmode=trace_prompt=standard_icl=8_output.json,0.813,command-r-plus,trace,standard,8
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=8_output.json,0.811,gpt-3.5-turbo,trace,standard,8
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json,0.81,gpt-3.5-turbo,trace,standard,6
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=4_output.json,0.805,gpt-3.5-turbo,trace,standard,4
+model=command-r_execmode=trace_prompt=standard_icl=6_output.json,0.74,command-r,trace,standard,6
+model=command-r_execmode=trace_prompt=standard_icl=8_output.json,0.736,command-r,trace,standard,8
+model=command-r_execmode=trace_prompt=standard_icl=4_output.json,0.719,command-r,trace,standard,4
+model=command-r_execmode=trace_prompt=standard_icl=2_output.json,0.705,command-r,trace,standard,2

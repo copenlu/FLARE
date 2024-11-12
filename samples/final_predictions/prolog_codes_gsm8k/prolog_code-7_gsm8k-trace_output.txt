@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-7_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_sheep(_5830)
+   Call: (14) seattle_sheep(_14508)
+   Exit: (14) seattle_sheep(20)
+   Call: (14) sheep_in_charleston(20, _15726)
+   Call: (15) _15726 is 20*4
+   Exit: (15) 80 is 20*4
+   Exit: (14) sheep_in_charleston(20, 80)
+   Call: (14) sheep_in_toulouse(80, _18182)
+   Call: (15) _18182 is 80*2
+   Exit: (15) 160 is 80*2
+   Exit: (14) sheep_in_toulouse(80, 160)
+   Call: (14) total_sheep(20, 80, 160, _5830)
+   Call: (15) _5830 is 20+80+160
+   Exit: (15) 260 is 20+80+160
+   Exit: (14) total_sheep(20, 80, 160, 260)
+   Exit: (13) calculate_total_sheep(260)
+   Exit: (12) query(260)
+path_result:query(260)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-7_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-7_gsm8k-trace_output.txt"), forall(call(query(TotalSheep)), (write(path_result: query(TotalSheep)))).')

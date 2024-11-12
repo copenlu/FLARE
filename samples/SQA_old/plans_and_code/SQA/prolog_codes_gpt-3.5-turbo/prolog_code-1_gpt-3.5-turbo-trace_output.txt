@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-1_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) disease(_13884)
+   Call: (14) symptom(patient, blue_lips)
+   Exit: (14) symptom(patient, blue_lips)
+   Call: (14) symptom(patient, shortness_of_breath)
+   Exit: (14) symptom(patient, shortness_of_breath)
+   Call: (14) condition(patient, high_altitude)
+   Fail: (14) condition(patient, high_altitude)
+   Redo: (13) disease(_13884)
+   Call: (14) symptom(patient, blue_lips)
+   Exit: (14) symptom(patient, blue_lips)
+   Call: (14) condition(patient, cold_environment)
+   Exit: (14) condition(patient, cold_environment)
+   Exit: (13) disease(hypothermia)
+   Call: (13) write(hypothermia)
+hypothermia
+   Exit: (13) write(hypothermia)
+   Call: (13) nl
+
+   Exit: (13) nl
+   Call: (13) fail
+   Fail: (13) fail
+   Redo: (12) query
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-1_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-1_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-455_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) movie_lengths(_5830)
+   Call: (14) length_movie_a(_5830, _14582)
+   Call: (15) length_movie_b(_15120, _15196)
+   Call: (16) length_movie_c(_15734)
+   Call: (17) convert_hours_to_minutes(1.25, _15734)
+   Call: (18) _15734 is 1.25*60
+   Exit: (18) 75.0 is 1.25*60
+   Exit: (17) convert_hours_to_minutes(1.25, 75.0)
+   Exit: (16) length_movie_c(75.0)
+   Call: (16) _15120 is 75.0+5
+   Exit: (16) 80.0 is 75.0+5
+   Exit: (15) length_movie_b(80.0, 75.0)
+   Call: (15) _5830 is 80.0/4
+   Exit: (15) 20.0 is 80.0/4
+   Exit: (14) length_movie_a(20.0, 80.0)
+   Exit: (13) movie_lengths(20.0)
+   Exit: (12) query(20.0)
+path_result:query(20.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-455_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-455_gsm8k-trace_output.txt"), forall(call(query(A)), (write(path_result: query(A)))).')

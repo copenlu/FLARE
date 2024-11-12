@@ -1,0 +1,50 @@
+{
+    "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.27161572052401745,
+        "code_runs_perc": 0.5864628820960699,
+        "code_runs_acc": 0.4631422189128816,
+        "file_name": "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json": {
+        "Accuracy": 0.2925764192139738,
+        "code_runs_perc": 0.619650655021834,
+        "code_runs_acc": 0.47216349541930935,
+        "file_name": "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json"
+    },
+    "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.30655021834061136,
+        "code_runs_perc": 0.6397379912663755,
+        "code_runs_acc": 0.47918088737201364,
+        "file_name": "samples/final_predictions/SQA/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.24497816593886462,
+        "code_runs_perc": 0.514410480349345,
+        "code_runs_acc": 0.4762308998302207,
+        "file_name": "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=4_output.json": {
+        "Accuracy": 0.2336244541484716,
+        "code_runs_perc": 0.505240174672489,
+        "code_runs_acc": 0.46240276577355227,
+        "file_name": "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=4_output.json"
+    },
+    "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.26157205240174675,
+        "code_runs_perc": 0.5519650655021834,
+        "code_runs_acc": 0.47389240506329117,
+        "file_name": "samples/final_predictions/SQA/model=command-r_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/SQA/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.4262008733624454,
+        "code_runs_perc": 0.9148471615720524,
+        "code_runs_acc": 0.4658711217183771,
+        "file_name": "samples/final_predictions/SQA/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/SQA/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.4397379912663755,
+        "code_runs_perc": 0.9314410480349345,
+        "code_runs_acc": 0.47210501640881386,
+        "file_name": "samples/final_predictions/SQA/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json"
+    }
+}

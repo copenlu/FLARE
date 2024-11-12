@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-27_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_cost(_5830)
+   Call: (14) total_cost_all_items(16.5, 22.5, 42, _5830)
+   Call: (15) total_cost_shorts(16.5, _15140)
+   Call: (16) _15140 is 3*16.5
+   Exit: (16) 49.5 is 3*16.5
+   Exit: (15) total_cost_shorts(16.5, 49.5)
+   Call: (15) total_cost_pants(22.5, _17602)
+   Call: (16) _17602 is 3*22.5
+   Exit: (16) 67.5 is 3*22.5
+   Exit: (15) total_cost_pants(22.5, 67.5)
+   Call: (15) total_cost_shoes(42, _20064)
+   Call: (16) _20064 is 3*42
+   Exit: (16) 126 is 3*42
+   Exit: (15) total_cost_shoes(42, 126)
+   Call: (15) _5830 is 49.5+67.5+126
+   Exit: (15) 243.0 is 49.5+67.5+126
+   Exit: (14) total_cost_all_items(16.5, 22.5, 42, 243.0)
+   Exit: (13) calculate_total_cost(243.0)
+   Exit: (12) query(243.0)
+path_result:query(243.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-27_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-27_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-51_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) equal_number_of_disciples(reza_shah, jesus)
+   Call: (14) belief_in_twelve_imams(reza_shah, true)
+   Exit: (14) belief_in_twelve_imams(reza_shah, true)
+   Call: (14) belief_in_twelve_apostles(jesus, true)
+   Exit: (14) belief_in_twelve_apostles(jesus, true)
+   Call: (14) num_imams(_16944)
+   Exit: (14) num_imams(12)
+   Call: (14) num_disciples(_18162)
+   Exit: (14) num_disciples(12)
+   Call: (14) 12=12
+   Exit: (14) 12=12
+   Exit: (13) equal_number_of_disciples(reza_shah, jesus)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-51_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-51_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

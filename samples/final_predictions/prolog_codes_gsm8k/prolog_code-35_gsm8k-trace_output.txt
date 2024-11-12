@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-35_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_siobhan_jewels(_5830)
+   Call: (14) _14508=40
+   Exit: (14) 40=40
+   Call: (14) aaron_jewels(40, _15734)
+   Call: (15) _15734 is 40/2+5
+   Exit: (15) 25 is 40/2+5
+   Exit: (14) aaron_jewels(40, 25)
+   Call: (14) siobhan_jewels(25, _5830)
+   Call: (15) _5830 is 25-2
+   Exit: (15) 23 is 25-2
+   Exit: (14) siobhan_jewels(25, 23)
+   Exit: (13) calculate_siobhan_jewels(23)
+   Exit: (12) query(23)
+path_result:query(23)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-35_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-35_gsm8k-trace_output.txt"), forall(call(query(SiobhanJewels)), (write(path_result: query(SiobhanJewels)))).')

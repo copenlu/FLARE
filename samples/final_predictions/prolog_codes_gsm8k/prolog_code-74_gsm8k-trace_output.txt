@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-74_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_total_money_raised(_5830)
+   Call: (14) total_money_raised(43, 23, _5830)
+   Call: (15) _15124 is 43*3
+   Exit: (15) 129 is 43*3
+   Call: (15) _16356 is 23*4
+   Exit: (15) 92 is 23*4
+   Call: (15) _5830 is 129+92
+   Exit: (15) 221 is 129+92
+   Exit: (14) total_money_raised(43, 23, 221)
+   Exit: (13) query_total_money_raised(221)
+   Exit: (12) query(221)
+path_result:query(221)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-74_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-74_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

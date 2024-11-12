@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-183_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7358)), write(path_result:query(_7358)))
+   Call: (12) query(_7358)
+   Call: (13) total_crabs(40, _15502, _15504, _7358)
+   Call: (14) _16048 is 40-4
+   Exit: (14) 36 is 40-4
+   Call: (14) _17280 is 36+10
+   Exit: (14) 46 is 36+10
+   Call: (14) _7358 is 40+36+46
+   Exit: (14) 122 is 40+36+46
+   Exit: (13) total_crabs(40, 36, 46, 122)
+   Exit: (12) query(122)
+path_result:query(122)
+^  Exit: (10) forall(user:call(query(_7358)), user:write(path_result:query(_7358)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-183_gsm8k-trace_output.txt"), forall(call(query(_7358)), write(path_result:query(_7358)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-183_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

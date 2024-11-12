@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-284_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_time_to_dig(_5830)
+   Call: (14) _14508=30
+   Exit: (14) 30=30
+   Call: (14) _15734=15
+   Exit: (14) 15=15
+   Call: (14) time_to_dig(small, _16960)
+   Exit: (14) time_to_dig(small, 3)
+   Call: (14) time_to_dig(large, _18186)
+   Exit: (14) time_to_dig(large, 10)
+   Call: (14) _5830 is (30*3+15*10)/60
+   Exit: (14) 4 is (30*3+15*10)/60
+   Exit: (13) total_time_to_dig(4)
+   Exit: (12) query(4)
+path_result:query(4)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-284_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-284_gsm8k-trace_output.txt"), forall(call(query(TotalTime)), (write(path_result: query(TotalTime)))).')

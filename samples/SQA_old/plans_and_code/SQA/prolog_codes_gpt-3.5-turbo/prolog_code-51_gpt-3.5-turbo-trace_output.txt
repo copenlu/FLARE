@@ -1,0 +1,30 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-51_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) list_different_representations
+^  Call: (14) findall((_16188, _16194, _16196), different_representation(_16188), _16202)
+   Call: (18) different_representation(_16188)
+   Call: (19) represented(_16188, _17468, _17470)
+   Exit: (19) represented(christopher_columbus, italy, spain)
+   Call: (19) italy\=spain
+   Exit: (19) italy\=spain
+   Exit: (18) different_representation(christopher_columbus)
+   Redo: (19) represented(_16188, _17468, _17470)
+   Exit: (19) represented(marco_polo, italy, china)
+   Call: (19) italy\=china
+   Exit: (19) italy\=china
+   Exit: (18) different_representation(marco_polo)
+   Redo: (19) represented(_16188, _17468, _17470)
+   Exit: (19) represented(ferdinand_magellan, portugal, spain)
+   Call: (19) portugal\=spain
+   Exit: (19) portugal\=spain
+   Exit: (18) different_representation(ferdinand_magellan)
+^  Exit: (14) findall((_16188, _16194, _16196), user:different_representation(_16188), [(christopher_columbus, _26708, _26710), (marco_polo, _26690, _26692), (ferdinand_magellan, _26672, _26674)])
+   Call: (14) print([(christopher_columbus, _26708, _26710), (marco_polo, _26690, _26692), (ferdinand_magellan, _26672, _26674)])
+[(christopher_columbus,_26708,_26710),(marco_polo,_26690,_26692),(ferdinand_magellan,_26672,_26674)]
+   Exit: (14) print([(christopher_columbus, _26708, _26710), (marco_polo, _26690, _26692), (ferdinand_magellan, _26672, _26674)])
+   Exit: (13) list_different_representations
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-51_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-51_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

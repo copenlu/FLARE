@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-388_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query_socks_missed(_5830)), write(path_result:query_socks_missed(_5830)))
+   Call: (12) query_socks_missed(_5830)
+   Call: (13) _13900=50
+   Exit: (13) 50=50
+   Call: (13) _15126=10
+   Exit: (13) 10=10
+   Call: (13) _16352=15
+   Exit: (13) 15=15
+   Call: (13) total_socks_washed(10, 15, _17578)
+   Call: (14) _17578 is 10*2+15
+   Exit: (14) 35 is 10*2+15
+   Exit: (13) total_socks_washed(10, 15, 35)
+   Call: (13) socks_missed(35, 50, _5830)
+   Call: (14) _5830 is 50-35
+   Exit: (14) 15 is 50-35
+   Exit: (13) socks_missed(35, 50, 15)
+   Exit: (12) query_socks_missed(15)
+path_result:query_socks_missed(15)
+^  Exit: (10) forall(user:call(query_socks_missed(_5830)), user:write(path_result:query_socks_missed(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-388_gsm8k-trace_output.txt"), forall(call(query_socks_missed(_5830)), write(path_result:query_socks_missed(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-388_gsm8k-trace_output.txt"), forall(call( query_socks_missed(Missed)), (write(path_result:  query_socks_missed(Missed)))).')

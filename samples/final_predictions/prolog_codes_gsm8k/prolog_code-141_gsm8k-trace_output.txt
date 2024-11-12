@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-141_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_delivery_order_cost(_5830)
+   Call: (14) total_cost_of_items(_14508)
+   Call: (15) sub_price(_15118)
+   Exit: (15) sub_price(7.5)
+   Call: (15) chips_price(_16342)
+   Exit: (15) chips_price(1.5)
+   Call: (15) cookie_price(_17566)
+   Exit: (15) cookie_price(1.0)
+   Call: (15) _14508 is 2*7.5+2*1.5+2*1.0
+   Exit: (15) 20.0 is 2*7.5+2*1.5+2*1.0
+   Exit: (14) total_cost_of_items(20.0)
+   Call: (14) _20658=5.0
+   Exit: (14) 5.0=5.0
+   Call: (14) delivery_order_cost(20.0, 5.0, _5830)
+   Call: (15) delivery_fee(20.0, _22506)
+   Call: (16) _22506 is 0.2*20.0
+   Exit: (16) 4.0 is 0.2*20.0
+   Exit: (15) delivery_fee(20.0, 4.0)
+   Call: (15) _5830 is 20.0+4.0+5.0
+   Exit: (15) 29.0 is 20.0+4.0+5.0
+   Exit: (14) delivery_order_cost(20.0, 5.0, 29.0)
+   Exit: (13) calculate_delivery_order_cost(29.0)
+   Exit: (12) query(29.0)
+path_result:query(29.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-141_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-141_gsm8k-trace_output.txt"), forall(call(query(FinalCost)), (write(path_result: query(FinalCost)))).')

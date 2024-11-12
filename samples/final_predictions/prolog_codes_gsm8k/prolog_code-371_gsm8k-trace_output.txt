@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-371_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_stuffing(4, 3, _5830)
+   Call: (14) stuffing(chihuahua, _14516)
+   Exit: (14) stuffing(chihuahua, 2)
+   Call: (14) stuffing(collie, _15742)
+   Call: (15) _15742 is (8+2)/2
+   Exit: (15) 5 is (8+2)/2
+   Exit: (14) stuffing(collie, 5)
+   Call: (14) _5830 is 4*2+3*5
+   Exit: (14) 23 is 4*2+3*5
+   Exit: (13) total_stuffing(4, 3, 23)
+   Exit: (12) query(23)
+path_result:query(23)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-371_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-371_gsm8k-trace_output.txt"), forall(call(query(TotalStuffing)), (write(path_result: query(TotalStuffing)))).')

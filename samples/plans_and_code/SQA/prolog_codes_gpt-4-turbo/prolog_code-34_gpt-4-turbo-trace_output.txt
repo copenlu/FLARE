@@ -1,0 +1,31 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-34_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) likely_milk_substitute(cyndi_lauper, _13958)
+   Call: (14) uses_milk_substitute(cyndi_lauper)
+   Call: (15) dietary_preference(cyndi_lauper, vegan)
+   Exit: (15) dietary_preference(cyndi_lauper, vegan)
+   Exit: (14) uses_milk_substitute(cyndi_lauper)
+   Call: (14) milk_substitute(_16936)
+   Exit: (14) milk_substitute(almond_milk)
+   Exit: (13) likely_milk_substitute(cyndi_lauper, almond_milk)
+   Exit: (12) query
+path_result:query
+   Redo: (14) milk_substitute(_16936)
+   Exit: (14) milk_substitute(soy_milk)
+   Exit: (13) likely_milk_substitute(cyndi_lauper, soy_milk)
+   Exit: (12) query
+path_result:query
+   Redo: (14) milk_substitute(_16936)
+   Exit: (14) milk_substitute(oat_milk)
+   Exit: (13) likely_milk_substitute(cyndi_lauper, oat_milk)
+   Exit: (12) query
+path_result:query
+   Redo: (14) uses_milk_substitute(cyndi_lauper)
+   Call: (15) dietary_preference(cyndi_lauper, lactose_intolerant)
+   Fail: (15) dietary_preference(cyndi_lauper, lactose_intolerant)
+   Fail: (14) uses_milk_substitute(cyndi_lauper)
+   Fail: (13) likely_milk_substitute(cyndi_lauper, _26736)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-34_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-34_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,166 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) _15330=date(9, 1, 2021)
+   Exit: (13) date(9, 1, 2021)=date(9, 1, 2021)
+   Call: (13) date_after_days(date(9, 1, 2021), 7, _16564)
+   Call: (14) 7>0
+   Exit: (14) 7>0
+   Call: (14) increment_date(date(9, 1, 2021), _18406)
+   Call: (15) days_in_month(9, _19020)
+   Exit: (15) days_in_month(9, 30)
+   Call: (15) 1<30
+   Exit: (15) 1<30
+   Call: (15) _21476 is 1+1
+   Exit: (15) 2 is 1+1
+   Call: (15) _18406=date(9, 2, 2021)
+   Exit: (15) date(9, 2, 2021)=date(9, 2, 2021)
+   Exit: (14) increment_date(date(9, 1, 2021), date(9, 2, 2021))
+   Call: (14) _24552 is 7+ -1
+   Exit: (14) 6 is 7+ -1
+   Call: (14) date_after_days(date(9, 2, 2021), 6, _16564)
+   Call: (15) 6>0
+   Exit: (15) 6>0
+   Call: (15) increment_date(date(9, 2, 2021), _27618)
+   Call: (16) days_in_month(9, _28232)
+   Exit: (16) days_in_month(9, 30)
+   Call: (16) 2<30
+   Exit: (16) 2<30
+   Call: (16) _30688 is 2+1
+   Exit: (16) 3 is 2+1
+   Call: (16) _27618=date(9, 3, 2021)
+   Exit: (16) date(9, 3, 2021)=date(9, 3, 2021)
+   Exit: (15) increment_date(date(9, 2, 2021), date(9, 3, 2021))
+   Call: (15) _33764 is 6+ -1
+   Exit: (15) 5 is 6+ -1
+   Call: (15) date_after_days(date(9, 3, 2021), 5, _16564)
+   Call: (16) 5>0
+   Exit: (16) 5>0
+   Call: (16) increment_date(date(9, 3, 2021), _36830)
+   Call: (17) days_in_month(9, _37444)
+   Exit: (17) days_in_month(9, 30)
+   Call: (17) 3<30
+   Exit: (17) 3<30
+   Call: (17) _39900 is 3+1
+   Exit: (17) 4 is 3+1
+   Call: (17) _36830=date(9, 4, 2021)
+   Exit: (17) date(9, 4, 2021)=date(9, 4, 2021)
+   Exit: (16) increment_date(date(9, 3, 2021), date(9, 4, 2021))
+   Call: (16) _42976 is 5+ -1
+   Exit: (16) 4 is 5+ -1
+   Call: (16) date_after_days(date(9, 4, 2021), 4, _16564)
+   Call: (17) 4>0
+   Exit: (17) 4>0
+   Call: (17) increment_date(date(9, 4, 2021), _46042)
+   Call: (18) days_in_month(9, _46656)
+   Exit: (18) days_in_month(9, 30)
+   Call: (18) 4<30
+   Exit: (18) 4<30
+   Call: (18) _49112 is 4+1
+   Exit: (18) 5 is 4+1
+   Call: (18) _46042=date(9, 5, 2021)
+   Exit: (18) date(9, 5, 2021)=date(9, 5, 2021)
+   Exit: (17) increment_date(date(9, 4, 2021), date(9, 5, 2021))
+   Call: (17) _52188 is 4+ -1
+   Exit: (17) 3 is 4+ -1
+   Call: (17) date_after_days(date(9, 5, 2021), 3, _16564)
+   Call: (18) 3>0
+   Exit: (18) 3>0
+   Call: (18) increment_date(date(9, 5, 2021), _55254)
+   Call: (19) days_in_month(9, _55868)
+   Exit: (19) days_in_month(9, 30)
+   Call: (19) 5<30
+   Exit: (19) 5<30
+   Call: (19) _58324 is 5+1
+   Exit: (19) 6 is 5+1
+   Call: (19) _55254=date(9, 6, 2021)
+   Exit: (19) date(9, 6, 2021)=date(9, 6, 2021)
+   Exit: (18) increment_date(date(9, 5, 2021), date(9, 6, 2021))
+   Call: (18) _61400 is 3+ -1
+   Exit: (18) 2 is 3+ -1
+   Call: (18) date_after_days(date(9, 6, 2021), 2, _16564)
+   Call: (19) 2>0
+   Exit: (19) 2>0
+   Call: (19) increment_date(date(9, 6, 2021), _64466)
+   Call: (20) days_in_month(9, _230)
+   Exit: (20) days_in_month(9, 30)
+   Call: (20) 6<30
+   Exit: (20) 6<30
+   Call: (20) _2550 is 6+1
+   Exit: (20) 7 is 6+1
+   Call: (20) _226=date(9, 7, 2021)
+   Exit: (20) date(9, 7, 2021)=date(9, 7, 2021)
+   Exit: (19) increment_date(date(9, 6, 2021), date(9, 7, 2021))
+   Call: (19) _5626 is 2+ -1
+   Exit: (19) 1 is 2+ -1
+   Call: (19) date_after_days(date(9, 7, 2021), 1, _164)
+   Call: (20) 1>0
+   Exit: (20) 1>0
+   Call: (20) increment_date(date(9, 7, 2021), _8692)
+   Call: (21) days_in_month(9, _9306)
+   Exit: (21) days_in_month(9, 30)
+   Call: (21) 7<30
+   Exit: (21) 7<30
+   Call: (21) _11762 is 7+1
+   Exit: (21) 8 is 7+1
+   Call: (21) _8692=date(9, 8, 2021)
+   Exit: (21) date(9, 8, 2021)=date(9, 8, 2021)
+   Exit: (20) increment_date(date(9, 7, 2021), date(9, 8, 2021))
+   Call: (20) _14838 is 1+ -1
+   Exit: (20) 0 is 1+ -1
+   Call: (20) date_after_days(date(9, 8, 2021), 0, _164)
+   Exit: (20) date_after_days(date(9, 8, 2021), 0, date(9, 8, 2021))
+   Exit: (19) date_after_days(date(9, 7, 2021), 1, date(9, 8, 2021))
+   Exit: (18) date_after_days(date(9, 6, 2021), 2, date(9, 8, 2021))
+   Exit: (17) date_after_days(date(9, 5, 2021), 3, date(9, 8, 2021))
+   Exit: (16) date_after_days(date(9, 4, 2021), 4, date(9, 8, 2021))
+   Exit: (15) date_after_days(date(9, 3, 2021), 5, date(9, 8, 2021))
+   Exit: (14) date_after_days(date(9, 2, 2021), 6, date(9, 8, 2021))
+   Exit: (13) date_after_days(date(9, 1, 2021), 7, date(9, 8, 2021))
+   Call: (13) increment_date(date(9, 8, 2021), _21616)
+   Call: (14) days_in_month(9, _22230)
+   Exit: (14) days_in_month(9, 30)
+   Call: (14) 8<30
+   Exit: (14) 8<30
+   Call: (14) _24686 is 8+1
+   Exit: (14) 9 is 8+1
+   Call: (14) _21616=date(9, 9, 2021)
+   Exit: (14) date(9, 9, 2021)=date(9, 9, 2021)
+   Exit: (13) increment_date(date(9, 8, 2021), date(9, 9, 2021))
+^  Call: (13) format('Tomorrow\'s date is ~w/~w/~w~n', [_27758, _27764, _27770])
+Tomorrow's date is _27758/_27764/_27770
+^  Exit: (13) format('Tomorrow\'s date is ~w/~w/~w~n', [_27758, _27764, _27770])
+   Call: (13) date(9, 9, 2021)=date(_27758, _27764, _27770)
+   Exit: (13) date(9, 9, 2021)=date(9, 9, 2021)
+   Exit: (12) query
+path_result:query
+   Redo: (13) increment_date(date(9, 8, 2021), _21616)
+   Fail: (13) increment_date(date(9, 8, 2021), _21616)
+   Redo: (20) date_after_days(date(9, 8, 2021), 0, _164)
+   Call: (21) 0>0
+   Fail: (21) 0>0
+   Fail: (20) date_after_days(date(9, 8, 2021), 0, _164)
+   Redo: (20) increment_date(date(9, 7, 2021), _8692)
+   Fail: (20) increment_date(date(9, 7, 2021), _8692)
+   Fail: (19) date_after_days(date(9, 7, 2021), 1, _164)
+   Redo: (19) increment_date(date(9, 6, 2021), _226)
+   Fail: (19) increment_date(date(9, 6, 2021), _226)
+   Fail: (18) date_after_days(date(9, 6, 2021), 2, _164)
+   Redo: (18) increment_date(date(9, 5, 2021), _214)
+   Fail: (18) increment_date(date(9, 5, 2021), _214)
+   Fail: (17) date_after_days(date(9, 5, 2021), 3, _164)
+   Redo: (17) increment_date(date(9, 4, 2021), _202)
+   Fail: (17) increment_date(date(9, 4, 2021), _202)
+   Fail: (16) date_after_days(date(9, 4, 2021), 4, _164)
+   Redo: (16) increment_date(date(9, 3, 2021), _190)
+   Fail: (16) increment_date(date(9, 3, 2021), _190)
+   Fail: (15) date_after_days(date(9, 3, 2021), 5, _164)
+   Redo: (15) increment_date(date(9, 2, 2021), _178)
+   Fail: (15) increment_date(date(9, 2, 2021), _178)
+   Fail: (14) date_after_days(date(9, 2, 2021), 6, _164)
+   Redo: (14) increment_date(date(9, 1, 2021), _166)
+   Fail: (14) increment_date(date(9, 1, 2021), _166)
+   Fail: (13) date_after_days(date(9, 1, 2021), 7, _164)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

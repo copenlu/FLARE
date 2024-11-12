@@ -1,0 +1,7 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-280_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_8424)), write(path_result:query(_8424)))
+   Call: (12) query(_8424)
+   Exit: (12) query(_8424)
+path_result:query(_8424)
+^  Exit: (10) forall(user:call(query(_8424)), user:write(path_result:query(_8424)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-280_gsm8k-trace_output.txt"), forall(call(query(_8424)), write(path_result:query(_8424)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-280_gsm8k-trace_output.txt"), forall(call(query(Sleeves)), (write(path_result: query(Sleeves)))).')

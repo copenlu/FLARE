@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-135_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) expenditure_may(_13900)
+   Exit: (13) expenditure_may(500)
+   Call: (13) expenditure_june(500, _15118)
+   Call: (14) _15118 is 500-60
+   Exit: (14) 440 is 500-60
+   Exit: (13) expenditure_june(500, 440)
+   Call: (13) total_expenditure(500, 440, _5830)
+   Call: (14) _5830 is 500+440
+   Exit: (14) 940 is 500+440
+   Exit: (13) total_expenditure(500, 440, 940)
+   Exit: (12) query(940)
+path_result:query(940)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-135_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-135_gsm8k-trace_output.txt"), forall(call(query(TotalExpenditure)), (write(path_result: query(TotalExpenditure)))).')

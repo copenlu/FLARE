@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-63_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7340)), write(path_result:query(_7340)))
+   Call: (12) query(_7340)
+   Call: (13) query_total_payment(_7340)
+   Call: (14) total_payment(500, 800, _16094, _7340)
+   Call: (15) _16638 is 500+800
+   Exit: (15) 1300 is 500+800
+   Call: (15) _17870 is 0.1*1300
+   Exit: (15) 130.0 is 0.1*1300
+   Call: (15) _7340 is 1300+130.0
+   Exit: (15) 1430.0 is 1300+130.0
+   Exit: (14) total_payment(500, 800, 130.0, 1430.0)
+   Exit: (13) query_total_payment(1430.0)
+   Exit: (12) query(1430.0)
+path_result:query(1430.0)
+^  Exit: (10) forall(user:call(query(_7340)), user:write(path_result:query(_7340)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-63_gsm8k-trace_output.txt"), forall(call(query(_7340)), write(path_result:query(_7340)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-63_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

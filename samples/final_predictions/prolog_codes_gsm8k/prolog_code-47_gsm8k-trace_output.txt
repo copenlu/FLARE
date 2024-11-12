@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-47_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_total_hours_spent(_5830)
+   Call: (14) total_hours_spent(_5830)
+   Call: (15) _15116 is 5
+   Exit: (15) 5 is 5
+   Call: (15) _16342 is 5+2/5*5
+   Exit: (15) 7.0 is 5+2/5*5
+   Call: (15) _17592 is 2*7.0
+   Exit: (15) 14.0 is 2*7.0
+   Call: (15) average_time_per_article(_18830)
+   Exit: (15) average_time_per_article(4)
+   Call: (15) _5830 is (5+7.0+14.0)*4
+   Exit: (15) 104.0 is (5+7.0+14.0)*4
+   Exit: (14) total_hours_spent(104.0)
+   Exit: (13) query_total_hours_spent(104.0)
+   Exit: (12) query(104.0)
+path_result:query(104.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-47_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-47_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

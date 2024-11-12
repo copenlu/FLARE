@@ -1,0 +1,14 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-26_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) could_collaborate(jay_z, louis_armstrong)
+   Call: (14) artist(jay_z, _14574, _14496, _14498)
+   Exit: (14) artist(jay_z, hip_hop, 1986, 2023)
+   Call: (14) artist(louis_armstrong, _15818, _15740, _15742)
+   Exit: (14) artist(louis_armstrong, jazz, 1920, 1971)
+   Call: (14) 1986=<1971
+   Fail: (14) 1986=<1971
+   Fail: (13) could_collaborate(jay_z, louis_armstrong)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-26_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-26_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

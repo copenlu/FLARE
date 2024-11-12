@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-370_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) days_between_services(_5830)
+   Call: (14) total_distance_per_day(_14508)
+   Call: (15) _14508 is 3*(75+100+(75+100-50))
+   Exit: (15) 900 is 3*(75+100+(75+100-50))
+   Exit: (14) total_distance_per_day(900)
+   Call: (14) _5830 is 18000/900
+   Exit: (14) 20 is 18000/900
+   Exit: (13) days_between_services(20)
+   Exit: (12) query(20)
+path_result:query(20)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-370_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-370_gsm8k-trace_output.txt"), forall(call(query(Days)), (write(path_result: query(Days)))).')

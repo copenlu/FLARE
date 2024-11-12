@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-179_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_time_for_all_potatoes(_5830)
+   Call: (14) total_time_for_one_potato(_14508)
+   Call: (15) time_to_peel(_15118)
+   Exit: (15) time_to_peel(1.5)
+   Call: (15) time_to_cut(_16342)
+   Exit: (15) time_to_cut(5/60)
+   Call: (15) _14508 is 1.5+5/60
+   Exit: (15) 1.5833333333333333 is 1.5+5/60
+   Exit: (14) total_time_for_one_potato(1.5833333333333333)
+   Call: (14) _5830 is 1.5833333333333333*60
+   Exit: (14) 95.0 is 1.5833333333333333*60
+   Exit: (13) total_time_for_all_potatoes(95.0)
+   Exit: (12) query(95.0)
+path_result:query(95.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-179_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-179_gsm8k-trace_output.txt"), forall(call(query(TotalTime)), (write(path_result: query(TotalTime)))).')

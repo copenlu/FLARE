@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-136_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_tickets_pam_fred(_5830)
+   Call: (14) roller_coaster_cost(_14508)
+   Exit: (14) roller_coaster_cost(6)
+   Call: (14) luge_cost(_15726)
+   Exit: (14) luge_cost(6)
+   Call: (14) _16944=2
+   Exit: (14) 2=2
+   Call: (14) _18170=4
+   Exit: (14) 4=4
+   Call: (14) _19396 is 2*6+2*6
+   Exit: (14) 24 is 2*6+2*6
+   Call: (14) _20640 is 4*6+2*6
+   Exit: (14) 36 is 4*6+2*6
+   Call: (14) _5830 is 24+36
+   Exit: (14) 60 is 24+36
+   Exit: (13) total_tickets_pam_fred(60)
+   Exit: (12) query(60)
+path_result:query(60)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-136_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-136_gsm8k-trace_output.txt"), forall(call(query(TotalTickets)), (write(path_result: query(TotalTickets)))).')

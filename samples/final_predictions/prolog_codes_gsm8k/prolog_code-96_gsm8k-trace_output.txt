@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-96_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) lee_time(_13900)
+   Exit: (13) lee_time(38)
+   Call: (13) gerald_original_time(38, _15118)
+   Call: (14) _15118 is 38+2
+   Exit: (14) 40 is 38+2
+   Exit: (13) gerald_original_time(38, 40)
+   Call: (13) gerald_new_time(40, _5830)
+   Call: (14) _5830 is 40*0.9
+   Exit: (14) 36.0 is 40*0.9
+   Exit: (13) gerald_new_time(40, 36.0)
+   Exit: (12) query(36.0)
+path_result:query(36.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-96_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-96_gsm8k-trace_output.txt"), forall(call(query(NewTime)), (write(path_result: query(NewTime)))).')

@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-16_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_max_profit(_5830)
+   Call: (14) maximize_profit(5000, 8000, _5830)
+   Call: (15) profit_jewelry(5000, _15124)
+   Call: (16) final_value_jewelry(5000, _15738)
+   Call: (17) _15738 is 5000+5000*0.025
+   Exit: (17) 5125.0 is 5000+5000*0.025
+   Exit: (16) final_value_jewelry(5000, 5125.0)
+   Call: (16) _15124 is 5125.0-5000
+   Exit: (16) 125.0 is 5125.0-5000
+   Exit: (15) profit_jewelry(5000, 125.0)
+   Call: (15) profit_gadgets(8000, _20060)
+   Call: (16) final_value_gadgets(8000, _20674)
+   Call: (17) _20674 is 8000+8000*0.012
+   Exit: (17) 8096.0 is 8000+8000*0.012
+   Exit: (16) final_value_gadgets(8000, 8096.0)
+   Call: (16) _20060 is 8096.0-8000
+   Exit: (16) 96.0 is 8096.0-8000
+   Exit: (15) profit_gadgets(8000, 96.0)
+   Call: (15) _5830 is max(125.0, 96.0)
+   Exit: (15) 125.0 is max(125.0, 96.0)
+   Exit: (14) maximize_profit(5000, 8000, 125.0)
+   Exit: (13) calculate_max_profit(125.0)
+   Exit: (12) query(125.0)
+path_result:query(125.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-16_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-16_gsm8k-trace_output.txt"), forall(call(query(MaxProfit)), (write(path_result: query(MaxProfit)))).')

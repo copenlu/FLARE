@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-392_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) axel_and_anna_pesos(50, 80, _5830)
+   Call: (14) anna_silver_pesos(50, _14516)
+   Call: (15) _14516 is 2*50
+   Exit: (15) 100 is 2*50
+   Exit: (14) anna_silver_pesos(50, 100)
+   Call: (14) anna_gold_pesos(80, _16972)
+   Call: (15) _16972 is 80+40
+   Exit: (15) 120 is 80+40
+   Exit: (14) anna_gold_pesos(80, 120)
+   Call: (14) total_pesos(50, 80, 100, 120, _5830)
+   Call: (15) _5830 is 50+100+80+120
+   Exit: (15) 350 is 50+100+80+120
+   Exit: (14) total_pesos(50, 80, 100, 120, 350)
+   Exit: (13) axel_and_anna_pesos(50, 80, 350)
+   Exit: (12) query(350)
+path_result:query(350)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-392_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-392_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-10_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) total_weekly_distance(_5834)
+   Call: (14) work_distance(_14512)
+   Call: (15) _14512 is 5*(6*2)
+   Exit: (15) 60 is 5*(6*2)
+   Exit: (14) work_distance(60)
+   Call: (14) dog_walk_distance(_16966)
+   Call: (15) _16966 is 14*2
+   Exit: (15) 28 is 14*2
+   Exit: (14) dog_walk_distance(28)
+   Call: (14) friend_house_distance(_19414)
+   Call: (15) _19414 is 2
+   Exit: (15) 2 is 2
+   Exit: (14) friend_house_distance(2)
+   Call: (14) store_distance(_21856)
+   Call: (15) _21856 is 2*(3*2)
+   Exit: (15) 12 is 2*(3*2)
+   Exit: (14) store_distance(12)
+   Call: (14) _5834 is 60+28+2+12
+   Exit: (14) 102 is 60+28+2+12
+   Exit: (13) total_weekly_distance(102)
+   Exit: (12) query(102)
+path_result:query(102)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-10_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-10_gpt-4-turbo-trace_output.txt"), forall(call(query(TotalDistance)), (write(path_result: query(TotalDistance)))).')

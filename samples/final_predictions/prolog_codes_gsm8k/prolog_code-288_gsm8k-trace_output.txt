@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-288_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_half_spots(_5830)
+   Call: (14) _14508=70
+   Exit: (14) 70=70
+   Call: (14) _15734=40
+   Exit: (14) 40=40
+   Call: (14) _16960=60
+   Exit: (14) 60=60
+   Call: (14) _18186 is 70/2
+   Exit: (14) 35 is 70/2
+   Call: (14) total_spots_cobras(40, 70, _19418)
+   Call: (15) _19418 is 40*70
+   Exit: (15) 2800 is 40*70
+   Exit: (14) total_spots_cobras(40, 70, 2800)
+   Call: (14) total_spots_mambas(60, 35, _21882)
+   Call: (15) _21882 is 60*(35/2)
+   Exit: (15) 1050.0 is 60*(35/2)
+   Exit: (14) total_spots_mambas(60, 35, 1050.0)
+   Call: (14) half_total_spots(2800, 1050.0, _5830)
+   Call: (15) _5830 is (2800+1050.0)/2
+   Exit: (15) 1925.0 is (2800+1050.0)/2
+   Exit: (14) half_total_spots(2800, 1050.0, 1925.0)
+   Exit: (13) calculate_half_spots(1925.0)
+   Exit: (12) query(1925.0)
+path_result:query(1925.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-288_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-288_gsm8k-trace_output.txt"), forall(call(query(HalfSpots)), (write(path_result: query(HalfSpots)))).')

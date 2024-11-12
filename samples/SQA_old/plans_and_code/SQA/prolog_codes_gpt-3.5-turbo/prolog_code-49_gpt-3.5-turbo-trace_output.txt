@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-49_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) ask_sauce_unusual(french, salsa)
+   Call: (14) is_unusual_sauce(french, salsa)
+   Call: (15) cuisine(french, _16360)
+   Exit: (15) cuisine(french, [bechamel, hollandaise, veloute, bordelaise])
+   Call: (15) lists:member(salsa, [bechamel, hollandaise, veloute, bordelaise])
+   Fail: (15) lists:member(salsa, [bechamel, hollandaise, veloute, bordelaise])
+   Redo: (14) is_unusual_sauce(french, salsa)
+   Exit: (14) is_unusual_sauce(french, salsa)
+^  Call: (14) format('~w is an unusual sauce request for ~w cuisine.~n', [salsa, french])
+salsa is an unusual sauce request for french cuisine.
+^  Exit: (14) format('~w is an unusual sauce request for ~w cuisine.~n', [salsa, french])
+   Exit: (13) ask_sauce_unusual(french, salsa)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-49_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-49_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

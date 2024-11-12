@@ -1,0 +1,11 @@
+,Accuracy,model,execmode,prompt,icl
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=10_output.json,0.8536335721596725,gpt-3.5-turbo,trace,standard,10
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=8_output.json,0.8352098259979529,gpt-3.5-turbo,trace,standard,8
+model=command-r_execmode=trace_prompt=standard_icl=10_output.json,0.789150460593654,command-r,trace,standard,10
+model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json,0.7778915046059366,command-r-plus,trace,standard,6
+model=Meta-Llama-3.1-8B-Instruct-Turbo_execmode=trace_prompt=standard_icl=10_output.json,0.7666325486182191,Meta-Llama-3.1-8B-Instruct-Turbo,trace,standard,10
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json,0.7625383828045036,gpt-3.5-turbo,trace,standard,6
+model=command-r-plus_execmode=trace_prompt=standard_icl=10_output.json,0.7553735926305015,command-r-plus,trace,standard,10
+model=command-r-plus_execmode=trace_prompt=standard_icl=8_output.json,0.7461617195496417,command-r-plus,trace,standard,8
+model=command-r_execmode=trace_prompt=standard_icl=6_output.json,0.72978505629478,command-r,trace,standard,6
+model=command-r_execmode=trace_prompt=standard_icl=8_output.json,0.45752302968270214,command-r,trace,standard,8

@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-301_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) jim_points(21, _13900)
+   Call: (14) _13900 is 21-3
+   Exit: (14) 18 is 21-3
+   Exit: (13) jim_points(21, 18)
+   Call: (13) tony_points(21, _16356)
+   Call: (14) _16356 is 21*2
+   Exit: (14) 42 is 21*2
+   Exit: (13) tony_points(21, 42)
+   Call: (13) total_points_after_round4(21, _18812)
+   Call: (14) 21>20
+   Exit: (14) 21>20
+   Call: (14) _18812 is 21+1
+   Exit: (14) 22 is 21+1
+   Exit: (13) total_points_after_round4(21, 22)
+   Call: (13) total_points(22, 18, 42, _5830)
+   Call: (14) _5830 is 22+18+42
+   Exit: (14) 82 is 22+18+42
+   Exit: (13) total_points(22, 18, 42, 82)
+   Exit: (12) query(82)
+path_result:query(82)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-301_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-301_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

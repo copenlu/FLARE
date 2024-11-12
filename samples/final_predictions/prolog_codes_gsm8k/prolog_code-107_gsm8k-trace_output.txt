@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-107_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) pieces_left_to_place(_5830)
+   Call: (14) total_pieces(_14508)
+   Exit: (14) total_pieces(1000)
+   Call: (14) _15726 is 1000//4
+   Exit: (14) 250 is 1000//4
+   Call: (14) _16958 is 1000-250
+   Exit: (14) 750 is 1000-250
+   Call: (14) _18190 is 750//3
+   Exit: (14) 250 is 750//3
+   Call: (14) _5830 is 750-250
+   Exit: (14) 500 is 750-250
+   Exit: (13) pieces_left_to_place(500)
+   Exit: (12) query(500)
+path_result:query(500)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-107_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-107_gsm8k-trace_output.txt"), forall(call(query(PiecesLeft)), (write(path_result: query(PiecesLeft)))).')

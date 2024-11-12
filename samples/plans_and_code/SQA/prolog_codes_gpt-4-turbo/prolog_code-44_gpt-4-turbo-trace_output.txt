@@ -1,0 +1,64 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-44_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) acceptable_use(gypsy, _18024)
+   Call: (14) historical_usage(gypsy, _18712)
+   Exit: (14) historical_usage(gypsy, pejorative)
+   Call: (14) term_evolution(gypsy, _19936)
+   Exit: (14) term_evolution(gypsy, evolved_from_pejorative_to_neutral)
+   Call: (14) romani_view(gypsy, _21086)
+   Exit: (14) romani_view(gypsy, reject)
+   Call: (14) contemporary_usage(gypsy, _22386)
+   Exit: (14) contemporary_usage(gypsy, limited)
+   Call: (14) legal_status(gypsy, _23536)
+   Exit: (14) legal_status(gypsy, discouraged)
+   Call: (14) ethical_consideration(gypsy, _24762)
+   Exit: (14) ethical_consideration(gypsy, potentially_harmful)
+   Call: (14) reject=reject
+   Exit: (14) reject=reject
+   Call: (14) _18024=no
+   Exit: (14) no=no
+   Exit: (13) acceptable_use(gypsy, no)
+   Call: (13) no=no
+   Exit: (13) no=no
+   Exit: (12) query
+path_result:query
+   Redo: (13) acceptable_use(gypsy, _18024)
+   Call: (14) discouraged=discouraged
+   Exit: (14) discouraged=discouraged
+   Call: (14) _18024=no
+   Exit: (14) no=no
+   Exit: (13) acceptable_use(gypsy, no)
+   Call: (13) no=no
+   Exit: (13) no=no
+   Exit: (12) query
+path_result:query
+   Redo: (13) acceptable_use(gypsy, _18024)
+   Call: (14) potentially_harmful=potentially_harmful
+   Exit: (14) potentially_harmful=potentially_harmful
+   Call: (14) _18024=no
+   Exit: (14) no=no
+   Exit: (13) acceptable_use(gypsy, no)
+   Call: (13) no=no
+   Exit: (13) no=no
+   Exit: (12) query
+path_result:query
+   Redo: (13) acceptable_use(gypsy, _18024)
+   Call: (14) historical_usage(gypsy, _42550)
+   Exit: (14) historical_usage(gypsy, pejorative)
+   Call: (14) term_evolution(gypsy, _43774)
+   Exit: (14) term_evolution(gypsy, evolved_from_pejorative_to_neutral)
+   Call: (14) romani_view(gypsy, _44924)
+   Exit: (14) romani_view(gypsy, reject)
+   Call: (14) contemporary_usage(gypsy, _46224)
+   Exit: (14) contemporary_usage(gypsy, limited)
+   Call: (14) legal_status(gypsy, _47374)
+   Exit: (14) legal_status(gypsy, discouraged)
+   Call: (14) ethical_consideration(gypsy, _48600)
+   Exit: (14) ethical_consideration(gypsy, potentially_harmful)
+   Call: (14) reject=accept
+   Fail: (14) reject=accept
+   Fail: (13) acceptable_use(gypsy, _18024)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-44_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-44_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

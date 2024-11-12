@@ -1,0 +1,13 @@
+   Exit: (10) protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) remaining_chocolates(32, 42, 35, _5834)
+   Call: (14) _14524 is 32+42
+   Exit: (14) 74 is 32+42
+   Call: (14) _5834 is 74-35
+   Exit: (14) 39 is 74-35
+   Exit: (13) remaining_chocolates(32, 42, 35, 39)
+   Exit: (12) query(39)
+path_result:query(39)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query(Remaining)), (write(path_result: query(Remaining)))).')

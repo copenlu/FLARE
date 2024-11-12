@@ -1,0 +1,13 @@
+   Exit: (10) protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) remaining_golf_balls(58, 23, 2, _5834)
+   Call: (14) _14524 is 23+2
+   Exit: (14) 25 is 23+2
+   Call: (14) _5834 is 58-25
+   Exit: (14) 33 is 58-25
+   Exit: (13) remaining_golf_balls(58, 23, 2, 33)
+   Exit: (12) query(33)
+path_result:query(33)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt"), forall(call(query(FinalGolfBalls)), (write(path_result: query(FinalGolfBalls)))).')

@@ -1,0 +1,26 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-55_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_revenue(thursday, 6, 4, _13900)
+   Call: (14) _13900 is 6*60+4*40
+   Exit: (14) 520 is 6*60+4*40
+   Exit: (13) calculate_revenue(thursday, 6, 4, 520)
+   Call: (13) calculate_revenue(friday, 0, 12, _16384)
+   Call: (14) _16384 is 12*40
+   Exit: (14) 480 is 12*40
+   Exit: (13) calculate_revenue(friday, 0, 12, 480)
+   Call: (13) compare_revenue(520, 480, _5830)
+   Call: (14) 520>480
+   Exit: (14) 520>480
+   Call: (14) _5830 is 520-480
+   Exit: (14) 40 is 520-480
+   Exit: (13) compare_revenue(520, 480, 40)
+   Exit: (12) query(40)
+path_result:query(40)
+   Redo: (13) compare_revenue(520, 480, _5830)
+   Call: (14) 520=<480
+   Fail: (14) 520=<480
+   Fail: (13) compare_revenue(520, 480, _5830)
+   Fail: (12) query(_5830)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-55_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-55_gsm8k-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

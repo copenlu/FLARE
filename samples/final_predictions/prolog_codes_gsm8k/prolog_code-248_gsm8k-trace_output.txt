@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-248_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_hours_writing_week(_5830)
+   Call: (14) total_letters_received(5, 2, _14508)
+   Call: (15) _15126 is 5-2
+   Exit: (15) 3 is 5-2
+   Call: (15) _14508 is 3*2
+   Exit: (15) 6 is 3*2
+   Exit: (14) total_letters_received(5, 2, 6)
+   Call: (14) total_pages_to_write(6, 5, _18204)
+   Call: (15) _18204 is 6*5
+   Exit: (15) 30 is 6*5
+   Exit: (14) total_pages_to_write(6, 5, 30)
+   Call: (14) total_time_writing(30, 6, _20668)
+   Call: (15) _20668 is 30*6/6
+   Exit: (15) 30 is 30*6/6
+   Exit: (14) total_time_writing(30, 6, 30)
+   Call: (14) total_hours_writing(30, _5830)
+   Call: (15) _5830 is 30/60
+   Exit: (15) 0.5 is 30/60
+   Exit: (14) total_hours_writing(30, 0.5)
+   Exit: (13) total_hours_writing_week(0.5)
+   Exit: (12) query(0.5)
+path_result:query(0.5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-248_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-248_gsm8k-trace_output.txt"), forall(call(query(TotalHours)), (write(path_result: query(TotalHours)))).')

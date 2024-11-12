@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-312_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_earnings_april(_5830)
+   Call: (14) weekly_earnings(_14508)
+   Call: (15) daily_earnings(_15118)
+   Call: (16) _15118 is 10*10
+   Exit: (16) 100 is 10*10
+   Exit: (15) daily_earnings(100)
+   Call: (15) _14508 is 100*5+300
+   Exit: (15) 800 is 100*5+300
+   Exit: (14) weekly_earnings(800)
+   Call: (14) _5830 is 800*4
+   Exit: (14) 3200 is 800*4
+   Exit: (13) total_earnings_april(3200)
+   Exit: (12) query(3200)
+path_result:query(3200)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-312_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-312_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

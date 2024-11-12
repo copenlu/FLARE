@@ -1,0 +1,31 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-264_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_weight_after_damage(_5830)
+   Call: (14) _14508=400
+   Exit: (14) 400=400
+   Call: (14) _15734=200
+   Exit: (14) 200=200
+   Call: (14) _16960=30
+   Exit: (14) 30=30
+   Call: (14) weight_per_section(400, 400)
+   Call: (15) 400 is 400
+   Exit: (15) 400 is 400
+   Exit: (14) weight_per_section(400, 400)
+   Call: (14) num_sections(200, _20634)
+   Call: (15) _20634 is 200/10
+   Exit: (15) 20 is 200/10
+   Exit: (14) num_sections(200, 20)
+   Call: (14) total_weight(400, 20, _23090)
+   Call: (15) _23090 is 400*20
+   Exit: (15) 8000 is 400*20
+   Exit: (14) total_weight(400, 20, 8000)
+   Call: (14) weight_after_damage(8000, 30, _5830)
+   Call: (15) _5830 is 8000*(1-30/100)
+   Exit: (15) 5600.0 is 8000*(1-30/100)
+   Exit: (14) weight_after_damage(8000, 30, 5600.0)
+   Exit: (13) calculate_weight_after_damage(5600.0)
+   Exit: (12) query(5600.0)
+path_result:query(5600.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-264_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-264_gsm8k-trace_output.txt"), forall(call(query(FinalWeight)), (write(path_result: query(FinalWeight)))).')

@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-63_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_travel_without_rest(wandering_albatross, bucharest, new_york_city)
+   Call: (14) bird_capabilities(wandering_albatross, _14500)
+   Exit: (14) bird_capabilities(wandering_albatross, 5000)
+   Call: (14) distance(bucharest, new_york_city, _15726)
+   Call: (15) location(bucharest, (_16346, _16348))
+   Exit: (15) location(bucharest, (44.4268, 26.1025))
+   Call: (15) location(new_york_city, (_17588, _17590))
+   Exit: (15) location(new_york_city, (40.7128, -74.006))
+   Call: (15) _15726 is sqrt((40.7128-44.4268)^2+(-74.006-26.1025)^2)
+   Exit: (15) 100.1773705397082 is sqrt((40.7128-44.4268)^2+(-74.006-26.1025)^2)
+   Exit: (14) distance(bucharest, new_york_city, 100.1773705397082)
+   Call: (14) 100.1773705397082=<5000
+   Exit: (14) 100.1773705397082=<5000
+   Exit: (13) can_travel_without_rest(wandering_albatross, bucharest, new_york_city)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-63_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-63_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

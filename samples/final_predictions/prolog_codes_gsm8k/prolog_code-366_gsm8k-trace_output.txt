@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-366_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) max_friends(90, _5830)
+   Call: (14) total_cost_per_friend(_14512)
+   Call: (15) _14512 is 5+5+2*10
+   Exit: (15) 30 is 5+5+2*10
+   Exit: (14) total_cost_per_friend(30)
+   Call: (14) _5830 is 90//30
+   Exit: (14) 3 is 90//30
+   Exit: (13) max_friends(90, 3)
+   Exit: (12) query(3)
+path_result:query(3)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-366_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-366_gsm8k-trace_output.txt"), forall(call(query(MaxFriends)), (write(path_result: query(MaxFriends)))).')

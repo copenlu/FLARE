@@ -1,0 +1,6 @@
+{
+    "samples/final_predictions/gsm8k/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.6982562547384382,
+        "file_name": "samples/final_predictions/gsm8k/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json"
+    }
+}

@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-215_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) cost_per_cup(_5830)
+   Call: (14) total_cost_cups(_14508)
+   Call: (15) total_cost_plates(_15118)
+   Call: (16) _15118 is 6*6000
+   Exit: (16) 36000 is 6*6000
+   Exit: (15) total_cost_plates(36000)
+   Call: (15) _14508 is 36000-1200
+   Exit: (15) 34800 is 36000-1200
+   Exit: (14) total_cost_cups(34800)
+   Call: (14) _19404 is 20*12
+   Exit: (14) 240 is 20*12
+   Call: (14) _5830 is 34800/240
+   Exit: (14) 145 is 34800/240
+   Exit: (13) cost_per_cup(145)
+   Exit: (12) query(145)
+path_result:query(145)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-215_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-215_gsm8k-trace_output.txt"), forall(call(query(CostPerCup)), (write(path_result: query(CostPerCup)))).')

@@ -1,0 +1,46 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) thanksgiving_date(2001, _17676)
+   Call: (14) date:day_of_the_week(date(2001, 11, 1), _18306)
+   Call: (15) format_time(atom(_18934), '%u', date(2001, 11, 1, 0, 0, 0, 0, -, -))
+   Exit: (15) format_time(atom('4'), '%u', date(2001, 11, 1, 0, 0, 0, 0, -, -))
+   Call: (15) atom_number('4', _18306)
+   Exit: (15) atom_number('4', 4)
+   Exit: (14) date:day_of_the_week(date(2001, 11, 1), 4)
+   Call: (14) _22036 is (5-4)mod 7+1
+   Exit: (14) 2 is (5-4)mod 7+1
+   Call: (14) _18294 is 2+21
+   Exit: (14) 23 is 2+21
+   Exit: (13) thanksgiving_date(2001, date(11, 23, 2001))
+   Call: (13) subtract_one_month(date(11, 23, 2001), _25122)
+   Call: (14) 11=1
+   Fail: (14) 11=1
+   Redo: (13) subtract_one_month(date(11, 23, 2001), _25122)
+   Call: (14) _27578 is 11+ -1
+   Exit: (14) 10 is 11+ -1
+   Call: (14) _28804 is 2001
+   Exit: (14) 2001 is 2001
+   Call: (14) days_in_month(10, 2001, _30030)
+   Call: (15) lists:member(10-_30030, [1-31, 3-31, 4-30, 5-31, 6-30, 7-31, ... - ...|...])
+   Exit: (15) lists:member(10-31, [1-31, 3-31, 4-30, 5-31, 6-30, 7-31, ... - ...|...])
+   Exit: (14) days_in_month(10, 2001, 31)
+   Call: (14) _34170 is min(23, 31)
+   Exit: (14) 23 is min(23, 31)
+   Call: (14) _25122=date(10, 23, 2001)
+   Exit: (14) date(10, 23, 2001)=date(10, 23, 2001)
+   Exit: (13) subtract_one_month(date(11, 23, 2001), date(10, 23, 2001))
+^  Call: (13) format('One month before Thanksgiving 2001 is: ~w/~w/~w~n', [_37248, _37254, _37260])
+One month before Thanksgiving 2001 is: _37248/_37254/_37260
+^  Exit: (13) format('One month before Thanksgiving 2001 is: ~w/~w/~w~n', [_37248, _37254, _37260])
+   Call: (13) date(10, 23, 2001)=date(_37248, _37254, _37260)
+   Exit: (13) date(10, 23, 2001)=date(10, 23, 2001)
+   Exit: (12) query
+path_result:query
+   Redo: (15) lists:member(10-_30030, [1-31, 3-31, 4-30, 5-31, 6-30, 7-31, ... - ...|...])
+   Fail: (15) lists:member(10-_30030, [1-31, 3-31, 4-30, 5-31, 6-30, 7-31, ... - ...|...])
+   Fail: (14) days_in_month(10, 2001, _30030)
+   Fail: (13) subtract_one_month(date(11, 23, 2001), _25122)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

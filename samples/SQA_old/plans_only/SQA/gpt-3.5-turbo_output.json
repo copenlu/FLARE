@@ -1,0 +1,962 @@
+[
+    {
+        "index": 0,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is chaff produced by hydropower?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "-Is chaff produced by hydropower?\n  -Identify different methods of power generation\n    -Nuclear power\n    -Solar power\n    -Wind power\n    -Hydropower\n      -Investigate process of hydropower generation\n        -Determine if chaff is a byproduct of hydropower production\n  -Analyze potential sources of chaff production\n    -Agricultural activities\n    -Industrial processes\n    -Hydropower generation\n      -Research specific byproducts of hydropower production to identify if chaff is produced"
+            }
+        ],
+        "plan": "-Is chaff produced by hydropower?\n  -Identify different methods of power generation\n    -Nuclear power\n    -Solar power\n    -Wind power\n    -Hydropower\n      -Investigate process of hydropower generation\n        -Determine if chaff is a byproduct of hydropower production\n  -Analyze potential sources of chaff production\n    -Agricultural activities\n    -Industrial processes\n    -Hydropower generation\n      -Research specific byproducts of hydropower production to identify if chaff is produced",
+        "answer": "yes"
+    },
+    {
+        "index": 1,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are blue lips normal?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Check for signs of cyanosis\n  - Assess for bluish discoloration of the lips\n    - Record observations\n    - Evaluate potential causes\n      - Lack of oxygen in the blood\n      - Cold temperatures\n      - Certain medications\n      - Other underlying health conditions\n        - Seek medical advice if necessary"
+            }
+        ],
+        "plan": "- Check for signs of cyanosis\n  - Assess for bluish discoloration of the lips\n    - Record observations\n    - Evaluate potential causes\n      - Lack of oxygen in the blood\n      - Cold temperatures\n      - Certain medications\n      - Other underlying health conditions\n        - Seek medical advice if necessary",
+        "answer": "no"
+    },
+    {
+        "index": 2,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would George Fox support stoning?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine George Fox's religious beliefs \n  - Research Fox's writings and teachings\n    - Look for quotes or references to violence in Fox's works\n  - Investigate Fox's stance on punishment and forgiveness\n    - Examine Fox's views on justice and morality\n- Analyze the practice of stoning in relation to Fox's beliefs\n  - Assess the historical context of stoning\n    - Consider how stoning was practiced in Fox's era\n  - Evaluate the ethical implications of stoning\n    - Compare stoning to Fox's principles of nonviolence and compassion\n- Formulate a conclusion on whether Fox would support stoning"
+            }
+        ],
+        "plan": "- Determine George Fox's religious beliefs \n  - Research Fox's writings and teachings\n    - Look for quotes or references to violence in Fox's works\n  - Investigate Fox's stance on punishment and forgiveness\n    - Examine Fox's views on justice and morality\n- Analyze the practice of stoning in relation to Fox's beliefs\n  - Assess the historical context of stoning\n    - Consider how stoning was practiced in Fox's era\n  - Evaluate the ethical implications of stoning\n    - Compare stoning to Fox's principles of nonviolence and compassion\n- Formulate a conclusion on whether Fox would support stoning",
+        "answer": "no"
+    },
+    {
+        "index": 3,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Neanderthals use arithmetic?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Neanderthals use arithmetic?\n  - Examine archaeological evidence for mathematical tools or symbols\n  - Examine Neanderthal cognitive abilities and brain structure for evidence of arithmetic capabilities\n  - Consult anthropological studies on Neanderthal culture and society for evidence of arithmetic use"
+            }
+        ],
+        "plan": "- Did Neanderthals use arithmetic?\n  - Examine archaeological evidence for mathematical tools or symbols\n  - Examine Neanderthal cognitive abilities and brain structure for evidence of arithmetic capabilities\n  - Consult anthropological studies on Neanderthal culture and society for evidence of arithmetic use",
+        "answer": "no"
+    },
+    {
+        "index": 4,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are emus related to elks?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Are emus related to elks?\n  - Research general information about emus\n    - Search for classification of emus\n      - Find information on the scientific classification of emus\n        - Look for any relation to elks\n    - Investigate evolutionary history of emus\n      - Look for any connection to elks \n  - Research general information about elks\n    - Search for classification of elks\n      - Find information on the scientific classification of elks\n        - Look for any relation to emus"
+            }
+        ],
+        "plan": "- Are emus related to elks?\n  - Research general information about emus\n    - Search for classification of emus\n      - Find information on the scientific classification of emus\n        - Look for any relation to elks\n    - Investigate evolutionary history of emus\n      - Look for any connection to elks \n  - Research general information about elks\n    - Search for classification of elks\n      - Find information on the scientific classification of elks\n        - Look for any relation to emus",
+        "answer": "no"
+    },
+    {
+        "index": 5,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Can amoebas get cancer?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Can amoebas get cancer?\n  - Research if cancer has been observed in amoebas\n    - Consult scientific literature on amoebas and cancer\n    - Contact experts in the field of oncology and microbiology\n  - Analyze the biological mechanisms of cancer in multicellular organisms\n    - Compare the differences in cellular structure between amoebas and multicellular organisms\n    - Investigate the genes and genetic mutations associated with cancer in multicellular organisms\n  - Consider the factors that contribute to cancer development\n    - Examine the role of environmental factors in cancer development\n    - Evaluate the potential impact of genetic mutations on cancer susceptibility in amoebas"
+            }
+        ],
+        "plan": "- Can amoebas get cancer?\n  - Research if cancer has been observed in amoebas\n    - Consult scientific literature on amoebas and cancer\n    - Contact experts in the field of oncology and microbiology\n  - Analyze the biological mechanisms of cancer in multicellular organisms\n    - Compare the differences in cellular structure between amoebas and multicellular organisms\n    - Investigate the genes and genetic mutations associated with cancer in multicellular organisms\n  - Consider the factors that contribute to cancer development\n    - Examine the role of environmental factors in cancer development\n    - Evaluate the potential impact of genetic mutations on cancer susceptibility in amoebas",
+        "answer": "no"
+    },
+    {
+        "index": 6,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Cholera alive?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Cholera a living organism?\n    - Does Cholera exhibit the characteristics of living organisms? \n        - Can Cholera reproduce? \n            - Does Cholera have the ability to replicate its genetic material and produce offspring?\n        - Does Cholera require energy for metabolic processes?\n            - Can Cholera obtain and utilize energy from its environment? \n        - Can Cholera grow and develop over time?\n        - Does Cholera respond to stimuli in its environment? \n    - Is Cholera a prokaryotic or eukaryotic organism?\n        - Does Cholera have a distinct nucleus?\n            - Does Cholera possess membrane-bound organelles?"
+            }
+        ],
+        "plan": "- Is Cholera a living organism?\n    - Does Cholera exhibit the characteristics of living organisms? \n        - Can Cholera reproduce? \n            - Does Cholera have the ability to replicate its genetic material and produce offspring?\n        - Does Cholera require energy for metabolic processes?\n            - Can Cholera obtain and utilize energy from its environment? \n        - Can Cholera grow and develop over time?\n        - Does Cholera respond to stimuli in its environment? \n    - Is Cholera a prokaryotic or eukaryotic organism?\n        - Does Cholera have a distinct nucleus?\n            - Does Cholera possess membrane-bound organelles?",
+        "answer": "yes"
+    },
+    {
+        "index": 7,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Do mollymawks live where albatrosses cannot?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Can mollymawks live where albatrosses cannot?\n  - Determine the habitat of mollymawks\n    - Research the habitat preferences of mollymawks\n  - Determine the habitat of albatrosses\n    - Research the habitat preferences of albatrosses\n  - Compare the habitats of mollymawks and albatrosses\n    - Identify any differences in habitat requirements between the two species\n  - Evaluate if mollymawks can live in areas where albatrosses cannot\n    - Consider the results of the research on habitat preferences\n    - Make a determination based on the comparison of habitats between the two species"
+            }
+        ],
+        "plan": "- Can mollymawks live where albatrosses cannot?\n  - Determine the habitat of mollymawks\n    - Research the habitat preferences of mollymawks\n  - Determine the habitat of albatrosses\n    - Research the habitat preferences of albatrosses\n  - Compare the habitats of mollymawks and albatrosses\n    - Identify any differences in habitat requirements between the two species\n  - Evaluate if mollymawks can live in areas where albatrosses cannot\n    - Consider the results of the research on habitat preferences\n    - Make a determination based on the comparison of habitats between the two species",
+        "answer": "no"
+    },
+    {
+        "index": 8,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Dr. Seuss live a tragedy free life?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Research Dr. Seuss' life events\n  - Compile list of major life events\n  - Identify any tragedies or hardships in his life"
+            }
+        ],
+        "plan": "- Research Dr. Seuss' life events\n  - Compile list of major life events\n  - Identify any tragedies or hardships in his life",
+        "answer": "no"
+    },
+    {
+        "index": 9,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Jon Brower Minnoch suffer from anorexia nervosa?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Jon Brower Minnoch suffer from anorexia nervosa?\n  - Research information on Jon Brower Minnoch's medical history\n    - Check medical records\n    - Consult with medical professionals\n  - Determine symptoms of anorexia nervosa\n    - Weight loss\n    - Refusal to maintain body weight\n    - Disturbed body image\n    - Fear of gaining weight\n  - Compare Jon Brower Minnoch's symptoms to criteria for anorexia nervosa\n    - Compare weight loss to criteria\n    - Evaluate attitude towards weight and body image\n    - Assess any history of eating disorders or related behaviors"
+            }
+        ],
+        "plan": "- Did Jon Brower Minnoch suffer from anorexia nervosa?\n  - Research information on Jon Brower Minnoch's medical history\n    - Check medical records\n    - Consult with medical professionals\n  - Determine symptoms of anorexia nervosa\n    - Weight loss\n    - Refusal to maintain body weight\n    - Disturbed body image\n    - Fear of gaining weight\n  - Compare Jon Brower Minnoch's symptoms to criteria for anorexia nervosa\n    - Compare weight loss to criteria\n    - Evaluate attitude towards weight and body image\n    - Assess any history of eating disorders or related behaviors",
+        "answer": "no"
+    },
+    {
+        "index": 10,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Cynthia Powell celebrate a silver anniversary with John Lennon?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Cynthia Powell celebrate a silver anniversary with John Lennon?\n  - Research Cynthia Powell and John Lennon's marriage date\n    - Search online resources for information on Cynthia Powell and John Lennon's marriage date\n    - Check official records for Cynthia Powell and John Lennon's marriage date\n  - Calculate the number of years since Cynthia Powell and John Lennon's marriage\n    - Subtract Cynthia Powell and John Lennon's marriage date from the current date\n    - Determine if the resulting number of years is a multiple of 25\n  - Confirm if Cynthia Powell and John Lennon celebrated a silver anniversary\n    - Check for any public announcements or celebrations for Cynthia Powell and John Lennon's silver anniversary"
+            }
+        ],
+        "plan": "- Did Cynthia Powell celebrate a silver anniversary with John Lennon?\n  - Research Cynthia Powell and John Lennon's marriage date\n    - Search online resources for information on Cynthia Powell and John Lennon's marriage date\n    - Check official records for Cynthia Powell and John Lennon's marriage date\n  - Calculate the number of years since Cynthia Powell and John Lennon's marriage\n    - Subtract Cynthia Powell and John Lennon's marriage date from the current date\n    - Determine if the resulting number of years is a multiple of 25\n  - Confirm if Cynthia Powell and John Lennon celebrated a silver anniversary\n    - Check for any public announcements or celebrations for Cynthia Powell and John Lennon's silver anniversary",
+        "answer": "no"
+    },
+    {
+        "index": 11,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Lionel Richie related to Sheila E?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Lionel Richie related to Sheila E?\n  - Check if Lionel Richie is related to Sheila E"
+            }
+        ],
+        "plan": "- Is Lionel Richie related to Sheila E?\n  - Check if Lionel Richie is related to Sheila E",
+        "answer": "no"
+    },
+    {
+        "index": 12,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Should a Celiac sufferer avoid spaghetti?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Should a Celiac sufferer avoid spaghetti?\n  - Consider gluten content in spaghetti\n  - Evaluate potential cross-contamination risks\n  - Consult with a medical professional or dietitian\n    - Follow the advice given by the professional or dietitian\n      - Avoid spaghetti if advised to do so by the professional or dietitian\n      - Consume spaghetti if not advised to avoid it by the professional or dietitian"
+            }
+        ],
+        "plan": "- Should a Celiac sufferer avoid spaghetti?\n  - Consider gluten content in spaghetti\n  - Evaluate potential cross-contamination risks\n  - Consult with a medical professional or dietitian\n    - Follow the advice given by the professional or dietitian\n      - Avoid spaghetti if advised to do so by the professional or dietitian\n      - Consume spaghetti if not advised to avoid it by the professional or dietitian",
+        "answer": "yes"
+    },
+    {
+        "index": 13,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was England directly involved in the Arab-Israeli conflict?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Was England directly involved in the Arab-Israeli conflict?\n    - Research involvement of England in the Arab-Israeli conflict\n        - Search for historical events involving England and the Arab-Israeli conflict\n        - Look for any military actions or treaties between England and parties involved in the conflict\n        - Review any official statements or policies made by England regarding the Arab-Israeli conflict\n        - Check for any diplomatic efforts or peace initiatives led by England in relation to the conflict."
+            }
+        ],
+        "plan": "- Was England directly involved in the Arab-Israeli conflict?\n    - Research involvement of England in the Arab-Israeli conflict\n        - Search for historical events involving England and the Arab-Israeli conflict\n        - Look for any military actions or treaties between England and parties involved in the conflict\n        - Review any official statements or policies made by England regarding the Arab-Israeli conflict\n        - Check for any diplomatic efforts or peace initiatives led by England in relation to the conflict.",
+        "answer": "yes"
+    },
+    {
+        "index": 14,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are flag of Gabon colors found in rainbow?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Are flag of Gabon colors found in rainbow?\n   1.1 Identify the colors of the Gabon flag\n   1.2 Identify the colors of the rainbow\n   1.3 Compare the colors of the Gabon flag with the colors of the rainbow"
+            }
+        ],
+        "plan": "1. Are flag of Gabon colors found in rainbow?\n   1.1 Identify the colors of the Gabon flag\n   1.2 Identify the colors of the rainbow\n   1.3 Compare the colors of the Gabon flag with the colors of the rainbow",
+        "answer": "yes"
+    },
+    {
+        "index": 15,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would  bald eagle deliver an urgent message before B-52?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Deliver urgent message\n    - Send message\n        - Communicate\n            - Use communication skills\n        - Travel to destination\n            - Fly (for bald eagle)\n                - Deliver message\n            - Drive (for B-52)\n                - Deliver message"
+            }
+        ],
+        "plan": "- Deliver urgent message\n    - Send message\n        - Communicate\n            - Use communication skills\n        - Travel to destination\n            - Fly (for bald eagle)\n                - Deliver message\n            - Drive (for B-52)\n                - Deliver message",
+        "answer": "no"
+    },
+    {
+        "index": 16,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was the Parc des Princes fully operational during June of 2020?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Was the Parc des Princes fully operational during June of 2020?\n    - Check if there were any events scheduled at the Parc des Princes during June 2020\n        - Contact the event schedule coordinator for Parc des Princes\n    - Check if there were any renovations or maintenance work ongoing at the Parc des Princes during June 2020\n        - Contact the facilities management team for Parc des Princes"
+            }
+        ],
+        "plan": "- Was the Parc des Princes fully operational during June of 2020?\n    - Check if there were any events scheduled at the Parc des Princes during June 2020\n        - Contact the event schedule coordinator for Parc des Princes\n    - Check if there were any renovations or maintenance work ongoing at the Parc des Princes during June 2020\n        - Contact the facilities management team for Parc des Princes",
+        "answer": "no"
+    },
+    {
+        "index": 17,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Can I hold Bing in a basket?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Can I hold Bing\n  - in a basket"
+            }
+        ],
+        "plan": "- Can I hold Bing\n  - in a basket",
+        "answer": "no"
+    },
+    {
+        "index": 18,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would a kindergarten teacher make a lesson of the New Testament?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Determine the educational goals for the lesson\n   1.1. Review curriculum standards for kindergarten education\n   1.2. Identify specific objectives for incorporating the New Testament into the lesson\n   \n2. Plan the lesson activities\n   2.1. Select age-appropriate stories from the New Testament\n   2.2. Develop hands-on activities to engage students with the material\n   2.3. Create visual aids to help students understand key concepts\n   \n3. Gather materials needed for the lesson\n   3.1. Obtain copies of the New Testament stories\n   3.2. Collect any props or visual aids needed for the activities\n   3.3. Ensure all necessary supplies are available for the lesson\n   \n4. Implement the lesson\n   4.1. Introduce the lesson topic and provide context for the New Testament stories\n   4.2. Engage students in the activities and encourage participation\n   4.3. Use questioning techniques to facilitate discussion and deepen understanding\n   \n5. Assess student learning\n   5.1. Observe student participation and engagement during the lesson\n   5.2. Ask questions to assess students' comprehension of the material\n   5.3. Use informal assessments such as quizzes or games to gauge understanding   \n\n6. Reflect on the lesson\n   6.1. Evaluate the effectiveness of the lesson in meeting educational goals\n   6.2. Consider any adjustments that could be made for future lessons\n   6.3. Seek feedback from students, colleagues, or parents to improve teaching strategies"
+            }
+        ],
+        "plan": "1. Determine the educational goals for the lesson\n   1.1. Review curriculum standards for kindergarten education\n   1.2. Identify specific objectives for incorporating the New Testament into the lesson\n   \n2. Plan the lesson activities\n   2.1. Select age-appropriate stories from the New Testament\n   2.2. Develop hands-on activities to engage students with the material\n   2.3. Create visual aids to help students understand key concepts\n   \n3. Gather materials needed for the lesson\n   3.1. Obtain copies of the New Testament stories\n   3.2. Collect any props or visual aids needed for the activities\n   3.3. Ensure all necessary supplies are available for the lesson\n   \n4. Implement the lesson\n   4.1. Introduce the lesson topic and provide context for the New Testament stories\n   4.2. Engage students in the activities and encourage participation\n   4.3. Use questioning techniques to facilitate discussion and deepen understanding\n   \n5. Assess student learning\n   5.1. Observe student participation and engagement during the lesson\n   5.2. Ask questions to assess students' comprehension of the material\n   5.3. Use informal assessments such as quizzes or games to gauge understanding   \n\n6. Reflect on the lesson\n   6.1. Evaluate the effectiveness of the lesson in meeting educational goals\n   6.2. Consider any adjustments that could be made for future lessons\n   6.3. Seek feedback from students, colleagues, or parents to improve teaching strategies",
+        "answer": "no"
+    },
+    {
+        "index": 19,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was a woman Prime Minister directly before or after Stanley Baldwin?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine who was the Prime Minister directly before Stanley Baldwin\n  - Find out the Prime Ministerial order before Stanley Baldwin\n    - Research the chronological list of Prime Ministers in the United Kingdom\n- Determine who was the Prime Minister directly after Stanley Baldwin\n  - Find out the Prime Ministerial order after Stanley Baldwin\n    - Research the chronological list of Prime Ministers in the United Kingdom\n- Identify whether a woman Prime Minister was in power before or after Stanley Baldwin\n  - Compare the list of Prime Ministers with the gender of each leader\n    - Analyze the timeline and gender of Prime Ministers in the United Kingdom\n      - Check for female Prime Ministers in the timeline before and after Stanley Baldwin"
+            }
+        ],
+        "plan": "- Determine who was the Prime Minister directly before Stanley Baldwin\n  - Find out the Prime Ministerial order before Stanley Baldwin\n    - Research the chronological list of Prime Ministers in the United Kingdom\n- Determine who was the Prime Minister directly after Stanley Baldwin\n  - Find out the Prime Ministerial order after Stanley Baldwin\n    - Research the chronological list of Prime Ministers in the United Kingdom\n- Identify whether a woman Prime Minister was in power before or after Stanley Baldwin\n  - Compare the list of Prime Ministers with the gender of each leader\n    - Analyze the timeline and gender of Prime Ministers in the United Kingdom\n      - Check for female Prime Ministers in the timeline before and after Stanley Baldwin",
+        "answer": "no"
+    },
+    {
+        "index": 20,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was Eve involved in an incestuous relationship?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine Eve's relationship with her family members\n    - Identify Eve's parents\n        - Adam\n        - Eve's mother (if mentioned in the text)\n    - Identify Eve's children\n    - Determine if there are any references to siblings or other close relatives in the text\n- Examine any text or references that suggest Eve was involved in an incestuous relationship\n- Draw conclusions based on the analysis of the relationships within Eve's family and any potential references to incestuous relationships."
+            }
+        ],
+        "plan": "- Determine Eve's relationship with her family members\n    - Identify Eve's parents\n        - Adam\n        - Eve's mother (if mentioned in the text)\n    - Identify Eve's children\n    - Determine if there are any references to siblings or other close relatives in the text\n- Examine any text or references that suggest Eve was involved in an incestuous relationship\n- Draw conclusions based on the analysis of the relationships within Eve's family and any potential references to incestuous relationships.",
+        "answer": "yes"
+    },
+    {
+        "index": 21,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would Bobby Jindal's high school mascot eat kibble?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Bobby Jindal's high school mascot a real animal?\n  - If yes:\n    - Does the mascot eat kibble?"
+            }
+        ],
+        "plan": "- Is Bobby Jindal's high school mascot a real animal?\n  - If yes:\n    - Does the mascot eat kibble?",
+        "answer": "yes"
+    },
+    {
+        "index": 22,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Spiderman fight against Falcon in the MCU?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Spiderman fight against Falcon in the MCU?\n    - Check if there is any instance of Spiderman and Falcon fighting in any MCU movies or TV shows\n        - Search for fight scenes between Spiderman and Falcon in MCU movies\n        - Search for fight scenes between Spiderman and Falcon in MCU TV shows\n    - Provide information on any instances of Spiderman and Falcon fighting in the MCU"
+            }
+        ],
+        "plan": "- Did Spiderman fight against Falcon in the MCU?\n    - Check if there is any instance of Spiderman and Falcon fighting in any MCU movies or TV shows\n        - Search for fight scenes between Spiderman and Falcon in MCU movies\n        - Search for fight scenes between Spiderman and Falcon in MCU TV shows\n    - Provide information on any instances of Spiderman and Falcon fighting in the MCU",
+        "answer": "yes"
+    },
+    {
+        "index": 23,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "If someone loves buffalo wings do they enjoy capsaicin?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Determine if the person enjoys eating buffalo wings\n  1.1. Determine if the person regularly orders buffalo wings at restaurants\n    1.1.1. Ask the person about their dining preferences\n  1.2. Determine if the person makes buffalo wings at home\n    1.2.1. Ask the person about their cooking habits\n2. Determine if the person enjoys capsaicin\n  2.1. Determine if the person likes spicy foods in general\n    2.1.1. Ask the person about their food preferences\n  2.2. Determine if the person consumes other foods high in capsaicin\n    2.2.1. Ask the person about their favorite foods"
+            }
+        ],
+        "plan": "1. Determine if the person enjoys eating buffalo wings\n  1.1. Determine if the person regularly orders buffalo wings at restaurants\n    1.1.1. Ask the person about their dining preferences\n  1.2. Determine if the person makes buffalo wings at home\n    1.2.1. Ask the person about their cooking habits\n2. Determine if the person enjoys capsaicin\n  2.1. Determine if the person likes spicy foods in general\n    2.1.1. Ask the person about their food preferences\n  2.2. Determine if the person consumes other foods high in capsaicin\n    2.2.1. Ask the person about their favorite foods",
+        "answer": "yes"
+    },
+    {
+        "index": 24,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was Pi an acceptable number of children in 1980s China?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the maximum number of children allowed per family in 1980s China\n  - Research the One Child Policy implemented in China during the 1980s\n    - Check official government documents on family planning policies\n    - Consult academic articles and research studies on the One Child Policy\n  - Examine cultural and societal attitudes towards family size in 1980s China\n    - Analyze historical records and testimonies from individuals in China during that time\n    - Review literature on Chinese family structures and traditional values\n  - Compare the number of children per family statistics in China during the 1980s\n    - Collect data from demographic studies and census reports\n    - Look for surveys and polls conducted on family size preferences in China during that period"
+            }
+        ],
+        "plan": "- Determine the maximum number of children allowed per family in 1980s China\n  - Research the One Child Policy implemented in China during the 1980s\n    - Check official government documents on family planning policies\n    - Consult academic articles and research studies on the One Child Policy\n  - Examine cultural and societal attitudes towards family size in 1980s China\n    - Analyze historical records and testimonies from individuals in China during that time\n    - Review literature on Chinese family structures and traditional values\n  - Compare the number of children per family statistics in China during the 1980s\n    - Collect data from demographic studies and census reports\n    - Look for surveys and polls conducted on family size preferences in China during that period",
+        "answer": "no"
+    },
+    {
+        "index": 25,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are there bones in an anchovy pizza?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Are there bones in an anchovy pizza?\n  - Check if the anchovies are boneless\n    - Ask the person who prepared the pizza\n    - Check the packaging or label for information\n  - Inspect the pizza for bones\n    - Carefully examine each anchovy on the pizza for bones"
+            }
+        ],
+        "plan": "- Are there bones in an anchovy pizza?\n  - Check if the anchovies are boneless\n    - Ask the person who prepared the pizza\n    - Check the packaging or label for information\n  - Inspect the pizza for bones\n    - Carefully examine each anchovy on the pizza for bones",
+        "answer": "yes"
+    },
+    {
+        "index": 26,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Jay-Z ever collaborate with Louis Armstrong?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Has Jay-Z ever collaborated with Louis Armstrong?\n  - Search for any recorded collaborations between Jay-Z and Louis Armstrong\n    - Check music databases for any songs or albums featuring both artists\n    - Look for any live performances or concerts where they may have performed together\n      - Check for any documentary or historical records of joint performances"
+            }
+        ],
+        "plan": "- Has Jay-Z ever collaborated with Louis Armstrong?\n  - Search for any recorded collaborations between Jay-Z and Louis Armstrong\n    - Check music databases for any songs or albums featuring both artists\n    - Look for any live performances or concerts where they may have performed together\n      - Check for any documentary or historical records of joint performances",
+        "answer": "no"
+    },
+    {
+        "index": 27,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is the Flying Spaghetti Monster part of an ancient pantheon?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is the Flying Spaghetti Monster part of an ancient pantheon?\n   - Research ancient pantheons\n      - Search for information on various ancient pantheons\n         - Look up Egyptian pantheon\n         - Look up Greek pantheon\n         - Look up Norse pantheon\n         - Look up Roman pantheon\n      - Compare characteristics of ancient pantheons\n   - Research the origin of the Flying Spaghetti Monster\n      - Look up the history of the Flying Spaghetti Monster\n      - Find out if the Flying Spaghetti Monster is considered part of any pantheon\n   - Analyze similarities/differences between the Flying Spaghetti Monster and ancient deities\n      - Compare characteristics of the Flying Spaghetti Monster to ancient deities"
+            }
+        ],
+        "plan": "- Is the Flying Spaghetti Monster part of an ancient pantheon?\n   - Research ancient pantheons\n      - Search for information on various ancient pantheons\n         - Look up Egyptian pantheon\n         - Look up Greek pantheon\n         - Look up Norse pantheon\n         - Look up Roman pantheon\n      - Compare characteristics of ancient pantheons\n   - Research the origin of the Flying Spaghetti Monster\n      - Look up the history of the Flying Spaghetti Monster\n      - Find out if the Flying Spaghetti Monster is considered part of any pantheon\n   - Analyze similarities/differences between the Flying Spaghetti Monster and ancient deities\n      - Compare characteristics of the Flying Spaghetti Monster to ancient deities",
+        "answer": "no"
+    },
+    {
+        "index": 28,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is World of Warcraft heavier than a loaf of bread?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine weight of World of Warcraft\n  - Calculate weight of World of Warcraft\n- Determine weight of a loaf of bread\n  - Calculate weight of a loaf of bread\n- Compare weight of World of Warcraft to a loaf of bread\n  - Is weight of World of Warcraft greater than weight of a loaf of bread?"
+            }
+        ],
+        "plan": "- Determine weight of World of Warcraft\n  - Calculate weight of World of Warcraft\n- Determine weight of a loaf of bread\n  - Calculate weight of a loaf of bread\n- Compare weight of World of Warcraft to a loaf of bread\n  - Is weight of World of Warcraft greater than weight of a loaf of bread?",
+        "answer": "no"
+    },
+    {
+        "index": 29,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is the Gujarati script the same category of script as Kanji?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "-Determine the category of script of the Gujarati script\n--Compare Gujarati script to known categories of scripts\n---Compare structure and characteristics of Gujarati script to scripts in different categories\n--Determine if Gujarati script belongs to the same category as Kanji\n---Identify characteristics and features of Kanji script\n---Compare Gujarati script to Kanji script\n---Determine similarities and differences between Gujarati and Kanji scripts\n---Make a conclusion on whether Gujarati and Kanji scripts belong to the same category"
+            }
+        ],
+        "plan": "-Determine the category of script of the Gujarati script\n--Compare Gujarati script to known categories of scripts\n---Compare structure and characteristics of Gujarati script to scripts in different categories\n--Determine if Gujarati script belongs to the same category as Kanji\n---Identify characteristics and features of Kanji script\n---Compare Gujarati script to Kanji script\n---Determine similarities and differences between Gujarati and Kanji scripts\n---Make a conclusion on whether Gujarati and Kanji scripts belong to the same category",
+        "answer": "no"
+    },
+    {
+        "index": 30,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is greed the most prevalent of the Seven Deadly Sins?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is greed the most prevalent of the Seven Deadly Sins?\n    - Identify the most prevalent of the Seven Deadly Sins\n        - List the Seven Deadly Sins\n        - Research data on the prevalence of each Deadly Sin\n        - Compare the data to determine the most prevalent sin\n            - Analyze the data for each Deadly Sin\n            - Determine which Deadly Sin has the highest frequency\n    - Determine if greed is the most prevalent Deadly Sin\n        - Evaluate the data on greed\n        - Compare the prevalence of greed to the other Deadly Sins\n        - Reach a conclusion on whether greed is the most prevalent Deadly Sin."
+            }
+        ],
+        "plan": "- Is greed the most prevalent of the Seven Deadly Sins?\n    - Identify the most prevalent of the Seven Deadly Sins\n        - List the Seven Deadly Sins\n        - Research data on the prevalence of each Deadly Sin\n        - Compare the data to determine the most prevalent sin\n            - Analyze the data for each Deadly Sin\n            - Determine which Deadly Sin has the highest frequency\n    - Determine if greed is the most prevalent Deadly Sin\n        - Evaluate the data on greed\n        - Compare the prevalence of greed to the other Deadly Sins\n        - Reach a conclusion on whether greed is the most prevalent Deadly Sin.",
+        "answer": "no"
+    },
+    {
+        "index": 31,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Should Peter Griffin be an expert at the craft of brewing?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Peter Griffin interested in brewing?\n  - Does Peter Griffin have any experience with brewing?\n    - Does Peter Griffin know the basics of brewing?\n      - Has Peter Griffin successfully brewed a batch of beer before?\n        - Is Peter Griffin knowledgeable about different brewing techniques?\n          - Is Peter Griffin considered an expert in the brewing community?"
+            }
+        ],
+        "plan": "- Is Peter Griffin interested in brewing?\n  - Does Peter Griffin have any experience with brewing?\n    - Does Peter Griffin know the basics of brewing?\n      - Has Peter Griffin successfully brewed a batch of beer before?\n        - Is Peter Griffin knowledgeable about different brewing techniques?\n          - Is Peter Griffin considered an expert in the brewing community?",
+        "answer": "yes"
+    },
+    {
+        "index": 32,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Shiva's divine dance an ancient physical fitness pose?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Shiva's divine dance an ancient physical fitness pose?\n  - Research the history and significance of Shiva's divine dance\n    - Study ancient texts and sculptures depicting Shiva's divine dance\n      - Analyze the poses and movements of Shiva in these depictions\n    - Consult scholars and experts on Hindu mythology and dance\n    - Explore any connections between Shiva's divine dance and physical fitness practices\n  - Examine the potential health benefits of practicing Shiva's divine dance\n    - Research the physical benefits of dance as a form of exercise\n    - Compare the poses and movements of Shiva's divine dance to modern fitness poses\n    - Consult experts in yoga and dance for their opinions on the fitness aspect of Shiva's divine dance."
+            }
+        ],
+        "plan": "- Is Shiva's divine dance an ancient physical fitness pose?\n  - Research the history and significance of Shiva's divine dance\n    - Study ancient texts and sculptures depicting Shiva's divine dance\n      - Analyze the poses and movements of Shiva in these depictions\n    - Consult scholars and experts on Hindu mythology and dance\n    - Explore any connections between Shiva's divine dance and physical fitness practices\n  - Examine the potential health benefits of practicing Shiva's divine dance\n    - Research the physical benefits of dance as a form of exercise\n    - Compare the poses and movements of Shiva's divine dance to modern fitness poses\n    - Consult experts in yoga and dance for their opinions on the fitness aspect of Shiva's divine dance.",
+        "answer": "no"
+    },
+    {
+        "index": 33,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Miami a city on the American West Coast?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Miami a city in the United States?\n  - Is Miami located on the East Coast of the United States?\n    - Is Miami a city on the Atlantic Ocean?\n      - Is Miami located in the state of Florida?\n  - Is Miami located on the West Coast of the United States?"
+            }
+        ],
+        "plan": "- Is Miami a city in the United States?\n  - Is Miami located on the East Coast of the United States?\n    - Is Miami a city on the Atlantic Ocean?\n      - Is Miami located in the state of Florida?\n  - Is Miami located on the West Coast of the United States?",
+        "answer": "no"
+    },
+    {
+        "index": 34,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Can the Swiss Guard fill the Virginia General Assembly chairs?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine if the Swiss Guard has the necessary qualifications to serve in the Virginia General Assembly\n  - Check if the Swiss Guard meets the residency requirements for the Virginia General Assembly\n  - Verify if the Swiss Guard is a United States citizen\n  - Research if there are any restrictions on military service members serving in the Virginia General Assembly\n  - Confirm if the Swiss Guard has any conflicts of interest that would prevent them from serving in the Virginia General Assembly"
+            }
+        ],
+        "plan": "- Determine if the Swiss Guard has the necessary qualifications to serve in the Virginia General Assembly\n  - Check if the Swiss Guard meets the residency requirements for the Virginia General Assembly\n  - Verify if the Swiss Guard is a United States citizen\n  - Research if there are any restrictions on military service members serving in the Virginia General Assembly\n  - Confirm if the Swiss Guard has any conflicts of interest that would prevent them from serving in the Virginia General Assembly",
+        "answer": "no"
+    },
+    {
+        "index": 35,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Does the central processing unit usually have a dedicated fan?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Does the central processing unit have a dedicated fan?\n  - Check if the CPU fan is connected to the motherboard.\n    - Check if the fan is properly plugged into the CPU fan header.\n      - Verify if the CPU fan header is functional.\n    - Check if the fan is spinning when the computer is turned on.\n  - Look for any visible dust or debris blocking the fan.\n  - Check the BIOS settings to confirm if the CPU fan is enabled.\n  - Check if the CPU temperature is within safe limits.\n    - Monitor the CPU temperature while running intensive tasks.\n      - Determine if the CPU fan is providing sufficient cooling."
+            }
+        ],
+        "plan": "- Does the central processing unit have a dedicated fan?\n  - Check if the CPU fan is connected to the motherboard.\n    - Check if the fan is properly plugged into the CPU fan header.\n      - Verify if the CPU fan header is functional.\n    - Check if the fan is spinning when the computer is turned on.\n  - Look for any visible dust or debris blocking the fan.\n  - Check the BIOS settings to confirm if the CPU fan is enabled.\n  - Check if the CPU temperature is within safe limits.\n    - Monitor the CPU temperature while running intensive tasks.\n      - Determine if the CPU fan is providing sufficient cooling.",
+        "answer": "yes"
+    },
+    {
+        "index": 36,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Maroon 5 go on tour with Nirvana?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Maroon 5 go on tour with Nirvana?\n  - Research if Maroon 5 and Nirvana ever went on tour together."
+            }
+        ],
+        "plan": "- Did Maroon 5 go on tour with Nirvana?\n  - Research if Maroon 5 and Nirvana ever went on tour together.",
+        "answer": "no"
+    },
+    {
+        "index": 37,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Morocco an ideal location for water skiing?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Morocco an ideal location for water skiing?\n\n  - Research climate and weather conditions in Morocco\n    - Check average temperature and rainfall in different regions of Morocco\n    - Find out if there are any specific water skiing spots in Morocco\n  \n  - Explore available water skiing facilities in Morocco\n    - Look for water skiing schools or organizations in Morocco\n    - Check if there are any water skiing competitions or events held in Morocco\n    \n  - Investigate the water conditions in Morocco\n    - Determine if there are suitable water bodies for water skiing in Morocco\n    - Check the water quality and safety measures in place for water skiing in Morocco"
+            }
+        ],
+        "plan": "- Is Morocco an ideal location for water skiing?\n\n  - Research climate and weather conditions in Morocco\n    - Check average temperature and rainfall in different regions of Morocco\n    - Find out if there are any specific water skiing spots in Morocco\n  \n  - Explore available water skiing facilities in Morocco\n    - Look for water skiing schools or organizations in Morocco\n    - Check if there are any water skiing competitions or events held in Morocco\n    \n  - Investigate the water conditions in Morocco\n    - Determine if there are suitable water bodies for water skiing in Morocco\n    - Check the water quality and safety measures in place for water skiing in Morocco",
+        "answer": "no"
+    },
+    {
+        "index": 38,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Have rhinoceroses been killed to improve human sex lives?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Research the impact of rhinoceros horn consumption on human sex lives\n   1.1. Gather information on the belief that rhinoceros horn can improve sexual performance\n   1.2. Study the history of rhinoceros horn use in traditional medicine for sexual purposes\n   1.3. Analyze any scientific evidence supporting the claim that rhinoceros horn improves human sex lives\n   1.4. Investigate the current demand for rhinoceros horn for sexual enhancement\n\n2. Assess the conservation status of rhinoceros populations\n   2.1. Examine the population trends of different rhinoceros species\n   2.2. Evaluate the major threats to rhinoceros populations, including poaching\n   2.3. Review the efforts being made to protect and conserve rhinoceros populations\n\n3. Explore alternatives to using rhinoceros horn for sexual enhancement\n   3.1. Research other traditional remedies for sexual performance\n   3.2. Investigate modern medical treatments for erectile dysfunction and other sexual issues\n   3.3. Promote awareness of the negative effects of rhinoceros horn consumption on rhinoceros populations"
+            }
+        ],
+        "plan": "1. Research the impact of rhinoceros horn consumption on human sex lives\n   1.1. Gather information on the belief that rhinoceros horn can improve sexual performance\n   1.2. Study the history of rhinoceros horn use in traditional medicine for sexual purposes\n   1.3. Analyze any scientific evidence supporting the claim that rhinoceros horn improves human sex lives\n   1.4. Investigate the current demand for rhinoceros horn for sexual enhancement\n\n2. Assess the conservation status of rhinoceros populations\n   2.1. Examine the population trends of different rhinoceros species\n   2.2. Evaluate the major threats to rhinoceros populations, including poaching\n   2.3. Review the efforts being made to protect and conserve rhinoceros populations\n\n3. Explore alternatives to using rhinoceros horn for sexual enhancement\n   3.1. Research other traditional remedies for sexual performance\n   3.2. Investigate modern medical treatments for erectile dysfunction and other sexual issues\n   3.3. Promote awareness of the negative effects of rhinoceros horn consumption on rhinoceros populations",
+        "answer": "yes"
+    },
+    {
+        "index": 39,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would 7 zucchini's satisfy potassium USDA daily recommendation?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the daily potassium recommendation by USDA\n    - Calculate the potassium content in 1 zucchini \n    - Multiply the potassium content by 7 zucchinis\n    - Compare the result to the daily USDA recommendation"
+            }
+        ],
+        "plan": "- Determine the daily potassium recommendation by USDA\n    - Calculate the potassium content in 1 zucchini \n    - Multiply the potassium content by 7 zucchinis\n    - Compare the result to the daily USDA recommendation",
+        "answer": "yes"
+    },
+    {
+        "index": 40,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Alice's Adventures in Wonderland inspire Macbeth?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Decide if Alice's Adventures in Wonderland could have inspired Macbeth\n  - Research the publication dates of both works\n  - Compare the themes and motifs of both works\n    - Analyze the similarities in character development\n    - Study the use of symbolism in both works\n  - Consult literary experts on the potential connection between the two works\n- Draw a conclusion based on gathered information."
+            }
+        ],
+        "plan": "- Decide if Alice's Adventures in Wonderland could have inspired Macbeth\n  - Research the publication dates of both works\n  - Compare the themes and motifs of both works\n    - Analyze the similarities in character development\n    - Study the use of symbolism in both works\n  - Consult literary experts on the potential connection between the two works\n- Draw a conclusion based on gathered information.",
+        "answer": "no"
+    },
+    {
+        "index": 41,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would Mount Wycheproof be a breeze for Edmund Hillary?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Assess physical fitness\n  - Evaluate cardiovascular endurance\n    - Measure resting heart rate\n    - Perform aerobic exercise test\n      - Calculate maximum oxygen consumption\n  - Test muscular strength\n    - Perform strength exercises\n      - Measure maximum weight lifted\n- Research Mount Wycheproof\n  - Study topography of the mountain\n  - Analyze past mountaineering expeditions to Mount Wycheproof\n- Evaluate climbing experience\n- Determine necessary equipment for climbing Mount Wycheproof\n- Plan training regimen\n- Ascend Mount Wycheproof\n- Monitor progress during climb\n- Review climbing experience after summiting."
+            }
+        ],
+        "plan": "- Assess physical fitness\n  - Evaluate cardiovascular endurance\n    - Measure resting heart rate\n    - Perform aerobic exercise test\n      - Calculate maximum oxygen consumption\n  - Test muscular strength\n    - Perform strength exercises\n      - Measure maximum weight lifted\n- Research Mount Wycheproof\n  - Study topography of the mountain\n  - Analyze past mountaineering expeditions to Mount Wycheproof\n- Evaluate climbing experience\n- Determine necessary equipment for climbing Mount Wycheproof\n- Plan training regimen\n- Ascend Mount Wycheproof\n- Monitor progress during climb\n- Review climbing experience after summiting.",
+        "answer": "yes"
+    },
+    {
+        "index": 42,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is it dangerous to consume chlorine when mixed with sodium?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Assess the potential danger of consuming chlorine when mixed with sodium\n  - Determine the chemical reactions that occur when chlorine is mixed with sodium\n  - Research the potential health effects of consuming chlorine when mixed with sodium\n  - Consult with a medical professional on the safety of consuming chlorine when mixed with sodium"
+            }
+        ],
+        "plan": "- Assess the potential danger of consuming chlorine when mixed with sodium\n  - Determine the chemical reactions that occur when chlorine is mixed with sodium\n  - Research the potential health effects of consuming chlorine when mixed with sodium\n  - Consult with a medical professional on the safety of consuming chlorine when mixed with sodium",
+        "answer": "no"
+    },
+    {
+        "index": 43,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?\n    - Check Lil Wayne's age at the beginning of his career\n        - Gather information on Lil Wayne's birthdate\n    - Look up the legal driving age in Lil Wayne's state at the beginning of his career\n    - Determine if Lil Wayne had a valid driver's license at the beginning of his career"
+            }
+        ],
+        "plan": "- Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?\n    - Check Lil Wayne's age at the beginning of his career\n        - Gather information on Lil Wayne's birthdate\n    - Look up the legal driving age in Lil Wayne's state at the beginning of his career\n    - Determine if Lil Wayne had a valid driver's license at the beginning of his career",
+        "answer": "no"
+    },
+    {
+        "index": 44,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Could Bernie Sanders visit the Metropolitan Museum of Art twenty times for under two hundred dollars?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the cost of admission for one adult to the Metropolitan Museum of Art\n- Multiply the cost of admission by twenty to get the total cost for twenty visits to the museum\n- Compare the total cost to two hundred dollars\n- Determine if the total cost is less than two hundred dollars or not"
+            }
+        ],
+        "plan": "- Determine the cost of admission for one adult to the Metropolitan Museum of Art\n- Multiply the cost of admission by twenty to get the total cost for twenty visits to the museum\n- Compare the total cost to two hundred dollars\n- Determine if the total cost is less than two hundred dollars or not",
+        "answer": "no"
+    },
+    {
+        "index": 45,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Will more people go in and out of Taco Bell than a Roy Rogers each year?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Will more people go in and out of Taco Bell than Roy Rogers each year?\n  - Calculate the average annual number of customers at Taco Bell\n    - Collect data on the average number of customers at Taco Bell per day\n    - Multiply the average number of customers by the number of days in a year\n  - Calculate the average annual number of customers at Roy Rogers\n    - Collect data on the average number of customers at Roy Rogers per day\n    - Multiply the average number of customers by the number of days in a year\n  - Compare the annual number of customers at Taco Bell and Roy Rogers\n    - Determine if the annual number of customers at Taco Bell is greater than Roy Rogers"
+            }
+        ],
+        "plan": "- Will more people go in and out of Taco Bell than Roy Rogers each year?\n  - Calculate the average annual number of customers at Taco Bell\n    - Collect data on the average number of customers at Taco Bell per day\n    - Multiply the average number of customers by the number of days in a year\n  - Calculate the average annual number of customers at Roy Rogers\n    - Collect data on the average number of customers at Roy Rogers per day\n    - Multiply the average number of customers by the number of days in a year\n  - Compare the annual number of customers at Taco Bell and Roy Rogers\n    - Determine if the annual number of customers at Taco Bell is greater than Roy Rogers",
+        "answer": "yes"
+    },
+    {
+        "index": 46,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would a body builder prefer an elk burger over a beef burger?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Does the body builder prioritize protein intake?\n    - Yes: Does the body builder prefer lean protein sources?\n        - Yes: Does the body builder prefer lower fat content?\n            - Yes: Elk burger\n            - No: Beef burger\n        - No: Beef burger\n    - No: Beef burger"
+            }
+        ],
+        "plan": "- Does the body builder prioritize protein intake?\n    - Yes: Does the body builder prefer lean protein sources?\n        - Yes: Does the body builder prefer lower fat content?\n            - Yes: Elk burger\n            - No: Beef burger\n        - No: Beef burger\n    - No: Beef burger",
+        "answer": "yes"
+    },
+    {
+        "index": 47,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Teri Hatcher last twice as many episodes on Desperate Housewives as her Superman show?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Check total number of episodes Teri Hatcher appeared in on Desperate Housewives\n    - Count number of episodes featuring Teri Hatcher on Desperate Housewives\n- Check total number of episodes Teri Hatcher appeared in Superman show\n    - Count number of episodes featuring Teri Hatcher on Superman show\n- Compare the total number of episodes Teri Hatcher appeared in on Desperate Housewives and Superman show"
+            }
+        ],
+        "plan": "- Check total number of episodes Teri Hatcher appeared in on Desperate Housewives\n    - Count number of episodes featuring Teri Hatcher on Desperate Housewives\n- Check total number of episodes Teri Hatcher appeared in Superman show\n    - Count number of episodes featuring Teri Hatcher on Superman show\n- Compare the total number of episodes Teri Hatcher appeared in on Desperate Housewives and Superman show",
+        "answer": "yes"
+    },
+    {
+        "index": 48,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would it be unusual to find a yellow perch in the Red Sea?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the natural habitat of yellow perch\n  - Research the typical environments where yellow perch are found\n    - Review scientific sources on yellow perch habitats\n    - Investigate geographical distribution of yellow perch\n  - Consider factors that affect yellow perch habitat\n    - Study temperature, water quality, and other environmental conditions favored by yellow perch\n    - Examine evolutionary adaptations of yellow perch to specific habitats\n- Identify the location of the Red Sea\n  - Confirm geographical coordinates of the Red Sea\n    - Consult maps or geographical databases\n    - Verify the location of the Red Sea in relation to other bodies of water\n- Analyze the likelihood of yellow perch presence in the Red Sea\n  - Compare the natural habitat of yellow perch to the conditions of the Red Sea\n  - Assess the temperature, salt content, and other factors of the Red Sea for suitability for yellow perch\n  - Consult experts on marine biology or ichthyology for insights on yellow perch presence in the Red Sea."
+            }
+        ],
+        "plan": "- Determine the natural habitat of yellow perch\n  - Research the typical environments where yellow perch are found\n    - Review scientific sources on yellow perch habitats\n    - Investigate geographical distribution of yellow perch\n  - Consider factors that affect yellow perch habitat\n    - Study temperature, water quality, and other environmental conditions favored by yellow perch\n    - Examine evolutionary adaptations of yellow perch to specific habitats\n- Identify the location of the Red Sea\n  - Confirm geographical coordinates of the Red Sea\n    - Consult maps or geographical databases\n    - Verify the location of the Red Sea in relation to other bodies of water\n- Analyze the likelihood of yellow perch presence in the Red Sea\n  - Compare the natural habitat of yellow perch to the conditions of the Red Sea\n  - Assess the temperature, salt content, and other factors of the Red Sea for suitability for yellow perch\n  - Consult experts on marine biology or ichthyology for insights on yellow perch presence in the Red Sea.",
+        "answer": "yes"
+    },
+    {
+        "index": 49,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would the chef at La Grenouille find salsa to be a strange request?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine if the chef at La Grenouille would consider a request for salsa to be strange\n  - Consider the traditional French cuisine served at La Grenouille\n  - Evaluate if salsa would complement the restaurant's menu\n  - Assess the likelihood of the chef accommodating the request for salsa"
+            }
+        ],
+        "plan": "- Determine if the chef at La Grenouille would consider a request for salsa to be strange\n  - Consider the traditional French cuisine served at La Grenouille\n  - Evaluate if salsa would complement the restaurant's menu\n  - Assess the likelihood of the chef accommodating the request for salsa",
+        "answer": "yes"
+    },
+    {
+        "index": 50,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Does ABBA have similar gender configuration to The Mamas & The Papas?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Compare gender configuration of ABBA and The Mamas & The Papas\n   1.1 Identify members of ABBA\n   1.2 Identify members of The Mamas & The Papas\n   1.3 Compare gender of members in each group\n   1.4 Determine if both groups have similar gender configurations"
+            }
+        ],
+        "plan": "1. Compare gender configuration of ABBA and The Mamas & The Papas\n   1.1 Identify members of ABBA\n   1.2 Identify members of The Mamas & The Papas\n   1.3 Compare gender of members in each group\n   1.4 Determine if both groups have similar gender configurations",
+        "answer": "yes"
+    },
+    {
+        "index": 51,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Did Christopher Columbus sail representing a different country than his original home?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Did Christopher Columbus sail representing a different country than his original home?\n    - Christopher Columbus sailed on his voyages under the sponsorship of Spain \n        - Christopher Columbus originally hailed from Italy, specifically the Republic of Genoa"
+            }
+        ],
+        "plan": "- Did Christopher Columbus sail representing a different country than his original home?\n    - Christopher Columbus sailed on his voyages under the sponsorship of Spain \n        - Christopher Columbus originally hailed from Italy, specifically the Republic of Genoa",
+        "answer": "yes"
+    },
+    {
+        "index": 52,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Can Planned Parenthood tell your University that you have Herpes simplex virus?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Can Planned Parenthood disclose my medical information to my University?\n  - Does Planned Parenthood have my consent to disclose my medical information to my University?\n    - Is my medical condition related to a public health concern?\n      - Is there a legal requirement to report my medical condition to public health authorities?\n    - Is there a court order or subpoena requiring Planned Parenthood to disclose my medical information to my University?\n    - Does Planned Parenthood believe that disclosing my medical information to my University is necessary for my health or safety?\n    - Is there any other legal requirement for Planned Parenthood to disclose my medical information to my University?\n  - Does Planned Parenthood have policies or procedures in place that specifically prohibit the disclosure of my medical information to my University?"
+            }
+        ],
+        "plan": "- Can Planned Parenthood disclose my medical information to my University?\n  - Does Planned Parenthood have my consent to disclose my medical information to my University?\n    - Is my medical condition related to a public health concern?\n      - Is there a legal requirement to report my medical condition to public health authorities?\n    - Is there a court order or subpoena requiring Planned Parenthood to disclose my medical information to my University?\n    - Does Planned Parenthood believe that disclosing my medical information to my University is necessary for my health or safety?\n    - Is there any other legal requirement for Planned Parenthood to disclose my medical information to my University?\n  - Does Planned Parenthood have policies or procedures in place that specifically prohibit the disclosure of my medical information to my University?",
+        "answer": "no"
+    },
+    {
+        "index": 53,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?\n  - Determine Jesse W. Moore's involvement with NASA\n    - Research Jesse W. Moore's career history\n    - Investigate any past collaborations between Jesse W. Moore and NASA\n  - Inquire about any Snoopy-themed awards given out by NASA\n    - Research NASA's awards and recognition programs\n    - Look for any information regarding Snoopy-themed awards specifically\n  - Determine if Jesse W. Moore is eligible for a Snoopy-themed award from NASA\n    - Compare Jesse W. Moore's qualifications and achievements with criteria for the award\n    - Consult with NASA or relevant sources for confirmation"
+            }
+        ],
+        "plan": "- Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?\n  - Determine Jesse W. Moore's involvement with NASA\n    - Research Jesse W. Moore's career history\n    - Investigate any past collaborations between Jesse W. Moore and NASA\n  - Inquire about any Snoopy-themed awards given out by NASA\n    - Research NASA's awards and recognition programs\n    - Look for any information regarding Snoopy-themed awards specifically\n  - Determine if Jesse W. Moore is eligible for a Snoopy-themed award from NASA\n    - Compare Jesse W. Moore's qualifications and achievements with criteria for the award\n    - Consult with NASA or relevant sources for confirmation",
+        "answer": "no"
+    },
+    {
+        "index": 54,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are people more likely than normal to get sunburn at Burning Man?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Are people more likely than normal to get sunburn at Burning Man?\n    - Gather information on sun exposure at Burning Man\n        - Research data on sun exposure levels at Burning Man\n        - Interview attendees of Burning Man about their sunburn experiences\n    - Compare data on sun exposure at Burning Man to normal conditions\n        - Research data on sun exposure levels in general\n        - Consult experts on sunburn risks in different environments\n    - Analyze the likelihood of people getting sunburn at Burning Man\n        - Consider factors such as UV index, temperature, and duration of exposure\n        - Compare sunburn occurrences at Burning Man to other events or locations\n    - Draw conclusion on whether people are more likely to get sunburn at Burning Man."
+            }
+        ],
+        "plan": "- Are people more likely than normal to get sunburn at Burning Man?\n    - Gather information on sun exposure at Burning Man\n        - Research data on sun exposure levels at Burning Man\n        - Interview attendees of Burning Man about their sunburn experiences\n    - Compare data on sun exposure at Burning Man to normal conditions\n        - Research data on sun exposure levels in general\n        - Consult experts on sunburn risks in different environments\n    - Analyze the likelihood of people getting sunburn at Burning Man\n        - Consider factors such as UV index, temperature, and duration of exposure\n        - Compare sunburn occurrences at Burning Man to other events or locations\n    - Draw conclusion on whether people are more likely to get sunburn at Burning Man.",
+        "answer": "yes"
+    },
+    {
+        "index": 55,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the total capacity of Tiger Stadium\n  - Research the maximum capacity of Tiger Stadium\n- Calculate the total number of unemployed people during the 1933 Great Depression\n  - Research historical data on unemployment rates during the 1933 Great Depression\n  - Calculate the total number of unemployed people based on the percentage of the population\n- Compare the total number of unemployed people with the total capacity of Tiger Stadium"
+            }
+        ],
+        "plan": "- Determine the total capacity of Tiger Stadium\n  - Research the maximum capacity of Tiger Stadium\n- Calculate the total number of unemployed people during the 1933 Great Depression\n  - Research historical data on unemployment rates during the 1933 Great Depression\n  - Calculate the total number of unemployed people based on the percentage of the population\n- Compare the total number of unemployed people with the total capacity of Tiger Stadium",
+        "answer": "no"
+    },
+    {
+        "index": 56,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Do white blood cells outnumber red blood cells in the human body?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Determine total number of white blood cells in the human body\n    1.1 Collect data on average white blood cell count\n    1.2 Multiply average count by volume of blood in the body\n2. Determine total number of red blood cells in the human body\n    2.1 Collect data on average red blood cell count\n    2.2 Multiply average count by volume of blood in the body\n3. Compare total number of white blood cells to total number of red blood cells"
+            }
+        ],
+        "plan": "1. Determine total number of white blood cells in the human body\n    1.1 Collect data on average white blood cell count\n    1.2 Multiply average count by volume of blood in the body\n2. Determine total number of red blood cells in the human body\n    2.1 Collect data on average red blood cell count\n    2.2 Multiply average count by volume of blood in the body\n3. Compare total number of white blood cells to total number of red blood cells",
+        "answer": "no"
+    },
+    {
+        "index": 57,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Are all the elements plants need for photosynthesis present in atmosphere of Mars?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Are all the elements plants need for photosynthesis present in atmosphere of Mars?\n    - Check for presence of carbon dioxide\n        - Check for presence of oxygen\n            - Check for presence of water\n                - Check for presence of sunlight\n                    - Research the atmospheric composition of Mars\n                        - Compare with elements required for photosynthesis\n                    - Research information on the availability of water on Mars\n                        - Determine if water is present in a form usable by plants"
+            }
+        ],
+        "plan": "- Are all the elements plants need for photosynthesis present in atmosphere of Mars?\n    - Check for presence of carbon dioxide\n        - Check for presence of oxygen\n            - Check for presence of water\n                - Check for presence of sunlight\n                    - Research the atmospheric composition of Mars\n                        - Compare with elements required for photosynthesis\n                    - Research information on the availability of water on Mars\n                        - Determine if water is present in a form usable by plants",
+        "answer": "yes"
+    },
+    {
+        "index": 58,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was a person sold a Creative Commons License for Boticelli's The Birth of Venus ripped off?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine if the person was sold a Creative Commons License for Boticelli's The Birth of Venus\n  - Research the terms of the Creative Commons License\n  - Verify the authenticity of the license\n  - Assess the value of the license compared to the artwork\n  - Determine if the person was misled or misinformed about the license\n- Investigate potential legal action or recourse as needed"
+            }
+        ],
+        "plan": "- Determine if the person was sold a Creative Commons License for Boticelli's The Birth of Venus\n  - Research the terms of the Creative Commons License\n  - Verify the authenticity of the license\n  - Assess the value of the license compared to the artwork\n  - Determine if the person was misled or misinformed about the license\n- Investigate potential legal action or recourse as needed",
+        "answer": "yes"
+    },
+    {
+        "index": 59,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is the Fibonacci number sequence longer than every number discovered in Pi?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "1. Is the Fibonacci number sequence longer than every number discovered in Pi?\n    1.1 Find the length of the Fibonacci number sequence\n    1.2 Find the length of the longest number discovered in Pi\n    1.3 Compare the lengths of the Fibonacci number sequence and the longest number in Pi."
+            }
+        ],
+        "plan": "1. Is the Fibonacci number sequence longer than every number discovered in Pi?\n    1.1 Find the length of the Fibonacci number sequence\n    1.2 Find the length of the longest number discovered in Pi\n    1.3 Compare the lengths of the Fibonacci number sequence and the longest number in Pi.",
+        "answer": "yes"
+    },
+    {
+        "index": 60,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Was Land of Israel in possession of an Islamic empire in 16th century?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Was Land of Israel in possession of an Islamic empire in 16th century?\n  - Search for historical information about Land of Israel in the 16th century\n    - Check records of Islamic empires in the 16th century\n      - Research Ottoman Empire's presence in Land of Israel during the 16th century\n        - Consult primary sources on Ottoman Empire's rule in the region\n      - Investigate Mamluk rule in Land of Israel during the 16th century\n        - Analyze historical accounts of Mamluk control over the area\n      - Look for other Islamic empires that may have had presence in Land of Israel during the 16th century\n    - Examine any contested territories or conflicts in Land of Israel during the 16th century\n      - Review historical documents on territorial disputes in the region\n      - Investigate any battles or invasions that occurred in Land of Israel during the 16th century\n  - Summarize findings and determine if Land of Israel was under the control of an Islamic empire in the 16th century."
+            }
+        ],
+        "plan": "- Was Land of Israel in possession of an Islamic empire in 16th century?\n  - Search for historical information about Land of Israel in the 16th century\n    - Check records of Islamic empires in the 16th century\n      - Research Ottoman Empire's presence in Land of Israel during the 16th century\n        - Consult primary sources on Ottoman Empire's rule in the region\n      - Investigate Mamluk rule in Land of Israel during the 16th century\n        - Analyze historical accounts of Mamluk control over the area\n      - Look for other Islamic empires that may have had presence in Land of Israel during the 16th century\n    - Examine any contested territories or conflicts in Land of Israel during the 16th century\n      - Review historical documents on territorial disputes in the region\n      - Investigate any battles or invasions that occurred in Land of Israel during the 16th century\n  - Summarize findings and determine if Land of Israel was under the control of an Islamic empire in the 16th century.",
+        "answer": "yes"
+    },
+    {
+        "index": 61,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Is Nicole Kidman ideal choice to play Psylocke based on height and weight?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Is Nicole Kidman's height and weight suitable for playing Psylocke?\n  - Research the height and weight of Psylocke in the comics\n    - Find information on Psylocke's height and weight in the comics\n  - Determine if Nicole Kidman's height and weight are close to Psylocke's\n    - Compare Nicole Kidman's measurements to Psylocke's\n      - Find Nicole Kidman's height and weight\n      - Compare it to Psylocke's height and weight"
+            }
+        ],
+        "plan": "- Is Nicole Kidman's height and weight suitable for playing Psylocke?\n  - Research the height and weight of Psylocke in the comics\n    - Find information on Psylocke's height and weight in the comics\n  - Determine if Nicole Kidman's height and weight are close to Psylocke's\n    - Compare Nicole Kidman's measurements to Psylocke's\n      - Find Nicole Kidman's height and weight\n      - Compare it to Psylocke's height and weight",
+        "answer": "yes"
+    },
+    {
+        "index": 62,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Would the top of Mount Fuji stick out of the Sea of Japan? \nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Research the height of Mount Fuji\n- Research the depth of the Sea of Japan\n- Compare the height of Mount Fuji to the depth of the Sea of Japan\n- Determine if the top of Mount Fuji would stick out of the Sea of Japan."
+            }
+        ],
+        "plan": "- Research the height of Mount Fuji\n- Research the depth of the Sea of Japan\n- Compare the height of Mount Fuji to the depth of the Sea of Japan\n- Determine if the top of Mount Fuji would stick out of the Sea of Japan.",
+        "answer": "yes"
+    },
+    {
+        "index": 63,
+        "question_and_plan": [
+            {
+                "role": "user",
+                "content": "Could a wandering albatross fly from Bucharest to New York City without a rest?\nCreate a Hierarchical task network for the following query. Write only the network."
+            },
+            {
+                "role": "assistant",
+                "content": "- Determine the distance between Bucharest and New York City\n- Calculate the maximum flight distance of a wandering albatross\n- Determine the average flight speed of a wandering albatross\n- Calculate the estimated time needed for a wandering albatross to fly from Bucharest to New York City\n- Determine if a wandering albatross can fly from Bucharest to New York City without a rest"
+            }
+        ],
+        "plan": "- Determine the distance between Bucharest and New York City\n- Calculate the maximum flight distance of a wandering albatross\n- Determine the average flight speed of a wandering albatross\n- Calculate the estimated time needed for a wandering albatross to fly from Bucharest to New York City\n- Determine if a wandering albatross can fly from Bucharest to New York City without a rest",
+        "answer": "yes"
+    }
+]

@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-390_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) karan_loan_payment(_5830)
+   Call: (14) total_amount_borrowed(3650, 10, 5, _14508)
+   Call: (15) _15130 is 3650*10/100*5
+   Exit: (15) 1825 is 3650*10/100*5
+   Call: (15) _14508 is 3650+1825
+   Exit: (15) 5475 is 3650+1825
+   Exit: (14) total_amount_borrowed(3650, 10, 5, 5475)
+   Call: (14) monthly_payment(5475, 5, _5830)
+   Call: (15) _5830 is 5475/5
+   Exit: (15) 1095 is 5475/5
+   Exit: (14) monthly_payment(5475, 5, 1095)
+   Exit: (13) karan_loan_payment(1095)
+   Exit: (12) query(1095)
+path_result:query(1095)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-390_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-390_gsm8k-trace_output.txt"), forall(call(query(Payment)), (write(path_result: query(Payment)))).')

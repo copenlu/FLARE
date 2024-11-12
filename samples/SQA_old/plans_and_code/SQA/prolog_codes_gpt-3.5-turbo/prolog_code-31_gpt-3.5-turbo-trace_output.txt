@@ -1,0 +1,12 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-31_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) is_expert(peter, brewing)
+   Call: (14) expertise_requirements(brewing, _15936)
+   Exit: (14) expertise_requirements(brewing, [patient, precise, knowledgeable, dedicated])
+   Call: (14) all_traits_present(peter, [patient, precise, knowledgeable, dedicated])
+   Fail: (14) all_traits_present(peter, [patient, precise, knowledgeable, dedicated])
+   Fail: (13) is_expert(peter, brewing)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-31_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-31_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

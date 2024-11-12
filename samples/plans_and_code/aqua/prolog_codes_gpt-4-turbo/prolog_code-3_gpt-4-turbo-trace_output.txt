@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/aqua/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) _13904=50
+   Exit: (13) 50=50
+   Call: (13) _15130=70
+   Exit: (13) 70=70
+   Call: (13) _16356=10
+   Exit: (13) 10=10
+   Call: (13) adjusted_average(50, 70, 10, _5834)
+   Call: (14) _18202 is 70*10
+   Exit: (14) 700 is 70*10
+   Call: (14) _19434 is 2*50
+   Exit: (14) 100 is 2*50
+   Call: (14) _20666 is 700-100
+   Exit: (14) 600 is 700-100
+   Call: (14) _21904 is 10+ -2
+   Exit: (14) 8 is 10+ -2
+   Call: (14) _5834 is 600/8
+   Exit: (14) 75 is 600/8
+   Exit: (13) adjusted_average(50, 70, 10, 75)
+   Exit: (12) query(75)
+path_result:query(75)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/aqua/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/aqua/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query(Result)), (write(path_result: query(Result)))).')

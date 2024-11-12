@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-20_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) associated_with_dark_side(anakin_skywalker)
+   Call: (14) color_change(anakin_skywalker, _14492)
+   Call: (15) transformation(anakin_skywalker, _15106)
+   Exit: (15) transformation(anakin_skywalker, darth_vader)
+   Call: (15) character(darth_vader, _16406, _14492)
+   Exit: (15) character(darth_vader, sith, black)
+   Exit: (14) color_change(anakin_skywalker, black)
+   Call: (14) color_meaning(black, dark_side)
+   Exit: (14) color_meaning(black, dark_side)
+   Exit: (13) associated_with_dark_side(anakin_skywalker)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-20_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-20_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

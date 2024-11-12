@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-275_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_cost_ads(_5830)
+   Call: (14) _14508=50
+   Exit: (14) 50=50
+   Call: (14) _15734=5
+   Exit: (14) 5=5
+   Call: (14) _16960=15
+   Exit: (14) 15=15
+   Call: (14) _18186=75
+   Exit: (14) 75=75
+   Call: (14) total_cost_newspaper_ads(50, 5, _19412)
+   Call: (15) _19412 is 50*5
+   Exit: (15) 250 is 50*5
+   Exit: (14) total_cost_newspaper_ads(50, 5, 250)
+   Call: (14) total_cost_television_ads(15, 75, _21876)
+   Call: (15) _21876 is 15*75
+   Exit: (15) 1125 is 15*75
+   Exit: (14) total_cost_television_ads(15, 75, 1125)
+   Call: (14) total_cost_all_ads(250, 1125, _5830)
+   Call: (15) _5830 is 250+1125
+   Exit: (15) 1375 is 250+1125
+   Exit: (14) total_cost_all_ads(250, 1125, 1375)
+   Exit: (13) calculate_total_cost_ads(1375)
+   Exit: (12) query(1375)
+path_result:query(1375)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-275_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-275_gsm8k-trace_output.txt"), forall(call(query(TotalCostAllAds)), (write(path_result: query(TotalCostAllAds)))).')

@@ -1,0 +1,168 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) subtract_days(date(6, 2, 1943), 10, _13892)
+   Call: (14) 10>0
+   Exit: (14) 10>0
+   Call: (14) subtract_day(date(6, 2, 1943), _15734)
+   Call: (15) 2>1
+   Exit: (15) 2>1
+   Call: (15) _16352 is 2-1
+   Exit: (15) 1 is 2-1
+   Exit: (14) subtract_day(date(6, 2, 1943), date(6, 1, 1943))
+   Call: (14) _19428 is 10+ -1
+   Exit: (14) 9 is 10+ -1
+   Call: (14) subtract_days(date(6, 1, 1943), 9, _13892)
+   Call: (15) 9>0
+   Exit: (15) 9>0
+   Call: (15) subtract_day(date(6, 1, 1943), _22494)
+   Call: (16) 6=:=1
+   Fail: (16) 6=:=1
+   Redo: (15) subtract_day(date(6, 1, 1943), _22494)
+   Call: (16) 6>1
+   Exit: (16) 6>1
+   Call: (16) _24954 is 6-1
+   Exit: (16) 5 is 6-1
+   Call: (16) days_in_month(5, _24956, 1943)
+   Call: (17) days_in_month(5, _24956)
+   Exit: (17) days_in_month(5, 31)
+   Call: (17) is_leap_year(1943)
+   Call: (18) 1943 mod 4=:=0
+   Fail: (18) 1943 mod 4=:=0
+   Redo: (17) is_leap_year(1943)
+   Call: (18) 1943 mod 400=:=0
+   Fail: (18) 1943 mod 400=:=0
+   Fail: (17) is_leap_year(1943)
+   Redo: (16) days_in_month(5, 31, 1943)
+   Exit: (16) days_in_month(5, 31, 1943)
+   Exit: (15) subtract_day(date(6, 1, 1943), date(5, 31, 1943))
+   Call: (15) _35388 is 9+ -1
+   Exit: (15) 8 is 9+ -1
+   Call: (15) subtract_days(date(5, 31, 1943), 8, _13892)
+   Call: (16) 8>0
+   Exit: (16) 8>0
+   Call: (16) subtract_day(date(5, 31, 1943), _38454)
+   Call: (17) 31>1
+   Exit: (17) 31>1
+   Call: (17) _39072 is 31-1
+   Exit: (17) 30 is 31-1
+   Exit: (16) subtract_day(date(5, 31, 1943), date(5, 30, 1943))
+   Call: (16) _42148 is 8+ -1
+   Exit: (16) 7 is 8+ -1
+   Call: (16) subtract_days(date(5, 30, 1943), 7, _13892)
+   Call: (17) 7>0
+   Exit: (17) 7>0
+   Call: (17) subtract_day(date(5, 30, 1943), _45214)
+   Call: (18) 30>1
+   Exit: (18) 30>1
+   Call: (18) _45832 is 30-1
+   Exit: (18) 29 is 30-1
+   Exit: (17) subtract_day(date(5, 30, 1943), date(5, 29, 1943))
+   Call: (17) _48908 is 7+ -1
+   Exit: (17) 6 is 7+ -1
+   Call: (17) subtract_days(date(5, 29, 1943), 6, _13892)
+   Call: (18) 6>0
+   Exit: (18) 6>0
+   Call: (18) subtract_day(date(5, 29, 1943), _51974)
+   Call: (19) 29>1
+   Exit: (19) 29>1
+   Call: (19) _52592 is 29-1
+   Exit: (19) 28 is 29-1
+   Exit: (18) subtract_day(date(5, 29, 1943), date(5, 28, 1943))
+   Call: (18) _55668 is 6+ -1
+   Exit: (18) 5 is 6+ -1
+   Call: (18) subtract_days(date(5, 28, 1943), 5, _13892)
+   Call: (19) 5>0
+   Exit: (19) 5>0
+   Call: (19) subtract_day(date(5, 28, 1943), _58734)
+   Call: (20) 28>1
+   Exit: (20) 28>1
+   Call: (20) _59352 is 28-1
+   Exit: (20) 27 is 28-1
+   Exit: (19) subtract_day(date(5, 28, 1943), date(5, 27, 1943))
+   Call: (19) _62428 is 5+ -1
+   Exit: (19) 4 is 5+ -1
+   Call: (19) subtract_days(date(5, 27, 1943), 4, _13892)
+   Call: (20) 4>0
+   Exit: (20) 4>0
+   Call: (20) subtract_day(date(5, 27, 1943), _238)
+   Call: (21) 27>1
+   Exit: (21) 27>1
+   Call: (21) _856 is 27-1
+   Exit: (21) 26 is 27-1
+   Exit: (20) subtract_day(date(5, 27, 1943), date(5, 26, 1943))
+   Call: (20) _3932 is 4+ -1
+   Exit: (20) 3 is 4+ -1
+   Call: (20) subtract_days(date(5, 26, 1943), 3, _162)
+   Call: (21) 3>0
+   Exit: (21) 3>0
+   Call: (21) subtract_day(date(5, 26, 1943), _6998)
+   Call: (22) 26>1
+   Exit: (22) 26>1
+   Call: (22) _7616 is 26-1
+   Exit: (22) 25 is 26-1
+   Exit: (21) subtract_day(date(5, 26, 1943), date(5, 25, 1943))
+   Call: (21) _10692 is 3+ -1
+   Exit: (21) 2 is 3+ -1
+   Call: (21) subtract_days(date(5, 25, 1943), 2, _162)
+   Call: (22) 2>0
+   Exit: (22) 2>0
+   Call: (22) subtract_day(date(5, 25, 1943), _13758)
+   Call: (23) 25>1
+   Exit: (23) 25>1
+   Call: (23) _14376 is 25-1
+   Exit: (23) 24 is 25-1
+   Exit: (22) subtract_day(date(5, 25, 1943), date(5, 24, 1943))
+   Call: (22) _17452 is 2+ -1
+   Exit: (22) 1 is 2+ -1
+   Call: (22) subtract_days(date(5, 24, 1943), 1, _162)
+   Call: (23) 1>0
+   Exit: (23) 1>0
+   Call: (23) subtract_day(date(5, 24, 1943), _20518)
+   Call: (24) 24>1
+   Exit: (24) 24>1
+   Call: (24) _21136 is 24-1
+   Exit: (24) 23 is 24-1
+   Exit: (23) subtract_day(date(5, 24, 1943), date(5, 23, 1943))
+   Call: (23) _24212 is 1+ -1
+   Exit: (23) 0 is 1+ -1
+   Call: (23) subtract_days(date(5, 23, 1943), 0, _162)
+   Exit: (23) subtract_days(date(5, 23, 1943), 0, date(5, 23, 1943))
+   Exit: (22) subtract_days(date(5, 24, 1943), 1, date(5, 23, 1943))
+   Exit: (21) subtract_days(date(5, 25, 1943), 2, date(5, 23, 1943))
+   Exit: (20) subtract_days(date(5, 26, 1943), 3, date(5, 23, 1943))
+   Exit: (19) subtract_days(date(5, 27, 1943), 4, date(5, 23, 1943))
+   Exit: (18) subtract_days(date(5, 28, 1943), 5, date(5, 23, 1943))
+   Exit: (17) subtract_days(date(5, 29, 1943), 6, date(5, 23, 1943))
+   Exit: (16) subtract_days(date(5, 30, 1943), 7, date(5, 23, 1943))
+   Exit: (15) subtract_days(date(5, 31, 1943), 8, date(5, 23, 1943))
+   Exit: (14) subtract_days(date(6, 1, 1943), 9, date(5, 23, 1943))
+   Exit: (13) subtract_days(date(6, 2, 1943), 10, date(5, 23, 1943))
+^  Call: (13) format('The date 10 days ago was: ~w/~w/~w~n', [_32832, _32838, _32844])
+The date 10 days ago was: _32832/_32838/_32844
+^  Exit: (13) format('The date 10 days ago was: ~w/~w/~w~n', [_32832, _32838, _32844])
+   Call: (13) date(5, 23, 1943)=date(_32832, _32838, _32844)
+   Exit: (13) date(5, 23, 1943)=date(5, 23, 1943)
+   Exit: (12) query
+path_result:query
+   Redo: (23) subtract_days(date(5, 23, 1943), 0, _162)
+   Call: (24) 0>0
+   Fail: (24) 0>0
+   Fail: (23) subtract_days(date(5, 23, 1943), 0, _162)
+   Fail: (22) subtract_days(date(5, 24, 1943), 1, _162)
+   Fail: (21) subtract_days(date(5, 25, 1943), 2, _162)
+   Fail: (20) subtract_days(date(5, 26, 1943), 3, _162)
+   Fail: (19) subtract_days(date(5, 27, 1943), 4, _162)
+   Fail: (18) subtract_days(date(5, 28, 1943), 5, _162)
+   Fail: (17) subtract_days(date(5, 29, 1943), 6, _162)
+   Fail: (16) subtract_days(date(5, 30, 1943), 7, _162)
+   Fail: (15) subtract_days(date(5, 31, 1943), 8, _162)
+   Redo: (15) subtract_day(date(6, 1, 1943), _176)
+   Call: (16) 1>1
+   Fail: (16) 1>1
+   Fail: (15) subtract_day(date(6, 1, 1943), _176)
+   Fail: (14) subtract_days(date(6, 1, 1943), 9, _162)
+   Fail: (13) subtract_days(date(6, 2, 1943), 10, _162)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

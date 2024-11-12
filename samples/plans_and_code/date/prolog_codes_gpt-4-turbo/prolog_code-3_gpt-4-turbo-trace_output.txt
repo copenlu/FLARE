@@ -1,0 +1,211 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) _15330=date(12, 30, 2014)
+   Exit: (13) date(12, 30, 2014)=date(12, 30, 2014)
+   Call: (13) add_days(date(12, 30, 2014), 7, _16564)
+   Call: (14) 7>0
+   Exit: (14) 7>0
+   Call: (14) increment_day(date(12, 30, 2014), _18406)
+   Call: (15) month_days(12, _19020)
+   Exit: (15) month_days(12, 31)
+   Call: (15) is_leap_year(2014)
+   Call: (16) 2014 mod 4=:=0
+   Fail: (16) 2014 mod 4=:=0
+   Redo: (15) is_leap_year(2014)
+   Call: (16) 2014 mod 400=:=0
+   Fail: (16) 2014 mod 400=:=0
+   Fail: (15) is_leap_year(2014)
+   Redo: (14) increment_day(date(12, 30, 2014), _18406)
+   Call: (15) _25142=31
+   Exit: (15) 31=31
+   Call: (15) 30<31
+   Exit: (15) 30<31
+   Call: (15) _27598 is 30+1
+   Exit: (15) 31 is 30+1
+   Call: (15) _18406=date(12, 31, 2014)
+   Exit: (15) date(12, 31, 2014)=date(12, 31, 2014)
+   Exit: (14) increment_day(date(12, 30, 2014), date(12, 31, 2014))
+   Call: (14) _30674 is 7+ -1
+   Exit: (14) 6 is 7+ -1
+   Call: (14) add_days(date(12, 31, 2014), 6, _16564)
+   Call: (15) 6>0
+   Exit: (15) 6>0
+   Call: (15) increment_day(date(12, 31, 2014), _33740)
+   Call: (16) month_days(12, _34354)
+   Exit: (16) month_days(12, 31)
+   Call: (16) is_leap_year(2014)
+   Call: (17) 2014 mod 4=:=0
+   Fail: (17) 2014 mod 4=:=0
+   Redo: (16) is_leap_year(2014)
+   Call: (17) 2014 mod 400=:=0
+   Fail: (17) 2014 mod 400=:=0
+   Fail: (16) is_leap_year(2014)
+   Redo: (15) increment_day(date(12, 31, 2014), _33740)
+   Call: (16) _40476=31
+   Exit: (16) 31=31
+   Call: (16) 31<31
+   Fail: (16) 31<31
+   Redo: (15) increment_day(date(12, 31, 2014), _33740)
+   Call: (16) 12=12
+   Exit: (16) 12=12
+   Call: (16) _33740=date(1, 1, 2014+1)
+   Exit: (16) date(1, 1, 2014+1)=date(1, 1, 2014+1)
+   Exit: (15) increment_day(date(12, 31, 2014), date(1, 1, 2014+1))
+   Call: (15) _46618 is 6+ -1
+   Exit: (15) 5 is 6+ -1
+   Call: (15) add_days(date(1, 1, 2014+1), 5, _16564)
+   Call: (16) 5>0
+   Exit: (16) 5>0
+   Call: (16) increment_day(date(1, 1, 2014+1), _49684)
+   Call: (17) month_days(1, _50298)
+   Exit: (17) month_days(1, 31)
+   Call: (17) is_leap_year(2014+1)
+   Call: (18) (2014+1)mod 4=:=0
+   Fail: (18) (2014+1)mod 4=:=0
+   Redo: (17) is_leap_year(2014+1)
+   Call: (18) (2014+1)mod 400=:=0
+   Fail: (18) (2014+1)mod 400=:=0
+   Fail: (17) is_leap_year(2014+1)
+   Redo: (16) increment_day(date(1, 1, 2014+1), _49684)
+   Call: (17) _56420=31
+   Exit: (17) 31=31
+   Call: (17) 1<31
+   Exit: (17) 1<31
+   Call: (17) _58876 is 1+1
+   Exit: (17) 2 is 1+1
+   Call: (17) _49684=date(1, 2, 2014+1)
+   Exit: (17) date(1, 2, 2014+1)=date(1, 2, 2014+1)
+   Exit: (16) increment_day(date(1, 1, 2014+1), date(1, 2, 2014+1))
+   Call: (16) _61952 is 5+ -1
+   Exit: (16) 4 is 5+ -1
+   Call: (16) add_days(date(1, 2, 2014+1), 4, _16564)
+   Call: (17) 4>0
+   Exit: (17) 4>0
+   Call: (17) increment_day(date(1, 2, 2014+1), _210)
+   Call: (18) month_days(1, _652)
+   Exit: (18) month_days(1, 31)
+   Call: (18) is_leap_year(2014+1)
+   Call: (19) (2014+1)mod 4=:=0
+   Fail: (19) (2014+1)mod 4=:=0
+   Redo: (18) is_leap_year(2014+1)
+   Call: (19) (2014+1)mod 400=:=0
+   Fail: (19) (2014+1)mod 400=:=0
+   Fail: (18) is_leap_year(2014+1)
+   Redo: (17) increment_day(date(1, 2, 2014+1), _210)
+   Call: (18) _6774=31
+   Exit: (18) 31=31
+   Call: (18) 2<31
+   Exit: (18) 2<31
+   Call: (18) _9230 is 2+1
+   Exit: (18) 3 is 2+1
+   Call: (18) _210=date(1, 3, 2014+1)
+   Exit: (18) date(1, 3, 2014+1)=date(1, 3, 2014+1)
+   Exit: (17) increment_day(date(1, 2, 2014+1), date(1, 3, 2014+1))
+   Call: (17) _12306 is 4+ -1
+   Exit: (17) 3 is 4+ -1
+   Call: (17) add_days(date(1, 3, 2014+1), 3, _164)
+   Call: (18) 3>0
+   Exit: (18) 3>0
+   Call: (18) increment_day(date(1, 3, 2014+1), _15372)
+   Call: (19) month_days(1, _15986)
+   Exit: (19) month_days(1, 31)
+   Call: (19) is_leap_year(2014+1)
+   Call: (20) (2014+1)mod 4=:=0
+   Fail: (20) (2014+1)mod 4=:=0
+   Redo: (19) is_leap_year(2014+1)
+   Call: (20) (2014+1)mod 400=:=0
+   Fail: (20) (2014+1)mod 400=:=0
+   Fail: (19) is_leap_year(2014+1)
+   Redo: (18) increment_day(date(1, 3, 2014+1), _15372)
+   Call: (19) _22108=31
+   Exit: (19) 31=31
+   Call: (19) 3<31
+   Exit: (19) 3<31
+   Call: (19) _24564 is 3+1
+   Exit: (19) 4 is 3+1
+   Call: (19) _15372=date(1, 4, 2014+1)
+   Exit: (19) date(1, 4, 2014+1)=date(1, 4, 2014+1)
+   Exit: (18) increment_day(date(1, 3, 2014+1), date(1, 4, 2014+1))
+   Call: (18) _27640 is 3+ -1
+   Exit: (18) 2 is 3+ -1
+   Call: (18) add_days(date(1, 4, 2014+1), 2, _164)
+   Call: (19) 2>0
+   Exit: (19) 2>0
+   Call: (19) increment_day(date(1, 4, 2014+1), _30706)
+   Call: (20) month_days(1, _31320)
+   Exit: (20) month_days(1, 31)
+   Call: (20) is_leap_year(2014+1)
+   Call: (21) (2014+1)mod 4=:=0
+   Fail: (21) (2014+1)mod 4=:=0
+   Redo: (20) is_leap_year(2014+1)
+   Call: (21) (2014+1)mod 400=:=0
+   Fail: (21) (2014+1)mod 400=:=0
+   Fail: (20) is_leap_year(2014+1)
+   Redo: (19) increment_day(date(1, 4, 2014+1), _30706)
+   Call: (20) _37442=31
+   Exit: (20) 31=31
+   Call: (20) 4<31
+   Exit: (20) 4<31
+   Call: (20) _39898 is 4+1
+   Exit: (20) 5 is 4+1
+   Call: (20) _30706=date(1, 5, 2014+1)
+   Exit: (20) date(1, 5, 2014+1)=date(1, 5, 2014+1)
+   Exit: (19) increment_day(date(1, 4, 2014+1), date(1, 5, 2014+1))
+   Call: (19) _42974 is 2+ -1
+   Exit: (19) 1 is 2+ -1
+   Call: (19) add_days(date(1, 5, 2014+1), 1, _164)
+   Call: (20) 1>0
+   Exit: (20) 1>0
+   Call: (20) increment_day(date(1, 5, 2014+1), _46040)
+   Call: (21) month_days(1, _46654)
+   Exit: (21) month_days(1, 31)
+   Call: (21) is_leap_year(2014+1)
+   Call: (22) (2014+1)mod 4=:=0
+   Fail: (22) (2014+1)mod 4=:=0
+   Redo: (21) is_leap_year(2014+1)
+   Call: (22) (2014+1)mod 400=:=0
+   Fail: (22) (2014+1)mod 400=:=0
+   Fail: (21) is_leap_year(2014+1)
+   Redo: (20) increment_day(date(1, 5, 2014+1), _46040)
+   Call: (21) _52776=31
+   Exit: (21) 31=31
+   Call: (21) 5<31
+   Exit: (21) 5<31
+   Call: (21) _55232 is 5+1
+   Exit: (21) 6 is 5+1
+   Call: (21) _46040=date(1, 6, 2014+1)
+   Exit: (21) date(1, 6, 2014+1)=date(1, 6, 2014+1)
+   Exit: (20) increment_day(date(1, 5, 2014+1), date(1, 6, 2014+1))
+   Call: (20) _58308 is 1+ -1
+   Exit: (20) 0 is 1+ -1
+   Call: (20) add_days(date(1, 6, 2014+1), 0, _164)
+   Exit: (20) add_days(date(1, 6, 2014+1), 0, date(1, 6, 2014+1))
+   Exit: (19) add_days(date(1, 5, 2014+1), 1, date(1, 6, 2014+1))
+   Exit: (18) add_days(date(1, 4, 2014+1), 2, date(1, 6, 2014+1))
+   Exit: (17) add_days(date(1, 3, 2014+1), 3, date(1, 6, 2014+1))
+   Exit: (16) add_days(date(1, 2, 2014+1), 4, date(1, 6, 2014+1))
+   Exit: (15) add_days(date(1, 1, 2014+1), 5, date(1, 6, 2014+1))
+   Exit: (14) add_days(date(12, 31, 2014), 6, date(1, 6, 2014+1))
+   Exit: (13) add_days(date(12, 30, 2014), 7, date(1, 6, 2014+1))
+^  Call: (13) format('One week from December 30, 2014 is ~w/~w/~w', [_260, _266, _272])
+One week from December 30, 2014 is _260/_266/_272
+^  Exit: (13) format('One week from December 30, 2014 is ~w/~w/~w', [_260, _266, _272])
+   Call: (13) date(1, 6, 2014+1)=date(_260, _266, _272)
+   Exit: (13) date(1, 6, 2014+1)=date(1, 6, 2014+1)
+   Exit: (12) query
+path_result:query
+   Redo: (20) add_days(date(1, 6, 2014+1), 0, _164)
+   Call: (21) 0>0
+   Fail: (21) 0>0
+   Fail: (20) add_days(date(1, 6, 2014+1), 0, _164)
+   Fail: (19) add_days(date(1, 5, 2014+1), 1, _164)
+   Fail: (18) add_days(date(1, 4, 2014+1), 2, _164)
+   Fail: (17) add_days(date(1, 3, 2014+1), 3, _164)
+   Fail: (16) add_days(date(1, 2, 2014+1), 4, _164)
+   Fail: (15) add_days(date(1, 1, 2014+1), 5, _164)
+   Fail: (14) add_days(date(12, 31, 2014), 6, _164)
+   Fail: (13) add_days(date(12, 30, 2014), 7, _164)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

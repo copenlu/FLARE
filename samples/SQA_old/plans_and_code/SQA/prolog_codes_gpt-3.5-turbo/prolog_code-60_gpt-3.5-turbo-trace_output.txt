@@ -1,0 +1,22 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-60_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) ruler(_15634, _15558, _15560)
+   Exit: (13) ruler('Suleiman the Magnificent', 1520, 1566)
+   Call: (13) 1520=<1550
+   Exit: (13) 1520=<1550
+   Call: (13) 1566>=1550
+   Exit: (13) 1566>=1550
+   Exit: (12) query
+path_result:query
+   Redo: (13) ruler(_19914, _15558, _15560)
+   Exit: (13) ruler('Selim II', 1566, 1574)
+   Call: (13) 1566=<1550
+   Fail: (13) 1566=<1550
+   Redo: (13) ruler(_22370, _15558, _15560)
+   Exit: (13) ruler('Murad III', 1574, 1595)
+   Call: (13) 1574=<1550
+   Fail: (13) 1574=<1550
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-60_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-60_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

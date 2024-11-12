@@ -1,0 +1,18 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-22_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) black_sea_depth(_15504)
+   Exit: (13) black_sea_depth(2200)
+   Call: (13) sunlight_reaches_depth(2200)
+   Call: (14) black_sea_depth(_17330)
+   Exit: (14) black_sea_depth(2200)
+   Call: (14) black_sea_water_clarity(_18548)
+   Exit: (14) black_sea_water_clarity(low)
+   Call: (14) light_penetration_factor(clarity(low), _19770)
+   Exit: (14) light_penetration_factor(clarity(low), 100)
+   Call: (14) 2200=<100
+   Fail: (14) 2200=<100
+   Fail: (13) sunlight_reaches_depth(2200)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-22_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-22_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

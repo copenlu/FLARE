@@ -1,0 +1,6 @@
+{
+    "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.012476007677543186,
+        "file_name": "samples/final_predictions/clutrr/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json"
+    }
+}

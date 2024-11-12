@@ -1,0 +1,28 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-7_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) _13884=4000
+   Exit: (13) 4000=4000
+   Call: (13) total_dashboard_after_payments(4000, _15110)
+   Call: (14) client1_payment(4000, _15724)
+   Call: (15) _15724 is 4000/2
+   Exit: (15) 2000 is 4000/2
+   Exit: (14) client1_payment(4000, 2000)
+   Call: (14) client2_payment(2000, _18180)
+   Call: (15) _18180 is 2000+2/5*2000
+   Exit: (15) 2800.0 is 2000+2/5*2000
+   Exit: (14) client2_payment(2000, 2800.0)
+   Call: (14) client3_payment(2000, 2800.0, _20654)
+   Call: (15) _20654 is 2*(2000+2800.0)
+   Exit: (15) 9600.0 is 2*(2000+2800.0)
+   Exit: (14) client3_payment(2000, 2800.0, 9600.0)
+   Call: (14) _15110 is 4000+2000+2800.0+9600.0
+   Exit: (14) 18400.0 is 4000+2000+2800.0+9600.0
+   Exit: (13) total_dashboard_after_payments(4000, 18400.0)
+^  Call: (13) format('Total money in dashboard after all payments: ~w', [18400.0])
+Total money in dashboard after all payments: 18400.0
+^  Exit: (13) format('Total money in dashboard after all payments: ~w', [18400.0])
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-7_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-7_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

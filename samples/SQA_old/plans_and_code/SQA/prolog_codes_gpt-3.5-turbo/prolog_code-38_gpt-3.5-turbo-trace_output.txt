@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-38_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) high_risk_area(_15382)
+   Call: (14) poachingIncident(_15992, _15918, _15996, _15998)
+   Exit: (14) poachingIncident(incident1, 'LocationA', '2021-05-15', rhino1)
+^  Call: (14) not(conservationEffort(_17162, _17164, 'LocationA', _17168, high))
+   Call: (15) conservationEffort(_17162, _17164, 'LocationA', _17168, high)
+   Exit: (15) conservationEffort(effort1, patrolling, 'LocationA', '2021-06', high)
+^  Fail: (14) not(user:conservationEffort(_17162, _17164, 'LocationA', _17168, high))
+   Redo: (14) poachingIncident(_19738, _15918, _19742, _19744)
+   Exit: (14) poachingIncident(incident2, 'LocationB', '2021-06-20', rhino2)
+^  Call: (14) not(conservationEffort(_20908, _20910, 'LocationB', _20914, high))
+   Call: (15) conservationEffort(_20908, _20910, 'LocationB', _20914, high)
+   Fail: (15) conservationEffort(_20908, _20910, 'LocationB', _20914, high)
+^  Exit: (14) not(user:conservationEffort(_20908, _20910, 'LocationB', _20914, high))
+   Exit: (13) high_risk_area('LocationB')
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-38_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-38_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

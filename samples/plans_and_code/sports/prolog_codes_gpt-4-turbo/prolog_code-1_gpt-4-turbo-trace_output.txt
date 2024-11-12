@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_hit_double(liam_hendriks, world_series)
+   Call: (14) player_role(liam_hendriks, _14496)
+   Exit: (14) player_role(liam_hendriks, pitcher)
+   Call: (14) event(world_series)
+   Exit: (14) event(world_series)
+   Call: (14) action(hit)
+   Exit: (14) action(hit)
+   Call: (14) action_type(hit, double)
+   Exit: (14) action_type(hit, double)
+   Call: (14) can_pitcher_hit_in_event(pitcher, world_series)
+   Exit: (14) can_pitcher_hit_in_event(pitcher, world_series)
+   Exit: (13) can_hit_double(liam_hendriks, world_series)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

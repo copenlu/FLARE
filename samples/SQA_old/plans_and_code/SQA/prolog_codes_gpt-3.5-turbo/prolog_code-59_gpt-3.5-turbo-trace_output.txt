@@ -1,0 +1,33 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-59_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) compare_fibonacci_pi(1, 1000)
+   Call: (14) fibonacci(1, _15748)
+   Exit: (14) fibonacci(1, 1)
+   Call: (14) digit_count(1, _16974)
+   Call: (15) 1>0
+   Exit: (15) 1>0
+   Call: (15) _18812 is 1//10
+   Exit: (15) 0 is 1//10
+   Call: (15) digit_count(0, _20044)
+   Exit: (15) digit_count(0, 1)
+   Call: (15) _16974 is 1+1
+   Exit: (15) 2 is 1+1
+   Exit: (14) digit_count(1, 2)
+   Call: (14) pi_digits(1000)
+   Exit: (14) pi_digits(1000)
+   Call: (14) 2>1000
+   Fail: (14) 2>1000
+   Redo: (15) digit_count(0, _20044)
+   Call: (16) 0>0
+   Fail: (16) 0>0
+   Fail: (15) digit_count(0, _20044)
+   Fail: (14) digit_count(1, _16974)
+   Redo: (14) fibonacci(1, _15748)
+   Call: (15) 1>1
+   Fail: (15) 1>1
+   Fail: (14) fibonacci(1, _15748)
+   Fail: (13) compare_fibonacci_pi(1, 1000)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-59_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-59_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

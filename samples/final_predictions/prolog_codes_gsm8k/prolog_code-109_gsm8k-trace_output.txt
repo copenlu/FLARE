@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-109_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_inner_volume(_5830)
+   Call: (14) inner_volume_single_box(_14508)
+   Call: (15) box_dimensions(_15118, _15120, _15122)
+   Exit: (15) box_dimensions(5, 6, 4)
+   Call: (15) wall_thickness(_16356)
+   Exit: (15) wall_thickness(1)
+   Call: (15) _17574 is 5-2*1
+   Exit: (15) 3 is 5-2*1
+   Call: (15) _18812 is 6-2*1
+   Exit: (15) 4 is 6-2*1
+   Call: (15) _20050 is 4-2*1
+   Exit: (15) 2 is 4-2*1
+   Call: (15) _14508 is 3*4*2
+   Exit: (15) 24 is 3*4*2
+   Exit: (14) inner_volume_single_box(24)
+   Call: (14) _5830 is 24*3
+   Exit: (14) 72 is 24*3
+   Exit: (13) total_inner_volume(72)
+   Exit: (12) query(72)
+path_result:query(72)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-109_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-109_gsm8k-trace_output.txt"), forall(call(query(TotalVolume)), (write(path_result: query(TotalVolume)))).')

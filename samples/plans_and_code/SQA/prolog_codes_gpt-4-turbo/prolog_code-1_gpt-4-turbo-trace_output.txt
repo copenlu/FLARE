@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) ice_trade_made_people_rich
+   Call: (14) ice_trade_profitability(high)
+   Exit: (14) ice_trade_profitability(high)
+   Call: (14) historical_figure(_15698)
+   Exit: (14) historical_figure(frederic_tudor)
+   Call: (14) wealth_impact(frederic_tudor, high)
+   Exit: (14) wealth_impact(frederic_tudor, high)
+   Exit: (13) ice_trade_made_people_rich
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-245_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_exit_C(1000, _5830)
+   Call: (14) students_exit_A(1000, _14512)
+   Call: (15) _14512 is round(0.3*1000)
+   Exit: (15) 300 is round(0.3*1000)
+   Exit: (14) students_exit_A(1000, 300)
+   Call: (14) _16978 is 1000-300
+   Exit: (14) 700 is 1000-300
+   Call: (14) students_exit_B(700, _18210)
+   Call: (15) _18210 is round(3/5*700)
+   Exit: (15) 420 is round(3/5*700)
+   Exit: (14) students_exit_B(700, 420)
+   Call: (14) _20676 is 700-420
+   Exit: (14) 280 is 700-420
+   Call: (14) students_exit_C(280, _5830)
+   Call: (15) _5830 is 280
+   Exit: (15) 280 is 280
+   Exit: (14) students_exit_C(280, 280)
+   Exit: (13) calculate_exit_C(1000, 280)
+   Exit: (12) query(280)
+path_result:query(280)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-245_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-245_gsm8k-trace_output.txt"), forall(call(query(ExitC)), (write(path_result: query(ExitC)))).')

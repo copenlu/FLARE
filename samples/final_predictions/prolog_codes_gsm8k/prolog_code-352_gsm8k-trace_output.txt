@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-352_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) _13900=5000
+   Exit: (13) 5000=5000
+   Call: (13) _15126=30
+   Exit: (13) 30=30
+   Call: (13) total_distance_june(5000, 30, _5830)
+   Call: (14) total_distance(5000, _16968)
+   Call: (15) additional_distance(5000, _17582)
+   Call: (16) _17582 is 5000*1/5
+   Exit: (16) 1000 is 5000*1/5
+   Exit: (15) additional_distance(5000, 1000)
+   Call: (15) _16968 is 5000+1000
+   Exit: (15) 6000 is 5000+1000
+   Exit: (14) total_distance(5000, 6000)
+   Call: (14) _5830 is 6000*30
+   Exit: (14) 180000 is 6000*30
+   Exit: (13) total_distance_june(5000, 30, 180000)
+   Exit: (12) query(180000)
+path_result:query(180000)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-352_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-352_gsm8k-trace_output.txt"), forall(call(query(TotalDistanceJune)), (write(path_result: query(TotalDistanceJune)))).')

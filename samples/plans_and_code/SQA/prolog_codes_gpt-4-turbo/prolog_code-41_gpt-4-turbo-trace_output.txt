@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-41_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_experience_orgasm(hanuman, no_orgasm)
+   Call: (14) is_celibate(hanuman)
+   Call: (15) character(hanuman, celibate)
+   Exit: (15) character(hanuman, celibate)
+   Exit: (14) is_celibate(hanuman)
+   Call: (14) celibacy_implication(celibate, no_orgasm)
+   Exit: (14) celibacy_implication(celibate, no_orgasm)
+   Exit: (13) can_experience_orgasm(hanuman, no_orgasm)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-41_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-41_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

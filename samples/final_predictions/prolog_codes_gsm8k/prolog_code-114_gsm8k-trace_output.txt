@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-114_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7656)), write(path_result:query(_7656)))
+   Call: (12) query(_7656)
+   Call: (13) rate_of_water_intake(_15726, _15802)
+   Exit: (13) rate_of_water_intake(2, 10)
+   Call: (13) rowing_speed(20, 16, _16952)
+   Call: (14) _16952 is 20/16
+   Exit: (14) 1.25 is 20/16
+   Exit: (13) rowing_speed(20, 16, 1.25)
+   Call: (13) total_distance_to_shore(64, 1.25, _19422)
+   Call: (14) _19422 is 1.25*64
+   Exit: (14) 80.0 is 1.25*64
+   Exit: (13) total_distance_to_shore(64, 1.25, 80.0)
+   Call: (13) total_water_taken(80.0, 2, _7656)
+   Call: (14) _7656 is 80.0/2*2
+   Exit: (14) 80.0 is 80.0/2*2
+   Exit: (13) total_water_taken(80.0, 2, 80.0)
+   Exit: (12) query(80.0)
+path_result:query(80.0)
+^  Exit: (10) forall(user:call(query(_7656)), user:write(path_result:query(_7656)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-114_gsm8k-trace_output.txt"), forall(call(query(_7656)), write(path_result:query(_7656)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-114_gsm8k-trace_output.txt"), forall(call(query(TotalWater)), (write(path_result: query(TotalWater)))).')

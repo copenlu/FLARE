@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-43_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_max_distance_to_hit_dragon(_5830)
+   Call: (14) max_distance_to_hit_dragon(_5830)
+   Call: (15) _15116=400
+   Exit: (15) 400=400
+   Call: (15) _16342 is 400*3
+   Exit: (15) 1200 is 400*3
+   Call: (15) _5830 is min(1200, 1000)
+   Exit: (15) 1000 is min(1200, 1000)
+   Exit: (14) max_distance_to_hit_dragon(1000)
+   Exit: (13) query_max_distance_to_hit_dragon(1000)
+   Exit: (12) query(1000)
+path_result:query(1000)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-43_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-43_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

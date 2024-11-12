@@ -1,0 +1,1307 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-8_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) find_joels_contribution(_5834)
+   Call: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 1)
+   Call: (14) calculate_contributions(1, _5834)
+   Call: (15) toys_from_friends(_16358)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*1
+   Exit: (15) 2 is 2*1
+   Call: (15) _18806 is 75+1+2
+   Exit: (15) 78 is 75+1+2
+   Call: (15) total_toys(78)
+   Fail: (15) total_toys(78)
+   Fail: (14) calculate_contributions(1, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 2)
+   Call: (14) calculate_contributions(2, _5834)
+   Call: (15) toys_from_friends(_23716)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*2
+   Exit: (15) 4 is 2*2
+   Call: (15) _26164 is 75+2+4
+   Exit: (15) 81 is 75+2+4
+   Call: (15) total_toys(81)
+   Fail: (15) total_toys(81)
+   Fail: (14) calculate_contributions(2, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 3)
+   Call: (14) calculate_contributions(3, _5834)
+   Call: (15) toys_from_friends(_31074)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*3
+   Exit: (15) 6 is 2*3
+   Call: (15) _33522 is 75+3+6
+   Exit: (15) 84 is 75+3+6
+   Call: (15) total_toys(84)
+   Fail: (15) total_toys(84)
+   Fail: (14) calculate_contributions(3, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 4)
+   Call: (14) calculate_contributions(4, _5834)
+   Call: (15) toys_from_friends(_38432)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*4
+   Exit: (15) 8 is 2*4
+   Call: (15) _40880 is 75+4+8
+   Exit: (15) 87 is 75+4+8
+   Call: (15) total_toys(87)
+   Fail: (15) total_toys(87)
+   Fail: (14) calculate_contributions(4, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 5)
+   Call: (14) calculate_contributions(5, _5834)
+   Call: (15) toys_from_friends(_45790)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*5
+   Exit: (15) 10 is 2*5
+   Call: (15) _48238 is 75+5+10
+   Exit: (15) 90 is 75+5+10
+   Call: (15) total_toys(90)
+   Fail: (15) total_toys(90)
+   Fail: (14) calculate_contributions(5, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 6)
+   Call: (14) calculate_contributions(6, _5834)
+   Call: (15) toys_from_friends(_53148)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*6
+   Exit: (15) 12 is 2*6
+   Call: (15) _55596 is 75+6+12
+   Exit: (15) 93 is 75+6+12
+   Call: (15) total_toys(93)
+   Fail: (15) total_toys(93)
+   Fail: (14) calculate_contributions(6, _5834)
+   Redo: (14) between(1, 108, _14512)
+   Exit: (14) between(1, 108, 7)
+   Call: (14) calculate_contributions(7, _5834)
+   Call: (15) toys_from_friends(_60506)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _5834 is 2*7
+   Exit: (15) 14 is 2*7
+   Call: (15) _62954 is 75+7+14
+   Exit: (15) 96 is 75+7+14
+   Call: (15) total_toys(96)
+   Fail: (15) total_toys(96)
+   Fail: (14) calculate_contributions(7, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 8)
+   Call: (14) calculate_contributions(8, _80)
+   Call: (15) toys_from_friends(_2616)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*8
+   Exit: (15) 16 is 2*8
+   Call: (15) _5064 is 75+8+16
+   Exit: (15) 99 is 75+8+16
+   Call: (15) total_toys(99)
+   Fail: (15) total_toys(99)
+   Fail: (14) calculate_contributions(8, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 9)
+   Call: (14) calculate_contributions(9, _80)
+   Call: (15) toys_from_friends(_9974)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*9
+   Exit: (15) 18 is 2*9
+   Call: (15) _12422 is 75+9+18
+   Exit: (15) 102 is 75+9+18
+   Call: (15) total_toys(102)
+   Fail: (15) total_toys(102)
+   Fail: (14) calculate_contributions(9, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 10)
+   Call: (14) calculate_contributions(10, _80)
+   Call: (15) toys_from_friends(_17332)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*10
+   Exit: (15) 20 is 2*10
+   Call: (15) _19780 is 75+10+20
+   Exit: (15) 105 is 75+10+20
+   Call: (15) total_toys(105)
+   Fail: (15) total_toys(105)
+   Fail: (14) calculate_contributions(10, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 11)
+   Call: (14) calculate_contributions(11, _80)
+   Call: (15) toys_from_friends(_24690)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*11
+   Exit: (15) 22 is 2*11
+   Call: (15) _27138 is 75+11+22
+   Exit: (15) 108 is 75+11+22
+   Call: (15) total_toys(108)
+   Exit: (15) total_toys(108)
+   Exit: (14) calculate_contributions(11, 22)
+   Exit: (13) find_joels_contribution(22)
+   Exit: (12) query(22)
+path_result:query(22)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 12)
+   Call: (14) calculate_contributions(12, _80)
+   Call: (15) toys_from_friends(_33264)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*12
+   Exit: (15) 24 is 2*12
+   Call: (15) _35712 is 75+12+24
+   Exit: (15) 111 is 75+12+24
+   Call: (15) total_toys(111)
+   Fail: (15) total_toys(111)
+   Fail: (14) calculate_contributions(12, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 13)
+   Call: (14) calculate_contributions(13, _80)
+   Call: (15) toys_from_friends(_40622)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*13
+   Exit: (15) 26 is 2*13
+   Call: (15) _43070 is 75+13+26
+   Exit: (15) 114 is 75+13+26
+   Call: (15) total_toys(114)
+   Fail: (15) total_toys(114)
+   Fail: (14) calculate_contributions(13, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 14)
+   Call: (14) calculate_contributions(14, _80)
+   Call: (15) toys_from_friends(_47980)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*14
+   Exit: (15) 28 is 2*14
+   Call: (15) _50428 is 75+14+28
+   Exit: (15) 117 is 75+14+28
+   Call: (15) total_toys(117)
+   Fail: (15) total_toys(117)
+   Fail: (14) calculate_contributions(14, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 15)
+   Call: (14) calculate_contributions(15, _80)
+   Call: (15) toys_from_friends(_55338)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*15
+   Exit: (15) 30 is 2*15
+   Call: (15) _57786 is 75+15+30
+   Exit: (15) 120 is 75+15+30
+   Call: (15) total_toys(120)
+   Fail: (15) total_toys(120)
+   Fail: (14) calculate_contributions(15, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 16)
+   Call: (14) calculate_contributions(16, _80)
+   Call: (15) toys_from_friends(_62696)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*16
+   Exit: (15) 32 is 2*16
+   Call: (15) _168 is 75+16+32
+   Exit: (15) 123 is 75+16+32
+   Call: (15) total_toys(123)
+   Fail: (15) total_toys(123)
+   Fail: (14) calculate_contributions(16, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 17)
+   Call: (14) calculate_contributions(17, _80)
+   Call: (15) toys_from_friends(_4962)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*17
+   Exit: (15) 34 is 2*17
+   Call: (15) _7410 is 75+17+34
+   Exit: (15) 126 is 75+17+34
+   Call: (15) total_toys(126)
+   Fail: (15) total_toys(126)
+   Fail: (14) calculate_contributions(17, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 18)
+   Call: (14) calculate_contributions(18, _80)
+   Call: (15) toys_from_friends(_12320)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*18
+   Exit: (15) 36 is 2*18
+   Call: (15) _14768 is 75+18+36
+   Exit: (15) 129 is 75+18+36
+   Call: (15) total_toys(129)
+   Fail: (15) total_toys(129)
+   Fail: (14) calculate_contributions(18, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 19)
+   Call: (14) calculate_contributions(19, _80)
+   Call: (15) toys_from_friends(_19678)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*19
+   Exit: (15) 38 is 2*19
+   Call: (15) _22126 is 75+19+38
+   Exit: (15) 132 is 75+19+38
+   Call: (15) total_toys(132)
+   Fail: (15) total_toys(132)
+   Fail: (14) calculate_contributions(19, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 20)
+   Call: (14) calculate_contributions(20, _80)
+   Call: (15) toys_from_friends(_27036)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*20
+   Exit: (15) 40 is 2*20
+   Call: (15) _29484 is 75+20+40
+   Exit: (15) 135 is 75+20+40
+   Call: (15) total_toys(135)
+   Fail: (15) total_toys(135)
+   Fail: (14) calculate_contributions(20, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 21)
+   Call: (14) calculate_contributions(21, _80)
+   Call: (15) toys_from_friends(_34394)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*21
+   Exit: (15) 42 is 2*21
+   Call: (15) _36842 is 75+21+42
+   Exit: (15) 138 is 75+21+42
+   Call: (15) total_toys(138)
+   Fail: (15) total_toys(138)
+   Fail: (14) calculate_contributions(21, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 22)
+   Call: (14) calculate_contributions(22, _80)
+   Call: (15) toys_from_friends(_41752)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*22
+   Exit: (15) 44 is 2*22
+   Call: (15) _44200 is 75+22+44
+   Exit: (15) 141 is 75+22+44
+   Call: (15) total_toys(141)
+   Fail: (15) total_toys(141)
+   Fail: (14) calculate_contributions(22, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 23)
+   Call: (14) calculate_contributions(23, _80)
+   Call: (15) toys_from_friends(_49110)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*23
+   Exit: (15) 46 is 2*23
+   Call: (15) _51558 is 75+23+46
+   Exit: (15) 144 is 75+23+46
+   Call: (15) total_toys(144)
+   Fail: (15) total_toys(144)
+   Fail: (14) calculate_contributions(23, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 24)
+   Call: (14) calculate_contributions(24, _80)
+   Call: (15) toys_from_friends(_56468)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*24
+   Exit: (15) 48 is 2*24
+   Call: (15) _58916 is 75+24+48
+   Exit: (15) 147 is 75+24+48
+   Call: (15) total_toys(147)
+   Fail: (15) total_toys(147)
+   Fail: (14) calculate_contributions(24, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 25)
+   Call: (14) calculate_contributions(25, _80)
+   Call: (15) toys_from_friends(_63826)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*25
+   Exit: (15) 50 is 2*25
+   Call: (15) _1262 is 75+25+50
+   Exit: (15) 150 is 75+25+50
+   Call: (15) total_toys(150)
+   Fail: (15) total_toys(150)
+   Fail: (14) calculate_contributions(25, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 26)
+   Call: (14) calculate_contributions(26, _80)
+   Call: (15) toys_from_friends(_6172)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*26
+   Exit: (15) 52 is 2*26
+   Call: (15) _8620 is 75+26+52
+   Exit: (15) 153 is 75+26+52
+   Call: (15) total_toys(153)
+   Fail: (15) total_toys(153)
+   Fail: (14) calculate_contributions(26, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 27)
+   Call: (14) calculate_contributions(27, _80)
+   Call: (15) toys_from_friends(_13530)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*27
+   Exit: (15) 54 is 2*27
+   Call: (15) _15978 is 75+27+54
+   Exit: (15) 156 is 75+27+54
+   Call: (15) total_toys(156)
+   Fail: (15) total_toys(156)
+   Fail: (14) calculate_contributions(27, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 28)
+   Call: (14) calculate_contributions(28, _80)
+   Call: (15) toys_from_friends(_20888)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*28
+   Exit: (15) 56 is 2*28
+   Call: (15) _23336 is 75+28+56
+   Exit: (15) 159 is 75+28+56
+   Call: (15) total_toys(159)
+   Fail: (15) total_toys(159)
+   Fail: (14) calculate_contributions(28, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 29)
+   Call: (14) calculate_contributions(29, _80)
+   Call: (15) toys_from_friends(_28246)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*29
+   Exit: (15) 58 is 2*29
+   Call: (15) _30694 is 75+29+58
+   Exit: (15) 162 is 75+29+58
+   Call: (15) total_toys(162)
+   Fail: (15) total_toys(162)
+   Fail: (14) calculate_contributions(29, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 30)
+   Call: (14) calculate_contributions(30, _80)
+   Call: (15) toys_from_friends(_35604)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*30
+   Exit: (15) 60 is 2*30
+   Call: (15) _38052 is 75+30+60
+   Exit: (15) 165 is 75+30+60
+   Call: (15) total_toys(165)
+   Fail: (15) total_toys(165)
+   Fail: (14) calculate_contributions(30, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 31)
+   Call: (14) calculate_contributions(31, _80)
+   Call: (15) toys_from_friends(_42962)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*31
+   Exit: (15) 62 is 2*31
+   Call: (15) _45410 is 75+31+62
+   Exit: (15) 168 is 75+31+62
+   Call: (15) total_toys(168)
+   Fail: (15) total_toys(168)
+   Fail: (14) calculate_contributions(31, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 32)
+   Call: (14) calculate_contributions(32, _80)
+   Call: (15) toys_from_friends(_50320)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*32
+   Exit: (15) 64 is 2*32
+   Call: (15) _52768 is 75+32+64
+   Exit: (15) 171 is 75+32+64
+   Call: (15) total_toys(171)
+   Fail: (15) total_toys(171)
+   Fail: (14) calculate_contributions(32, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 33)
+   Call: (14) calculate_contributions(33, _80)
+   Call: (15) toys_from_friends(_57678)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*33
+   Exit: (15) 66 is 2*33
+   Call: (15) _60126 is 75+33+66
+   Exit: (15) 174 is 75+33+66
+   Call: (15) total_toys(174)
+   Fail: (15) total_toys(174)
+   Fail: (14) calculate_contributions(33, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 34)
+   Call: (14) calculate_contributions(34, _80)
+   Call: (15) toys_from_friends(_166)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*34
+   Exit: (15) 68 is 2*34
+   Call: (15) _2444 is 75+34+68
+   Exit: (15) 177 is 75+34+68
+   Call: (15) total_toys(177)
+   Fail: (15) total_toys(177)
+   Fail: (14) calculate_contributions(34, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 35)
+   Call: (14) calculate_contributions(35, _80)
+   Call: (15) toys_from_friends(_7354)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*35
+   Exit: (15) 70 is 2*35
+   Call: (15) _9802 is 75+35+70
+   Exit: (15) 180 is 75+35+70
+   Call: (15) total_toys(180)
+   Fail: (15) total_toys(180)
+   Fail: (14) calculate_contributions(35, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 36)
+   Call: (14) calculate_contributions(36, _80)
+   Call: (15) toys_from_friends(_14712)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*36
+   Exit: (15) 72 is 2*36
+   Call: (15) _17160 is 75+36+72
+   Exit: (15) 183 is 75+36+72
+   Call: (15) total_toys(183)
+   Fail: (15) total_toys(183)
+   Fail: (14) calculate_contributions(36, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 37)
+   Call: (14) calculate_contributions(37, _80)
+   Call: (15) toys_from_friends(_22070)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*37
+   Exit: (15) 74 is 2*37
+   Call: (15) _24518 is 75+37+74
+   Exit: (15) 186 is 75+37+74
+   Call: (15) total_toys(186)
+   Fail: (15) total_toys(186)
+   Fail: (14) calculate_contributions(37, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 38)
+   Call: (14) calculate_contributions(38, _80)
+   Call: (15) toys_from_friends(_29428)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*38
+   Exit: (15) 76 is 2*38
+   Call: (15) _31876 is 75+38+76
+   Exit: (15) 189 is 75+38+76
+   Call: (15) total_toys(189)
+   Fail: (15) total_toys(189)
+   Fail: (14) calculate_contributions(38, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 39)
+   Call: (14) calculate_contributions(39, _80)
+   Call: (15) toys_from_friends(_36786)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*39
+   Exit: (15) 78 is 2*39
+   Call: (15) _39234 is 75+39+78
+   Exit: (15) 192 is 75+39+78
+   Call: (15) total_toys(192)
+   Fail: (15) total_toys(192)
+   Fail: (14) calculate_contributions(39, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 40)
+   Call: (14) calculate_contributions(40, _80)
+   Call: (15) toys_from_friends(_44144)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*40
+   Exit: (15) 80 is 2*40
+   Call: (15) _46592 is 75+40+80
+   Exit: (15) 195 is 75+40+80
+   Call: (15) total_toys(195)
+   Fail: (15) total_toys(195)
+   Fail: (14) calculate_contributions(40, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 41)
+   Call: (14) calculate_contributions(41, _80)
+   Call: (15) toys_from_friends(_51502)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*41
+   Exit: (15) 82 is 2*41
+   Call: (15) _53950 is 75+41+82
+   Exit: (15) 198 is 75+41+82
+   Call: (15) total_toys(198)
+   Fail: (15) total_toys(198)
+   Fail: (14) calculate_contributions(41, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 42)
+   Call: (14) calculate_contributions(42, _80)
+   Call: (15) toys_from_friends(_58860)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*42
+   Exit: (15) 84 is 2*42
+   Call: (15) _61308 is 75+42+84
+   Exit: (15) 201 is 75+42+84
+   Call: (15) total_toys(201)
+   Fail: (15) total_toys(201)
+   Fail: (14) calculate_contributions(42, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 43)
+   Call: (14) calculate_contributions(43, _80)
+   Call: (15) toys_from_friends(_1184)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*43
+   Exit: (15) 86 is 2*43
+   Call: (15) _3632 is 75+43+86
+   Exit: (15) 204 is 75+43+86
+   Call: (15) total_toys(204)
+   Fail: (15) total_toys(204)
+   Fail: (14) calculate_contributions(43, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 44)
+   Call: (14) calculate_contributions(44, _80)
+   Call: (15) toys_from_friends(_8542)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*44
+   Exit: (15) 88 is 2*44
+   Call: (15) _10990 is 75+44+88
+   Exit: (15) 207 is 75+44+88
+   Call: (15) total_toys(207)
+   Fail: (15) total_toys(207)
+   Fail: (14) calculate_contributions(44, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 45)
+   Call: (14) calculate_contributions(45, _80)
+   Call: (15) toys_from_friends(_15900)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*45
+   Exit: (15) 90 is 2*45
+   Call: (15) _18348 is 75+45+90
+   Exit: (15) 210 is 75+45+90
+   Call: (15) total_toys(210)
+   Fail: (15) total_toys(210)
+   Fail: (14) calculate_contributions(45, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 46)
+   Call: (14) calculate_contributions(46, _80)
+   Call: (15) toys_from_friends(_23258)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*46
+   Exit: (15) 92 is 2*46
+   Call: (15) _25706 is 75+46+92
+   Exit: (15) 213 is 75+46+92
+   Call: (15) total_toys(213)
+   Fail: (15) total_toys(213)
+   Fail: (14) calculate_contributions(46, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 47)
+   Call: (14) calculate_contributions(47, _80)
+   Call: (15) toys_from_friends(_30616)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*47
+   Exit: (15) 94 is 2*47
+   Call: (15) _33064 is 75+47+94
+   Exit: (15) 216 is 75+47+94
+   Call: (15) total_toys(216)
+   Fail: (15) total_toys(216)
+   Fail: (14) calculate_contributions(47, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 48)
+   Call: (14) calculate_contributions(48, _80)
+   Call: (15) toys_from_friends(_37974)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*48
+   Exit: (15) 96 is 2*48
+   Call: (15) _40422 is 75+48+96
+   Exit: (15) 219 is 75+48+96
+   Call: (15) total_toys(219)
+   Fail: (15) total_toys(219)
+   Fail: (14) calculate_contributions(48, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 49)
+   Call: (14) calculate_contributions(49, _80)
+   Call: (15) toys_from_friends(_45332)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*49
+   Exit: (15) 98 is 2*49
+   Call: (15) _47780 is 75+49+98
+   Exit: (15) 222 is 75+49+98
+   Call: (15) total_toys(222)
+   Fail: (15) total_toys(222)
+   Fail: (14) calculate_contributions(49, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 50)
+   Call: (14) calculate_contributions(50, _80)
+   Call: (15) toys_from_friends(_52690)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*50
+   Exit: (15) 100 is 2*50
+   Call: (15) _55138 is 75+50+100
+   Exit: (15) 225 is 75+50+100
+   Call: (15) total_toys(225)
+   Fail: (15) total_toys(225)
+   Fail: (14) calculate_contributions(50, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 51)
+   Call: (14) calculate_contributions(51, _80)
+   Call: (15) toys_from_friends(_60048)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*51
+   Exit: (15) 102 is 2*51
+   Call: (15) _62496 is 75+51+102
+   Exit: (15) 228 is 75+51+102
+   Call: (15) total_toys(228)
+   Fail: (15) total_toys(228)
+   Fail: (14) calculate_contributions(51, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 52)
+   Call: (14) calculate_contributions(52, _80)
+   Call: (15) toys_from_friends(_2378)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*52
+   Exit: (15) 104 is 2*52
+   Call: (15) _4826 is 75+52+104
+   Exit: (15) 231 is 75+52+104
+   Call: (15) total_toys(231)
+   Fail: (15) total_toys(231)
+   Fail: (14) calculate_contributions(52, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 53)
+   Call: (14) calculate_contributions(53, _80)
+   Call: (15) toys_from_friends(_9736)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*53
+   Exit: (15) 106 is 2*53
+   Call: (15) _12184 is 75+53+106
+   Exit: (15) 234 is 75+53+106
+   Call: (15) total_toys(234)
+   Fail: (15) total_toys(234)
+   Fail: (14) calculate_contributions(53, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 54)
+   Call: (14) calculate_contributions(54, _80)
+   Call: (15) toys_from_friends(_17094)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*54
+   Exit: (15) 108 is 2*54
+   Call: (15) _19542 is 75+54+108
+   Exit: (15) 237 is 75+54+108
+   Call: (15) total_toys(237)
+   Fail: (15) total_toys(237)
+   Fail: (14) calculate_contributions(54, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 55)
+   Call: (14) calculate_contributions(55, _80)
+   Call: (15) toys_from_friends(_24452)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*55
+   Exit: (15) 110 is 2*55
+   Call: (15) _26900 is 75+55+110
+   Exit: (15) 240 is 75+55+110
+   Call: (15) total_toys(240)
+   Fail: (15) total_toys(240)
+   Fail: (14) calculate_contributions(55, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 56)
+   Call: (14) calculate_contributions(56, _80)
+   Call: (15) toys_from_friends(_31810)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*56
+   Exit: (15) 112 is 2*56
+   Call: (15) _34258 is 75+56+112
+   Exit: (15) 243 is 75+56+112
+   Call: (15) total_toys(243)
+   Fail: (15) total_toys(243)
+   Fail: (14) calculate_contributions(56, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 57)
+   Call: (14) calculate_contributions(57, _80)
+   Call: (15) toys_from_friends(_39168)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*57
+   Exit: (15) 114 is 2*57
+   Call: (15) _41616 is 75+57+114
+   Exit: (15) 246 is 75+57+114
+   Call: (15) total_toys(246)
+   Fail: (15) total_toys(246)
+   Fail: (14) calculate_contributions(57, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 58)
+   Call: (14) calculate_contributions(58, _80)
+   Call: (15) toys_from_friends(_46526)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*58
+   Exit: (15) 116 is 2*58
+   Call: (15) _48974 is 75+58+116
+   Exit: (15) 249 is 75+58+116
+   Call: (15) total_toys(249)
+   Fail: (15) total_toys(249)
+   Fail: (14) calculate_contributions(58, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 59)
+   Call: (14) calculate_contributions(59, _80)
+   Call: (15) toys_from_friends(_53884)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*59
+   Exit: (15) 118 is 2*59
+   Call: (15) _56332 is 75+59+118
+   Exit: (15) 252 is 75+59+118
+   Call: (15) total_toys(252)
+   Fail: (15) total_toys(252)
+   Fail: (14) calculate_contributions(59, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 60)
+   Call: (14) calculate_contributions(60, _80)
+   Call: (15) toys_from_friends(_61242)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*60
+   Exit: (15) 120 is 2*60
+   Call: (15) _63690 is 75+60+120
+   Exit: (15) 255 is 75+60+120
+   Call: (15) total_toys(255)
+   Fail: (15) total_toys(255)
+   Fail: (14) calculate_contributions(60, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 61)
+   Call: (14) calculate_contributions(61, _80)
+   Call: (15) toys_from_friends(_3564)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*61
+   Exit: (15) 122 is 2*61
+   Call: (15) _6012 is 75+61+122
+   Exit: (15) 258 is 75+61+122
+   Call: (15) total_toys(258)
+   Fail: (15) total_toys(258)
+   Fail: (14) calculate_contributions(61, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 62)
+   Call: (14) calculate_contributions(62, _80)
+   Call: (15) toys_from_friends(_10922)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*62
+   Exit: (15) 124 is 2*62
+   Call: (15) _13370 is 75+62+124
+   Exit: (15) 261 is 75+62+124
+   Call: (15) total_toys(261)
+   Fail: (15) total_toys(261)
+   Fail: (14) calculate_contributions(62, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 63)
+   Call: (14) calculate_contributions(63, _80)
+   Call: (15) toys_from_friends(_18280)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*63
+   Exit: (15) 126 is 2*63
+   Call: (15) _20728 is 75+63+126
+   Exit: (15) 264 is 75+63+126
+   Call: (15) total_toys(264)
+   Fail: (15) total_toys(264)
+   Fail: (14) calculate_contributions(63, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 64)
+   Call: (14) calculate_contributions(64, _80)
+   Call: (15) toys_from_friends(_25638)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*64
+   Exit: (15) 128 is 2*64
+   Call: (15) _28086 is 75+64+128
+   Exit: (15) 267 is 75+64+128
+   Call: (15) total_toys(267)
+   Fail: (15) total_toys(267)
+   Fail: (14) calculate_contributions(64, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 65)
+   Call: (14) calculate_contributions(65, _80)
+   Call: (15) toys_from_friends(_32996)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*65
+   Exit: (15) 130 is 2*65
+   Call: (15) _35444 is 75+65+130
+   Exit: (15) 270 is 75+65+130
+   Call: (15) total_toys(270)
+   Fail: (15) total_toys(270)
+   Fail: (14) calculate_contributions(65, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 66)
+   Call: (14) calculate_contributions(66, _80)
+   Call: (15) toys_from_friends(_40354)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*66
+   Exit: (15) 132 is 2*66
+   Call: (15) _42802 is 75+66+132
+   Exit: (15) 273 is 75+66+132
+   Call: (15) total_toys(273)
+   Fail: (15) total_toys(273)
+   Fail: (14) calculate_contributions(66, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 67)
+   Call: (14) calculate_contributions(67, _80)
+   Call: (15) toys_from_friends(_47712)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*67
+   Exit: (15) 134 is 2*67
+   Call: (15) _50160 is 75+67+134
+   Exit: (15) 276 is 75+67+134
+   Call: (15) total_toys(276)
+   Fail: (15) total_toys(276)
+   Fail: (14) calculate_contributions(67, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 68)
+   Call: (14) calculate_contributions(68, _80)
+   Call: (15) toys_from_friends(_55070)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*68
+   Exit: (15) 136 is 2*68
+   Call: (15) _57518 is 75+68+136
+   Exit: (15) 279 is 75+68+136
+   Call: (15) total_toys(279)
+   Fail: (15) total_toys(279)
+   Fail: (14) calculate_contributions(68, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 69)
+   Call: (14) calculate_contributions(69, _80)
+   Call: (15) toys_from_friends(_62428)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*69
+   Exit: (15) 138 is 2*69
+   Call: (15) _64876 is 75+69+138
+   Exit: (15) 282 is 75+69+138
+   Call: (15) total_toys(282)
+   Fail: (15) total_toys(282)
+   Fail: (14) calculate_contributions(69, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 70)
+   Call: (14) calculate_contributions(70, _80)
+   Call: (15) toys_from_friends(_4466)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*70
+   Exit: (15) 140 is 2*70
+   Call: (15) _6914 is 75+70+140
+   Exit: (15) 285 is 75+70+140
+   Call: (15) total_toys(285)
+   Fail: (15) total_toys(285)
+   Fail: (14) calculate_contributions(70, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 71)
+   Call: (14) calculate_contributions(71, _80)
+   Call: (15) toys_from_friends(_11824)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*71
+   Exit: (15) 142 is 2*71
+   Call: (15) _14272 is 75+71+142
+   Exit: (15) 288 is 75+71+142
+   Call: (15) total_toys(288)
+   Fail: (15) total_toys(288)
+   Fail: (14) calculate_contributions(71, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 72)
+   Call: (14) calculate_contributions(72, _80)
+   Call: (15) toys_from_friends(_19182)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*72
+   Exit: (15) 144 is 2*72
+   Call: (15) _21630 is 75+72+144
+   Exit: (15) 291 is 75+72+144
+   Call: (15) total_toys(291)
+   Fail: (15) total_toys(291)
+   Fail: (14) calculate_contributions(72, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 73)
+   Call: (14) calculate_contributions(73, _80)
+   Call: (15) toys_from_friends(_26540)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*73
+   Exit: (15) 146 is 2*73
+   Call: (15) _28988 is 75+73+146
+   Exit: (15) 294 is 75+73+146
+   Call: (15) total_toys(294)
+   Fail: (15) total_toys(294)
+   Fail: (14) calculate_contributions(73, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 74)
+   Call: (14) calculate_contributions(74, _80)
+   Call: (15) toys_from_friends(_33898)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*74
+   Exit: (15) 148 is 2*74
+   Call: (15) _36346 is 75+74+148
+   Exit: (15) 297 is 75+74+148
+   Call: (15) total_toys(297)
+   Fail: (15) total_toys(297)
+   Fail: (14) calculate_contributions(74, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 75)
+   Call: (14) calculate_contributions(75, _80)
+   Call: (15) toys_from_friends(_41256)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*75
+   Exit: (15) 150 is 2*75
+   Call: (15) _43704 is 75+75+150
+   Exit: (15) 300 is 75+75+150
+   Call: (15) total_toys(300)
+   Fail: (15) total_toys(300)
+   Fail: (14) calculate_contributions(75, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 76)
+   Call: (14) calculate_contributions(76, _80)
+   Call: (15) toys_from_friends(_48614)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*76
+   Exit: (15) 152 is 2*76
+   Call: (15) _51062 is 75+76+152
+   Exit: (15) 303 is 75+76+152
+   Call: (15) total_toys(303)
+   Fail: (15) total_toys(303)
+   Fail: (14) calculate_contributions(76, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 77)
+   Call: (14) calculate_contributions(77, _80)
+   Call: (15) toys_from_friends(_55972)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*77
+   Exit: (15) 154 is 2*77
+   Call: (15) _58420 is 75+77+154
+   Exit: (15) 306 is 75+77+154
+   Call: (15) total_toys(306)
+   Fail: (15) total_toys(306)
+   Fail: (14) calculate_contributions(77, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 78)
+   Call: (14) calculate_contributions(78, _80)
+   Call: (15) toys_from_friends(_63330)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*78
+   Exit: (15) 156 is 2*78
+   Call: (15) _682 is 75+78+156
+   Exit: (15) 309 is 75+78+156
+   Call: (15) total_toys(309)
+   Fail: (15) total_toys(309)
+   Fail: (14) calculate_contributions(78, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 79)
+   Call: (14) calculate_contributions(79, _80)
+   Call: (15) toys_from_friends(_5592)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*79
+   Exit: (15) 158 is 2*79
+   Call: (15) _8040 is 75+79+158
+   Exit: (15) 312 is 75+79+158
+   Call: (15) total_toys(312)
+   Fail: (15) total_toys(312)
+   Fail: (14) calculate_contributions(79, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 80)
+   Call: (14) calculate_contributions(80, _80)
+   Call: (15) toys_from_friends(_12950)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*80
+   Exit: (15) 160 is 2*80
+   Call: (15) _15398 is 75+80+160
+   Exit: (15) 315 is 75+80+160
+   Call: (15) total_toys(315)
+   Fail: (15) total_toys(315)
+   Fail: (14) calculate_contributions(80, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 81)
+   Call: (14) calculate_contributions(81, _80)
+   Call: (15) toys_from_friends(_20308)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*81
+   Exit: (15) 162 is 2*81
+   Call: (15) _22756 is 75+81+162
+   Exit: (15) 318 is 75+81+162
+   Call: (15) total_toys(318)
+   Fail: (15) total_toys(318)
+   Fail: (14) calculate_contributions(81, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 82)
+   Call: (14) calculate_contributions(82, _80)
+   Call: (15) toys_from_friends(_27666)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*82
+   Exit: (15) 164 is 2*82
+   Call: (15) _30114 is 75+82+164
+   Exit: (15) 321 is 75+82+164
+   Call: (15) total_toys(321)
+   Fail: (15) total_toys(321)
+   Fail: (14) calculate_contributions(82, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 83)
+   Call: (14) calculate_contributions(83, _80)
+   Call: (15) toys_from_friends(_35024)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*83
+   Exit: (15) 166 is 2*83
+   Call: (15) _37472 is 75+83+166
+   Exit: (15) 324 is 75+83+166
+   Call: (15) total_toys(324)
+   Fail: (15) total_toys(324)
+   Fail: (14) calculate_contributions(83, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 84)
+   Call: (14) calculate_contributions(84, _80)
+   Call: (15) toys_from_friends(_42382)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*84
+   Exit: (15) 168 is 2*84
+   Call: (15) _44830 is 75+84+168
+   Exit: (15) 327 is 75+84+168
+   Call: (15) total_toys(327)
+   Fail: (15) total_toys(327)
+   Fail: (14) calculate_contributions(84, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 85)
+   Call: (14) calculate_contributions(85, _80)
+   Call: (15) toys_from_friends(_49740)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*85
+   Exit: (15) 170 is 2*85
+   Call: (15) _52188 is 75+85+170
+   Exit: (15) 330 is 75+85+170
+   Call: (15) total_toys(330)
+   Fail: (15) total_toys(330)
+   Fail: (14) calculate_contributions(85, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 86)
+   Call: (14) calculate_contributions(86, _80)
+   Call: (15) toys_from_friends(_57098)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*86
+   Exit: (15) 172 is 2*86
+   Call: (15) _59546 is 75+86+172
+   Exit: (15) 333 is 75+86+172
+   Call: (15) total_toys(333)
+   Fail: (15) total_toys(333)
+   Fail: (14) calculate_contributions(86, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 87)
+   Call: (14) calculate_contributions(87, _80)
+   Call: (15) toys_from_friends(_64456)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*87
+   Exit: (15) 174 is 2*87
+   Call: (15) _1872 is 75+87+174
+   Exit: (15) 336 is 75+87+174
+   Call: (15) total_toys(336)
+   Fail: (15) total_toys(336)
+   Fail: (14) calculate_contributions(87, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 88)
+   Call: (14) calculate_contributions(88, _80)
+   Call: (15) toys_from_friends(_6782)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*88
+   Exit: (15) 176 is 2*88
+   Call: (15) _9230 is 75+88+176
+   Exit: (15) 339 is 75+88+176
+   Call: (15) total_toys(339)
+   Fail: (15) total_toys(339)
+   Fail: (14) calculate_contributions(88, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 89)
+   Call: (14) calculate_contributions(89, _80)
+   Call: (15) toys_from_friends(_14140)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*89
+   Exit: (15) 178 is 2*89
+   Call: (15) _16588 is 75+89+178
+   Exit: (15) 342 is 75+89+178
+   Call: (15) total_toys(342)
+   Fail: (15) total_toys(342)
+   Fail: (14) calculate_contributions(89, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 90)
+   Call: (14) calculate_contributions(90, _80)
+   Call: (15) toys_from_friends(_21498)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*90
+   Exit: (15) 180 is 2*90
+   Call: (15) _23946 is 75+90+180
+   Exit: (15) 345 is 75+90+180
+   Call: (15) total_toys(345)
+   Fail: (15) total_toys(345)
+   Fail: (14) calculate_contributions(90, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 91)
+   Call: (14) calculate_contributions(91, _80)
+   Call: (15) toys_from_friends(_28856)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*91
+   Exit: (15) 182 is 2*91
+   Call: (15) _31304 is 75+91+182
+   Exit: (15) 348 is 75+91+182
+   Call: (15) total_toys(348)
+   Fail: (15) total_toys(348)
+   Fail: (14) calculate_contributions(91, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 92)
+   Call: (14) calculate_contributions(92, _80)
+   Call: (15) toys_from_friends(_36214)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*92
+   Exit: (15) 184 is 2*92
+   Call: (15) _38662 is 75+92+184
+   Exit: (15) 351 is 75+92+184
+   Call: (15) total_toys(351)
+   Fail: (15) total_toys(351)
+   Fail: (14) calculate_contributions(92, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 93)
+   Call: (14) calculate_contributions(93, _80)
+   Call: (15) toys_from_friends(_43572)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*93
+   Exit: (15) 186 is 2*93
+   Call: (15) _46020 is 75+93+186
+   Exit: (15) 354 is 75+93+186
+   Call: (15) total_toys(354)
+   Fail: (15) total_toys(354)
+   Fail: (14) calculate_contributions(93, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 94)
+   Call: (14) calculate_contributions(94, _80)
+   Call: (15) toys_from_friends(_50930)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*94
+   Exit: (15) 188 is 2*94
+   Call: (15) _53378 is 75+94+188
+   Exit: (15) 357 is 75+94+188
+   Call: (15) total_toys(357)
+   Fail: (15) total_toys(357)
+   Fail: (14) calculate_contributions(94, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 95)
+   Call: (14) calculate_contributions(95, _80)
+   Call: (15) toys_from_friends(_58288)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*95
+   Exit: (15) 190 is 2*95
+   Call: (15) _60736 is 75+95+190
+   Exit: (15) 360 is 75+95+190
+   Call: (15) total_toys(360)
+   Fail: (15) total_toys(360)
+   Fail: (14) calculate_contributions(95, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 96)
+   Call: (14) calculate_contributions(96, _80)
+   Call: (15) toys_from_friends(_606)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*96
+   Exit: (15) 192 is 2*96
+   Call: (15) _3054 is 75+96+192
+   Exit: (15) 363 is 75+96+192
+   Call: (15) total_toys(363)
+   Fail: (15) total_toys(363)
+   Fail: (14) calculate_contributions(96, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 97)
+   Call: (14) calculate_contributions(97, _80)
+   Call: (15) toys_from_friends(_7964)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*97
+   Exit: (15) 194 is 2*97
+   Call: (15) _10412 is 75+97+194
+   Exit: (15) 366 is 75+97+194
+   Call: (15) total_toys(366)
+   Fail: (15) total_toys(366)
+   Fail: (14) calculate_contributions(97, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 98)
+   Call: (14) calculate_contributions(98, _80)
+   Call: (15) toys_from_friends(_15322)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*98
+   Exit: (15) 196 is 2*98
+   Call: (15) _17770 is 75+98+196
+   Exit: (15) 369 is 75+98+196
+   Call: (15) total_toys(369)
+   Fail: (15) total_toys(369)
+   Fail: (14) calculate_contributions(98, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 99)
+   Call: (14) calculate_contributions(99, _80)
+   Call: (15) toys_from_friends(_22680)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*99
+   Exit: (15) 198 is 2*99
+   Call: (15) _25128 is 75+99+198
+   Exit: (15) 372 is 75+99+198
+   Call: (15) total_toys(372)
+   Fail: (15) total_toys(372)
+   Fail: (14) calculate_contributions(99, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 100)
+   Call: (14) calculate_contributions(100, _80)
+   Call: (15) toys_from_friends(_30038)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*100
+   Exit: (15) 200 is 2*100
+   Call: (15) _32486 is 75+100+200
+   Exit: (15) 375 is 75+100+200
+   Call: (15) total_toys(375)
+   Fail: (15) total_toys(375)
+   Fail: (14) calculate_contributions(100, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 101)
+   Call: (14) calculate_contributions(101, _80)
+   Call: (15) toys_from_friends(_37396)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*101
+   Exit: (15) 202 is 2*101
+   Call: (15) _39844 is 75+101+202
+   Exit: (15) 378 is 75+101+202
+   Call: (15) total_toys(378)
+   Fail: (15) total_toys(378)
+   Fail: (14) calculate_contributions(101, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 102)
+   Call: (14) calculate_contributions(102, _80)
+   Call: (15) toys_from_friends(_44754)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*102
+   Exit: (15) 204 is 2*102
+   Call: (15) _47202 is 75+102+204
+   Exit: (15) 381 is 75+102+204
+   Call: (15) total_toys(381)
+   Fail: (15) total_toys(381)
+   Fail: (14) calculate_contributions(102, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 103)
+   Call: (14) calculate_contributions(103, _80)
+   Call: (15) toys_from_friends(_52112)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*103
+   Exit: (15) 206 is 2*103
+   Call: (15) _54560 is 75+103+206
+   Exit: (15) 384 is 75+103+206
+   Call: (15) total_toys(384)
+   Fail: (15) total_toys(384)
+   Fail: (14) calculate_contributions(103, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 104)
+   Call: (14) calculate_contributions(104, _80)
+   Call: (15) toys_from_friends(_59470)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*104
+   Exit: (15) 208 is 2*104
+   Call: (15) _61918 is 75+104+208
+   Exit: (15) 387 is 75+104+208
+   Call: (15) total_toys(387)
+   Fail: (15) total_toys(387)
+   Fail: (14) calculate_contributions(104, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 105)
+   Call: (14) calculate_contributions(105, _80)
+   Call: (15) toys_from_friends(_1800)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*105
+   Exit: (15) 210 is 2*105
+   Call: (15) _4248 is 75+105+210
+   Exit: (15) 390 is 75+105+210
+   Call: (15) total_toys(390)
+   Fail: (15) total_toys(390)
+   Fail: (14) calculate_contributions(105, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 106)
+   Call: (14) calculate_contributions(106, _80)
+   Call: (15) toys_from_friends(_9158)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*106
+   Exit: (15) 212 is 2*106
+   Call: (15) _11606 is 75+106+212
+   Exit: (15) 393 is 75+106+212
+   Call: (15) total_toys(393)
+   Fail: (15) total_toys(393)
+   Fail: (14) calculate_contributions(106, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 107)
+   Call: (14) calculate_contributions(107, _80)
+   Call: (15) toys_from_friends(_16516)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*107
+   Exit: (15) 214 is 2*107
+   Call: (15) _18964 is 75+107+214
+   Exit: (15) 396 is 75+107+214
+   Call: (15) total_toys(396)
+   Fail: (15) total_toys(396)
+   Fail: (14) calculate_contributions(107, _80)
+   Redo: (14) between(1, 108, _162)
+   Exit: (14) between(1, 108, 108)
+   Call: (14) calculate_contributions(108, _80)
+   Call: (15) toys_from_friends(_23874)
+   Exit: (15) toys_from_friends(75)
+   Call: (15) _80 is 2*108
+   Exit: (15) 216 is 2*108
+   Call: (15) _26322 is 75+108+216
+   Exit: (15) 399 is 75+108+216
+   Call: (15) total_toys(399)
+   Fail: (15) total_toys(399)
+   Fail: (14) calculate_contributions(108, _80)
+   Fail: (13) find_joels_contribution(_80)
+   Fail: (12) query(_80)
+^  Exit: (10) forall(user:call(query(_80)), user:write(path_result:query(_80)))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-8_gpt-4-turbo-trace_output.txt"), forall(call(query(Joel)), (write(path_result: query(Joel)))).')

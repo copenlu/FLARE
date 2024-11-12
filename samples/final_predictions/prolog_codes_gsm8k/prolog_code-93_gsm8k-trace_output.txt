@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-93_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_potato_salad_needed(20, 5, _5830)
+   Call: (14) potato_salad_needed(adult, _14516)
+   Exit: (14) potato_salad_needed(adult, 10)
+   Call: (14) potato_salad_needed(child, _15742)
+   Exit: (14) potato_salad_needed(child, 5)
+   Call: (14) _5830 is 20*10+5*5
+   Exit: (14) 225 is 20*10+5*5
+   Exit: (13) total_potato_salad_needed(20, 5, 225)
+   Exit: (12) query(225)
+path_result:query(225)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-93_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-93_gsm8k-trace_output.txt"), forall(call(query(TotalPotatoSalad)), (write(path_result: query(TotalPotatoSalad)))).')

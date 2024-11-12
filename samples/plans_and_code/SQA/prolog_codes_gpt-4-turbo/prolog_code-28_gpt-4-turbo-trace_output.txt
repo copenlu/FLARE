@@ -1,0 +1,18 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-28_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) cosmic_girls_can_play_alone
+   Call: (14) can_play_solo(practice)
+   Call: (15) game_mode(practice)
+   Exit: (15) game_mode(practice)
+   Call: (15) requires_team(practice)
+   Call: (16) false
+   Fail: (16) false
+   Fail: (15) requires_team(practice)
+   Redo: (14) can_play_solo(practice)
+   Exit: (14) can_play_solo(practice)
+   Exit: (13) cosmic_girls_can_play_alone
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-28_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-28_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,52 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-52_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) better_investment(harry_potter, the_matrix, harry_potter)
+   Call: (14) roi(harry_potter, _14500)
+   Call: (15) franchise_metrics(harry_potter, production_costs, _15114)
+   Exit: (15) franchise_metrics(harry_potter, production_costs, 1250)
+   Call: (15) franchise_metrics(harry_potter, box_office, _16348)
+   Exit: (15) franchise_metrics(harry_potter, box_office, 7700)
+   Call: (15) franchise_metrics(harry_potter, merchandise, _17582)
+   Exit: (15) franchise_metrics(harry_potter, merchandise, 15000)
+   Call: (15) franchise_metrics(harry_potter, streaming_rights, _18816)
+   Exit: (15) franchise_metrics(harry_potter, streaming_rights, 500)
+   Call: (15) _20050 is 7700+15000+500
+   Exit: (15) 23200 is 7700+15000+500
+   Call: (15) _14500 is 23200/1250
+   Exit: (15) 18.56 is 23200/1250
+   Exit: (14) roi(harry_potter, 18.56)
+   Call: (14) roi(the_matrix, _23136)
+   Call: (15) franchise_metrics(the_matrix, production_costs, _23750)
+   Exit: (15) franchise_metrics(the_matrix, production_costs, 363)
+   Call: (15) franchise_metrics(the_matrix, box_office, _24984)
+   Exit: (15) franchise_metrics(the_matrix, box_office, 3000)
+   Call: (15) franchise_metrics(the_matrix, merchandise, _26218)
+   Exit: (15) franchise_metrics(the_matrix, merchandise, 500)
+   Call: (15) franchise_metrics(the_matrix, streaming_rights, _27452)
+   Exit: (15) franchise_metrics(the_matrix, streaming_rights, 100)
+   Call: (15) _28686 is 3000+500+100
+   Exit: (15) 3600 is 3000+500+100
+   Call: (15) _23136 is 3600/363
+   Exit: (15) 9.917355371900827 is 3600/363
+   Exit: (14) roi(the_matrix, 9.917355371900827)
+   Call: (14) 18.56>9.917355371900827
+   Exit: (14) 18.56>9.917355371900827
+   Call: (14) harry_potter=harry_potter
+   Exit: (14) harry_potter=harry_potter
+   Exit: (13) better_investment(harry_potter, the_matrix, harry_potter)
+   Exit: (12) query
+path_result:query
+   Redo: (15) franchise_metrics(harry_potter, streaming_rights, _18816)
+   Fail: (15) franchise_metrics(harry_potter, streaming_rights, _18816)
+   Redo: (15) franchise_metrics(harry_potter, merchandise, _17582)
+   Fail: (15) franchise_metrics(harry_potter, merchandise, _17582)
+   Redo: (15) franchise_metrics(harry_potter, box_office, _16348)
+   Fail: (15) franchise_metrics(harry_potter, box_office, _16348)
+   Redo: (15) franchise_metrics(harry_potter, production_costs, _15114)
+   Fail: (15) franchise_metrics(harry_potter, production_costs, _15114)
+   Fail: (14) roi(harry_potter, _14500)
+   Fail: (13) better_investment(harry_potter, the_matrix, harry_potter)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-52_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-52_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

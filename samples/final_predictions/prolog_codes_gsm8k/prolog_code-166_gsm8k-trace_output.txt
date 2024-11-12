@@ -1,0 +1,229 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-166_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_price_after_months(20, 36, _5830)
+   Call: (14) 36>0
+   Exit: (14) 36>0
+   Call: (14) _15746 is 36+ -2
+   Exit: (14) 34 is 36+ -2
+   Call: (14) price_increase(20, _16972)
+   Call: (15) _16972 is 20+20*0.2
+   Exit: (15) 24.0 is 20+20*0.2
+   Exit: (14) price_increase(20, 24.0)
+   Call: (14) calculate_price_after_months(24.0, 34, _5830)
+   Call: (15) 34>0
+   Exit: (15) 34>0
+   Call: (15) _21292 is 34+ -2
+   Exit: (15) 32 is 34+ -2
+   Call: (15) price_increase(24.0, _22518)
+   Call: (16) _22518 is 24.0+24.0*0.2
+   Exit: (16) 28.8 is 24.0+24.0*0.2
+   Exit: (15) price_increase(24.0, 28.8)
+   Call: (15) calculate_price_after_months(28.8, 32, _5830)
+   Call: (16) 32>0
+   Exit: (16) 32>0
+   Call: (16) _26838 is 32+ -2
+   Exit: (16) 30 is 32+ -2
+   Call: (16) price_increase(28.8, _28064)
+   Call: (17) _28064 is 28.8+28.8*0.2
+   Exit: (17) 34.56 is 28.8+28.8*0.2
+   Exit: (16) price_increase(28.8, 34.56)
+   Call: (16) calculate_price_after_months(34.56, 30, _5830)
+   Call: (17) 30>0
+   Exit: (17) 30>0
+   Call: (17) _32384 is 30+ -2
+   Exit: (17) 28 is 30+ -2
+   Call: (17) price_increase(34.56, _33610)
+   Call: (18) _33610 is 34.56+34.56*0.2
+   Exit: (18) 41.472 is 34.56+34.56*0.2
+   Exit: (17) price_increase(34.56, 41.472)
+   Call: (17) calculate_price_after_months(41.472, 28, _5830)
+   Call: (18) 28>0
+   Exit: (18) 28>0
+   Call: (18) _37930 is 28+ -2
+   Exit: (18) 26 is 28+ -2
+   Call: (18) price_increase(41.472, _39156)
+   Call: (19) _39156 is 41.472+41.472*0.2
+   Exit: (19) 49.766400000000004 is 41.472+41.472*0.2
+   Exit: (18) price_increase(41.472, 49.766400000000004)
+   Call: (18) calculate_price_after_months(49.766400000000004, 26, _5830)
+   Call: (19) 26>0
+   Exit: (19) 26>0
+   Call: (19) _43476 is 26+ -2
+   Exit: (19) 24 is 26+ -2
+   Call: (19) price_increase(49.766400000000004, _44702)
+   Call: (20) _44702 is 49.766400000000004+49.766400000000004*0.2
+   Exit: (20) 59.719680000000004 is 49.766400000000004+49.766400000000004*0.2
+   Exit: (19) price_increase(49.766400000000004, 59.719680000000004)
+   Call: (19) calculate_price_after_months(59.719680000000004, 24, _5830)
+   Call: (20) 24>0
+   Exit: (20) 24>0
+   Call: (20) _49022 is 24+ -2
+   Exit: (20) 22 is 24+ -2
+   Call: (20) price_increase(59.719680000000004, _50248)
+   Call: (21) _50248 is 59.719680000000004+59.719680000000004*0.2
+   Exit: (21) 71.663616 is 59.719680000000004+59.719680000000004*0.2
+   Exit: (20) price_increase(59.719680000000004, 71.663616)
+   Call: (20) calculate_price_after_months(71.663616, 22, _5830)
+   Call: (21) 22>0
+   Exit: (21) 22>0
+   Call: (21) _54568 is 22+ -2
+   Exit: (21) 20 is 22+ -2
+   Call: (21) price_increase(71.663616, _55794)
+   Call: (22) _55794 is 71.663616+71.663616*0.2
+   Exit: (22) 85.99633920000001 is 71.663616+71.663616*0.2
+   Exit: (21) price_increase(71.663616, 85.99633920000001)
+   Call: (21) calculate_price_after_months(85.99633920000001, 20, _5830)
+   Call: (22) 20>0
+   Exit: (22) 20>0
+   Call: (22) _60114 is 20+ -2
+   Exit: (22) 18 is 20+ -2
+   Call: (22) price_increase(85.99633920000001, _61340)
+   Call: (23) _61340 is 85.99633920000001+85.99633920000001*0.2
+   Exit: (23) 103.19560704000001 is 85.99633920000001+85.99633920000001*0.2
+   Exit: (22) price_increase(85.99633920000001, 103.19560704000001)
+   Call: (22) calculate_price_after_months(103.19560704000001, 18, _5830)
+   Call: (23) 18>0
+   Exit: (23) 18>0
+   Call: (23) _696 is 18+ -2
+   Exit: (23) 16 is 18+ -2
+   Call: (23) price_increase(103.19560704000001, _1922)
+   Call: (24) _1922 is 103.19560704000001+103.19560704000001*0.2
+   Exit: (24) 123.83472844800002 is 103.19560704000001+103.19560704000001*0.2
+   Exit: (23) price_increase(103.19560704000001, 123.83472844800002)
+   Call: (23) calculate_price_after_months(123.83472844800002, 16, _76)
+   Call: (24) 16>0
+   Exit: (24) 16>0
+   Call: (24) _6242 is 16+ -2
+   Exit: (24) 14 is 16+ -2
+   Call: (24) price_increase(123.83472844800002, _7468)
+   Call: (25) _7468 is 123.83472844800002+123.83472844800002*0.2
+   Exit: (25) 148.6016741376 is 123.83472844800002+123.83472844800002*0.2
+   Exit: (24) price_increase(123.83472844800002, 148.6016741376)
+   Call: (24) calculate_price_after_months(148.6016741376, 14, _76)
+   Call: (25) 14>0
+   Exit: (25) 14>0
+   Call: (25) _11788 is 14+ -2
+   Exit: (25) 12 is 14+ -2
+   Call: (25) price_increase(148.6016741376, _13014)
+   Call: (26) _13014 is 148.6016741376+148.6016741376*0.2
+   Exit: (26) 178.32200896512 is 148.6016741376+148.6016741376*0.2
+   Exit: (25) price_increase(148.6016741376, 178.32200896512)
+   Call: (25) calculate_price_after_months(178.32200896512, 12, _76)
+   Call: (26) 12>0
+   Exit: (26) 12>0
+   Call: (26) _17334 is 12+ -2
+   Exit: (26) 10 is 12+ -2
+   Call: (26) price_increase(178.32200896512, _18560)
+   Call: (27) _18560 is 178.32200896512+178.32200896512*0.2
+   Exit: (27) 213.98641075814402 is 178.32200896512+178.32200896512*0.2
+   Exit: (26) price_increase(178.32200896512, 213.98641075814402)
+   Call: (26) calculate_price_after_months(213.98641075814402, 10, _76)
+   Call: (27) 10>0
+   Exit: (27) 10>0
+   Call: (27) _22880 is 10+ -2
+   Exit: (27) 8 is 10+ -2
+   Call: (27) price_increase(213.98641075814402, _24106)
+   Call: (28) _24106 is 213.98641075814402+213.98641075814402*0.2
+   Exit: (28) 256.7836929097728 is 213.98641075814402+213.98641075814402*0.2
+   Exit: (27) price_increase(213.98641075814402, 256.7836929097728)
+   Call: (27) calculate_price_after_months(256.7836929097728, 8, _76)
+   Call: (28) 8>0
+   Exit: (28) 8>0
+   Call: (28) _28426 is 8+ -2
+   Exit: (28) 6 is 8+ -2
+   Call: (28) price_increase(256.7836929097728, _29652)
+   Call: (29) _29652 is 256.7836929097728+256.7836929097728*0.2
+   Exit: (29) 308.1404314917274 is 256.7836929097728+256.7836929097728*0.2
+   Exit: (28) price_increase(256.7836929097728, 308.1404314917274)
+   Call: (28) calculate_price_after_months(308.1404314917274, 6, _76)
+   Call: (29) 6>0
+   Exit: (29) 6>0
+   Call: (29) _33972 is 6+ -2
+   Exit: (29) 4 is 6+ -2
+   Call: (29) price_increase(308.1404314917274, _35198)
+   Call: (30) _35198 is 308.1404314917274+308.1404314917274*0.2
+   Exit: (30) 369.76851779007285 is 308.1404314917274+308.1404314917274*0.2
+   Exit: (29) price_increase(308.1404314917274, 369.76851779007285)
+   Call: (29) calculate_price_after_months(369.76851779007285, 4, _76)
+   Call: (30) 4>0
+   Exit: (30) 4>0
+   Call: (30) _39518 is 4+ -2
+   Exit: (30) 2 is 4+ -2
+   Call: (30) price_increase(369.76851779007285, _40744)
+   Call: (31) _40744 is 369.76851779007285+369.76851779007285*0.2
+   Exit: (31) 443.72222134808743 is 369.76851779007285+369.76851779007285*0.2
+   Exit: (30) price_increase(369.76851779007285, 443.72222134808743)
+   Call: (30) calculate_price_after_months(443.72222134808743, 2, _76)
+   Call: (31) 2>0
+   Exit: (31) 2>0
+   Call: (31) _45064 is 2+ -2
+   Exit: (31) 0 is 2+ -2
+   Call: (31) price_increase(443.72222134808743, _46290)
+   Call: (32) _46290 is 443.72222134808743+443.72222134808743*0.2
+   Exit: (32) 532.466665617705 is 443.72222134808743+443.72222134808743*0.2
+   Exit: (31) price_increase(443.72222134808743, 532.466665617705)
+   Call: (31) calculate_price_after_months(532.466665617705, 0, _76)
+   Call: (32) 0>0
+   Fail: (32) 0>0
+   Redo: (31) calculate_price_after_months(532.466665617705, 0, _76)
+   Exit: (31) calculate_price_after_months(532.466665617705, 0, 532.466665617705)
+   Exit: (30) calculate_price_after_months(443.72222134808743, 2, 532.466665617705)
+   Exit: (29) calculate_price_after_months(369.76851779007285, 4, 532.466665617705)
+   Exit: (28) calculate_price_after_months(308.1404314917274, 6, 532.466665617705)
+   Exit: (27) calculate_price_after_months(256.7836929097728, 8, 532.466665617705)
+   Exit: (26) calculate_price_after_months(213.98641075814402, 10, 532.466665617705)
+   Exit: (25) calculate_price_after_months(178.32200896512, 12, 532.466665617705)
+   Exit: (24) calculate_price_after_months(148.6016741376, 14, 532.466665617705)
+   Exit: (23) calculate_price_after_months(123.83472844800002, 16, 532.466665617705)
+   Exit: (22) calculate_price_after_months(103.19560704000001, 18, 532.466665617705)
+   Exit: (21) calculate_price_after_months(85.99633920000001, 20, 532.466665617705)
+   Exit: (20) calculate_price_after_months(71.663616, 22, 532.466665617705)
+   Exit: (19) calculate_price_after_months(59.719680000000004, 24, 532.466665617705)
+   Exit: (18) calculate_price_after_months(49.766400000000004, 26, 532.466665617705)
+   Exit: (17) calculate_price_after_months(41.472, 28, 532.466665617705)
+   Exit: (16) calculate_price_after_months(34.56, 30, 532.466665617705)
+   Exit: (15) calculate_price_after_months(28.8, 32, 532.466665617705)
+   Exit: (14) calculate_price_after_months(24.0, 34, 532.466665617705)
+   Exit: (13) calculate_price_after_months(20, 36, 532.466665617705)
+   Exit: (12) query(532.466665617705)
+path_result:query(532.466665617705)
+   Redo: (30) calculate_price_after_months(443.72222134808743, 2, _76)
+   Fail: (30) calculate_price_after_months(443.72222134808743, 2, _76)
+   Redo: (29) calculate_price_after_months(369.76851779007285, 4, _76)
+   Fail: (29) calculate_price_after_months(369.76851779007285, 4, _76)
+   Redo: (28) calculate_price_after_months(308.1404314917274, 6, _76)
+   Fail: (28) calculate_price_after_months(308.1404314917274, 6, _76)
+   Redo: (27) calculate_price_after_months(256.7836929097728, 8, _76)
+   Fail: (27) calculate_price_after_months(256.7836929097728, 8, _76)
+   Redo: (26) calculate_price_after_months(213.98641075814402, 10, _76)
+   Fail: (26) calculate_price_after_months(213.98641075814402, 10, _76)
+   Redo: (25) calculate_price_after_months(178.32200896512, 12, _76)
+   Fail: (25) calculate_price_after_months(178.32200896512, 12, _76)
+   Redo: (24) calculate_price_after_months(148.6016741376, 14, _76)
+   Fail: (24) calculate_price_after_months(148.6016741376, 14, _76)
+   Redo: (23) calculate_price_after_months(123.83472844800002, 16, _76)
+   Fail: (23) calculate_price_after_months(123.83472844800002, 16, _76)
+   Redo: (22) calculate_price_after_months(103.19560704000001, 18, _76)
+   Fail: (22) calculate_price_after_months(103.19560704000001, 18, _76)
+   Redo: (21) calculate_price_after_months(85.99633920000001, 20, _76)
+   Fail: (21) calculate_price_after_months(85.99633920000001, 20, _76)
+   Redo: (20) calculate_price_after_months(71.663616, 22, _76)
+   Fail: (20) calculate_price_after_months(71.663616, 22, _76)
+   Redo: (19) calculate_price_after_months(59.719680000000004, 24, _76)
+   Fail: (19) calculate_price_after_months(59.719680000000004, 24, _76)
+   Redo: (18) calculate_price_after_months(49.766400000000004, 26, _76)
+   Fail: (18) calculate_price_after_months(49.766400000000004, 26, _76)
+   Redo: (17) calculate_price_after_months(41.472, 28, _76)
+   Fail: (17) calculate_price_after_months(41.472, 28, _76)
+   Redo: (16) calculate_price_after_months(34.56, 30, _76)
+   Fail: (16) calculate_price_after_months(34.56, 30, _76)
+   Redo: (15) calculate_price_after_months(28.8, 32, _76)
+   Fail: (15) calculate_price_after_months(28.8, 32, _76)
+   Redo: (14) calculate_price_after_months(24.0, 34, _76)
+   Fail: (14) calculate_price_after_months(24.0, 34, _76)
+   Redo: (13) calculate_price_after_months(20, 36, _76)
+   Fail: (13) calculate_price_after_months(20, 36, _76)
+   Fail: (12) query(_76)
+^  Exit: (10) forall(user:call(query(_76)), user:write(path_result:query(_76)))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-166_gsm8k-trace_output.txt"), forall(call(query(FinalPrice)), (write(path_result: query(FinalPrice)))).')

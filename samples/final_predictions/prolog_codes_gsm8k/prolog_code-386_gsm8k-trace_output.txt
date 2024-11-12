@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-386_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_yellow(_5830)
+   Call: (14) likes_yellow(_14580, _5830)
+   Call: (15) likes_green(_15120, _15122)
+   Call: (16) likes_blue(_15736)
+   Call: (17) _15736 is 40//2
+   Exit: (17) 20 is 40//2
+   Exit: (16) likes_blue(20)
+   Call: (16) _15122 is 40-20
+   Exit: (16) 20 is 40-20
+   Call: (16) _15120 is 20//4
+   Exit: (16) 5 is 20//4
+   Exit: (15) likes_green(5, 20)
+   Call: (15) _5830 is 20-5
+   Exit: (15) 15 is 20-5
+   Exit: (14) likes_yellow(20, 15)
+   Exit: (13) calculate_yellow(15)
+   Exit: (12) query(15)
+path_result:query(15)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-386_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-386_gsm8k-trace_output.txt"), forall(call(query(Yellow)), (write(path_result: query(Yellow)))).')

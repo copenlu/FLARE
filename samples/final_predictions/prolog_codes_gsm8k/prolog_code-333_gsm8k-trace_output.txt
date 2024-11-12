@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-333_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_payment(100, _5830)
+   Call: (14) junior_programmers(100, _14512)
+   Call: (15) _14512 is round(2/5*100)
+   Exit: (15) 40 is round(2/5*100)
+   Exit: (14) junior_programmers(100, 40)
+   Call: (14) senior_programmers(100, 40, _16978)
+   Call: (15) _16978 is 100-40
+   Exit: (15) 60 is 100-40
+   Exit: (14) senior_programmers(100, 40, 60)
+   Call: (14) payment_junior_programmers(_19442)
+   Exit: (14) payment_junior_programmers(2000)
+   Call: (14) payment_senior_programmers(_20660)
+   Call: (15) _20660 is 2000+400
+   Exit: (15) 2400 is 2000+400
+   Exit: (14) payment_senior_programmers(2400)
+   Call: (14) _5830 is 40*2000+60*2400
+   Exit: (14) 224000 is 40*2000+60*2400
+   Exit: (13) total_payment(100, 224000)
+   Exit: (12) query(224000)
+path_result:query(224000)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-333_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-333_gsm8k-trace_output.txt"), forall(call(query(TotalPayment)), (write(path_result: query(TotalPayment)))).')

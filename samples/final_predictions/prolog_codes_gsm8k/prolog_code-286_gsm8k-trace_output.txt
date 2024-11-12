@@ -1,0 +1,18 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-286_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_sam_age(_5830)
+   Call: (14) ruby_age(1, _14508)
+   Call: (15) _14508 is 6*1
+   Exit: (15) 6 is 6*1
+   Exit: (14) ruby_age(1, 6)
+   Call: (14) age_relationship(1, 6)
+   Call: (15) 6 is 6*1
+   Exit: (15) 6 is 6*1
+   Call: (15) 6+9 is 3*(1+9)
+   Fail: (15) 6+9 is 3*(1+9)
+   Fail: (14) age_relationship(1, 6)
+   Fail: (13) calculate_sam_age(_5830)
+   Fail: (12) query(_5830)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-286_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-286_gsm8k-trace_output.txt"), forall(call(query(SamAge)), (write(path_result: query(SamAge)))).')

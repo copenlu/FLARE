@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-267_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_flour_needed(_5830)
+   Call: (14) _14508=36
+   Exit: (14) 36=36
+   Call: (14) _15734=30
+   Exit: (14) 30=30
+   Call: (14) _16960=2
+   Exit: (14) 2=2
+   Call: (14) total_flour_needed(36, 30, 2, _5830)
+   Call: (15) _18806 is 36+30
+   Exit: (15) 66 is 36+30
+   Call: (15) _5830 is 66/12*2
+   Exit: (15) 11.0 is 66/12*2
+   Exit: (14) total_flour_needed(36, 30, 2, 11.0)
+   Exit: (13) calculate_flour_needed(11.0)
+   Exit: (12) query(11.0)
+path_result:query(11.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-267_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-267_gsm8k-trace_output.txt"), forall(call(query(TotalFlourNeeded)), (write(path_result: query(TotalFlourNeeded)))).')

@@ -1,0 +1,47 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-110_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_30min_episodes_on_wednesday(_5830)
+   Call: (14) total_time_for_week(_14508)
+   Call: (15) total_time_per_day(monday, _15118)
+   Call: (16) episode_duration(monday, _15732)
+   Exit: (16) episode_duration(monday, 60)
+   Call: (16) _15118 is 60
+   Exit: (16) 60 is 60
+   Exit: (15) total_time_per_day(monday, 60)
+   Call: (15) total_time_per_day(tuesday, _18794)
+   Call: (16) episode_duration(tuesday, _19408)
+   Exit: (16) episode_duration(tuesday, 60)
+   Call: (16) _18794 is 60
+   Exit: (16) 60 is 60
+   Exit: (15) total_time_per_day(tuesday, 60)
+   Call: (15) total_time_per_day(wednesday, _22470)
+   Call: (16) episode_duration(wednesday, _23084)
+   Exit: (16) episode_duration(wednesday, 30)
+   Call: (16) _22470 is 30
+   Exit: (16) 30 is 30
+   Exit: (15) total_time_per_day(wednesday, 30)
+   Call: (15) total_time_per_day(thursday, _26146)
+   Call: (16) episode_duration(thursday, _26760)
+   Exit: (16) episode_duration(thursday, 60)
+   Call: (16) _26146 is 60
+   Exit: (16) 60 is 60
+   Exit: (15) total_time_per_day(thursday, 60)
+   Call: (15) total_time_per_day(friday, _29822)
+   Call: (16) episode_duration(friday, _30436)
+   Exit: (16) episode_duration(friday, 60)
+   Call: (16) _29822 is 60
+   Exit: (16) 60 is 60
+   Exit: (15) total_time_per_day(friday, 60)
+   Call: (15) _14508 is 60+60+30+60+60
+   Exit: (15) 270 is 60+60+30+60+60
+   Exit: (14) total_time_for_week(270)
+   Call: (14) episode_duration(wednesday, _35354)
+   Exit: (14) episode_duration(wednesday, 30)
+   Call: (14) _5830 is (270-30)/30
+   Exit: (14) 8 is (270-30)/30
+   Exit: (13) calculate_30min_episodes_on_wednesday(8)
+   Exit: (12) query(8)
+path_result:query(8)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-110_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-110_gsm8k-trace_output.txt"), forall(call(query(NumEpisodes)), (write(path_result: query(NumEpisodes)))).')

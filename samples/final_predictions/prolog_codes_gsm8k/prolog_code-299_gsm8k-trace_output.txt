@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-299_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) chocolate_bars_per_child(_5830)
+   Call: (14) total_bars(_14508)
+   Call: (15) _14508 is 8*5
+   Exit: (15) 40 is 8*5
+   Exit: (14) total_bars(40)
+   Call: (14) adult_bars(_16956)
+   Call: (15) _16956 is 4*6
+   Exit: (15) 24 is 4*6
+   Exit: (14) adult_bars(24)
+   Call: (14) _19404 is 40-24
+   Exit: (14) 16 is 40-24
+   Call: (14) _20636 is 8
+   Exit: (14) 8 is 8
+   Call: (14) _5830 is 16//8
+   Exit: (14) 2 is 16//8
+   Exit: (13) chocolate_bars_per_child(2)
+   Exit: (12) query(2)
+path_result:query(2)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-299_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-299_gsm8k-trace_output.txt"), forall(call(query(ChocolateBarsPerChild)), (write(path_result: query(ChocolateBarsPerChild)))).')

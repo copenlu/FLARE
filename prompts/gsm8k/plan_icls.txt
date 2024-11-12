@@ -1,0 +1,68 @@
+[Example 1]
+
+Question: Janice can type 6 sentences per minute. Today at work, Janice continued working on a paper she started typing yesterday. She typed for 20 minutes, took a break, and typed 15 minutes longer. She then had to erase 40 sentences she had typed incorrectly. After a meeting, she typed for 18 minutes more. In all, the paper had 536 sentences by the end of today. How many sentences did she start with today?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation: 
+
+We know that Janice types at a rate of 6 sentences per minute. Over the course of the day, she typed for a total of 20 minutes, then 15 minutes, and finally 18 minutes before finalizing her paper with a total of 536 sentences. However, she had to erase 40 sentences from the paper during this process. Thus, to determine the number of sentences she started with today, we need to calculate total sentences she typed today, subtract the number of sentences she erased, and then subtract this total from the final number of sentences on the paper.
+
+### Analysis:
+
+The problem can be broken down into the following steps:
+
+1. Calculate the total number of minutes Janice spent typing. This is 20 + 15 + 18 = 53 minutes.
+2. Multiply this number by her typing rate to get the total number of sentences she typed: 53 * 6 = 318 sentences.
+3. Subtract the number of sentences she erased from this total: 318 - 40 = 278 sentences.
+4. Subtract this number from the total number of sentences on the final paper: 536 - 278 to find out how many sentences she started with.
+
+### Plan:
+
+The use of swi-prolog can simplify the calculations and provide an efficient means to solve the problem. One of the key capabilities of swi-prolog that is being used here is its ability to perform arithmetical operations.
+
+The blueprint to create a swi-prolog code for this scenario is as follows. 
+
+1. We will define a rule "workday" that takes five variables - min1, min2, min3, final_sentences, and start_sentences.
+2. Next, we calculate total typing_time by adding min1, min2, and min3. 
+3. Calculate the total typing_output by multiplying the typing_time with Janice\'s typing speed.
+4. Calculate typing_after_erase by subtracting the number of erased sentences from the total typing_output.
+5. Calculate start_sentences by subtracting typing_after_erase from the final_sentences on the paper.
+6. Define the predicates with actual values from the problem for testing the calculation.
+
+[Example 2]
+
+### Explanation: 
+
+An aquarium holds an equal number of clownfish and blowfish. 26 of the blowfish stay in their own tank, and the remaining blowfish swim into a display tank.  An equal number of clownfish join the blowfish in the display tank, but then a third of these clownfish swim back into their own tank.  If the aquarium holds a combined total of 100 fish, how many clownfish are now in the display tank?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Analysis:
+
+The problem requires understanding the following relationships and movements of fish:
+
+1. Let the total number of blowfish be denoted as B, and since clownfish equal blowfish, the total number of clownfish is also B.
+2. The problem states 26 blowfish stay in their own tank, which means B - 26 blowfish go into the display tank.
+3. The same number, B - 26, of clownfish initially join the blowfish in the display tank.
+4. Then, a third of these clownfish (a third of B - 26) swim back to their own tank.
+5. We know the total fish in the aquarium is 100, which sets up the equation: B + B = 100.
+
+### Plan:
+
+The task can be solved using swi-prolog to define relationships and use arithmetic operations effectively. Here’s how it can be structured:
+
+1. Define a rule "fish_in_tanks" with variables representing the total number of fish, the number staying in their own tank, and the number in the display tank.
+2. Assign the variable B for the number of blowfish (and clownfish).
+3. Define the relationship for the total number of fish: B + B = 100.
+4. Calculate the number of blowfish in the display tank as B - 26.
+5. Calculate the initial number of clownfish in the display tank, which is also B - 26.
+6. Compute the number of clownfish that swim back: a third of (B - 26).
+7. Deduct the number that swam back from the initial number in the display tank to find out how many clownfish are left in the display tank.
+8. Use swi-prolog's search capabilities to automatically solve for B, given the total number of fish and the relationships defined.
+
+This plan involves basic arithmetic and Prolog's logical inferences to compute the answer using given constraints.

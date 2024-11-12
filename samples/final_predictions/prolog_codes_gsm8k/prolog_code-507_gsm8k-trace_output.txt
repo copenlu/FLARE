@@ -1,0 +1,139 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-507_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7492)), write(path_result:query(_7492)))
+   Call: (12) query(_7492)
+   Call: (13) human_pyramid_height(_7492)
+   Call: (14) level_height(4, _16170)
+   Call: (15) height(_16784, _16786)
+   Exit: (15) height(9, 64)
+   Call: (15) _16170 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(4, 576)
+   Call: (14) level_height(3, _19854)
+   Call: (15) height(_20468, _20470)
+   Exit: (15) height(9, 64)
+   Call: (15) _19854 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(3, 576)
+   Call: (14) level_height(2, _23538)
+   Call: (15) height(_24152, _24154)
+   Exit: (15) height(9, 64)
+   Call: (15) _23538 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(2, 576)
+   Call: (14) height(1, _27222)
+   Exit: (14) height(1, 60)
+   Call: (14) _7492 is 576+576+576+60
+   Exit: (14) 1788 is 576+576+576+60
+   Exit: (13) human_pyramid_height(1788)
+   Exit: (12) query(1788)
+path_result:query(1788)
+   Redo: (15) height(_24152, _24154)
+   Exit: (15) height(1, 60)
+   Call: (15) _23538 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(2, 60)
+   Call: (14) height(1, _33972)
+   Exit: (14) height(1, 60)
+   Call: (14) _7492 is 576+576+60+60
+   Exit: (14) 1272 is 576+576+60+60
+   Exit: (13) human_pyramid_height(1272)
+   Exit: (12) query(1272)
+path_result:query(1272)
+   Redo: (15) height(_20468, _20470)
+   Exit: (15) height(1, 60)
+   Call: (15) _19854 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(3, 60)
+   Call: (14) level_height(2, _40722)
+   Call: (15) height(_41336, _41338)
+   Exit: (15) height(9, 64)
+   Call: (15) _40722 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(2, 576)
+   Call: (14) height(1, _44406)
+   Exit: (14) height(1, 60)
+   Call: (14) _7492 is 576+60+576+60
+   Exit: (14) 1272 is 576+60+576+60
+   Exit: (13) human_pyramid_height(1272)
+   Exit: (12) query(1272)
+path_result:query(1272)
+   Redo: (15) height(_41336, _41338)
+   Exit: (15) height(1, 60)
+   Call: (15) _40722 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(2, 60)
+   Call: (14) height(1, _51156)
+   Exit: (14) height(1, 60)
+   Call: (14) _7492 is 576+60+60+60
+   Exit: (14) 756 is 576+60+60+60
+   Exit: (13) human_pyramid_height(756)
+   Exit: (12) query(756)
+path_result:query(756)
+   Redo: (15) height(_16784, _16786)
+   Exit: (15) height(1, 60)
+   Call: (15) _16170 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(4, 60)
+   Call: (14) level_height(3, _57906)
+   Call: (15) height(_58520, _58522)
+   Exit: (15) height(9, 64)
+   Call: (15) _57906 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(3, 576)
+   Call: (14) level_height(2, _61590)
+   Call: (15) height(_62204, _62206)
+   Exit: (15) height(9, 64)
+   Call: (15) _61590 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(2, 576)
+   Call: (14) height(1, _174)
+   Exit: (14) height(1, 60)
+   Call: (14) _76 is 60+576+576+60
+   Exit: (14) 1272 is 60+576+576+60
+   Exit: (13) human_pyramid_height(1272)
+   Exit: (12) query(1272)
+path_result:query(1272)
+   Redo: (15) height(_168, _170)
+   Exit: (15) height(1, 60)
+   Call: (15) _166 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(2, 60)
+   Call: (14) height(1, _6898)
+   Exit: (14) height(1, 60)
+   Call: (14) _76 is 60+576+60+60
+   Exit: (14) 756 is 60+576+60+60
+   Exit: (13) human_pyramid_height(756)
+   Exit: (12) query(756)
+path_result:query(756)
+   Redo: (15) height(_162, _164)
+   Exit: (15) height(1, 60)
+   Call: (15) _160 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(3, 60)
+   Call: (14) level_height(2, _13648)
+   Call: (15) height(_14262, _14264)
+   Exit: (15) height(9, 64)
+   Call: (15) _13648 is 9*64
+   Exit: (15) 576 is 9*64
+   Exit: (14) level_height(2, 576)
+   Call: (14) height(1, _17332)
+   Exit: (14) height(1, 60)
+   Call: (14) _76 is 60+60+576+60
+   Exit: (14) 756 is 60+60+576+60
+   Exit: (13) human_pyramid_height(756)
+   Exit: (12) query(756)
+path_result:query(756)
+   Redo: (15) height(_14262, _14264)
+   Exit: (15) height(1, 60)
+   Call: (15) _13648 is 1*60
+   Exit: (15) 60 is 1*60
+   Exit: (14) level_height(2, 60)
+   Call: (14) height(1, _24082)
+   Exit: (14) height(1, 60)
+   Call: (14) _76 is 60+60+60+60
+   Exit: (14) 240 is 60+60+60+60
+   Exit: (13) human_pyramid_height(240)
+   Exit: (12) query(240)
+path_result:query(240)
+^  Exit: (10) forall(user:call(query(_76)), user:write(path_result:query(_76)))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-507_gsm8k-trace_output.txt"), forall(call(query(TotalHeight)), (write(path_result: query(TotalHeight)))).')

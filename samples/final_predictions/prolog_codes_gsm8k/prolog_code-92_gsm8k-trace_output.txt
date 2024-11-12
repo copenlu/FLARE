@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-92_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_gift_bag_cost(16, _5830)
+   Call: (14) _14512 is 16*0.75
+   Exit: (14) 12.0 is 16*0.75
+   Call: (14) _15756 is 12.0*(3/4)
+   Exit: (14) 9.0 is 12.0*(3/4)
+   Call: (14) gift_bag_cost(_17000)
+   Exit: (14) gift_bag_cost(2)
+   Call: (14) _5830 is 9.0*2
+   Exit: (14) 18.0 is 9.0*2
+   Exit: (13) calculate_gift_bag_cost(16, 18.0)
+   Exit: (12) query(18.0)
+path_result:query(18.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-92_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-92_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

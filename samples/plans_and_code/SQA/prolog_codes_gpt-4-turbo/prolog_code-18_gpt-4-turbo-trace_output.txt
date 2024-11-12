@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-18_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) could_be_baptized(alexander_the_great, _16746)
+   Call: (14) lifetime(alexander_the_great, _17436, _17360)
+   Exit: (14) lifetime(alexander_the_great, 356, 323)
+   Call: (14) baptism_start_year(_18594)
+   Call: (15) emergence_of_christianity(_19204)
+   Exit: (15) emergence_of_christianity(33)
+   Call: (15) _18594 is 33
+   Exit: (15) 33 is 33
+   Exit: (14) baptism_start_year(33)
+   Call: (14) 33>323
+   Fail: (14) 33>323
+   Redo: (13) could_be_baptized(alexander_the_great, _16746)
+   Call: (14) _16746=yes
+   Exit: (14) yes=yes
+   Exit: (13) could_be_baptized(alexander_the_great, yes)
+   Call: (13) yes=no
+   Fail: (13) yes=no
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-18_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-18_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,110 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-4_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) _15330=date(12, 31, 2020)
+   Exit: (13) date(12, 31, 2020)=date(12, 31, 2020)
+   Call: (13) subtract_days(date(12, 31, 2020), 7, _16564)
+   Call: (14) 7>0
+   Exit: (14) 7>0
+   Call: (14) subtract_day(date(12, 31, 2020), _18406)
+   Call: (15) 31>1
+   Exit: (15) 31>1
+   Call: (15) _19024 is 31-1
+   Exit: (15) 30 is 31-1
+   Exit: (14) subtract_day(date(12, 31, 2020), date(12, 30, 2020))
+   Call: (14) _22100 is 7+ -1
+   Exit: (14) 6 is 7+ -1
+   Call: (14) subtract_days(date(12, 30, 2020), 6, _16564)
+   Call: (15) 6>0
+   Exit: (15) 6>0
+   Call: (15) subtract_day(date(12, 30, 2020), _25166)
+   Call: (16) 30>1
+   Exit: (16) 30>1
+   Call: (16) _25784 is 30-1
+   Exit: (16) 29 is 30-1
+   Exit: (15) subtract_day(date(12, 30, 2020), date(12, 29, 2020))
+   Call: (15) _28860 is 6+ -1
+   Exit: (15) 5 is 6+ -1
+   Call: (15) subtract_days(date(12, 29, 2020), 5, _16564)
+   Call: (16) 5>0
+   Exit: (16) 5>0
+   Call: (16) subtract_day(date(12, 29, 2020), _31926)
+   Call: (17) 29>1
+   Exit: (17) 29>1
+   Call: (17) _32544 is 29-1
+   Exit: (17) 28 is 29-1
+   Exit: (16) subtract_day(date(12, 29, 2020), date(12, 28, 2020))
+   Call: (16) _35620 is 5+ -1
+   Exit: (16) 4 is 5+ -1
+   Call: (16) subtract_days(date(12, 28, 2020), 4, _16564)
+   Call: (17) 4>0
+   Exit: (17) 4>0
+   Call: (17) subtract_day(date(12, 28, 2020), _38686)
+   Call: (18) 28>1
+   Exit: (18) 28>1
+   Call: (18) _39304 is 28-1
+   Exit: (18) 27 is 28-1
+   Exit: (17) subtract_day(date(12, 28, 2020), date(12, 27, 2020))
+   Call: (17) _42380 is 4+ -1
+   Exit: (17) 3 is 4+ -1
+   Call: (17) subtract_days(date(12, 27, 2020), 3, _16564)
+   Call: (18) 3>0
+   Exit: (18) 3>0
+   Call: (18) subtract_day(date(12, 27, 2020), _45446)
+   Call: (19) 27>1
+   Exit: (19) 27>1
+   Call: (19) _46064 is 27-1
+   Exit: (19) 26 is 27-1
+   Exit: (18) subtract_day(date(12, 27, 2020), date(12, 26, 2020))
+   Call: (18) _49140 is 3+ -1
+   Exit: (18) 2 is 3+ -1
+   Call: (18) subtract_days(date(12, 26, 2020), 2, _16564)
+   Call: (19) 2>0
+   Exit: (19) 2>0
+   Call: (19) subtract_day(date(12, 26, 2020), _52206)
+   Call: (20) 26>1
+   Exit: (20) 26>1
+   Call: (20) _52824 is 26-1
+   Exit: (20) 25 is 26-1
+   Exit: (19) subtract_day(date(12, 26, 2020), date(12, 25, 2020))
+   Call: (19) _55900 is 2+ -1
+   Exit: (19) 1 is 2+ -1
+   Call: (19) subtract_days(date(12, 25, 2020), 1, _16564)
+   Call: (20) 1>0
+   Exit: (20) 1>0
+   Call: (20) subtract_day(date(12, 25, 2020), _58966)
+   Call: (21) 25>1
+   Exit: (21) 25>1
+   Call: (21) _59584 is 25-1
+   Exit: (21) 24 is 25-1
+   Exit: (20) subtract_day(date(12, 25, 2020), date(12, 24, 2020))
+   Call: (20) _62660 is 1+ -1
+   Exit: (20) 0 is 1+ -1
+   Call: (20) subtract_days(date(12, 24, 2020), 0, _16564)
+   Exit: (20) subtract_days(date(12, 24, 2020), 0, date(12, 24, 2020))
+   Exit: (19) subtract_days(date(12, 25, 2020), 1, date(12, 24, 2020))
+   Exit: (18) subtract_days(date(12, 26, 2020), 2, date(12, 24, 2020))
+   Exit: (17) subtract_days(date(12, 27, 2020), 3, date(12, 24, 2020))
+   Exit: (16) subtract_days(date(12, 28, 2020), 4, date(12, 24, 2020))
+   Exit: (15) subtract_days(date(12, 29, 2020), 5, date(12, 24, 2020))
+   Exit: (14) subtract_days(date(12, 30, 2020), 6, date(12, 24, 2020))
+   Exit: (13) subtract_days(date(12, 31, 2020), 7, date(12, 24, 2020))
+^  Call: (13) format('One week ago from ~w was ~w~n', [date(12, 31, 2020), date(12, 24, 2020)])
+One week ago from date(12,31,2020) was date(12,24,2020)
+^  Exit: (13) format('One week ago from ~w was ~w~n', [date(12, 31, 2020), date(12, 24, 2020)])
+   Exit: (12) query
+path_result:query
+   Redo: (20) subtract_days(date(12, 24, 2020), 0, _164)
+   Call: (21) 0>0
+   Fail: (21) 0>0
+   Fail: (20) subtract_days(date(12, 24, 2020), 0, _164)
+   Fail: (19) subtract_days(date(12, 25, 2020), 1, _164)
+   Fail: (18) subtract_days(date(12, 26, 2020), 2, _164)
+   Fail: (17) subtract_days(date(12, 27, 2020), 3, _164)
+   Fail: (16) subtract_days(date(12, 28, 2020), 4, _164)
+   Fail: (15) subtract_days(date(12, 29, 2020), 5, _164)
+   Fail: (14) subtract_days(date(12, 30, 2020), 6, _164)
+   Fail: (13) subtract_days(date(12, 31, 2020), 7, _164)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-4_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

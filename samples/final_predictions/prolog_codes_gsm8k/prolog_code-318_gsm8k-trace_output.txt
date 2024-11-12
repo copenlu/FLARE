@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-318_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) remaining_budget(_5830)
+   Call: (14) total_suit_cost(_14508)
+   Call: (15) _14508 is 6*100
+   Exit: (15) 600 is 6*100
+   Exit: (14) total_suit_cost(600)
+   Call: (14) total_suitcase_cost(_16956)
+   Call: (15) _16956 is 3*50
+   Exit: (15) 150 is 3*50
+   Exit: (14) total_suitcase_cost(150)
+   Call: (14) flight_ticket_cost(600, _19404)
+   Call: (15) _19404 is 5*600+700
+   Exit: (15) 3700 is 5*600+700
+   Exit: (14) flight_ticket_cost(600, 3700)
+   Call: (14) total_savings(_21866)
+   Call: (15) _21866 is 2000
+   Exit: (15) 2000 is 2000
+   Exit: (14) total_savings(2000)
+   Call: (14) _5830 is 6000-(600+150+3700+2000)
+   Exit: (14) -450 is 6000-(600+150+3700+2000)
+   Exit: (13) remaining_budget(-450)
+   Exit: (12) query(-450)
+path_result:query(-450)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-318_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-318_gsm8k-trace_output.txt"), forall(call(query(RemainingBudget)), (write(path_result: query(RemainingBudget)))).')

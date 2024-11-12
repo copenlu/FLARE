@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-36_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_points_scored(_5830)
+   Call: (14) points_in_first_20_minutes(4)
+   Exit: (14) points_in_first_20_minutes(4)
+   Call: (14) points_in_second_20_minutes(4, _15724)
+   Call: (15) _15724 is 4+4*0.25
+   Exit: (15) 5.0 is 4+4*0.25
+   Exit: (14) points_in_second_20_minutes(4, 5.0)
+   Call: (14) total_points_scored(4, 5.0, _5830)
+   Call: (15) _5830 is 4+5.0
+   Exit: (15) 9.0 is 4+5.0
+   Exit: (14) total_points_scored(4, 5.0, 9.0)
+   Exit: (13) calculate_total_points_scored(9.0)
+   Exit: (12) query(9.0)
+path_result:query(9.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-36_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-36_gsm8k-trace_output.txt"), forall(call(query(TotalPoints)), (write(path_result: query(TotalPoints)))).')

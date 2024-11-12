@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-273_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7706)), write(path_result:query(_7706)))
+   Call: (12) query(_7706)
+   Call: (13) calculate_net_proceeds_main(_7706)
+   Call: (14) _16384=400000
+   Exit: (14) 400000=400000
+   Call: (14) _17610=250000
+   Exit: (14) 250000=250000
+   Call: (14) calculate_total_fees(400000, _18912, _18914, _18836)
+   Call: (15) _19458 is 0.03*400000
+   Exit: (15) 12000.0 is 0.03*400000
+   Call: (15) _20702 is 0.05*400000
+   Exit: (15) 20000.0 is 0.05*400000
+   Call: (15) _18836 is 12000.0+20000.0
+   Exit: (15) 32000.0 is 12000.0+20000.0
+   Exit: (14) calculate_total_fees(400000, 12000.0, 20000.0, 32000.0)
+   Call: (14) calculate_net_proceeds(400000, 32000.0, 250000, _7706)
+   Call: (15) _7706 is 400000-32000.0-250000
+   Exit: (15) 118000.0 is 400000-32000.0-250000
+   Exit: (14) calculate_net_proceeds(400000, 32000.0, 250000, 118000.0)
+   Exit: (13) calculate_net_proceeds_main(118000.0)
+   Exit: (12) query(118000.0)
+path_result:query(118000.0)
+^  Exit: (10) forall(user:call(query(_7706)), user:write(path_result:query(_7706)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-273_gsm8k-trace_output.txt"), forall(call(query(_7706)), write(path_result:query(_7706)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-273_gsm8k-trace_output.txt"), forall(call(query(NetProceeds)), (write(path_result: query(NetProceeds)))).')

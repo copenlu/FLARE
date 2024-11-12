@@ -1,0 +1,37 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) calculate_bill(5, _5834)
+   Call: (14) total_item_cost(taco_salad, 1, _14516)
+   Call: (15) item_cost(taco_salad, _15134)
+   Exit: (15) item_cost(taco_salad, 10)
+   Call: (15) _14516 is 10*1
+   Exit: (15) 10 is 10*1
+   Exit: (14) total_item_cost(taco_salad, 1, 10)
+   Call: (14) total_item_cost(hamburger, 5, _18206)
+   Call: (15) item_cost(hamburger, _18824)
+   Exit: (15) item_cost(hamburger, 5)
+   Call: (15) _18206 is 5*5
+   Exit: (15) 25 is 5*5
+   Exit: (14) total_item_cost(hamburger, 5, 25)
+   Call: (14) total_item_cost(fries, 4, _21896)
+   Call: (15) item_cost(fries, _22514)
+   Exit: (15) item_cost(fries, 2.5)
+   Call: (15) _21896 is 2.5*4
+   Exit: (15) 10.0 is 2.5*4
+   Exit: (14) total_item_cost(fries, 4, 10.0)
+   Call: (14) total_item_cost(lemonade, 5, _25598)
+   Call: (15) item_cost(lemonade, _26216)
+   Exit: (15) item_cost(lemonade, 2)
+   Call: (15) _25598 is 2*5
+   Exit: (15) 10 is 2*5
+   Exit: (14) total_item_cost(lemonade, 5, 10)
+   Call: (14) _29288 is 10+25+10.0+10
+   Exit: (14) 55.0 is 10+25+10.0+10
+   Call: (14) _5834 is 55.0/5
+   Exit: (14) 11.0 is 55.0/5
+   Exit: (13) calculate_bill(5, 11.0)
+   Exit: (12) query(11.0)
+path_result:query(11.0)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-1_gpt-4-turbo-trace_output.txt"), forall(call(query(EachPays)), (write(path_result: query(EachPays)))).')

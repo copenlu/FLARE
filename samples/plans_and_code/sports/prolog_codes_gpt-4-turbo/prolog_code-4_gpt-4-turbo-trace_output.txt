@@ -1,0 +1,12 @@
+   Exit: (10) protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-4_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_perform(carson_wentz, pick_and_roll)
+   Call: (14) player_sport(carson_wentz, _16116)
+   Exit: (14) player_sport(carson_wentz, football)
+   Call: (14) action_sport(pick_and_roll, football)
+   Fail: (14) action_sport(pick_and_roll, football)
+   Fail: (13) can_perform(carson_wentz, pick_and_roll)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-4_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-4_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

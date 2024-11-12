@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-14_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) initial_vacuum_cleaners(_5830)
+   Call: (14) vacuum_cleaners_sold_orange(5, _14508)
+   Call: (15) _14508 is 5/2
+   Exit: (15) 2.5 is 5/2
+   Exit: (14) vacuum_cleaners_sold_orange(5, 2.5)
+   Call: (14) vacuum_cleaners_sold_red(2.5, _16970)
+   Call: (15) _16970 is 2.5-2
+   Exit: (15) 0.5 is 2.5-2
+   Exit: (14) vacuum_cleaners_sold_red(2.5, 0.5)
+   Call: (14) vacuum_cleaners_sold_green(0.5, _19432)
+   Call: (15) _19432 is 0.5/3
+   Exit: (15) 0.16666666666666666 is 0.5/3
+   Exit: (14) vacuum_cleaners_sold_green(0.5, 0.16666666666666666)
+   Call: (14) _5830 is 0.16666666666666666+0.5+2.5+5
+   Exit: (14) 8.166666666666666 is 0.16666666666666666+0.5+2.5+5
+   Exit: (13) initial_vacuum_cleaners(8.166666666666666)
+   Exit: (12) query(8.166666666666666)
+path_result:query(8.166666666666666)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-14_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-14_gsm8k-trace_output.txt"), forall(call(query(InitialCount)), (write(path_result: query(InitialCount)))).')

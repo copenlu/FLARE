@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-249_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) _13900=1000
+   Exit: (13) 1000=1000
+   Call: (13) total_minutes_used(_15126)
+   Call: (14) _15736 is 15
+   Exit: (14) 15 is 15
+   Call: (14) _16962 is 300
+   Exit: (14) 300 is 300
+   Call: (14) _15126 is 15*30+300
+   Exit: (14) 750 is 15*30+300
+   Exit: (13) total_minutes_used(750)
+   Call: (13) minutes_left(1000, 750, _5830)
+   Call: (14) _5830 is 1000-750
+   Exit: (14) 250 is 1000-750
+   Exit: (13) minutes_left(1000, 750, 250)
+   Exit: (12) query(250)
+path_result:query(250)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-249_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-249_gsm8k-trace_output.txt"), forall(call(query(MinutesLeft)), (write(path_result: query(MinutesLeft)))).')

@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-279_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_change(_5830)
+   Call: (14) _14508=4.2
+   Exit: (14) 4.2=4.2
+   Call: (14) _15740=9.45
+   Exit: (14) 9.45=9.45
+   Call: (14) _16972=1.35
+   Exit: (14) 1.35=1.35
+   Call: (14) _18204=20
+   Exit: (14) 20=20
+   Call: (14) total_cost(4.2, 9.45, 1.35, _19430)
+   Call: (15) _19430 is 4.2+9.45+1.35
+   Exit: (15) 14.999999999999998 is 4.2+9.45+1.35
+   Exit: (14) total_cost(4.2, 9.45, 1.35, 14.999999999999998)
+   Call: (14) change(14.999999999999998, 20, _5830)
+   Call: (15) _5830 is 20-14.999999999999998
+   Exit: (15) 5.000000000000002 is 20-14.999999999999998
+   Exit: (14) change(14.999999999999998, 20, 5.000000000000002)
+   Exit: (13) calculate_change(5.000000000000002)
+   Exit: (12) query(5.000000000000002)
+path_result:query(5.000000000000002)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-279_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-279_gsm8k-trace_output.txt"), forall(call(query(Change)), (write(path_result: query(Change)))).')

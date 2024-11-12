@@ -1,0 +1,106 @@
+[Example 1]
+
+Question: A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?\n# Answer option: ['A)226', 'B)230', 'C)240', 'D)260', 'E)280']
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation and Analysis
+
+First, let's break down the problem:
+- A company produces and sells 420 units of a computer component each month.
+- The production cost per unit is $110.
+- The desired minimum yearly profit is $626,400.
+
+We need to calculate the minimum selling price per component that would ensure the specified yearly profit.
+
+#### Calculating Yearly Costs and Revenue
+1. **Yearly Production Cost**: Since the company produces 420 units per month, the monthly production cost is:
+   \[ 420 \text{ units} \times \$110/\text{unit} = \$46,200 \text{ per month} \]
+   Therefore, the yearly production cost (for 12 months) is:
+   \[ \$46,200 \times 12 = \$554,400 \]
+
+2. **Desired Yearly Profit**: Given as \$626,400.
+
+3. **Required Minimum Yearly Revenue**: To meet the profit target, the total revenue must cover both the production cost and the desired profit:
+   \[ \text{Yearly Revenue} = \text{Yearly Production Cost} + \text{Desired Yearly Profit} \]
+   \[ \text{Yearly Revenue} = \$554,400 + \$626,400 = \$1,180,800 \]
+
+4. **Monthly Revenue Requirement**: Dividing the yearly revenue by 12 gives the monthly revenue requirement:
+   \[ \text{Monthly Revenue} = \frac{\$1,180,800}{12} = \$98,400 \]
+
+5. **Minimum Selling Price per Unit**: To find the minimum selling price per component per month:
+   \[ \text{Selling Price per Unit} = \frac{\text{Monthly Revenue}}{\text{Number of Units}} = \frac{\$98,400}{420} = \$234.29 \]
+   Since prices typically don't use fractions of a cent in business transactions, the selling price must be rounded up to the nearest whole dollar.
+
+From this analysis, it's clear the minimum selling price per component to meet the desired profit level must be at least $235.
+
+### Plan for Writing SWI-Prolog Code
+
+#### Aim
+To implement a Prolog program that finds the minimum selling price per unit ensuring a specified yearly profit.
+
+#### Steps and Reasoning
+
+1. **Define Constants**:
+   - Define `production_cost`, `units_per_month`, `desired_yearly_profit`, and other necessary constants based on the problem's data.
+
+2. **Calculate Yearly Costs and Revenues**:
+   - Compute the yearly production cost based on monthly figures.
+   - Calculate the required yearly revenue to meet the desired profit.
+
+3. **Determine Minimum Selling Price**:
+   - Use the yearly revenue requirement and the number of units produced monthly to determine the minimum selling price per unit.
+
+4. **Use Prolog's Search Capability**:
+   - Implement a simple search through potential selling prices, starting from the computed minimum (rounded down for safety) and checking each price until it meets the desired profit criteria.
+   - This can be achieved using a recursive predicate that increments the price until the condition (yearly revenue minus yearly cost equals or exceeds the desired yearly profit) is met.
+
+[Example 2]
+
+Question: In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?\n# Answer option: ['A)2!', 'B)3!', 'C)7!', 'D)8!', 'E)9!']
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation and Analysis
+
+First, we need to analyze the problem of finding how many ways we can rearrange the letters in the word "PROBLEC".
+
+#### Analyzing the Word "PROBLEC":
+- The word "PROBLEC" consists of 7 unique letters.
+
+#### Permutation of Non-Repeating Letters:
+1. **Number of Letters**: Since there are 7 unique letters, and the permutations must use each letter exactly once (as none of the letters repeat in the original word), we are looking at permutations of all 7 letters.
+
+2. **Calculation of Permutations**: The number of permutations of n unique items (letters in this case) taken all at once is given by \( n! \) (n factorial). For the word "PROBLEC":
+   \[ 7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5040 \]
+
+From this analysis, the number of distinct 7-letter words that can be formed from "PROBLEC" is 5040, corresponding to \( 7! \).
+
+### Plan for Writing SWI-Prolog Code
+
+#### Aim
+Develop a Prolog program that calculates the number of permutations for the given set of letters in "PROBLEC".
+
+#### Steps and Reasoning
+
+1. **Define the Input**:
+   - Create a list representing the letters of the word "PROBLEC".
+
+2. **Permutation Calculation**:
+   - Utilize Prolog's built-in permutation predicate or define a custom one to generate all possible permutations of the list of letters.
+
+3. **Counting Permutations**:
+   - Use Prolog’s aggregation predicates to count the number of unique permutations generated from the original list. This step involves listing all permutations and then counting them.
+
+4. **Use Prolog's Search and Counting Capabilities**:
+   - Implement efficient search through the space of all permutations of the provided letters.
+   - Use the `findall` predicate to gather all permutations and the `length` predicate to count them, ensuring we get the factorial number as calculated analytically.
+
+5. **Output the Result**:
+   - Display the count of permutations, verifying that it matches \( 7! = 5040 \).
+
+By leveraging Prolog's capabilities in handling lists and permutations efficiently, we can directly and effectively compute the solution to the problem. The code will highlight Prolog's strengths in recursion and list manipulation.

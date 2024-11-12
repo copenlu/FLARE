@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-158_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_hours_in_semester(_5830)
+   Call: (14) total_hours_mon_wed_fri(_14508)
+   Call: (15) _14508 is 3*3
+   Exit: (15) 9 is 3*3
+   Exit: (14) total_hours_mon_wed_fri(9)
+   Call: (14) total_hours_tue_thu(_16956)
+   Call: (15) _16956 is 2*2
+   Exit: (15) 4 is 2*2
+   Exit: (14) total_hours_tue_thu(4)
+   Call: (14) _5830 is (9*3+4*2)*16
+   Exit: (14) 560 is (9*3+4*2)*16
+   Exit: (13) total_hours_in_semester(560)
+   Exit: (12) query(560)
+path_result:query(560)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-158_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-158_gsm8k-trace_output.txt"), forall(call(query(TotalHours)), (write(path_result: query(TotalHours)))).')

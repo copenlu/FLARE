@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) worships_shiva(sam_harris)
+   Call: (14) person(sam_harris)
+   Exit: (14) person(sam_harris)
+   Call: (14) profession(sam_harris, philosopher)
+   Exit: (14) profession(sam_harris, philosopher)
+   Call: (14) associated_with(sam_harris, new_atheism)
+   Exit: (14) associated_with(sam_harris, new_atheism)
+   Call: (14) critiques(sam_harris, organized_religion)
+   Exit: (14) critiques(sam_harris, organized_religion)
+   Call: (14) mentions_deity(sam_harris, shiva, no)
+   Exit: (14) mentions_deity(sam_harris, shiva, no)
+   Call: (14) worship_deity(sam_harris, none)
+   Exit: (14) worship_deity(sam_harris, none)
+   Exit: (13) worships_shiva(sam_harris)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

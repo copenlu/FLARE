@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-94_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_pets(_5830)
+   Call: (14) num_pets(cindy, _14508)
+   Exit: (14) num_pets(cindy, 4)
+   Call: (14) num_pets(marcia, _15734)
+   Call: (15) num_pets(cindy, _16348)
+   Exit: (15) num_pets(cindy, 4)
+   Call: (15) _15734 is 4+2
+   Exit: (15) 6 is 4+2
+   Exit: (14) num_pets(marcia, 6)
+   Call: (14) num_pets(jan, _19416)
+   Call: (15) num_pets(marcia, _20030)
+   Call: (16) num_pets(cindy, _20644)
+   Exit: (16) num_pets(cindy, 4)
+   Call: (16) _20030 is 4+2
+   Exit: (16) 6 is 4+2
+   Exit: (15) num_pets(marcia, 6)
+   Call: (15) _19416 is 3*6
+   Exit: (15) 18 is 3*6
+   Exit: (14) num_pets(jan, 18)
+   Call: (14) _5830 is 4+6+18
+   Exit: (14) 28 is 4+6+18
+   Exit: (13) total_pets(28)
+   Exit: (12) query(28)
+path_result:query(28)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-94_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-94_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

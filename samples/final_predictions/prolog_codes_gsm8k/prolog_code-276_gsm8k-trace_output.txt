@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-276_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_blue_golf_balls(_5830)
+   Call: (14) _14508=16
+   Exit: (14) 16=16
+   Call: (14) blue_golf_balls(16, _5830)
+   Call: (15) _16346 is 16/2
+   Exit: (15) 8 is 16/2
+   Call: (15) _5830 is 8/2
+   Exit: (15) 4 is 8/2
+   Exit: (14) blue_golf_balls(16, 4)
+   Exit: (13) calculate_blue_golf_balls(4)
+   Exit: (12) query(4)
+path_result:query(4)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-276_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-276_gsm8k-trace_output.txt"), forall(call(query(BlueGolfBalls)), (write(path_result: query(BlueGolfBalls)))).')

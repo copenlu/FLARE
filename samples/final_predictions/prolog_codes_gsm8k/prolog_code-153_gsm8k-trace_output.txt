@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-153_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) james_friends(_5830)
+   Call: (14) dorothy_friends(_14508)
+   Call: (15) charlie_friends(_15118)
+   Exit: (15) charlie_friends(12)
+   Call: (15) _14508 is 12/3
+   Exit: (15) 4 is 12/3
+   Exit: (14) dorothy_friends(4)
+   Call: (14) _5830 is 4*4
+   Exit: (14) 16 is 4*4
+   Exit: (13) james_friends(16)
+   Exit: (12) query(16)
+path_result:query(16)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-153_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-153_gsm8k-trace_output.txt"), forall(call(query(JamesFriends)), (write(path_result: query(JamesFriends)))).')

@@ -1,0 +1,56 @@
+{
+    "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.5866141732283464,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.5196850393700787,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json"
+    },
+    "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.5551181102362205,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.48031496062992124,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=4_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.46062992125984253,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=4_output.json"
+    },
+    "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.5039370078740157,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=command-r_execmode=trace_prompt=standard_icl=6_output.json"
+    },
+    "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.8070866141732284,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json"
+    },
+    "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=4_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.8070866141732284,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=4_output.json"
+    },
+    "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json": {
+        "Accuracy": 0.0,
+        "code_runs_perc": 0.6850393700787402,
+        "code_runs_acc": 0.0,
+        "file_name": "samples/final_predictions/aqua/model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json"
+    }
+}

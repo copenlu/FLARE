@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-89_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_rings(_5830)
+   Call: (14) num_rings(1, _14508)
+   Exit: (14) num_rings(1, 4)
+   Call: (14) num_rings(2, _15734)
+   Call: (15) num_rings(1, _16348)
+   Exit: (15) num_rings(1, 4)
+   Call: (15) _15734 is 3*4
+   Exit: (15) 12 is 3*4
+   Exit: (14) num_rings(2, 12)
+   Call: (14) num_rings(3, _19416)
+   Call: (15) num_rings(2, _20030)
+   Call: (16) num_rings(1, _20644)
+   Exit: (16) num_rings(1, 4)
+   Call: (16) _20030 is 3*4
+   Exit: (16) 12 is 3*4
+   Exit: (15) num_rings(2, 12)
+   Call: (15) _19416 is 12/2
+   Exit: (15) 6 is 12/2
+   Exit: (14) num_rings(3, 6)
+   Call: (14) _5830 is 4+12+6
+   Exit: (14) 22 is 4+12+6
+   Exit: (13) total_rings(22)
+   Exit: (12) query(22)
+path_result:query(22)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-89_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-89_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

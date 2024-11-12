@@ -1,0 +1,16 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-21_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) same_game_format(nes, ps3)
+   Call: (14) console_properties(nes, _14496, _14574)
+   Exit: (14) console_properties(nes, cartridges, mid_1980s)
+   Call: (14) console_properties(ps3, _15730, _15808)
+   Exit: (14) console_properties(ps3, blu_ray_discs, early_2000s)
+   Call: (14) cartridges==blu_ray_discs
+   Fail: (14) cartridges==blu_ray_discs
+   Fail: (13) same_game_format(nes, ps3)
+   Redo: (12) query
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-21_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-21_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

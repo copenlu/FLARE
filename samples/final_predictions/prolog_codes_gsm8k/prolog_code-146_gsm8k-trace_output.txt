@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-146_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_weekly_earnings(_5830)
+   Call: (14) hours_worked_in_week(2, _14508)
+   Call: (15) _14508 is 2*7
+   Exit: (15) 14 is 2*7
+   Exit: (14) hours_worked_in_week(2, 14)
+   Call: (14) earnings_in_week(14, 10, _5830)
+   Call: (15) _5830 is 14*10
+   Exit: (15) 140 is 14*10
+   Exit: (14) earnings_in_week(14, 10, 140)
+   Exit: (13) calculate_weekly_earnings(140)
+   Exit: (12) query(140)
+path_result:query(140)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-146_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-146_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

@@ -1,0 +1,85 @@
+[Example 1]
+
+Question: Are blue lips normal?
+
+Generate a very short explanation, analysis, a plan for logically answering the question.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. 
+
+### Explanation:
+Blue lips, also known as cyanosis, indicate a medical condition where there is a lack of oxygen in the blood. This can be caused by several factors including respiratory issues, cardiovascular problems, or exposure to cold temperatures.
+
+### Analysis:
+To determine if blue lips are normal, it is essential to understand the underlying causes of cyanosis and the circumstances in which it occurs. The analysis would involve assessing the common reasons for decreased oxygen levels in the blood and how these relate to health outcomes.
+
+#### Plan for Logically Answering the Question:
+
+Define Cyanosis: Start by defining what cyanosis (blue lips) is and what it signifies in terms of oxygen saturation in the blood.
+
+#### Identify Common Causes:
+
+Discuss common causes of cyanosis including respiratory issues (e.g., asthma, COPD), cardiovascular problems (e.g., congenital heart defects, heart failure), and environmental factors (e.g., cold exposure).
+
+#### Evaluate Normalcy:
+
+Consider if blue lips can be seen as normal under certain benign conditions, such as very cold weather.
+Distinguish between transient cyanosis, which can occur in healthy individuals under specific conditions, and persistent cyanosis, which may indicate a more serious health issue.
+Discuss the Importance of Context:
+
+Emphasize the importance of context, such as the duration of the symptom and associated symptoms (e.g., breathing difficulties, chest pain).
+Highlight the Need for Medical Evaluation:
+
+Explain why it’s important for an individual with persistent blue lips to seek medical evaluation to rule out serious underlying conditions.
+
+#### Conclusion:
+
+Summarize whether blue lips are normal and under what circumstances they may not be a cause for alarm.
+This plan integrates an understanding of the symptom with a practical approach to evaluation, emphasizing that while transient cyanosis can be normal, persistent blue lips should always be medically evaluated.
+
+
+[Example 2]
+
+Question: Do mollymawks live where albatrosses cannot?
+
+Generate a very short explanation, analysis, a plan for logically answering the question.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. 
+
+###Explanation:
+
+Mollymawks are a type of albatross belonging to the genus Thalassarche. They are smaller than the great albatrosses of the genus Diomedea. Given that all mollymawks are albatrosses but differ in size and some ecological preferences, the question explores if there are specific habitats where mollymawks can live but other albatrosses cannot.
+
+### Analysis:
+
+The question hinges on understanding the ecological and geographical differences between mollymawks and other types of albatrosses. This involves comparing their breeding sites, foraging areas, and tolerance to different environmental conditions.
+
+### Plan for Logically Answering the Question:
+
+#### Define Mollymawks and Albatrosses:
+
+Start by defining what mollymawks are and how they fit within the broader category of albatrosses. Clarify that all mollymawks are albatrosses, but not all albatrosses are mollymawks.
+Identify Geographic Distributions:
+
+Compare the geographic distributions of mollymawks and other albatross species. Identify any unique locations where only mollymawks are found.
+
+#### Examine Habitat Preferences:
+
+Analyze the specific habitat preferences and breeding sites of mollymawks versus other albatross species. Look into factors like island topography, vegetation, and climate conditions that might favor one group over the other.
+Evaluate Ecological Niche and Adaptations:
+
+Discuss the ecological niches occupied by mollymawks and other albatross species. Consider their foraging behaviors, diet, and adaptability to different marine environments.
+
+#### Consider Environmental Tolerance:
+
+Review any research on the environmental tolerance of mollymawks compared to other albatross species, such as their ability to deal with warmer or colder temperatures and different sea conditions.
+Discuss the Importance of Breeding Sites:
+
+Emphasize the significance of breeding sites in determining where these birds can live. Consider whether mollymawks use breeding sites that are inaccessible or unsuitable for other albatross species.
+Highlight the Need for Detailed Research:
+
+Explain why detailed ecological and environmental research is crucial for understanding the subtle differences between these birds, particularly in light of global environmental changes.
+
+#### Conclusion:
+
+Conclude by summarizing the findings on whether mollymawks occupy unique habitats compared to other albatross species, and under what conditions they might exclusively inhabit certain areas.
+This plan aims to dissect the ecological dynamics and geographical distributions between mollymawks and other albatross species, providing a structured approach to answering the question with a clear emphasis on scientific research and environmental factors.

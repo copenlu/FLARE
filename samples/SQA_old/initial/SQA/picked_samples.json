@@ -1,0 +1,450 @@
+[
+    {
+        "index": 121,
+        "qid": "486b0e16b6c36314378c",
+        "question": "Is chaff produced by hydropower?",
+        "answer": "yes",
+        "gold_explanation": "Chaff is excess material from milled grain. Some mills use hydropower to mill grain."
+    },
+    {
+        "index": 84,
+        "qid": "ee89128e112aca3b7efd",
+        "question": "Are blue lips normal?",
+        "answer": "no",
+        "gold_explanation": "Lips and skin turn blue in response to a lack of oxygen. When oxygen flow is inadequate, someone's health can be in danger. Lips can turn blue due to extreme cold."
+    },
+    {
+        "index": 15,
+        "qid": "44f54e361e0f46ead5d4",
+        "question": "Would George Fox support stoning?",
+        "answer": "no",
+        "gold_explanation": "George Fox was the founder of the Religious Society of Friends, commonly known as the Quakers or Friends. The Quakers advocate for peace and nonviolence. Stoning is a particularly violent and brutal method of capital punishment."
+    },
+    {
+        "index": 78,
+        "qid": "e126c8162ff2b480e898",
+        "question": "Did Neanderthals use arithmetic?",
+        "answer": "no",
+        "gold_explanation": "The earliest written records indicate the Egyptians and Babylonians used all the elementary arithmetic operations as early as 2000 BC. Neanderthals are an extinct species or subspecies of archaic humans who lived in Eurasia until about 40,000 years ago."
+    },
+    {
+        "index": 150,
+        "qid": "615aa49cbd52bbe0654b",
+        "question": "Are emus related to elks?",
+        "answer": "no",
+        "gold_explanation": "Emus are a type of flightless bird. Elks are deer, which are mammals."
+    },
+    {
+        "index": 35,
+        "qid": "2025983d427a9d3d5bab",
+        "question": "Can amoebas get cancer?",
+        "answer": "no",
+        "gold_explanation": "An amoeba is a single-celled organism. Cancer is the improper growth of a mass of cellular tissue, made of many incorrectly formed cells."
+    },
+    {
+        "index": 36,
+        "qid": "0edac4af92465027fe27",
+        "question": "Is Cholera alive?",
+        "answer": "yes",
+        "gold_explanation": "Cholera are a type of bacteria. Bacteria are considered living creatures."
+    },
+    {
+        "index": 148,
+        "qid": "1cfd64486a9cabeb7c0c",
+        "question": "Do mollymawks live where albatrosses cannot?",
+        "answer": "no",
+        "gold_explanation": "A mollymawk is a type of albatross Any place inaccessible to albatrosses in general is inaccessible to specific types of albatross"
+    },
+    {
+        "index": 195,
+        "qid": "14bfe3d51a876549fc0a",
+        "question": "Did Dr. Seuss live a tragedy free life?",
+        "answer": "no",
+        "gold_explanation": "Dr. Seuss's wife committed suicide. In his later years, Dr. Seuss was diagnosed with cancer."
+    },
+    {
+        "index": 85,
+        "qid": "0de2785a6eaba087541a",
+        "question": "Did Jon Brower Minnoch suffer from anorexia nervosa?",
+        "answer": "no",
+        "gold_explanation": "Jon Brower Minnoch was an American man who, at his peak weight, was the heaviest human being ever recorded, weighing 1,400 lb. Anorexia nervosa,Anorexia nervosa is an eating disorder, characterized by low weight, food restriction, fear of gaining weight, and a strong desire to be thin. Many people with anorexia see themselves as overweight even though they are, in fact, underweight."
+    },
+    {
+        "index": 102,
+        "qid": "5378f4b41639a2676635",
+        "question": "Did Cynthia Powell celebrate a silver anniversary with John Lennon?",
+        "answer": "no",
+        "gold_explanation": "A silver anniversary takes place during the 25th year of marriage. Cynthia Powell married John Lennon in 1962. Cynthia Powell and John Lennon got divorced in 1968."
+    },
+    {
+        "index": 161,
+        "qid": "d24a5b996aaa758bbc80",
+        "question": "Is Lionel Richie related to Sheila E?",
+        "answer": "no",
+        "gold_explanation": "Lionel Richie is an American singer and raised Nicole Richie. Nicole Richie was born to Sheila E's brother, Peter Michael Escovedo. Lionel Richie adopted Nicole Richie from Peter Michael Escovedo. Adoptive parents are not considered related to birth parents."
+    },
+    {
+        "index": 136,
+        "qid": "f93ca5fd96248f765ff3",
+        "question": "Should a Celiac sufferer avoid spaghetti?",
+        "answer": "yes",
+        "gold_explanation": "Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water."
+    },
+    {
+        "index": 95,
+        "qid": "29574176246ede705240",
+        "question": "Was England directly involved in the Arab-Israeli conflict?",
+        "answer": "yes",
+        "gold_explanation": "The Arab-Israeli conflict began hundreds of years ago. England occupied what is now Israel until 1945 when Israel became independent. During Israel's war for independence England allied with their Arab neighbors to fight the Israeli rebels."
+    },
+    {
+        "index": 147,
+        "qid": "96844c5fba3f4ebacf0d",
+        "question": "Are flag of Gabon colors found in rainbow?",
+        "answer": "yes",
+        "gold_explanation": "Rainbows contain the following colors:  red, orange, yellow, green, blue, indigo and violet. The flag of Gabon is green, yellow, and blue."
+    },
+    {
+        "index": 193,
+        "qid": "6208234549bac8cc46da",
+        "question": "Would  bald eagle deliver an urgent message before B-52?",
+        "answer": "no",
+        "gold_explanation": "A bald eagle can travel up to 99 MPH. The B-52 is a US air bomber that can travel up to 650 MPH."
+    },
+    {
+        "index": 127,
+        "qid": "f790b706fb7406d30160",
+        "question": "Was the Parc des Princes fully operational during June of 2020?",
+        "answer": "no",
+        "gold_explanation": "June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully."
+    },
+    {
+        "index": 29,
+        "qid": "badd24672a2f951706fe",
+        "question": "Can I hold Bing in a basket?",
+        "answer": "no",
+        "gold_explanation": "Bing is a search engine, which is a digital object. A basket is a physical object. Physical objects cannot hold digital objects."
+    },
+    {
+        "index": 222,
+        "qid": "2800bf5c809ed1224b42",
+        "question": "Would a kindergarten teacher make a lesson of the New Testament?",
+        "answer": "no",
+        "gold_explanation": "The majority of Kindergarten teachers work in public schools. Public schools abide by a separation of church and state, and do not have any overall religion. Students of all religions are welcome to attend public school."
+    },
+    {
+        "index": 192,
+        "qid": "1eb877fa5b2962f5e5a9",
+        "question": "Was a woman Prime Minister directly before or after Stanley Baldwin?",
+        "answer": "no",
+        "gold_explanation": "Stanley Baldwin was preceded by Ramsay MacDonald as Prime Minister. Stanley Baldwin was succeeded as Prime Minister by Neville Chamberlain."
+    },
+    {
+        "index": 62,
+        "qid": "2fcd999dfde755c5c049",
+        "question": "Was Eve involved in an incestuous relationship?",
+        "answer": "yes",
+        "gold_explanation": "God made Eve from a bone he removed from Adam. Since Eve was made from Adam, they would have had similar DNA and been considered twins or at least siblings. As the only humans at the time, they ended up starting a family together."
+    },
+    {
+        "index": 205,
+        "qid": "bdaf032b5e375aeb9bfa",
+        "question": "Would Bobby Jindal's high school mascot eat kibble?",
+        "answer": "yes",
+        "gold_explanation": "Bobby Jindal attended Baton Rouge Magnet High School. Baton Rouge Magnet High School's mascot is the bulldog. Kibble is another name for the dry form of dog/pet food."
+    },
+    {
+        "index": 40,
+        "qid": "a1a131e5a540d8eff3c4",
+        "question": "Did Spiderman fight against Falcon in the MCU?",
+        "answer": "yes",
+        "gold_explanation": "In Captain America: Civil War, Iron Man and Captain America became enemies following a disagreement. Iron Man summoned Spiderman to fight with his team of still-loyal Avengers. Falcon was one of Captain America's best friends and supported the Captain in the conflict. Therefore, Spiderman and Falcon were on opposite teams during the inter-Avenger battle in the movie."
+    },
+    {
+        "index": 21,
+        "qid": "b1e1256007b0a4a341a7",
+        "question": "If someone loves buffalo wings do they enjoy capsaicin?",
+        "answer": "yes",
+        "gold_explanation": "Buffalo wings are fried chicken wings covered in a spicy sauce. Spicy foods are provided their spice from capsaicin from peppers."
+    },
+    {
+        "index": 228,
+        "qid": "bac108d947b7b26035cc",
+        "question": "Was Pi an acceptable number of children in 1980s China?",
+        "answer": "no",
+        "gold_explanation": "Pi, the ratio of a circle's circumference to diameter, is equal to 3.14. In the 1980's China instituted a one-child policy. People that violated China's one child policy were fined heavily and some were sterilized."
+    },
+    {
+        "index": 224,
+        "qid": "7d1f1c2a9d554a017a22",
+        "question": "Are there bones in an anchovy pizza?",
+        "answer": "yes",
+        "gold_explanation": "Anchovies used on pizza are typically packed whole in oil or water.  Anchovies on pizza are not usually cut or filleted in any way."
+    },
+    {
+        "index": 81,
+        "qid": "c649c9f1814bd72b8ccd",
+        "question": "Did Jay-Z ever collaborate with Louis Armstrong?",
+        "answer": "no",
+        "gold_explanation": "Jay-Z was born in 1969. Louis Armstrong died in 1971."
+    },
+    {
+        "index": 198,
+        "qid": "81f2c649b9f61e019fcf",
+        "question": "Is the Flying Spaghetti Monster part of an ancient pantheon?",
+        "answer": "no",
+        "gold_explanation": "Ancient polytheistic religions are generally no longer popular in Western culture. The Church of the Flying Spaghetti Monster was established in 2006 after the creation of the FSM itself in 2005."
+    },
+    {
+        "index": 220,
+        "qid": "534cebe828195c3a8f31",
+        "question": "Is World of Warcraft heavier than a loaf of bread?",
+        "answer": "no",
+        "gold_explanation": "World of Warcraft is a piece of software. Software is digital. Digital items do not have weight. "
+    },
+    {
+        "index": 104,
+        "qid": "ba83e0960e20b69be901",
+        "question": "Is the Gujarati script the same category of script as Kanji?",
+        "answer": "no",
+        "gold_explanation": "Gujarati script is an abugida script Kanji is an adopted logographic script "
+    },
+    {
+        "index": 2,
+        "qid": "be5c9933987f046b476e",
+        "question": "Is greed the most prevalent of the Seven Deadly Sins?",
+        "answer": "no",
+        "gold_explanation": "Greed is a longing for wealth and power. White collar crime involves businesses stealing money or assets from people.  5-10% of arrests per 100,000 arrests were for  white collar crime according to Department of Justice statistics. Gluttony is the overindulgence in food or similar things. 39.8% of US adults were classified as overweight according to the National Center for Health Statistics."
+    },
+    {
+        "index": 116,
+        "qid": "c0c6685bdfb09af180a1",
+        "question": "Should Peter Griffin be an expert at the craft of brewing?",
+        "answer": "yes",
+        "gold_explanation": "Peter Griffin is an employee of a brewery in Quahog.  Peter has worked at the brewery for many years and is expected to be familiar with how beer is made."
+    },
+    {
+        "index": 41,
+        "qid": "f85416430e1ab2d6f96b",
+        "question": "Is Shiva's divine dance an ancient physical fitness pose?",
+        "answer": "no",
+        "gold_explanation": "In yoga as exercise, the pose called Natarajasara represents Shiva's divine dance This pose is new, originating in the early 20th century Exercise is an activity that maintains physical fitness"
+    },
+    {
+        "index": 5,
+        "qid": "c91eafafed5a8f80bb5a",
+        "question": "Is Miami a city on the American West Coast?",
+        "answer": "no",
+        "gold_explanation": "Miami is a city in the state of Florida. Florida is the southernmost state on the American East Coast."
+    },
+    {
+        "index": 6,
+        "qid": "2047c0c34383f8014820",
+        "question": "Can the Swiss Guard fill the Virginia General Assembly chairs?",
+        "answer": "no",
+        "gold_explanation": "The Virginia General Assembly has 140 seats. The Swiss Guard is an honour guard of Vatican City that consists of 135 men."
+    },
+    {
+        "index": 30,
+        "qid": "e5ffcc7b22a58df8952d",
+        "question": "Does the central processing unit usually have a dedicated fan?",
+        "answer": "yes",
+        "gold_explanation": "The CPU is the main chip on a computer's board, and generates a lot of heat. Computer manufacturers generally include a dedicated cooling system over the CPU in addition to the main board fans."
+    },
+    {
+        "index": 58,
+        "qid": "6a0d8d74c097292a5d38",
+        "question": "Did Maroon 5 go on tour with Nirvana?",
+        "answer": "no",
+        "gold_explanation": "Maroon 5 formed in 2001. Nirvana's final performances were in 1994."
+    },
+    {
+        "index": 108,
+        "qid": "9eba4476b61fc6a2dcdc",
+        "question": "Is Morocco an ideal location for water skiing?",
+        "answer": "no",
+        "gold_explanation": "Water skiing is a sport that involves gliding over the surface of large bodies of water. Morocco is one of the leading countries plagued by drought."
+    },
+    {
+        "index": 53,
+        "qid": "49ab746264f2e50e9aee",
+        "question": "Have rhinoceroses been killed to improve human sex lives?",
+        "answer": "yes",
+        "gold_explanation": "Rhinoceros horns are used for folk treatment of sexual impotency. Rhinoceroses are killed to remove their horns."
+    },
+    {
+        "index": 174,
+        "qid": "cc56bc3a2a756fcc8dec",
+        "question": "Would 7 zucchini's satisfy potassium USDA daily recommendation?",
+        "answer": "yes",
+        "gold_explanation": "The USDA recommends at least 3500 mg of potassium a day. One zucchini has 512 mg of potassium."
+    },
+    {
+        "index": 96,
+        "qid": "d7ea60bc4dd6e8986d4e",
+        "question": "Did Alice's Adventures in Wonderland inspire Macbeth?",
+        "answer": "no",
+        "gold_explanation": "Alice's Adventures in Wonderland was published in 1865 Macbeth was first performed in 1606"
+    },
+    {
+        "index": 146,
+        "qid": "1bdcf91a9d90ba61339a",
+        "question": "Would Mount Wycheproof be a breeze for Edmund Hillary?",
+        "answer": "yes",
+        "gold_explanation": "Edmund Hillary was a mountaineer that climbed Mount Everest. Mount Everest reaches 29,029 feet in the air. Mount Wycheproof is the smallest mountain in the world. Mount Wycheproof rises a mere 486 feet above sea level."
+    },
+    {
+        "index": 68,
+        "qid": "d2ae10dfd3fa8c338d2d",
+        "question": "Is it dangerous to consume chlorine when mixed with sodium?",
+        "answer": "no",
+        "gold_explanation": "Chlorine mixed with sodium is sodium chloride, also known as table salt. Table salt is one of the most commonly consumed seasonings among all cultures."
+    },
+    {
+        "index": 9,
+        "qid": "2a90188d5b82d12c036d",
+        "question": "Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?",
+        "answer": "no",
+        "gold_explanation": "Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey."
+    },
+    {
+        "index": 48,
+        "qid": "2ef10335771662b59cf8",
+        "question": "Could Bernie Sanders visit the Metropolitan Museum of Art twenty times for under two hundred dollars?",
+        "answer": "no",
+        "gold_explanation": "Bernie Sanders is a senior citizen Senior citizens from outside NY, NJ, or CT must pay $17 per visit"
+    },
+    {
+        "index": 75,
+        "qid": "83a7c67c6f156f9cf4cb",
+        "question": "Will more people go in and out of Taco Bell than a Roy Rogers each year?",
+        "answer": "yes",
+        "gold_explanation": "Taco Bell has over 7,072 restaurants as of 2018. Roy Rogers had over 600 restaurants at its peak. Roy Rogers has 48 locations as of 2019."
+    },
+    {
+        "index": 138,
+        "qid": "48cf1d62fdc4ae46d79e",
+        "question": "Would a body builder prefer an elk burger over a beef burger?",
+        "answer": "yes",
+        "gold_explanation": "Bodybuilders want to build muscle and keep fat low Elk meat is leaner than beef Elk meat has higher protein than beef Protein helps build muscle"
+    },
+    {
+        "index": 165,
+        "qid": "fb3862c0ef8ef7e95bce",
+        "question": "Did Teri Hatcher last twice as many episodes on Desperate Housewives as her Superman show?",
+        "answer": "yes",
+        "gold_explanation": "Actress Teri Hatcher completed a total of 180 episodes of Desperate Housewives. Teri Hatcher starred in Lois & Clark: The New Adventures of Superman based on the Superman comic. Teri Hatcher was in 87 episodes of Lois & Clark: The New Adventures of Superman."
+    },
+    {
+        "index": 76,
+        "qid": "abb3562932923dc9286e",
+        "question": "Would it be unusual to find a yellow perch in the Red Sea?",
+        "answer": "yes",
+        "gold_explanation": "The Red Sea is one of the saltiest bodies of water in the world. The yellow perch is a freshwater perciform fish native to much of North America."
+    },
+    {
+        "index": 151,
+        "qid": "0f172df66b358ed72ca6",
+        "question": "Would the chef at La Grenouille find salsa to be a strange request?",
+        "answer": "yes",
+        "gold_explanation": "La Grenouille is a classic French cuisine restaurant in NYC. Salsa is a staple food in Mexican cuisine."
+    },
+    {
+        "index": 54,
+        "qid": "a9ac24cbbb2fce862026",
+        "question": "Does ABBA have similar gender configuration to The Mamas & The Papas?",
+        "answer": "yes",
+        "gold_explanation": "ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Bj\u00f6rn Ulvaeus (male), Benny Andersson (male), Agnetha F\u00e4ltskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female)."
+    },
+    {
+        "index": 83,
+        "qid": "8d7f7bca01ee50ec0dc7",
+        "question": "Did Christopher Columbus sail representing a different country than his original home?",
+        "answer": "yes",
+        "gold_explanation": "Columbus was originally from Genoa in what is now Italy. His expeditions were funded by the Spanish monarchy."
+    },
+    {
+        "index": 49,
+        "qid": "983e2713b89f38cab35a",
+        "question": "Can Planned Parenthood tell your University that you have Herpes simplex virus?",
+        "answer": "no",
+        "gold_explanation": "Planned Parenthood specializes in reproductive healthcare. Planned Parenthood practitioners are bound by HIPAA to not disclose any patient information. "
+    },
+    {
+        "index": 119,
+        "qid": "54fbd5a53d29864cbb90",
+        "question": "Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?",
+        "answer": "no",
+        "gold_explanation": "Snoopy has been a mascot of safety in NASA The Silver Snoopy award is given by NASA astronauts to employees and contractors for outstanding achievements related to flight safety  Jesse W. Moore received warnings about the failure history of the O rings used on the Challenger shuttle, but did not act on them Jesse W. Moore was the associate administrator in charge of NASA's shuttle program at the time of the Challenger explosion The O rings were strongly implicated in the fatal explosion"
+    },
+    {
+        "index": 182,
+        "qid": "2b73dae1804aae94e1ba",
+        "question": "Are people more likely than normal to get sunburn at Burning Man?",
+        "answer": "yes",
+        "gold_explanation": "Burning Man often attracts lots of young people who are typically wearing minimal clothing due to the weather and for style.  Burning Man festivities occur in the hot summer sun and are often not in shaded areas."
+    },
+    {
+        "index": 93,
+        "qid": "316d74f3e8ce42728fdd",
+        "question": "Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",
+        "answer": "no",
+        "gold_explanation": "There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000."
+    },
+    {
+        "index": 166,
+        "qid": "f37c8f9e4fc20479b06c",
+        "question": "Do white blood cells outnumber red blood cells in the human body?",
+        "answer": "no",
+        "gold_explanation": "Red blood cells are about 40-50% of what makes up human blood. White blood cells make up about 1% of the blood in a human body."
+    },
+    {
+        "index": 170,
+        "qid": "a68facab7157ed7e520e",
+        "question": "Are all the elements plants need for photosynthesis present in atmosphere of Mars?",
+        "answer": "yes",
+        "gold_explanation": "Plants need three elements for photosynthesis: Hydrogen, Oxygen, and Carbon. The atmosphere of Mars is composed of carbon dioxide, nitrogen, argon, and trace levels of water vapor, oxygen, carbon monoxide, hydrogen and other noble gases."
+    },
+    {
+        "index": 11,
+        "qid": "59e78fdde03974a7cf77",
+        "question": "Was a person sold a Creative Commons License for Boticelli's The Birth of Venus ripped off?",
+        "answer": "yes",
+        "gold_explanation": "A Creative Commons license allows for the free distribution of an otherwise copyrighted piece of work. Works that are deemed in the public domain do not require a copyright or permission to use. Any work created before 1923 is in the public domain. Sandro Boticelli's The Birth of Venus painting was from 1486."
+    },
+    {
+        "index": 215,
+        "qid": "0ec75be0266c3bc29a85",
+        "question": "Is the Fibonacci number sequence longer than every number discovered in Pi?",
+        "answer": "yes",
+        "gold_explanation": "The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010."
+    },
+    {
+        "index": 173,
+        "qid": "7e7ba5f2d4c84b9e2259",
+        "question": "Was Land of Israel in possession of an Islamic empire in 16th century?",
+        "answer": "yes",
+        "gold_explanation": "Land of Israel was controlled by the Ottoman Empire in 16th century.  The religion of Ottoman Empire was Sunni Islam. "
+    },
+    {
+        "index": 47,
+        "qid": "cda79ce499af9dae8ffb",
+        "question": "Is Nicole Kidman ideal choice to play Psylocke based on height and weight?",
+        "answer": "yes",
+        "gold_explanation": "Psylocke is a Marvel super hero whose real name is Betsy Braddock. Betsy Braddock is 5'11 and 155 lbs. Actress Nicole Kidman is 5'11 and weighs 137 lbs. Actresses gain weight all the time for roles, such as Charlize Theron who gained 30 pounds for the movie Monster."
+    },
+    {
+        "index": 3,
+        "qid": "1932e05f10680ece229f",
+        "question": "Would the top of Mount Fuji stick out of the Sea of Japan? ",
+        "answer": "yes",
+        "gold_explanation": "The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres) Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. "
+    },
+    {
+        "index": 178,
+        "qid": "6fe610c55315019e87e5",
+        "question": "Could a wandering albatross fly from Bucharest to New York City without a rest?",
+        "answer": "yes",
+        "gold_explanation": "Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City."
+    }
+]

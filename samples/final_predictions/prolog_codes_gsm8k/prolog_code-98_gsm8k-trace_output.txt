@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-98_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7624)), write(path_result:query(_7624)))
+   Call: (12) query(_7624)
+   Call: (13) total_students(_15694)
+   Exit: (13) total_students(200)
+   Call: (13) calculate_boys_and_girls(200, _16988, _16912)
+   Call: (14) _17530 is round(200*2/5)
+   Exit: (14) 80 is round(200*2/5)
+   Call: (14) _16912 is 200-80
+   Exit: (14) 120 is 200-80
+   Exit: (13) calculate_boys_and_girls(200, 80, 120)
+   Call: (13) girls_in_scout(120, _20618)
+   Call: (14) _20618 is round(120*2/3)
+   Exit: (14) 80 is round(120*2/3)
+   Exit: (13) girls_in_scout(120, 80)
+   Call: (13) girls_not_in_scout(120, 80, _7624)
+   Call: (14) _7624 is 120-80
+   Exit: (14) 40 is 120-80
+   Exit: (13) girls_not_in_scout(120, 80, 40)
+   Exit: (12) query(40)
+path_result:query(40)
+^  Exit: (10) forall(user:call(query(_7624)), user:write(path_result:query(_7624)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-98_gsm8k-trace_output.txt"), forall(call(query(_7624)), write(path_result:query(_7624)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-98_gsm8k-trace_output.txt"), forall(call(query(GirlsNotInScout)), (write(path_result: query(GirlsNotInScout)))).')

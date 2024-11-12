@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-78_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) bags_of_dog_food_used(_5830)
+   Call: (14) _14508 is 365
+   Exit: (14) 365 is 365
+   Call: (14) _15734 is 110
+   Exit: (14) 110 is 110
+   Call: (14) _16960 is 1*180
+   Exit: (14) 180 is 1*180
+   Call: (14) _18192 is 2*(365-180)
+   Exit: (14) 370 is 2*(365-180)
+   Call: (14) _19430 is 180+370
+   Exit: (14) 550 is 180+370
+   Call: (14) _5830 is ceil(550/110)
+   Exit: (14) 5 is ceil(550/110)
+   Exit: (13) bags_of_dog_food_used(5)
+   Exit: (12) query(5)
+path_result:query(5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-78_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-78_gsm8k-trace_output.txt"), forall(call(query(NumberOfBags)), (write(path_result: query(NumberOfBags)))).')

@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-26_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) cannot_use_pitman_for_tenth_amendment
+   Call: (14) occurred_before(ratification_tenth_amendment, development_pitman_shorthand)
+   Call: (15) event(ratification_tenth_amendment, _15096)
+   Exit: (15) event(ratification_tenth_amendment, 1791)
+   Call: (15) event(development_pitman_shorthand, _16322)
+   Exit: (15) event(development_pitman_shorthand, 1837)
+   Call: (15) 1791<1837
+   Exit: (15) 1791<1837
+   Exit: (14) occurred_before(ratification_tenth_amendment, development_pitman_shorthand)
+   Call: (14) common_writing_practice(1790, longhand)
+   Exit: (14) common_writing_practice(1790, longhand)
+   Exit: (13) cannot_use_pitman_for_tenth_amendment
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-26_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-26_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,24 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-4_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) query_relationship
+   Call: (14) compare_animals(emu, elk)
+   Call: (15) find_classification(emu, _15096)
+   Call: (16) animal(emu, _15096)
+   Exit: (16) animal(emu, [animalia, chordata, aves, casuariiformes, dromaiidae, dromaius, dromaius_novaehollandiae])
+   Exit: (15) find_classification(emu, [animalia, chordata, aves, casuariiformes, dromaiidae, dromaius, dromaius_novaehollandiae])
+   Call: (15) find_classification(elk, _17588)
+   Call: (16) animal(elk, _17588)
+   Exit: (16) animal(elk, [animalia, chordata, mammalia, cetartiodactyla, cervidae, cervus, cervus_canadensis])
+   Exit: (15) find_classification(elk, [animalia, chordata, mammalia, cetartiodactyla, cervidae, cervus, cervus_canadensis])
+   Call: (15) [animalia, chordata, aves, casuariiformes, dromaiidae, dromaius, dromaius_novaehollandiae]==[animalia, chordata, mammalia, cetartiodactyla, cervidae, cervus, cervus_canadensis]
+   Fail: (15) [animalia, chordata, aves, casuariiformes, dromaiidae, dromaius, dromaius_novaehollandiae]==[animalia, chordata, mammalia, cetartiodactyla, cervidae, cervus, cervus_canadensis]
+   Redo: (14) compare_animals(emu, elk)
+   Call: (15) true
+   Exit: (15) true
+   Exit: (14) compare_animals(emu, elk)
+   Exit: (13) query_relationship
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-4_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-4_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

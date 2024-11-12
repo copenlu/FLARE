@@ -1,0 +1,44 @@
+{
+    "rouge": {
+        "rouge1": 0.9231863837138923,
+        "rouge2": 0.8955206318465292,
+        "rougeL": 0.9104167164523512,
+        "rougeLsum": 0.9227524143280557
+    },
+    "seq_matcher": {
+        "avg_score": 0.8559742355953212,
+        "max_score": 0.9988249118683902,
+        "min_score": 0.18326320710612437,
+        "std_score": 0.20374656888419923
+    },
+    "lcs": {
+        "avg_lcs": 9.235164835164834,
+        "max_lcs": 19.0,
+        "min_lcs": 4.0,
+        "std_lcs": 1.886235487283788
+    },
+    "levenshtein": {
+        "avg_error_rate_gen": 0.2015854111315006,
+        "avg_error_rate_code": 0.1822359225268381,
+        "avg_distance": 2.767032967032967,
+        "max_distance": 57.0,
+        "min_distance": 0.0,
+        "std_distance": 5.51666914446232
+    },
+    "compare": {
+        "avg_line_similarity": 81.86364992634878,
+        "avg_structure_similarity": 89.96894337115253,
+        "max_line_similarity": 100.0,
+        "max_structure_similarity": 100.0,
+        "min_line_similarity": 0.0,
+        "min_structure_similarity": 22.22222222222222,
+        "std_line_similarity": 26.811820400218075,
+        "std_structure_similarity": 17.610353850306893,
+        "avg_ratio_perfect_paths": 0.6774725274725276,
+        "avg_perfect_paths": 0.6857142857142857
+    },
+    "graph": {
+        "is_isomorphic": 0.5582417582417583,
+        "subgraph_isomorphisms_count": 0.5582417582417583
+    }
+}

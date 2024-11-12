@@ -1,0 +1,31 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-177_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_age(_5830)
+   Call: (14) age(sally_thirtytwo, _14508)
+   Exit: (14) age(sally_thirtytwo, 8)
+   Call: (14) age(granny_red, _15734)
+   Call: (15) age(sally_four, _16348)
+   Exit: (15) age(sally_four, 8)
+   Call: (15) _15734 is 2*8
+   Exit: (15) 16 is 2*8
+   Exit: (14) age(granny_red, 16)
+   Call: (14) age(sally_four, _19416)
+   Exit: (14) age(sally_four, 8)
+   Call: (14) age(sally_two, _20642)
+   Call: (15) age(granny_red, _21256)
+   Call: (16) age(sally_four, _21870)
+   Exit: (16) age(sally_four, 8)
+   Call: (16) _21256 is 2*8
+   Exit: (16) 16 is 2*8
+   Exit: (15) age(granny_red, 16)
+   Call: (15) _20642 is 16+3
+   Exit: (15) 19 is 16+3
+   Exit: (14) age(sally_two, 19)
+   Call: (14) _5830 is 8+16+8+19
+   Exit: (14) 51 is 8+16+8+19
+   Exit: (13) total_age(51)
+   Exit: (12) query(51)
+path_result:query(51)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-177_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-177_gsm8k-trace_output.txt"), forall(call(query(TotalAge)), (write(path_result: query(TotalAge)))).')

@@ -1,0 +1,33 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-272_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_excess_amount(_5830)
+   Call: (14) _14508=350000
+   Exit: (14) 350000=350000
+   Call: (14) _15734=5
+   Exit: (14) 5=5
+   Call: (14) _16960=12
+   Exit: (14) 12=12
+   Call: (14) _18186=400000
+   Exit: (14) 400000=400000
+   Call: (14) brokerage_fee(350000, 5, _19412)
+   Call: (15) _19412 is 350000*5/100
+   Exit: (15) 17500 is 350000*5/100
+   Exit: (14) brokerage_fee(350000, 5, 17500)
+   Call: (14) transfer_fee(350000, 12, _21882)
+   Call: (15) _21882 is 350000*12/100
+   Exit: (15) 42000 is 350000*12/100
+   Exit: (14) transfer_fee(350000, 12, 42000)
+   Call: (14) total_cost(350000, 17500, 42000, _24352)
+   Call: (15) _24352 is 350000+17500+42000
+   Exit: (15) 409500 is 350000+17500+42000
+   Exit: (14) total_cost(350000, 17500, 42000, 409500)
+   Call: (14) excess_amount(409500, 400000, _5830)
+   Call: (15) _5830 is 409500-400000
+   Exit: (15) 9500 is 409500-400000
+   Exit: (14) excess_amount(409500, 400000, 9500)
+   Exit: (13) calculate_excess_amount(9500)
+   Exit: (12) query(9500)
+path_result:query(9500)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-272_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-272_gsm8k-trace_output.txt"), forall(call(query(ExcessAmount)), (write(path_result: query(ExcessAmount)))).')

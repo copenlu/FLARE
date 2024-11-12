@@ -1,0 +1,32 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-29_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) compare_scripts(gujarati, kanji, type, _13884)
+   Call: (14) script(gujarati, _14506, _14508, _14510)
+   Exit: (14) script(gujarati, phonetic, brahmic, 'Gujarat, India')
+   Call: (14) script(kanji, _15752, _15754, _15756)
+   Exit: (14) script(kanji, logographic, han, 'Japan')
+   Call: (14) compare_aspect(type, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', _13884)
+   Call: (15) phonetic=logographic
+   Fail: (15) phonetic=logographic
+   Redo: (14) compare_aspect(type, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', _13884)
+   Call: (15) _13884=different_type
+   Exit: (15) different_type=different_type
+   Exit: (14) compare_aspect(type, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', different_type)
+   Exit: (13) compare_scripts(gujarati, kanji, type, different_type)
+   Call: (13) compare_scripts(gujarati, kanji, family, different_type)
+   Call: (14) script(gujarati, _22594, _22596, _22598)
+   Exit: (14) script(gujarati, phonetic, brahmic, 'Gujarat, India')
+   Call: (14) script(kanji, _23840, _23842, _23844)
+   Exit: (14) script(kanji, logographic, han, 'Japan')
+   Call: (14) compare_aspect(family, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', different_type)
+   Call: (15) brahmic=han
+   Fail: (15) brahmic=han
+   Redo: (14) compare_aspect(family, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', different_type)
+   Call: (15) different_type=different_family
+   Fail: (15) different_type=different_family
+   Fail: (14) compare_aspect(family, phonetic, logographic, brahmic, han, 'Gujarat, India', 'Japan', different_type)
+   Fail: (13) compare_scripts(gujarati, kanji, family, different_type)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-29_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-29_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-5_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_final_meal_feed(_5830)
+   Call: (14) final_meal_feed(15, 25, 20, _5830)
+   Call: (15) total_feed_needed(15, 25, 20, _15128)
+   Call: (16) _15128 is (15+25)*20
+   Exit: (16) 800 is (15+25)*20
+   Exit: (15) total_feed_needed(15, 25, 20, 800)
+   Call: (15) _5830 is 800-(15+25)
+   Exit: (15) 760 is 800-(15+25)
+   Exit: (14) final_meal_feed(15, 25, 20, 760)
+   Exit: (13) calculate_final_meal_feed(760)
+   Exit: (12) query(760)
+path_result:query(760)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-5_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-5_gsm8k-trace_output.txt"), forall(call(query(FinalMealFeed)), (write(path_result: query(FinalMealFeed)))).')

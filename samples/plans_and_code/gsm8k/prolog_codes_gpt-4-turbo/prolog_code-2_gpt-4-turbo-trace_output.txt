@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) total_weight(4, 5, 2, 3, 2, _5834)
+   Call: (14) calculate_weight(4, 2, _14532)
+   Call: (15) _14532 is 4*2
+   Exit: (15) 8 is 4*2
+   Exit: (14) calculate_weight(4, 2, 8)
+   Call: (14) calculate_weight(5, 3, _16996)
+   Call: (15) _16996 is 5*3
+   Exit: (15) 15 is 5*3
+   Exit: (14) calculate_weight(5, 3, 15)
+   Call: (14) _5834 is 8+15+2
+   Exit: (14) 25 is 8+15+2
+   Exit: (13) total_weight(4, 5, 2, 3, 2, 25)
+   Exit: (12) query(25)
+path_result:query(25)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call(query(TotalWeight)), (write(path_result: query(TotalWeight)))).')

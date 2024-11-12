@@ -1,0 +1,14 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-38_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) is_national_historic_site(gettysburg_battlefield)
+   Exit: (13) is_national_historic_site(gettysburg_battlefield)
+   Call: (13) can_host_super_bowl(gettysburg_battlefield)
+^  Call: (14) not((requires_stadium(super_bowl, true);has_physical_space(gettysburg_battlefield, insufficient)))
+   Call: (16) requires_stadium(super_bowl, true)
+   Exit: (16) requires_stadium(super_bowl, true)
+^  Fail: (14) not(user:(requires_stadium(super_bowl, true);has_physical_space(gettysburg_battlefield, insufficient)))
+   Fail: (13) can_host_super_bowl(gettysburg_battlefield)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-38_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-38_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

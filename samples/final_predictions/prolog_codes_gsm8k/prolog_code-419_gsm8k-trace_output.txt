@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-419_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7470)), write(path_result:query(_7470)))
+   Call: (12) query(_7470)
+   Call: (13) calculate_total_payment(40, _7470)
+   Call: (14) total_payment_may(40, _16152)
+   Call: (15) _16152 is 40*15*40*4
+   Exit: (15) 96000 is 40*15*40*4
+   Exit: (14) total_payment_may(40, 96000)
+   Call: (14) expired_employees(40, _18620)
+   Call: (15) _18620 is 40//4
+   Exit: (15) 10 is 40//4
+   Exit: (14) expired_employees(40, 10)
+   Call: (14) total_payment_june(40, 10, _21076)
+   Call: (15) _21694 is 40-10
+   Exit: (15) 30 is 40-10
+   Call: (15) _21076 is 30*15*40*4
+   Exit: (15) 72000 is 30*15*40*4
+   Exit: (14) total_payment_june(40, 10, 72000)
+   Call: (14) total_payment(40, 96000, 10, 72000, _7470)
+   Call: (15) _7470 is 96000+72000
+   Exit: (15) 168000 is 96000+72000
+   Exit: (14) total_payment(40, 96000, 10, 72000, 168000)
+   Exit: (13) calculate_total_payment(40, 168000)
+   Exit: (12) query(168000)
+path_result:query(168000)
+^  Exit: (10) forall(user:call(query(_7470)), user:write(path_result:query(_7470)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-419_gsm8k-trace_output.txt"), forall(call(query(_7470)), write(path_result:query(_7470)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-419_gsm8k-trace_output.txt"), forall(call(query(TotalPayment)), (write(path_result: query(TotalPayment)))).')

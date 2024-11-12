@@ -1,0 +1,83 @@
+[Example 1]
+
+Question: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?
+
+### Explanation:
+
+We need to determine how many trees were planted today in the grove. Initially, there were 15 trees. After the workers planted new trees, there were 21 trees. To find out how many trees were planted, we subtract the initial number of trees from the final number of trees.
+
+### Analysis:
+
+The problem can be broken down into simple arithmetic steps:
+
+1. Identify the initial number of trees in the grove: 15 trees.
+2. Identify the final number of trees in the grove after planting: 21 trees.
+3. Subtract the initial number of trees from the final number of trees to find out how many trees were planted: \( 21 - 15 \).
+
+### Plan:
+
+The use of swi-prolog to solve this problem involves defining a simple rule that captures the relationship between the initial number of trees, the number of trees planted, and the final number of trees. Here’s a structured plan to create the swi-prolog code:
+
+1. Define a rule `plant_trees` that takes three variables: `InitialTrees`, `FinalTrees`, and `PlantedTrees`.
+2. Express the relationship between these variables using arithmetic operations: `PlantedTrees` is the difference between `FinalTrees` and `InitialTrees`.
+3. Use swi-prolog's query capabilities to solve for `PlantedTrees` given the initial and final numbers of trees.
+
+### SWI-Prolog Code Prompt:
+
+```prolog
+% Define the rule to calculate the number of trees planted
+plant_trees(InitialTrees, FinalTrees, PlantedTrees) :-
+    PlantedTrees is FinalTrees - InitialTrees.
+
+% Example query to find out how many trees were planted today
+% Given initial trees as 15 and final trees as 21
+?- plant_trees(15, 21, PlantedTrees).
+```
+
+This Prolog code defines the relationship and computes the number of trees planted based on the given initial and final tree counts. The query at the end can be executed in a Prolog environment to get the answer.
+
+[Example 2]
+
+Question: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation:
+
+We need to determine the total number of computers in the server room after installing additional computers over several days. Initially, there were 9 computers in the server room. From Monday to Thursday, 5 more computers were installed each day. To find out the total number of computers at the end of Thursday, we need to account for the computers installed each day.
+
+### Analysis:
+
+The problem can be broken down into simple arithmetic steps:
+
+1. Identify the initial number of computers in the server room: 9 computers.
+2. Identify the number of days over which computers were installed: 4 days (Monday to Thursday).
+3. Identify the number of computers installed each day: 5 computers.
+4. Calculate the total number of computers installed over the 4 days: \( 5 \times 4 \).
+5. Add the total number of computers installed to the initial number of computers to find the final count.
+
+### Plan:
+
+The use of swi-prolog to solve this problem involves defining a simple rule that captures the relationship between the initial number of computers, the number of computers installed each day, the number of days, and the final number of computers. Here’s a structured plan to create the swi-prolog code:
+
+1. Define a rule `install_computers` that takes four variables: `InitialComputers`, `Days`, `ComputersPerDay`, and `FinalComputers`.
+2. Express the relationship between these variables using arithmetic operations: the number of computers installed is the product of `Days` and `ComputersPerDay`.
+3. The final number of computers is the sum of the initial number of computers and the total number of computers installed.
+4. Use swi-prolog's query capabilities to solve for `FinalComputers` given the initial number of computers, the number of days, and the number of computers installed each day.
+
+### SWI-Prolog Code Prompt:
+
+```prolog
+% Define the rule to calculate the final number of computers in the server room
+install_computers(InitialComputers, Days, ComputersPerDay, FinalComputers) :-
+    TotalInstalled is Days * ComputersPerDay,
+    FinalComputers is InitialComputers + TotalInstalled.
+
+% Example query to find out the total number of computers now in the server room
+% Given initial computers as 9, days as 4, and computers installed per day as 5
+?- install_computers(9, 4, 5, FinalComputers).
+```
+
+This Prolog code defines the relationship and computes the final number of computers based on the given initial count, the number of days, and the number of computers installed each day. The query at the end can be executed in a Prolog environment to get the answer.

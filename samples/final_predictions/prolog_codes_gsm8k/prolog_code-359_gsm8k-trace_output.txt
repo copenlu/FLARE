@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-359_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_hours(_5830)
+   Call: (14) yoga_class(_14508)
+   Exit: (14) yoga_class(1)
+   Call: (14) cooking_class(_15726)
+   Call: (15) _15726 is 3*1
+   Exit: (15) 3 is 3*1
+   Exit: (14) cooking_class(3)
+   Call: (14) cheese_tasting(_18174)
+   Exit: (14) cheese_tasting(0.5)
+   Call: (14) museum_tour(_19398)
+   Call: (15) _19398 is 0.5*3
+   Exit: (15) 1.5 is 0.5*3
+   Exit: (14) museum_tour(1.5)
+   Call: (14) errands(_21858)
+   Exit: (14) errands(2)
+   Call: (14) _5830 is 1+3+0.5+1.5+2
+   Exit: (14) 8.0 is 1+3+0.5+1.5+2
+   Exit: (13) total_hours(8.0)
+   Exit: (12) query(8.0)
+path_result:query(8.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-359_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-359_gsm8k-trace_output.txt"), forall(call(query(TotalHours)), (write(path_result: query(TotalHours)))).')

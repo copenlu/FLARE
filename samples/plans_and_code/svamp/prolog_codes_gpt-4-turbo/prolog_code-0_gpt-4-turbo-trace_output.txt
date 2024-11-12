@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) _13904=15
+   Exit: (13) 15=15
+   Call: (13) _15130=21
+   Exit: (13) 21=21
+   Call: (13) plant_trees(15, 21, _5834)
+   Call: (14) _5834 is 21-15
+   Exit: (14) 6 is 21-15
+   Exit: (13) plant_trees(15, 21, 6)
+   Exit: (12) query(6)
+path_result:query(6)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query(PlantedTrees)), (write(path_result: query(PlantedTrees)))).')

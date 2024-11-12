@@ -1,0 +1,12 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-31_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Exception: (12) query ? creep
+^  Exception: (10) forall(user:call(query), user:write(path_result:query)) ? creep
+   Call: (11) push_msg(init_goal_failed(error(existence_error(procedure, query/0), context(system:call/1, _3542)), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-31_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).'), _4754)
+   Exit: (11) push_msg(init_goal_failed(error(existence_error(procedure, query/0), context(system:call/1, _3542)), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-31_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).'), [])
+   Call: (18) prolog:message_prefix_hook(thread, _6172)
+   Fail: (18) prolog:message_prefix_hook(thread, _6172)
+ERROR: -g set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-31_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).: call/1: Unknown procedure: query/0
+   Call: (10) pop_msg([])
+   Exit: (10) pop_msg([])

@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-407_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) mark_savings(50, 10, 300, _5830)
+   Call: (14) total_amount_needed(50, 300, _14520)
+   Call: (15) _14520 is 300-50
+   Exit: (15) 250 is 300-50
+   Exit: (14) total_amount_needed(50, 300, 250)
+   Call: (14) days_to_save(10, 250, _5830)
+   Call: (15) _5830 is ceil(250/10)
+   Exit: (15) 25 is ceil(250/10)
+   Exit: (14) days_to_save(10, 250, 25)
+   Exit: (13) mark_savings(50, 10, 300, 25)
+   Exit: (12) query(25)
+path_result:query(25)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-407_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-407_gsm8k-trace_output.txt"), forall(call(query(Days)), (write(path_result: query(Days)))).')

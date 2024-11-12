@@ -1,0 +1,35 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-165_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_fish(10, 6, 3, _5830)
+   Call: (14) locsin_starfish(10, _14520)
+   Call: (15) _14520 is 10-5
+   Exit: (15) 5 is 10-5
+   Exit: (14) locsin_starfish(10, 5)
+   Call: (14) locsin_seahorses(6, _16976)
+   Call: (15) _16976 is 6-3
+   Exit: (15) 3 is 6-3
+   Exit: (14) locsin_seahorses(6, 3)
+   Call: (14) locsin_clownfish(3, _19432)
+   Call: (15) _19432 is 3+2
+   Exit: (15) 5 is 3+2
+   Exit: (14) locsin_clownfish(3, 5)
+   Call: (14) total_starfish(10, 5, _21888)
+   Call: (15) _21888 is 10+5
+   Exit: (15) 15 is 10+5
+   Exit: (14) total_starfish(10, 5, 15)
+   Call: (14) total_seahorses(6, 3, _24352)
+   Call: (15) _24352 is 6+3
+   Exit: (15) 9 is 6+3
+   Exit: (14) total_seahorses(6, 3, 9)
+   Call: (14) total_clownfish(3, 5, _26816)
+   Call: (15) _26816 is 3+5
+   Exit: (15) 8 is 3+5
+   Exit: (14) total_clownfish(3, 5, 8)
+   Call: (14) _5830 is 15+9+8
+   Exit: (14) 32 is 15+9+8
+   Exit: (13) total_fish(10, 6, 3, 32)
+   Exit: (12) query(32)
+path_result:query(32)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-165_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-165_gsm8k-trace_output.txt"), forall(call(query(TotalFish)), (write(path_result: query(TotalFish)))).')

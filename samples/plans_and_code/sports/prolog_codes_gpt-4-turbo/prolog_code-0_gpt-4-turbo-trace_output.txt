@@ -1,0 +1,14 @@
+   Exit: (10) protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_perform_action_in_event(joao_moutinho, screen_pass, nfc_championship)
+   Call: (14) can_perform_action(joao_moutinho, screen_pass)
+   Call: (15) player_sport(joao_moutinho, _16732)
+   Exit: (15) player_sport(joao_moutinho, soccer)
+   Call: (15) action_sport(screen_pass, soccer)
+   Fail: (15) action_sport(screen_pass, soccer)
+   Fail: (14) can_perform_action(joao_moutinho, screen_pass)
+   Fail: (13) can_perform_action_in_event(joao_moutinho, screen_pass, nfc_championship)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/sports/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

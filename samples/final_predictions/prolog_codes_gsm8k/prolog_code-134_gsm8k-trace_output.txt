@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-134_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_remaining_elves(60, _5830)
+   Call: (14) _14512 is 60//3
+   Exit: (14) 20 is 60//3
+   Call: (14) _15744 is 10
+   Exit: (14) 10 is 10
+   Call: (14) _5830 is 60-20-10
+   Exit: (14) 30 is 60-20-10
+   Exit: (13) calculate_remaining_elves(60, 30)
+   Exit: (12) query(30)
+path_result:query(30)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-134_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-134_gsm8k-trace_output.txt"), forall(call(query(RemainingElves)), (write(path_result: query(RemainingElves)))).')

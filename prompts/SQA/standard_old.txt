@@ -1,0 +1,29 @@
+##################
+
+Generate an explanation, Analysis, and plan to generate prompt for writing a swi-prolog code for the last task. 
+Your plan should show enough intermediate reasoning steps towards the answer. 
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt,
+actively use swi prolog search capibilites.
+
+##################
+
+Write a Prolog code to solve using the plan. If there are unknown or stochastic atoms or predicates, fill in the values for them as a logical assumption and add an inline comment "% Assumed atom/predicate".
+Do not use write and read commands within the code.
+
+To run the program, at the end create a predicate named "query" with the inputs and arguments required for getting all the answers. 
+It is very important that the last line of the program should be the commented-out driver predicate "query". Write only the code.
+
+The code should be enclosed in ``` ```.
+
+##################
+
+Ignoring the write and read commands, explcilty write out the search paths that explored in the code:
+#####
+Here are the paths [Starting Search Simulation]:
+
+[Path 1]:
+
+##################
+
+Given the plan, the code and the explored search paths answer the question above. Answer with a yes or no.
+######Here is the answer:

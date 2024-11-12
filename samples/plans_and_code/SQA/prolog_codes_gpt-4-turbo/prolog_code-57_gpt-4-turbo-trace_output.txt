@@ -1,0 +1,22 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-57_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) is_one_of_most_dangerous_jobs(mail_carrier)
+^  Call: (14) not(more_dangerous_than_mail_carrier(mail_carrier))
+   Call: (15) more_dangerous_than_mail_carrier(mail_carrier)
+   Call: (16) injury_rate(mail_carrier, _6644)
+   Exit: (16) injury_rate(mail_carrier, 15)
+   Call: (16) injury_rate(mail_carrier, _7870)
+   Exit: (16) injury_rate(mail_carrier, 15)
+   Call: (16) 15>15
+   Fail: (16) 15>15
+   Fail: (15) more_dangerous_than_mail_carrier(mail_carrier)
+^  Exit: (14) not(user:more_dangerous_than_mail_carrier(mail_carrier))
+   Call: (14) public_perception(mail_carrier, _11548)
+   Exit: (14) public_perception(mail_carrier, moderately_dangerous)
+   Call: (14) lists:member(moderately_dangerous, [very_dangerous, extremely_dangerous])
+   Fail: (14) lists:member(moderately_dangerous, [very_dangerous, extremely_dangerous])
+   Fail: (13) is_one_of_most_dangerous_jobs(mail_carrier)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-57_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-57_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-105_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_glasses_week(_5830)
+   Call: (14) total_glasses_weekdays(_14508)
+   Call: (15) glasses_per_meal(_15118)
+   Exit: (15) glasses_per_meal(3)
+   Call: (15) glasses_before_bed(_16336)
+   Exit: (15) glasses_before_bed(1)
+   Call: (15) _14508 is 3*3+1
+   Exit: (15) 10 is 3*3+1
+   Exit: (14) total_glasses_weekdays(10)
+   Call: (14) total_glasses_weekends(_19398)
+   Call: (15) glasses_per_meal(_20008)
+   Exit: (15) glasses_per_meal(3)
+   Call: (15) glasses_before_bed(_21226)
+   Exit: (15) glasses_before_bed(1)
+   Call: (15) soda_substitution(_22444)
+   Exit: (15) soda_substitution(1)
+   Call: (15) _19398 is 3*2+1+1
+   Exit: (15) 8 is 3*2+1+1
+   Exit: (14) total_glasses_weekends(8)
+   Call: (14) _5830 is 10+8
+   Exit: (14) 18 is 10+8
+   Exit: (13) total_glasses_week(18)
+   Exit: (12) query(18)
+path_result:query(18)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-105_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-105_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

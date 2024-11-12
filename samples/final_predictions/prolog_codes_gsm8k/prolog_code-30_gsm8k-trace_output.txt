@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-30_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_boots_cost(_5830)
+   Call: (14) total_cost_high_heels(33, 2*33, _14514)
+   Call: (15) _14514 is 33+2*33
+   Exit: (15) 99 is 33+2*33
+   Exit: (14) total_cost_high_heels(33, 2*33, 99)
+   Call: (14) cost_of_boots(99, _5830)
+   Call: (15) _5830 is 99+5
+   Exit: (15) 104 is 99+5
+   Exit: (14) cost_of_boots(99, 104)
+   Exit: (13) calculate_boots_cost(104)
+   Exit: (12) query(104)
+path_result:query(104)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-30_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-30_gsm8k-trace_output.txt"), forall(call(query(BootsCost)), (write(path_result: query(BootsCost)))).')

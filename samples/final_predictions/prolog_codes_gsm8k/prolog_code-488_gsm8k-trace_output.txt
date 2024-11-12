@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-488_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) _13900=300
+   Exit: (13) 300=300
+   Call: (13) _15126=4
+   Exit: (13) 4=4
+   Call: (13) cost_per_book(_16352)
+   Exit: (13) cost_per_book(15)
+   Call: (13) calculate_books_per_child(300, 15, 4, _5830)
+   Call: (14) _18190 is 300/15
+   Exit: (14) 20 is 300/15
+   Call: (14) _5830 is 20/4
+   Exit: (14) 5 is 20/4
+   Exit: (13) calculate_books_per_child(300, 15, 4, 5)
+   Exit: (12) query(5)
+path_result:query(5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-488_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-488_gsm8k-trace_output.txt"), forall(call(query(BooksPerChild)), (write(path_result: query(BooksPerChild)))).')

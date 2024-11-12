@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) _13904=9
+   Exit: (13) 9=9
+   Call: (13) _15130=4
+   Exit: (13) 4=4
+   Call: (13) _16356=5
+   Exit: (13) 5=5
+   Call: (13) total_computers(9, 4, 5, _5834)
+   Call: (14) _18202 is 4*5
+   Exit: (14) 20 is 4*5
+   Call: (14) _5834 is 9+20
+   Exit: (14) 29 is 9+20
+   Exit: (13) total_computers(9, 4, 5, 29)
+   Exit: (12) query(29)
+path_result:query(29)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/svamp/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt"), forall(call(query(FinalComputers)), (write(path_result: query(FinalComputers)))).')

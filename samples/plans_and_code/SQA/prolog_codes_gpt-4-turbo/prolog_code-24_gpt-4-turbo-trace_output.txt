@@ -1,0 +1,66 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-24_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) any_non_mental_illness_reasons
+   Call: (14) reason_for_therapy(_14484)
+   Exit: (14) reason_for_therapy(mental_illness_issue)
+   Call: (14) is_not_due_to_mental_illness(mental_illness_issue)
+   Call: (15) therapy_needed_for(mental_illness_issue, _16310)
+   Exit: (15) therapy_needed_for(mental_illness_issue, mental_illness)
+   Call: (15) mental_illness(mental_illness)
+   Fail: (15) mental_illness(mental_illness)
+   Redo: (14) is_not_due_to_mental_illness(mental_illness_issue)
+   Exit: (14) is_not_due_to_mental_illness(mental_illness_issue)
+   Exit: (13) any_non_mental_illness_reasons
+   Exit: (12) query
+path_result:query
+   Redo: (14) reason_for_therapy(_14484)
+   Exit: (14) reason_for_therapy(personal_development)
+   Call: (14) is_not_due_to_mental_illness(personal_development)
+   Call: (15) therapy_needed_for(personal_development, _22992)
+   Exit: (15) therapy_needed_for(personal_development, personal_growth)
+   Call: (15) mental_illness(personal_growth)
+   Fail: (15) mental_illness(personal_growth)
+   Redo: (14) is_not_due_to_mental_illness(personal_development)
+   Exit: (14) is_not_due_to_mental_illness(personal_development)
+   Exit: (13) any_non_mental_illness_reasons
+   Exit: (12) query
+path_result:query
+   Redo: (14) reason_for_therapy(_14484)
+   Exit: (14) reason_for_therapy(relationship_issues)
+   Call: (14) is_not_due_to_mental_illness(relationship_issues)
+   Call: (15) therapy_needed_for(relationship_issues, _29674)
+   Exit: (15) therapy_needed_for(relationship_issues, relationship_guidance)
+   Call: (15) mental_illness(relationship_guidance)
+   Fail: (15) mental_illness(relationship_guidance)
+   Redo: (14) is_not_due_to_mental_illness(relationship_issues)
+   Exit: (14) is_not_due_to_mental_illness(relationship_issues)
+   Exit: (13) any_non_mental_illness_reasons
+   Exit: (12) query
+path_result:query
+   Redo: (14) reason_for_therapy(_14484)
+   Exit: (14) reason_for_therapy(career_issues)
+   Call: (14) is_not_due_to_mental_illness(career_issues)
+   Call: (15) therapy_needed_for(career_issues, _36356)
+   Exit: (15) therapy_needed_for(career_issues, career_guidance)
+   Call: (15) mental_illness(career_guidance)
+   Fail: (15) mental_illness(career_guidance)
+   Redo: (14) is_not_due_to_mental_illness(career_issues)
+   Exit: (14) is_not_due_to_mental_illness(career_issues)
+   Exit: (13) any_non_mental_illness_reasons
+   Exit: (12) query
+path_result:query
+   Redo: (14) reason_for_therapy(_14484)
+   Exit: (14) reason_for_therapy(life_transitions)
+   Call: (14) is_not_due_to_mental_illness(life_transitions)
+   Call: (15) therapy_needed_for(life_transitions, _43038)
+   Exit: (15) therapy_needed_for(life_transitions, stress_management)
+   Call: (15) mental_illness(stress_management)
+   Fail: (15) mental_illness(stress_management)
+   Redo: (14) is_not_due_to_mental_illness(life_transitions)
+   Exit: (14) is_not_due_to_mental_illness(life_transitions)
+   Exit: (13) any_non_mental_illness_reasons
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-24_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-24_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

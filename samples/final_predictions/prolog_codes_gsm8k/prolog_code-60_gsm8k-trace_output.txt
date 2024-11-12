@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-60_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_final_price_groceries(_5830)
+   Call: (14) final_price_groceries(40.0, _5830)
+   Call: (15) _15126 is 40.0+3.0
+   Exit: (15) 43.0 is 40.0+3.0
+   Call: (15) _16370 is 43.0+43.0*0.25
+   Exit: (15) 53.75 is 43.0+43.0*0.25
+   Call: (15) _17620 is 53.75+4.0
+   Exit: (15) 57.75 is 53.75+4.0
+   Call: (15) _5830 is 57.75
+   Exit: (15) 57.75 is 57.75
+   Exit: (14) final_price_groceries(40.0, 57.75)
+   Exit: (13) query_final_price_groceries(57.75)
+   Exit: (12) query(57.75)
+path_result:query(57.75)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-60_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-60_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

@@ -1,0 +1,16 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) was_person_alive_before_org(einstein, darpa)
+   Call: (14) birth_year(einstein, _17318)
+   Exit: (14) birth_year(einstein, 1879)
+   Call: (14) death_year(einstein, _18468)
+   Exit: (14) death_year(einstein, 1955)
+   Call: (14) establishment_year(darpa, _19694)
+   Exit: (14) establishment_year(darpa, 1958)
+   Call: (14) 1955<1958
+   Exit: (14) 1955<1958
+   Exit: (13) was_person_alive_before_org(einstein, darpa)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

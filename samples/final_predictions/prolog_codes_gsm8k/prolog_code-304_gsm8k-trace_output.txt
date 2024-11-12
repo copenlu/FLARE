@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-304_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) weeks_to_last(42, 0.2, _5830)
+   Call: (14) _14522 is 5*2*0.2
+   Exit: (14) 2.0 is 5*2*0.2
+   Call: (14) _15766 is 42/2.0
+   Exit: (14) 21.0 is 42/2.0
+   Call: (14) _5830 is 21.0/7
+   Exit: (14) 3.0 is 21.0/7
+   Exit: (13) weeks_to_last(42, 0.2, 3.0)
+   Exit: (12) query(3.0)
+path_result:query(3.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-304_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-304_gsm8k-trace_output.txt"), forall(call(query(WeeksToLast)), (write(path_result: query(WeeksToLast)))).')

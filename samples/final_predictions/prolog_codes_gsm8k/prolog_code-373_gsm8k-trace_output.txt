@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-373_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) boys_present(_5830)
+   Call: (14) _14508=96
+   Exit: (14) 96=96
+   Call: (14) _15734=43
+   Exit: (14) 43=43
+   Call: (14) _16960=5
+   Exit: (14) 5=5
+   Call: (14) _18186=4
+   Exit: (14) 4=4
+   Call: (14) _5830 is 96-43+5+4
+   Exit: (14) 62 is 96-43+5+4
+   Exit: (13) boys_present(62)
+   Exit: (12) query(62)
+path_result:query(62)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-373_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-373_gsm8k-trace_output.txt"), forall(call(query(BoysPresent)), (write(path_result: query(BoysPresent)))).')

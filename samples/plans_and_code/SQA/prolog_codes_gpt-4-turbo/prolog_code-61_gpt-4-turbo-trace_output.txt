@@ -1,0 +1,28 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-61_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_listen_all_in_one_year
+   Call: (14) annual_listening_minutes(_16104)
+   Call: (15) daily_listening_hours(_16714)
+   Exit: (15) daily_listening_hours(4)
+   Call: (15) hours_to_minutes(4, _17932)
+   Call: (16) _17932 is 4*60
+   Exit: (16) 240 is 4*60
+   Exit: (15) hours_to_minutes(4, 240)
+   Call: (15) _16104 is 240*365
+   Exit: (15) 87600 is 240*365
+   Exit: (14) annual_listening_minutes(87600)
+   Call: (14) total_listening_time(_22226)
+   Call: (15) total_songs(_22836)
+   Exit: (15) total_songs(50000000)
+   Call: (15) average_song_length(_24054)
+   Exit: (15) average_song_length(3)
+   Call: (15) _22226 is 50000000*3
+   Exit: (15) 150000000 is 50000000*3
+   Exit: (14) total_listening_time(150000000)
+   Call: (14) 87600>=150000000
+   Fail: (14) 87600>=150000000
+   Fail: (13) can_listen_all_in_one_year
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-61_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-61_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

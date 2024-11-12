@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-82_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7340)), write(path_result:query(_7340)))
+   Call: (12) query(_7340)
+   Call: (13) query_water_left(_7340)
+   Call: (14) water_left_after_distribution(24, _16092, 6, _7340)
+   Call: (15) _16638 is 24*(1/6)
+   Exit: (15) 4.0 is 24*(1/6)
+   Call: (15) _17882 is 4.0*2
+   Exit: (15) 8.0 is 4.0*2
+   Call: (15) _19120 is 24-8.0
+   Exit: (15) 16.0 is 24-8.0
+   Call: (15) _7340 is 16.0-6
+   Exit: (15) 10.0 is 16.0-6
+   Exit: (14) water_left_after_distribution(24, 4.0, 6, 10.0)
+   Exit: (13) query_water_left(10.0)
+   Exit: (12) query(10.0)
+path_result:query(10.0)
+^  Exit: (10) forall(user:call(query(_7340)), user:write(path_result:query(_7340)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-82_gsm8k-trace_output.txt"), forall(call(query(_7340)), write(path_result:query(_7340)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-82_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

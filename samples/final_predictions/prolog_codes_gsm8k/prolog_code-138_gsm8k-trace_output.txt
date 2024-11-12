@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-138_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_cost_in_year(_5830)
+   Call: (14) monthly_cost(15, 4, _14508)
+   Call: (15) _14508 is 15*4
+   Exit: (15) 60 is 15*4
+   Exit: (14) monthly_cost(15, 4, 60)
+   Call: (14) total_cost_in_year(60, _5830)
+   Call: (15) _5830 is 60*12
+   Exit: (15) 720 is 60*12
+   Exit: (14) total_cost_in_year(60, 720)
+   Exit: (13) calculate_total_cost_in_year(720)
+   Exit: (12) query(720)
+path_result:query(720)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-138_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-138_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

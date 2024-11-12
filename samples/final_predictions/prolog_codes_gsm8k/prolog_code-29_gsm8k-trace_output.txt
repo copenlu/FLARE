@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-29_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_distance_between_stops(_5830)
+   Call: (14) distance_to_first_stop(20, _14508)
+   Call: (15) _14508 is 20
+   Exit: (15) 20 is 20
+   Exit: (14) distance_to_first_stop(20, 20)
+   Call: (14) distance_to_second_stop(45, 60, _16958)
+   Call: (15) _16958 is 60-45
+   Exit: (15) 15 is 60-45
+   Exit: (14) distance_to_second_stop(45, 60, 15)
+   Call: (14) distance_between_stops(20, 15, _5830)
+   Call: (15) _5830 is 15-20
+   Exit: (15) -5 is 15-20
+   Exit: (14) distance_between_stops(20, 15, -5)
+   Exit: (13) calculate_distance_between_stops(-5)
+   Exit: (12) query(-5)
+path_result:query(-5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-29_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-29_gsm8k-trace_output.txt"), forall(call(query(DistanceBetweenStops)), (write(path_result: query(DistanceBetweenStops)))).')

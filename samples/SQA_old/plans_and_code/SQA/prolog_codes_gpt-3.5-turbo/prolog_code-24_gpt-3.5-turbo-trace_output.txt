@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-24_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) query_acceptable_children(3)
+   Call: (14) acceptable_children(3)
+   Call: (15) integer(3)
+   Exit: (15) integer(3)
+   Call: (15) max_children(_16316)
+   Exit: (15) max_children(1)
+   Call: (15) 3=<1
+   Fail: (15) 3=<1
+   Fail: (14) acceptable_children(3)
+   Redo: (13) query_acceptable_children(3)
+   Call: (14) false
+   Fail: (14) false
+   Fail: (13) query_acceptable_children(3)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-24_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-24_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

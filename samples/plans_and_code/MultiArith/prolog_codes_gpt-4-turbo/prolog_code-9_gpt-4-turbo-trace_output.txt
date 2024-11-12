@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-9_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) kenny_books(35, 5, _5834)
+   Call: (14) total_earnings(35, _14520)
+   Call: (15) _14520 is 35*15
+   Exit: (15) 525 is 35*15
+   Exit: (14) total_earnings(35, 525)
+   Call: (14) cost_video_games(5, _16976)
+   Call: (15) _16976 is 5*45
+   Exit: (15) 225 is 5*45
+   Exit: (14) cost_video_games(5, 225)
+   Call: (14) remaining_money(525, 225, _19432)
+   Call: (15) _19432 is 525-225
+   Exit: (15) 300 is 525-225
+   Exit: (14) remaining_money(525, 225, 300)
+   Call: (14) books_purchasable(300, _5834)
+   Call: (15) _5834 is 300//5
+   Exit: (15) 60 is 300//5
+   Exit: (14) books_purchasable(300, 60)
+   Exit: (13) kenny_books(35, 5, 60)
+   Exit: (12) query(60)
+path_result:query(60)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-9_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-9_gpt-4-turbo-trace_output.txt"), forall(call(query(Books)), (write(path_result: query(Books)))).')

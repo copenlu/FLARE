@@ -1,0 +1,34 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-41_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) is_easy_climb('Mount Everest')
+   Call: (14) easy_climb('Mount Everest')
+   Call: (15) mountain('Mount Everest', _15100)
+   Exit: (15) mountain('Mount Everest', 8848)
+   Call: (15) easy_climb_threshold(_16326)
+   Exit: (15) easy_climb_threshold(500)
+   Call: (15) 8848<500
+   Fail: (15) 8848<500
+   Fail: (14) easy_climb('Mount Everest')
+   Redo: (13) is_easy_climb('Mount Everest')
+^  Call: (14) format('~w is not an easy climb for Edmund Hillary.~n', ['Mount Everest'])
+Mount Everest is not an easy climb for Edmund Hillary.
+^  Exit: (14) format('~w is not an easy climb for Edmund Hillary.~n', ['Mount Everest'])
+   Exit: (13) is_easy_climb('Mount Everest')
+   Call: (13) is_easy_climb('Mount Wycheproof')
+   Call: (14) easy_climb('Mount Wycheproof')
+   Call: (15) mountain('Mount Wycheproof', _23062)
+   Exit: (15) mountain('Mount Wycheproof', 148)
+   Call: (15) easy_climb_threshold(_24288)
+   Exit: (15) easy_climb_threshold(500)
+   Call: (15) 148<500
+   Exit: (15) 148<500
+   Exit: (14) easy_climb('Mount Wycheproof')
+^  Call: (14) format('~w is an easy climb for Edmund Hillary.~n', ['Mount Wycheproof'])
+Mount Wycheproof is an easy climb for Edmund Hillary.
+^  Exit: (14) format('~w is an easy climb for Edmund Hillary.~n', ['Mount Wycheproof'])
+   Exit: (13) is_easy_climb('Mount Wycheproof')
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-41_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-41_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

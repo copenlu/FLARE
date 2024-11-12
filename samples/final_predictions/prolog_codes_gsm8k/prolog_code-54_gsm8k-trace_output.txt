@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-54_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_toys_to_remove(_5830)
+   Call: (14) toys_to_remove(_5830)
+   Call: (15) _15116 is 1/4*30
+   Exit: (15) 7.5 is 1/4*30
+   Call: (15) _16360 is 7.5
+   Exit: (15) 7.5 is 7.5
+   Call: (15) _17592 is 15-7.5
+   Exit: (15) 7.5 is 15-7.5
+   Call: (15) _18830 is 1/2
+   Exit: (15) 0.5 is 1/2
+   Call: (15) _5830 is 7.5/0.5
+   Exit: (15) 15.0 is 7.5/0.5
+   Exit: (14) toys_to_remove(15.0)
+   Exit: (13) query_toys_to_remove(15.0)
+   Exit: (12) query(15.0)
+path_result:query(15.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-54_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-54_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

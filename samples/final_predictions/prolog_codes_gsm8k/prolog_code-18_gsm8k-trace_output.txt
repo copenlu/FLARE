@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-18_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) jill_annual_salary(_5830)
+   Call: (14) earnings_teacher(35, 50, 20, _14508)
+   Call: (15) _14508 is 35*50*20
+   Exit: (15) 35000 is 35*50*20
+   Exit: (14) earnings_teacher(35, 50, 20, 35000)
+   Call: (14) earnings_coach(15, 50, 30, _16986)
+   Call: (15) _16986 is 15*50*30
+   Exit: (15) 22500 is 15*50*30
+   Exit: (14) earnings_coach(15, 50, 30, 22500)
+   Call: (14) total_annual_salary(35000, 22500, _5830)
+   Call: (15) _5830 is 35000+22500
+   Exit: (15) 57500 is 35000+22500
+   Exit: (14) total_annual_salary(35000, 22500, 57500)
+   Exit: (13) jill_annual_salary(57500)
+   Exit: (12) query(57500)
+path_result:query(57500)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-18_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-18_gsm8k-trace_output.txt"), forall(call(query(TotalSalary)), (write(path_result: query(TotalSalary)))).')

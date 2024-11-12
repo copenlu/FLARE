@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-44_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_pieces_taken(_5830)
+   Call: (14) pieces_taken(_5830)
+   Call: (15) _15116 is 5*8
+   Exit: (15) 40 is 5*8
+   Call: (15) _16348 is 14
+   Exit: (15) 14 is 14
+   Call: (15) _5830 is 40-14
+   Exit: (15) 26 is 40-14
+   Exit: (14) pieces_taken(26)
+   Exit: (13) query_pieces_taken(26)
+   Exit: (12) query(26)
+path_result:query(26)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-44_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-44_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

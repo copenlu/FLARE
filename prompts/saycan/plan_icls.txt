@@ -1,0 +1,40 @@
+Here's the text with the appropriate segments converted into Prolog:
+
+```prolog
+% Type definition: the hierarchy of object types.
+type(robot).
+type(location).
+type(item).
+subtype(item, [snack, drink, tool]).
+subtype(snack, [fruit, non_fruit]).
+subtype(drink, [soda, non_soda]).
+
+% Object definition: specific objects of each object type defined above.
+object(me, robot).
+object([counter, table, user, trash, bowl, initial], location).
+object([apple, orange], fruit).
+object([kettle_chips, multigrain_chips, jalapeno_chips, rice_chips, energy_bar], non_fruit).
+object([seven_up, coke, lime_soda, grapefruit_soda, pepsi], soda).
+object([tea, redbull, water], non_soda).
+object(sponge, tool).
+
+% Predicate definition: relations between objects.
+predicate(at(Object, Location)) :- object(Object), object(Location, location).
+predicate(inventory(Robot, Item)) :- object(Robot, robot), object(Item, item).
+predicate(visited(Location)) :- object(Location, location).
+predicate(is_caffeinated(Item)) :- object(Item, item).
+predicate(is_salty(Item)) :- object(Item, item).
+predicate(is_sweet(Item)) :- object(Item, item).
+predicate(is_spicy(Item)) :- object(Item, item).
+predicate(is_clear(Item)) :- object(Item, item).
+predicate(is_refreshing(Item)) :- object(Item, item).
+
+% When parsing the user query into a goal, I can only use the types, objects, and predicates defined above, and the following logical operators:
+logical(and(ListOfStatements)) :- forall(member(Statement, ListOfStatements), call(Statement)).
+logical(or(ListOfStatements)) :- member(Statement, ListOfStatements), call(Statement).
+logical(not(Statement)) :- \+ call(Statement).
+logical(forall(Type, Statement)) :- forall(object(Object, Type), call(Statement, Object)).
+logical(exists(Type, Statement)) :- object(Object, Type), call(Statement, Object), !.
+logical(equals(Object1, Object2)) :- Object1 = Object2.
+logical(imply(Statement1, Statement2)) :- (call(Statement1) -> call(Statement2)).
+```

@@ -1,0 +1,13 @@
+,Accuracy,model,execmode,prompt,icl
+model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json,0.0,command-r-plus,trace,standard,2
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json,0.0,gpt-3.5-turbo,trace,standard,2
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=8_output.json,0.0,gpt-3.5-turbo,trace,standard,8
+model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json,0.0,command-r-plus,trace,standard,6
+model=command-r_execmode=trace_prompt=standard_icl=6_output.json,0.0,command-r,trace,standard,6
+model=command-r_execmode=trace_prompt=standard_icl=8_output.json,0.0,command-r,trace,standard,8
+model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json,0.0,command-r-plus,trace,standard,4
+model=command-r_execmode=trace_prompt=standard_icl=2_output.json,0.0,command-r,trace,standard,2
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json,0.0,gpt-3.5-turbo,trace,standard,6
+model=command-r_execmode=trace_prompt=standard_icl=4_output.json,0.0,command-r,trace,standard,4
+model=command-r-plus_execmode=trace_prompt=standard_icl=8_output.json,0.0,command-r-plus,trace,standard,8
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=4_output.json,0.0,gpt-3.5-turbo,trace,standard,4

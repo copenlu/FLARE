@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-97_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7524)), write(path_result:query(_7524)))
+   Call: (12) query(_7524)
+   Call: (13) dogs(_15594)
+   Exit: (13) dogs(60)
+   Call: (13) calculate_cats(_16812, 60)
+   Call: (14) cats_to_dogs_ratio(_17426)
+   Exit: (14) cats_to_dogs_ratio(2)
+   Call: (14) _16812 is 2*60
+   Exit: (14) 120 is 2*60
+   Exit: (13) calculate_cats(120, 60)
+   Call: (13) total_pets(60, 120, _20562, _7524)
+   Call: (14) total_dogs_cats(60, 120, _21106)
+   Call: (15) _21106 is 60+120
+   Exit: (15) 180 is 60+120
+   Exit: (14) total_dogs_cats(60, 120, 180)
+   Call: (14) _23570 is 180-12
+   Exit: (14) 168 is 180-12
+   Call: (14) _7524 is 60+120+168
+   Exit: (14) 348 is 60+120+168
+   Exit: (13) total_pets(60, 120, 168, 348)
+   Exit: (12) query(348)
+path_result:query(348)
+^  Exit: (10) forall(user:call(query(_7524)), user:write(path_result:query(_7524)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-97_gsm8k-trace_output.txt"), forall(call(query(_7524)), write(path_result:query(_7524)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-97_gsm8k-trace_output.txt"), forall(call(query(TotalPets)), (write(path_result: query(TotalPets)))).')

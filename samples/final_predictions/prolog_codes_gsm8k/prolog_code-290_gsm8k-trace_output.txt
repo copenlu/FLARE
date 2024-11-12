@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-290_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_beads_per_necklace(_5830)
+   Call: (14) _14508=8
+   Exit: (14) 8=8
+   Call: (14) _15734=1
+   Exit: (14) 1=1
+   Call: (14) _16960=1/4
+   Exit: (14) 1/4=1/4
+   Call: (14) _18192=25
+   Exit: (14) 25=25
+   Call: (14) gemstone_length(8, 1, _19418)
+   Call: (15) _19418 is 8*1
+   Exit: (15) 8 is 8*1
+   Exit: (14) gemstone_length(8, 1, 8)
+   Call: (14) remaining_length(25, 8, _21882)
+   Call: (15) _21882 is 25-8
+   Exit: (15) 17 is 25-8
+   Exit: (14) remaining_length(25, 8, 17)
+   Call: (14) calculate_num_beads(17, 1/4, _5830)
+   Call: (15) _5830 is 17/(1/4)
+   Exit: (15) 68.0 is 17/(1/4)
+   Exit: (14) calculate_num_beads(17, 1/4, 68.0)
+   Exit: (13) calculate_beads_per_necklace(68.0)
+   Exit: (12) query(68.0)
+path_result:query(68.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-290_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-290_gsm8k-trace_output.txt"), forall(call(query(NumBeads)), (write(path_result: query(NumBeads)))).')

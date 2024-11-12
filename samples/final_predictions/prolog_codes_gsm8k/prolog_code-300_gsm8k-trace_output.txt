@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-300_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_earnings(_5830)
+   Call: (14) _14508 is (11-8)*60
+   Exit: (14) 180 is (11-8)*60
+   Call: (14) _15746 is 30
+   Exit: (14) 30 is 30
+   Call: (14) _16972 is 180-30
+   Exit: (14) 150 is 180-30
+   Call: (14) _18204 is 150/10
+   Exit: (14) 15 is 150/10
+   Call: (14) earnings_per_interval(_19436)
+   Call: (15) _19436 is 5
+   Exit: (15) 5 is 5
+   Exit: (14) earnings_per_interval(5)
+   Call: (14) _5830 is 15*5
+   Exit: (14) 75 is 15*5
+   Exit: (13) total_earnings(75)
+   Exit: (12) query(75)
+path_result:query(75)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-300_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-300_gsm8k-trace_output.txt"), forall(call(query(TotalEarnings)), (write(path_result: query(TotalEarnings)))).')

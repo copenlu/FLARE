@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) cakes(_13904)
+   Exit: (13) cakes(18)
+   Call: (13) flour_per_cake(_15122)
+   Exit: (13) flour_per_cake(100)
+   Call: (13) total_flour_needed(18, 100, _16340)
+   Call: (14) _16340 is 18*100
+   Exit: (14) 1800 is 18*100
+   Exit: (13) total_flour_needed(18, 100, 1800)
+   Call: (13) harris_flour(_18804)
+   Exit: (13) harris_flour(400)
+   Call: (13) flour_traci_brought(1800, 400, _5834)
+   Call: (14) _5834 is 1800-400
+   Exit: (14) 1400 is 1800-400
+   Exit: (13) flour_traci_brought(1800, 400, 1400)
+   Exit: (12) query(1400)
+path_result:query(1400)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-5_gpt-4-turbo-trace_output.txt"), forall(call(query(TraciFlour)), (write(path_result: query(TraciFlour)))).')

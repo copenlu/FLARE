@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-24_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_length_melted(_5830)
+   Call: (14) total_length_melted(4, _5830)
+   Call: (15) length_melted_per_hour(_15120)
+   Exit: (15) length_melted_per_hour(2)
+   Call: (15) _5830 is 2*4
+   Exit: (15) 8 is 2*4
+   Exit: (14) total_length_melted(4, 8)
+   Exit: (13) calculate_total_length_melted(8)
+   Exit: (12) query(8)
+path_result:query(8)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-24_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-24_gsm8k-trace_output.txt"), forall(call(query(TotalLengthMelted)), (write(path_result: query(TotalLengthMelted)))).')

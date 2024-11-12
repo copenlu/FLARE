@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-167_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7340)), write(path_result:query(_7340)))
+   Call: (12) query(_7340)
+   Call: (13) total_toys_value(5, 4, _15486, _7340)
+   Call: (14) doll_cost(5, _16030)
+   Call: (15) _16030 is 3*5
+   Exit: (15) 15 is 3*5
+   Exit: (14) doll_cost(5, 15)
+   Call: (14) red_car_cost(4)
+   Call: (15) 4 is 4
+   Exit: (15) 4 is 4
+   Exit: (14) red_car_cost(4)
+   Call: (14) _7340 is 5*4+3*5+15
+   Exit: (14) 50 is 5*4+3*5+15
+   Exit: (13) total_toys_value(5, 4, 15, 50)
+   Exit: (12) query(50)
+path_result:query(50)
+^  Exit: (10) forall(user:call(query(_7340)), user:write(path_result:query(_7340)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-167_gsm8k-trace_output.txt"), forall(call(query(_7340)), write(path_result:query(_7340)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-167_gsm8k-trace_output.txt"), forall(call(query(TotalValue)), (write(path_result: query(TotalValue)))).')

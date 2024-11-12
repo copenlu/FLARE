@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-354_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_legs(_5830)
+   Call: (14) legs_per_table(4, 40, _14508)
+   Call: (15) _14508 is 4*40
+   Exit: (15) 160 is 4*40
+   Exit: (14) legs_per_table(4, 40, 160)
+   Call: (14) legs_per_table(3, 50, _16972)
+   Call: (15) _16972 is 3*50
+   Exit: (15) 150 is 3*50
+   Exit: (14) legs_per_table(3, 50, 150)
+   Call: (14) _5830 is 160+150
+   Exit: (14) 310 is 160+150
+   Exit: (13) total_legs(310)
+   Exit: (12) query(310)
+path_result:query(310)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-354_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-354_gsm8k-trace_output.txt"), forall(call(query(TotalLegs)), (write(path_result: query(TotalLegs)))).')

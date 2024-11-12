@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-17_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) can_hold_in_basket
+   Call: (14) fits_size
+   Call: (15) bing_properties(_15084, _15160)
+   Exit: (15) bing_properties(10, 5)
+   Call: (15) basket_properties(_16310, _16386)
+   Exit: (15) basket_properties(15, 10)
+   Call: (15) 10=<15
+   Exit: (15) 10=<15
+   Exit: (14) fits_size
+   Call: (14) can_handle_weight
+   Call: (15) bing_properties(_20034, _19960)
+   Exit: (15) bing_properties(10, 5)
+   Call: (15) basket_properties(_21260, _21186)
+   Exit: (15) basket_properties(15, 10)
+   Call: (15) 5=<10
+   Exit: (15) 5=<10
+   Exit: (14) can_handle_weight
+   Exit: (13) can_hold_in_basket
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-17_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-17_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-60_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) jackson_five_rugby_ability(_13884)
+   Call: (14) jackson_five_members(_14494)
+   Exit: (14) jackson_five_members(5)
+   Call: (14) can_play_full_rugby_game(5, _13884)
+   Call: (15) required_players(_16324)
+   Exit: (15) required_players(15)
+   Call: (15) 5>=15
+   Fail: (15) 5>=15
+   Redo: (14) can_play_full_rugby_game(5, _13884)
+   Call: (15) required_players(_19378)
+   Exit: (15) required_players(15)
+   Call: (15) 5<15
+   Exit: (15) 5<15
+   Call: (15) _13884=false
+   Exit: (15) false=false
+   Exit: (14) can_play_full_rugby_game(5, false)
+   Exit: (13) jackson_five_rugby_ability(false)
+   Call: (13) false=true
+   Fail: (13) false=true
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-60_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-60_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

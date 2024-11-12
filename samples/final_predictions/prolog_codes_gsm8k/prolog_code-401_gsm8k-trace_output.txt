@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-401_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) popsicles_difference(_5830)
+   Call: (14) popsicle_ratio(_14508, _14510)
+   Exit: (14) popsicle_ratio(5, 6)
+   Call: (14) total_popsicles(_15736)
+   Exit: (14) total_popsicles(165)
+   Call: (14) _16954 is 5+6
+   Exit: (14) 11 is 5+6
+   Call: (14) _18186 is 6/11*165
+   Exit: (14) 90.0 is 6/11*165
+   Call: (14) _19430 is 165-90.0
+   Exit: (14) 75.0 is 165-90.0
+   Call: (14) _5830 is 90.0-75.0
+   Exit: (14) 15.0 is 90.0-75.0
+   Exit: (13) popsicles_difference(15.0)
+   Exit: (12) query(15.0)
+path_result:query(15.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-401_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-401_gsm8k-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

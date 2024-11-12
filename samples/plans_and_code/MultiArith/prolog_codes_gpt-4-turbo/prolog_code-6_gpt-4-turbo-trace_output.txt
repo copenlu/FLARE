@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) calculate_rachels_budget(_5834)
+   Call: (14) total_spent_by_sara(50, 200, _14512)
+   Call: (15) _14512 is 50+200
+   Exit: (15) 250 is 50+200
+   Exit: (14) total_spent_by_sara(50, 200, 250)
+   Call: (14) budget_for_rachel(250, _5834)
+   Call: (15) _5834 is 2*250
+   Exit: (15) 500 is 2*250
+   Exit: (14) budget_for_rachel(250, 500)
+   Exit: (13) calculate_rachels_budget(500)
+   Exit: (12) query(500)
+path_result:query(500)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-6_gpt-4-turbo-trace_output.txt"), forall(call(query(RachelBudget)), (write(path_result: query(RachelBudget)))).')

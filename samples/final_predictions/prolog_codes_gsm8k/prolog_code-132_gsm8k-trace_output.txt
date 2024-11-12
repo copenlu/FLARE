@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-132_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7376)), write(path_result:query(_7376)))
+   Call: (12) query(_7376)
+   Call: (13) total_cost(_15518, _15520, _15522, _7376)
+   Call: (14) cost_of_watermelon(_16066)
+   Call: (15) cost_of_pepper(_16676)
+   Exit: (15) cost_of_pepper(15)
+   Call: (15) _16066 is 3*15
+   Exit: (15) 45 is 3*15
+   Exit: (14) cost_of_watermelon(45)
+   Call: (14) cost_of_pepper(_19732)
+   Exit: (14) cost_of_pepper(15)
+   Call: (14) cost_of_orange(_20950)
+   Call: (15) cost_of_watermelon(_21560)
+   Call: (16) cost_of_pepper(_22170)
+   Exit: (16) cost_of_pepper(15)
+   Call: (16) _21560 is 3*15
+   Exit: (16) 45 is 3*15
+   Exit: (15) cost_of_watermelon(45)
+   Call: (15) _20950 is 45-5
+   Exit: (15) 40 is 45-5
+   Exit: (14) cost_of_orange(40)
+   Call: (14) _7376 is 4*45+20*15+10*40
+   Exit: (14) 880 is 4*45+20*15+10*40
+   Exit: (13) total_cost(45, 15, 40, 880)
+   Exit: (12) query(880)
+path_result:query(880)
+^  Exit: (10) forall(user:call(query(_7376)), user:write(path_result:query(_7376)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-132_gsm8k-trace_output.txt"), forall(call(query(_7376)), write(path_result:query(_7376)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-132_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

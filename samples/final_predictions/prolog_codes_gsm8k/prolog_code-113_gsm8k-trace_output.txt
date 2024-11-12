@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-113_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7436)), write(path_result:query(_7436)))
+   Call: (12) query(_7436)
+   Call: (13) total_roll_ups_marcell(_15506)
+   Call: (14) area(marcell_roll_up, 3, 14, _15506)
+   Call: (15) _15506 is 3*14
+   Exit: (15) 42 is 3*14
+   Exit: (14) area(marcell_roll_up, 3, 14, 42)
+   Exit: (13) total_roll_ups_marcell(42)
+   Call: (13) total_roll_ups_beatrice(_19194)
+   Call: (14) area(beatrice_roll_up, 2, 24, _19194)
+   Call: (15) _19194 is 2*24
+   Exit: (15) 48 is 2*24
+   Exit: (14) area(beatrice_roll_up, 2, 24, 48)
+   Exit: (13) total_roll_ups_beatrice(48)
+   Call: (13) average_roll_ups(42, 48, _7436)
+   Call: (14) _23498 is 42+48
+   Exit: (14) 90 is 42+48
+   Call: (14) _7436 is 90/2
+   Exit: (14) 45 is 90/2
+   Exit: (13) average_roll_ups(42, 48, 45)
+   Exit: (12) query(45)
+path_result:query(45)
+^  Exit: (10) forall(user:call(query(_7436)), user:write(path_result:query(_7436)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-113_gsm8k-trace_output.txt"), forall(call(query(_7436)), write(path_result:query(_7436)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-113_gsm8k-trace_output.txt"), forall(call(query(Average)), (write(path_result: query(Average)))).')

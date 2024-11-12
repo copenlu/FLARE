@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-298_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_given_out(_5830)
+   Call: (14) total_medals(_14508)
+   Call: (15) ali_medals(_15118)
+   Exit: (15) ali_medals(22)
+   Call: (15) izzy_medals(_16336)
+   Call: (16) _16336 is 22-5
+   Exit: (16) 17 is 22-5
+   Exit: (15) izzy_medals(17)
+   Call: (15) _14508 is 22+17
+   Exit: (15) 39 is 22+17
+   Exit: (14) total_medals(39)
+   Call: (14) _5830 is 10*39
+   Exit: (14) 390 is 10*39
+   Exit: (13) total_given_out(390)
+   Exit: (12) query(390)
+path_result:query(390)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-298_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-298_gsm8k-trace_output.txt"), forall(call(query(TotalGivenOut)), (write(path_result: query(TotalGivenOut)))).')

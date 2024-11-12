@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-321_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) current_chile_population(_5830)
+   Call: (14) chile_population_six_years_ago(_14508)
+   Call: (15) noah_age_six_years_ago(_15118)
+   Call: (16) _15728 is 46
+   Exit: (16) 46 is 46
+   Call: (16) _15118 is 46/2-6
+   Exit: (16) 17 is 46/2-6
+   Exit: (15) noah_age_six_years_ago(17)
+   Call: (15) _14508 is 3000*17
+   Exit: (15) 51000 is 3000*17
+   Exit: (14) chile_population_six_years_ago(51000)
+   Call: (14) _5830 is 2*51000
+   Exit: (14) 102000 is 2*51000
+   Exit: (13) current_chile_population(102000)
+   Exit: (12) query(102000)
+path_result:query(102000)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-321_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-321_gsm8k-trace_output.txt"), forall(call(query(CurrentPopulation)), (write(path_result: query(CurrentPopulation)))).')

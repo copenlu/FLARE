@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-262_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7960)), write(path_result:query(_7960)))
+   Call: (12) query(_7960)
+   Call: (13) calculate_cows_in_stalls(_7960)
+   Call: (14) _16638=10
+   Exit: (14) 10=10
+   Call: (14) _17864=40
+   Exit: (14) 40=40
+   Call: (14) true
+   Exit: (14) true
+   Call: (14) _20290=8
+   Exit: (14) 8=8
+   Call: (14) initial_cow_count(10, _21516)
+   Call: (15) _21516 is 10*20
+   Exit: (15) 200 is 10*20
+   Exit: (14) initial_cow_count(10, 200)
+   Call: (14) total_cow_count(200, 40, _23972)
+   Call: (15) _23972 is 200+40
+   Exit: (15) 240 is 200+40
+   Exit: (14) total_cow_count(200, 40, 240)
+   Call: (14) cows_in_stalls(240, 8, _7960)
+   Call: (15) _7960 is 8*(240//20)
+   Exit: (15) 96 is 8*(240//20)
+   Exit: (14) cows_in_stalls(240, 8, 96)
+   Exit: (13) calculate_cows_in_stalls(96)
+   Exit: (12) query(96)
+path_result:query(96)
+^  Exit: (10) forall(user:call(query(_7960)), user:write(path_result:query(_7960)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-262_gsm8k-trace_output.txt"), forall(call(query(_7960)), write(path_result:query(_7960)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-262_gsm8k-trace_output.txt"), forall(call(query(CowsInStalls)), (write(path_result: query(CowsInStalls)))).')

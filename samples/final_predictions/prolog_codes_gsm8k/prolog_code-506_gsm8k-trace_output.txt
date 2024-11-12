@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-506_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) cost_per_razor(_5830)
+   Call: (14) pack_price(_14508)
+   Exit: (14) pack_price(4.0)
+   Call: (14) razors_per_pack(_15732)
+   Exit: (14) razors_per_pack(4)
+   Call: (14) coupon_amount(_16950)
+   Exit: (14) coupon_amount(2.0)
+   Call: (14) _18174 is 4.0-2.0
+   Exit: (14) 2.0 is 4.0-2.0
+   Call: (14) _5830 is 2.0/4
+   Exit: (14) 0.5 is 2.0/4
+   Exit: (13) cost_per_razor(0.5)
+   Exit: (12) query(0.5)
+path_result:query(0.5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-506_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-506_gsm8k-trace_output.txt"), forall(call(query(CostPerRazor)), (write(path_result: query(CostPerRazor)))).')

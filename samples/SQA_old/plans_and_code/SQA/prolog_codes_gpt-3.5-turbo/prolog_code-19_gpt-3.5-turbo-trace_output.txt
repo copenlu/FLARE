@@ -1,0 +1,692 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-19_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) query_female_neighbor
+   Call: (14) female_neighbor(_14484, _14486, _14488)
+   Call: (15) prime_minister('Stanley Baldwin', _14486, _14488, male)
+   Exit: (15) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (15) predecessor(_14484, 'Stanley Baldwin')
+   Call: (16) prime_minister(_14484, _17034, _16958, _17038)
+   Exit: (16) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (16) prime_minister('Stanley Baldwin', _18200, _18278, _18280)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1923 is 1923-1
+   Fail: (16) 1923 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _18200, _20748, _20750)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1923 is 1924-1
+   Exit: (16) 1923 is 1924-1
+   Exit: (15) predecessor('Bonar Law', 'Stanley Baldwin')
+   Call: (15) prime_minister('Bonar Law', _23828, _23830, female)
+   Fail: (15) prime_minister('Bonar Law', _24448, _24450, female)
+   Redo: (16) prime_minister('Stanley Baldwin', _18200, _25070, _25072)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1923 is 1935-1
+   Fail: (16) 1923 is 1935-1
+   Redo: (16) prime_minister(_14484, _27538, _16958, _27542)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) prime_minister('Stanley Baldwin', _28704, _28782, _28784)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1924 is 1923-1
+   Fail: (16) 1924 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _28704, _31252, _31254)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1924 is 1924-1
+   Fail: (16) 1924 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _28704, _33722, _33724)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1924 is 1935-1
+   Fail: (16) 1924 is 1935-1
+   Redo: (16) prime_minister(_14484, _36190, _16958, _36194)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _37356, _37434, _37436)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _37356, _39904, _39906)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _37356, _42374, _42376)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_14484, _44842, _16958, _44846)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _46008, _46086, _46088)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _46008, _48556, _48558)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _46008, _51026, _51028)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_14484, _53494, _16958, _53498)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (16) prime_minister('Stanley Baldwin', _54660, _54738, _54740)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1935 is 1923-1
+   Fail: (16) 1935 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _54660, _57208, _57210)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1935 is 1924-1
+   Fail: (16) 1935 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _54660, _59678, _59680)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1935 is 1935-1
+   Fail: (16) 1935 is 1935-1
+   Redo: (16) prime_minister(_14484, _62146, _16958, _62150)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) prime_minister('Stanley Baldwin', _63312, _63390, _63392)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1937 is 1923-1
+   Fail: (16) 1937 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _762, _764)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1937 is 1924-1
+   Fail: (16) 1937 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _3232, _3234)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1937 is 1935-1
+   Fail: (16) 1937 is 1935-1
+   Redo: (16) prime_minister(_154, _5700, _160, _5704)
+   Exit: (16) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (16) prime_minister('Stanley Baldwin', _6866, _6944, _6946)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1940 is 1923-1
+   Fail: (16) 1940 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _6866, _9414, _9416)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1940 is 1924-1
+   Fail: (16) 1940 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _6866, _11884, _11886)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1940 is 1935-1
+   Fail: (16) 1940 is 1935-1
+   Redo: (16) prime_minister(_154, _14352, _160, _14356)
+   Exit: (16) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (16) prime_minister('Stanley Baldwin', _15518, _15596, _15598)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1990 is 1923-1
+   Fail: (16) 1990 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _15518, _18066, _18068)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1990 is 1924-1
+   Fail: (16) 1990 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _15518, _20536, _20538)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1990 is 1935-1
+   Fail: (16) 1990 is 1935-1
+   Fail: (15) predecessor(_154, 'Stanley Baldwin')
+   Redo: (14) female_neighbor(_154, 1923, 1924)
+   Call: (15) successor(_154, 'Stanley Baldwin')
+   Call: (16) predecessor('Stanley Baldwin', _154)
+   Call: (17) prime_minister('Stanley Baldwin', _25458, _25382, _25462)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) prime_minister(_154, _26624, _26702, _26704)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1924 is 1922-1
+   Fail: (17) 1924 is 1922-1
+   Redo: (17) prime_minister(_154, _26624, _29172, _29174)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1924 is 1923-1
+   Fail: (17) 1924 is 1923-1
+   Redo: (17) prime_minister(_154, _26624, _31642, _31644)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _26624, _34112, _34114)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _26624, _36582, _36584)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1924 is 1929-1
+   Fail: (17) 1924 is 1929-1
+   Redo: (17) prime_minister(_154, _26624, _39052, _39054)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1924 is 1935-1
+   Fail: (17) 1924 is 1935-1
+   Redo: (17) prime_minister(_154, _26624, _41522, _41524)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1924 is 1937-1
+   Fail: (17) 1924 is 1937-1
+   Redo: (17) prime_minister(_154, _26624, _43992, _43994)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1924 is 1979-1
+   Fail: (17) 1924 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _46460, _25382, _46464)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) prime_minister(_154, _47626, _47704, _47706)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1929 is 1922-1
+   Fail: (17) 1929 is 1922-1
+   Redo: (17) prime_minister(_154, _47626, _50174, _50176)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1929 is 1923-1
+   Fail: (17) 1929 is 1923-1
+   Redo: (17) prime_minister(_154, _47626, _52644, _52646)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _47626, _55114, _55116)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _47626, _57584, _57586)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1929 is 1929-1
+   Fail: (17) 1929 is 1929-1
+   Redo: (17) prime_minister(_154, _47626, _60054, _60056)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1929 is 1935-1
+   Fail: (17) 1929 is 1935-1
+   Redo: (17) prime_minister(_154, _47626, _62524, _62526)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1929 is 1937-1
+   Fail: (17) 1929 is 1937-1
+   Redo: (17) prime_minister(_154, _162, _222, _224)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1929 is 1979-1
+   Fail: (17) 1929 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _2430, _160, _2434)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) prime_minister(_154, _3596, _3674, _3676)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1937 is 1922-1
+   Fail: (17) 1937 is 1922-1
+   Redo: (17) prime_minister(_154, _3596, _6144, _6146)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1937 is 1923-1
+   Fail: (17) 1937 is 1923-1
+   Redo: (17) prime_minister(_154, _3596, _8614, _8616)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _3596, _11084, _11086)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _3596, _13554, _13556)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1937 is 1929-1
+   Fail: (17) 1937 is 1929-1
+   Redo: (17) prime_minister(_154, _3596, _16024, _16026)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1937 is 1935-1
+   Fail: (17) 1937 is 1935-1
+   Redo: (17) prime_minister(_154, _3596, _18494, _18496)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1937 is 1937-1
+   Fail: (17) 1937 is 1937-1
+   Redo: (17) prime_minister(_154, _3596, _20964, _20966)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1937 is 1979-1
+   Fail: (17) 1937 is 1979-1
+   Fail: (16) predecessor('Stanley Baldwin', _154)
+   Fail: (15) successor(_154, 'Stanley Baldwin')
+   Redo: (15) prime_minister('Stanley Baldwin', _156, _158, male)
+   Exit: (15) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (15) predecessor(_154, 'Stanley Baldwin')
+   Call: (16) prime_minister(_154, _26510, _26434, _26514)
+   Exit: (16) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (16) prime_minister('Stanley Baldwin', _27676, _27754, _27756)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1923 is 1923-1
+   Fail: (16) 1923 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _27676, _30224, _30226)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1923 is 1924-1
+   Exit: (16) 1923 is 1924-1
+   Exit: (15) predecessor('Bonar Law', 'Stanley Baldwin')
+   Call: (15) prime_minister('Bonar Law', _33304, _33306, female)
+   Fail: (15) prime_minister('Bonar Law', _33924, _33926, female)
+   Redo: (16) prime_minister('Stanley Baldwin', _27676, _34546, _34548)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1923 is 1935-1
+   Fail: (16) 1923 is 1935-1
+   Redo: (16) prime_minister(_154, _37014, _26434, _37018)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) prime_minister('Stanley Baldwin', _38180, _38258, _38260)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1924 is 1923-1
+   Fail: (16) 1924 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _38180, _40728, _40730)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1924 is 1924-1
+   Fail: (16) 1924 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _38180, _43198, _43200)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1924 is 1935-1
+   Fail: (16) 1924 is 1935-1
+   Redo: (16) prime_minister(_154, _45666, _26434, _45670)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _46832, _46910, _46912)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _46832, _49380, _49382)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _46832, _51850, _51852)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_154, _54318, _26434, _54322)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _55484, _55562, _55564)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _55484, _58032, _58034)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _55484, _60502, _60504)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_154, _62970, _26434, _62974)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (16) prime_minister('Stanley Baldwin', _64136, _64214, _64216)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1935 is 1923-1
+   Fail: (16) 1935 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _1456, _1458)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1935 is 1924-1
+   Fail: (16) 1935 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _3926, _3928)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1935 is 1935-1
+   Fail: (16) 1935 is 1935-1
+   Redo: (16) prime_minister(_154, _6394, _160, _6398)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) prime_minister('Stanley Baldwin', _7560, _7638, _7640)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1937 is 1923-1
+   Fail: (16) 1937 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _7560, _10108, _10110)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1937 is 1924-1
+   Fail: (16) 1937 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _7560, _12578, _12580)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1937 is 1935-1
+   Fail: (16) 1937 is 1935-1
+   Redo: (16) prime_minister(_154, _15046, _160, _15050)
+   Exit: (16) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (16) prime_minister('Stanley Baldwin', _16212, _16290, _16292)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1940 is 1923-1
+   Fail: (16) 1940 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _16212, _18760, _18762)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1940 is 1924-1
+   Fail: (16) 1940 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _16212, _21230, _21232)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1940 is 1935-1
+   Fail: (16) 1940 is 1935-1
+   Redo: (16) prime_minister(_154, _23698, _160, _23702)
+   Exit: (16) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (16) prime_minister('Stanley Baldwin', _24864, _24942, _24944)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1990 is 1923-1
+   Fail: (16) 1990 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _24864, _27412, _27414)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1990 is 1924-1
+   Fail: (16) 1990 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _24864, _29882, _29884)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1990 is 1935-1
+   Fail: (16) 1990 is 1935-1
+   Fail: (15) predecessor(_154, 'Stanley Baldwin')
+   Redo: (14) female_neighbor(_154, 1924, 1929)
+   Call: (15) successor(_154, 'Stanley Baldwin')
+   Call: (16) predecessor('Stanley Baldwin', _154)
+   Call: (17) prime_minister('Stanley Baldwin', _34804, _34728, _34808)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) prime_minister(_154, _35970, _36048, _36050)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1924 is 1922-1
+   Fail: (17) 1924 is 1922-1
+   Redo: (17) prime_minister(_154, _35970, _38518, _38520)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1924 is 1923-1
+   Fail: (17) 1924 is 1923-1
+   Redo: (17) prime_minister(_154, _35970, _40988, _40990)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _35970, _43458, _43460)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _35970, _45928, _45930)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1924 is 1929-1
+   Fail: (17) 1924 is 1929-1
+   Redo: (17) prime_minister(_154, _35970, _48398, _48400)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1924 is 1935-1
+   Fail: (17) 1924 is 1935-1
+   Redo: (17) prime_minister(_154, _35970, _50868, _50870)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1924 is 1937-1
+   Fail: (17) 1924 is 1937-1
+   Redo: (17) prime_minister(_154, _35970, _53338, _53340)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1924 is 1979-1
+   Fail: (17) 1924 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _55806, _34728, _55810)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) prime_minister(_154, _56972, _57050, _57052)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1929 is 1922-1
+   Fail: (17) 1929 is 1922-1
+   Redo: (17) prime_minister(_154, _56972, _59520, _59522)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1929 is 1923-1
+   Fail: (17) 1929 is 1923-1
+   Redo: (17) prime_minister(_154, _56972, _61990, _61992)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _56972, _64460, _64462)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _162, _1880, _1882)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1929 is 1929-1
+   Fail: (17) 1929 is 1929-1
+   Redo: (17) prime_minister(_154, _162, _4350, _4352)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1929 is 1935-1
+   Fail: (17) 1929 is 1935-1
+   Redo: (17) prime_minister(_154, _162, _6820, _6822)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1929 is 1937-1
+   Fail: (17) 1929 is 1937-1
+   Redo: (17) prime_minister(_154, _162, _9290, _9292)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1929 is 1979-1
+   Fail: (17) 1929 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _11758, _160, _11762)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) prime_minister(_154, _12924, _13002, _13004)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1937 is 1922-1
+   Fail: (17) 1937 is 1922-1
+   Redo: (17) prime_minister(_154, _12924, _15472, _15474)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1937 is 1923-1
+   Fail: (17) 1937 is 1923-1
+   Redo: (17) prime_minister(_154, _12924, _17942, _17944)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _12924, _20412, _20414)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _12924, _22882, _22884)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1937 is 1929-1
+   Fail: (17) 1937 is 1929-1
+   Redo: (17) prime_minister(_154, _12924, _25352, _25354)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1937 is 1935-1
+   Fail: (17) 1937 is 1935-1
+   Redo: (17) prime_minister(_154, _12924, _27822, _27824)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1937 is 1937-1
+   Fail: (17) 1937 is 1937-1
+   Redo: (17) prime_minister(_154, _12924, _30292, _30294)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1937 is 1979-1
+   Fail: (17) 1937 is 1979-1
+   Fail: (16) predecessor('Stanley Baldwin', _154)
+   Fail: (15) successor(_154, 'Stanley Baldwin')
+   Redo: (15) prime_minister('Stanley Baldwin', _156, _158, male)
+   Exit: (15) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (15) predecessor(_154, 'Stanley Baldwin')
+   Call: (16) prime_minister(_154, _35838, _35762, _35842)
+   Exit: (16) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (16) prime_minister('Stanley Baldwin', _37004, _37082, _37084)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1923 is 1923-1
+   Fail: (16) 1923 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _37004, _39552, _39554)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1923 is 1924-1
+   Exit: (16) 1923 is 1924-1
+   Exit: (15) predecessor('Bonar Law', 'Stanley Baldwin')
+   Call: (15) prime_minister('Bonar Law', _42632, _42634, female)
+   Fail: (15) prime_minister('Bonar Law', _43252, _43254, female)
+   Redo: (16) prime_minister('Stanley Baldwin', _37004, _43874, _43876)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1923 is 1935-1
+   Fail: (16) 1923 is 1935-1
+   Redo: (16) prime_minister(_154, _46342, _35762, _46346)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) prime_minister('Stanley Baldwin', _47508, _47586, _47588)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1924 is 1923-1
+   Fail: (16) 1924 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _47508, _50056, _50058)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1924 is 1924-1
+   Fail: (16) 1924 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _47508, _52526, _52528)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1924 is 1935-1
+   Fail: (16) 1924 is 1935-1
+   Redo: (16) prime_minister(_154, _54994, _35762, _54998)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _56160, _56238, _56240)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _56160, _58708, _58710)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _56160, _61178, _61180)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_154, _63646, _35762, _63650)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) prime_minister('Stanley Baldwin', _64812, _64890, _64892)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1929 is 1923-1
+   Fail: (16) 1929 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _2086, _2088)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1929 is 1924-1
+   Fail: (16) 1929 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _162, _4556, _4558)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1929 is 1935-1
+   Fail: (16) 1929 is 1935-1
+   Redo: (16) prime_minister(_154, _7024, _160, _7028)
+   Exit: (16) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (16) prime_minister('Stanley Baldwin', _8190, _8268, _8270)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1935 is 1923-1
+   Fail: (16) 1935 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _8190, _10738, _10740)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1935 is 1924-1
+   Fail: (16) 1935 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _8190, _13208, _13210)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1935 is 1935-1
+   Fail: (16) 1935 is 1935-1
+   Redo: (16) prime_minister(_154, _15676, _160, _15680)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) prime_minister('Stanley Baldwin', _16842, _16920, _16922)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1937 is 1923-1
+   Fail: (16) 1937 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _16842, _19390, _19392)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1937 is 1924-1
+   Fail: (16) 1937 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _16842, _21860, _21862)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1937 is 1935-1
+   Fail: (16) 1937 is 1935-1
+   Redo: (16) prime_minister(_154, _24328, _160, _24332)
+   Exit: (16) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (16) prime_minister('Stanley Baldwin', _25494, _25572, _25574)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1940 is 1923-1
+   Fail: (16) 1940 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _25494, _28042, _28044)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1940 is 1924-1
+   Fail: (16) 1940 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _25494, _30512, _30514)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1940 is 1935-1
+   Fail: (16) 1940 is 1935-1
+   Redo: (16) prime_minister(_154, _32980, _160, _32984)
+   Exit: (16) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (16) prime_minister('Stanley Baldwin', _34146, _34224, _34226)
+   Exit: (16) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (16) 1990 is 1923-1
+   Fail: (16) 1990 is 1923-1
+   Redo: (16) prime_minister('Stanley Baldwin', _34146, _36694, _36696)
+   Exit: (16) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (16) 1990 is 1924-1
+   Fail: (16) 1990 is 1924-1
+   Redo: (16) prime_minister('Stanley Baldwin', _34146, _39164, _39166)
+   Exit: (16) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (16) 1990 is 1935-1
+   Fail: (16) 1990 is 1935-1
+   Fail: (15) predecessor(_154, 'Stanley Baldwin')
+   Redo: (14) female_neighbor(_154, 1935, 1937)
+   Call: (15) successor(_154, 'Stanley Baldwin')
+   Call: (16) predecessor('Stanley Baldwin', _154)
+   Call: (17) prime_minister('Stanley Baldwin', _44086, _44010, _44090)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) prime_minister(_154, _45252, _45330, _45332)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1924 is 1922-1
+   Fail: (17) 1924 is 1922-1
+   Redo: (17) prime_minister(_154, _45252, _47800, _47802)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1924 is 1923-1
+   Fail: (17) 1924 is 1923-1
+   Redo: (17) prime_minister(_154, _45252, _50270, _50272)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _45252, _52740, _52742)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1924 is 1924-1
+   Fail: (17) 1924 is 1924-1
+   Redo: (17) prime_minister(_154, _45252, _55210, _55212)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1924 is 1929-1
+   Fail: (17) 1924 is 1929-1
+   Redo: (17) prime_minister(_154, _45252, _57680, _57682)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1924 is 1935-1
+   Fail: (17) 1924 is 1935-1
+   Redo: (17) prime_minister(_154, _45252, _60150, _60152)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1924 is 1937-1
+   Fail: (17) 1924 is 1937-1
+   Redo: (17) prime_minister(_154, _45252, _62620, _62622)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1924 is 1979-1
+   Fail: (17) 1924 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _220, _160, _222)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) prime_minister(_154, _1232, _1310, _1312)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1929 is 1922-1
+   Fail: (17) 1929 is 1922-1
+   Redo: (17) prime_minister(_154, _1232, _3780, _3782)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1929 is 1923-1
+   Fail: (17) 1929 is 1923-1
+   Redo: (17) prime_minister(_154, _1232, _6250, _6252)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _1232, _8720, _8722)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1929 is 1924-1
+   Fail: (17) 1929 is 1924-1
+   Redo: (17) prime_minister(_154, _1232, _11190, _11192)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1929 is 1929-1
+   Fail: (17) 1929 is 1929-1
+   Redo: (17) prime_minister(_154, _1232, _13660, _13662)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1929 is 1935-1
+   Fail: (17) 1929 is 1935-1
+   Redo: (17) prime_minister(_154, _1232, _16130, _16132)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1929 is 1937-1
+   Fail: (17) 1929 is 1937-1
+   Redo: (17) prime_minister(_154, _1232, _18600, _18602)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1929 is 1979-1
+   Fail: (17) 1929 is 1979-1
+   Redo: (17) prime_minister('Stanley Baldwin', _21068, _160, _21072)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) prime_minister(_154, _22234, _22312, _22314)
+   Exit: (17) prime_minister('Bonar Law', 1922, 1923, male)
+   Call: (17) 1937 is 1922-1
+   Fail: (17) 1937 is 1922-1
+   Redo: (17) prime_minister(_154, _22234, _24782, _24784)
+   Exit: (17) prime_minister('Stanley Baldwin', 1923, 1924, male)
+   Call: (17) 1937 is 1923-1
+   Fail: (17) 1937 is 1923-1
+   Redo: (17) prime_minister(_154, _22234, _27252, _27254)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _22234, _29722, _29724)
+   Exit: (17) prime_minister('Stanley Baldwin', 1924, 1929, male)
+   Call: (17) 1937 is 1924-1
+   Fail: (17) 1937 is 1924-1
+   Redo: (17) prime_minister(_154, _22234, _32192, _32194)
+   Exit: (17) prime_minister('Ramsay MacDonald', 1929, 1935, male)
+   Call: (17) 1937 is 1929-1
+   Fail: (17) 1937 is 1929-1
+   Redo: (17) prime_minister(_154, _22234, _34662, _34664)
+   Exit: (17) prime_minister('Stanley Baldwin', 1935, 1937, male)
+   Call: (17) 1937 is 1935-1
+   Fail: (17) 1937 is 1935-1
+   Redo: (17) prime_minister(_154, _22234, _37132, _37134)
+   Exit: (17) prime_minister('Neville Chamberlain', 1937, 1940, male)
+   Call: (17) 1937 is 1937-1
+   Fail: (17) 1937 is 1937-1
+   Redo: (17) prime_minister(_154, _22234, _39602, _39604)
+   Exit: (17) prime_minister('Margaret Thatcher', 1979, 1990, female)
+   Call: (17) 1937 is 1979-1
+   Fail: (17) 1937 is 1979-1
+   Fail: (16) predecessor('Stanley Baldwin', _154)
+   Fail: (15) successor(_154, 'Stanley Baldwin')
+   Fail: (14) female_neighbor(_154, _156, _158)
+   Redo: (13) query_female_neighbor
+   Call: (14) true
+   Exit: (14) true
+   Exit: (13) query_female_neighbor
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-19_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

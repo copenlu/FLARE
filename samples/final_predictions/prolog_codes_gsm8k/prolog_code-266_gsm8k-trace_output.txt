@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-266_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_fruits(_5830)
+   Call: (14) _14508=52
+   Exit: (14) 52=52
+   Call: (14) _15734=8
+   Exit: (14) 8=8
+   Call: (14) apples_jamal(52, 8, _16960)
+   Call: (15) _16960 is 52-8
+   Exit: (15) 44 is 52-8
+   Exit: (14) apples_jamal(52, 8, 44)
+   Call: (14) bananas_jamal(44, _19424)
+   Call: (15) _19424 is 44/2
+   Exit: (15) 22 is 44/2
+   Exit: (14) bananas_jamal(44, 22)
+   Call: (14) total_fruits(44, 22, _5830)
+   Call: (15) _5830 is 44+22
+   Exit: (15) 66 is 44+22
+   Exit: (14) total_fruits(44, 22, 66)
+   Exit: (13) calculate_total_fruits(66)
+   Exit: (12) query(66)
+path_result:query(66)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-266_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-266_gsm8k-trace_output.txt"), forall(call(query(TotalFruits)), (write(path_result: query(TotalFruits)))).')

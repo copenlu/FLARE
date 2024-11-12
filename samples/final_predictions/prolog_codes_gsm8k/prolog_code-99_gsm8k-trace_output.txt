@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-99_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) hours_difference(_5830)
+   Call: (14) harry_sleep_hours(_14508)
+   Exit: (14) harry_sleep_hours(9)
+   Call: (14) james_sleep_hours(_15726)
+   Call: (15) harry_sleep_hours(_16336)
+   Exit: (15) harry_sleep_hours(9)
+   Call: (15) _15726 is 2*9//3
+   Exit: (15) 6 is 2*9//3
+   Exit: (14) james_sleep_hours(6)
+   Call: (14) _5830 is 9-6
+   Exit: (14) 3 is 9-6
+   Exit: (13) hours_difference(3)
+   Exit: (12) query(3)
+path_result:query(3)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-99_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-99_gsm8k-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

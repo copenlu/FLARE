@@ -1,0 +1,56 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-306_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) desk_cost(_5830)
+   Call: (14) _14508=200
+   Exit: (14) 200=200
+   Call: (14) _15734=50
+   Exit: (14) 50=50
+   Call: (14) _16960=3
+   Exit: (14) 3=3
+   Call: (14) calculate_total_cost(3, 200, 50, _5830)
+   Call: (15) 3>0
+   Exit: (15) 3>0
+   Call: (15) _20030 is 200+50
+   Exit: (15) 250 is 200+50
+   Call: (15) _21268 is 3+ -1
+   Exit: (15) 2 is 3+ -1
+   Call: (15) calculate_total_cost(2, 250, 50, _22494)
+   Call: (16) 2>0
+   Exit: (16) 2>0
+   Call: (16) _24340 is 250+50
+   Exit: (16) 300 is 250+50
+   Call: (16) _25578 is 2+ -1
+   Exit: (16) 1 is 2+ -1
+   Call: (16) calculate_total_cost(1, 300, 50, _26804)
+   Call: (17) 1>0
+   Exit: (17) 1>0
+   Call: (17) _28650 is 300+50
+   Exit: (17) 350 is 300+50
+   Call: (17) _29888 is 1+ -1
+   Exit: (17) 0 is 1+ -1
+   Call: (17) calculate_total_cost(0, 350, 50, _31114)
+   Exit: (17) calculate_total_cost(0, 350, 50, 0)
+   Call: (17) _26804 is 300+0
+   Exit: (17) 300 is 300+0
+   Exit: (16) calculate_total_cost(1, 300, 50, 300)
+   Call: (16) _22494 is 250+300
+   Exit: (16) 550 is 250+300
+   Exit: (15) calculate_total_cost(2, 250, 50, 550)
+   Call: (15) _5830 is 200+550
+   Exit: (15) 750 is 200+550
+   Exit: (14) calculate_total_cost(3, 200, 50, 750)
+   Exit: (13) desk_cost(750)
+   Exit: (12) query(750)
+path_result:query(750)
+   Redo: (17) calculate_total_cost(0, 350, 50, _31114)
+   Call: (18) 0>0
+   Fail: (18) 0>0
+   Fail: (17) calculate_total_cost(0, 350, 50, _31114)
+   Fail: (16) calculate_total_cost(1, 300, 50, _26804)
+   Fail: (15) calculate_total_cost(2, 250, 50, _22494)
+   Fail: (14) calculate_total_cost(3, 200, 50, _5830)
+   Fail: (13) desk_cost(_5830)
+   Fail: (12) query(_5830)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-306_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-306_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

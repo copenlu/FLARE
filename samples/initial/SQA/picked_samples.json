@@ -1,0 +1,4261 @@
+[
+    {
+        "index": 118,
+        "qid": 925,
+        "question": "Can citrus grow in Ulaanbaatar?",
+        "answer": "no",
+        "id": 925,
+        "term": "Citrus",
+        "description": "genus of fruit-bearing plants (source of fruit such as lemons and oranges)",
+        "facts": [
+            "Citrus can withstand short periods down to as cold as \u221210 \u00b0C (14 \u00b0F), but realistically temperatures not falling below \u22122 \u00b0C (28 \u00b0F) are required for successful cultivation.",
+            "Ulaanbaatar has an average annual temperature of \u22120.4 \u00b0C or 31.3 \u00b0F."
+        ],
+        "decomposition": [
+            "What climates are suitable for growing citrus?",
+            "What is the climate of Ulaanbaatar?",
+            "Is #2 similar to #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Citrus-34"
+                    ]
+                ],
+                [
+                    [
+                        "Ulaanbaatar-39"
+                    ]
+                ],
+                [
+                    [
+                        "Citrus-34"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Citrus-26",
+                        "Citrus-31"
+                    ]
+                ],
+                [
+                    [
+                        "Ulaanbaatar-39"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Citrus-31"
+                    ]
+                ],
+                [
+                    [
+                        "Ulaanbaatar-40"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 227,
+        "qid": 103,
+        "question": "Did Ice make people rich?",
+        "answer": "yes",
+        "id": 103,
+        "term": "Ice",
+        "description": "water frozen into the solid state",
+        "facts": [
+            "Trading ice was common in the 1800s.",
+            "People created industries harvesting and selling ice.",
+            "Some ice sellers became extremely rich. "
+        ],
+        "decomposition": [
+            "In the 1800's, what item was commonly traded?",
+            "Did some people become rich off of selling #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Ice trade-1"
+                    ]
+                ],
+                [
+                    [
+                        "Ice trade-10"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Ice-48"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Ice-49"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Ice trade-1"
+                    ]
+                ],
+                [
+                    [
+                        "Ice trade-2"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 424,
+        "qid": 177,
+        "question": "Are emus related to elks?",
+        "answer": "no",
+        "id": 177,
+        "term": "Emu",
+        "description": "Large flightless bird endemic to Australia",
+        "facts": [
+            "Emus are a type of flightless bird.",
+            "Elks are deer, which are mammals."
+        ],
+        "decomposition": [
+            "What type of animal are Emus?",
+            "What type of animals are Elks?",
+            "Are #1 and #2 the same?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Emu-1"
+                    ]
+                ],
+                [
+                    [
+                        "Elk-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Emu-2"
+                    ]
+                ],
+                [
+                    [
+                        "Elk-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Emu-1"
+                    ]
+                ],
+                [
+                    [
+                        "Elk-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 130,
+        "qid": 648,
+        "question": "Does Sam Harris worship Shiva?",
+        "answer": "no",
+        "id": 648,
+        "term": "Shiva",
+        "description": "One of the principal deities of Hinduism.",
+        "facts": [
+            "Sam Harris is an atheist.",
+            "Atheism is, in the broadest sense, an absence of belief in the existence of deities."
+        ],
+        "decomposition": [
+            "What is Sam Harris' religious affiliation?",
+            "Does a #1 worship any gods?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Sam Harris-1"
+                    ]
+                ],
+                [
+                    [
+                        "Atheism-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Sam Harris-1"
+                    ]
+                ],
+                [
+                    [
+                        "Atheism-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Sam Harris-12"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 428,
+        "qid": 561,
+        "question": "Did Donatello use a smartphone?",
+        "answer": "no",
+        "id": 561,
+        "term": "Donatello",
+        "description": "Italian painter and sculptor",
+        "facts": [
+            "Donatello died on December 13, 1466.",
+            "The first smartphone did not come out until 1992."
+        ],
+        "decomposition": [
+            "What years was Donatello alive?",
+            "When was the first smartphone released?",
+            "Did #2 occur during #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Donatello-1"
+                    ]
+                ],
+                [
+                    [
+                        "Smartphone-6"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Donatello-1"
+                    ]
+                ],
+                [
+                    [
+                        "Smartphone-16"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Donatello-1"
+                    ]
+                ],
+                [
+                    [
+                        "Smartphone-6"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 363,
+        "qid": 37,
+        "question": "Is dessert eaten before breakfast?",
+        "answer": "no",
+        "id": 37,
+        "term": "Dessert",
+        "description": "A course that concludes a meal; usually sweet",
+        "facts": [
+            "Desserts are sweets.",
+            "Meals generally begin with savory foods, and sweets eaten after."
+        ],
+        "decomposition": [
+            "What is a dessert?",
+            "Are #1 usually sweet or salty?",
+            "Do meals generally begin with foods that are #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Dessert-1"
+                    ]
+                ],
+                [
+                    [
+                        "Dessert-1"
+                    ]
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Dessert-1"
+                    ]
+                ],
+                [
+                    [
+                        "Dessert-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Dessert-1"
+                    ]
+                ],
+                [
+                    [
+                        "Dessert-2"
+                    ]
+                ],
+                [
+                    [
+                        "Breakfast-85"
+                    ],
+                    "no_evidence"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 60,
+        "qid": 754,
+        "question": "Can olive oil kill rabies?",
+        "answer": "no",
+        "id": 754,
+        "term": "Olive oil",
+        "description": "liquid fat extracted by pressing olives",
+        "facts": [
+            "Olive oil is a fat used in cooking.",
+            "Olive oil is made up of palmitic acid which is a weak acid found in plants and animals.",
+            "Rabies is a disease from an infected animal bite.",
+            "Rabies is treated by a shot containing immunoglobuin, a protein that is found in plasma cells.",
+            "Plasma cells are found in the bone marrow of humans."
+        ],
+        "decomposition": [
+            "What is used to treat rabies?",
+            "What is olive oil made of?",
+            "Are any of #2 present in #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Rabies-31"
+                    ]
+                ],
+                [
+                    [
+                        "Olive oil-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Rabies-30",
+                        "Rabies-33"
+                    ]
+                ],
+                [
+                    [
+                        "Olive oil-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Rabies-30"
+                    ]
+                ],
+                [
+                    [
+                        "Olive oil-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 451,
+        "qid": 742,
+        "question": "Was Augustus his real name?",
+        "answer": "no",
+        "id": 742,
+        "term": "Augustus",
+        "description": "First emperor of the Roman Empire",
+        "facts": [
+            "Augustus was given the name Gaius Octavius at birth.",
+            "After he was adopted by his uncle Julius Caesar, he took the name Gaius Iulius Caesar.",
+            "He took the name Augustus upon the breaking of the ruling Triumvirate and becoming Emperor."
+        ],
+        "decomposition": [
+            "What name did Augustus have when he was born?",
+            "Is #1 identical to Augustus?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Augustus-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Augustus-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Augustus-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 461,
+        "qid": 234,
+        "question": "Was Charles Manson's body unwanted?",
+        "answer": "no",
+        "id": 234,
+        "term": "Charles Manson",
+        "description": "American criminal, cult leader",
+        "facts": [
+            "Charles Manson's body was debated over for so long that he had to stay on ice.",
+            "Charles Manson had four people fighting over his corpse."
+        ],
+        "decomposition": [
+            "How many people tried to claim Charles Manson's body?",
+            "Is #1 equal to zero?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Charles Manson-66"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Charles Manson-66"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Charles Manson-66"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 180,
+        "qid": 333,
+        "question": "Are some chiropractic manipulations dangerous?",
+        "answer": "yes",
+        "id": 333,
+        "term": "Chiropractic",
+        "description": "form of alternative medicine",
+        "facts": [
+            "Manipulations of the neck can lead to complications such as stroke or paralysis.",
+            "Manipulation of the lower back can lead to herniated disks."
+        ],
+        "decomposition": [
+            "What body parts do chiropractors manipulate?",
+            "Are any of #1 prone to damage if mishandled?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Chiropractic-18"
+                    ]
+                ],
+                [
+                    [
+                        "Chiropractic controversy and criticism-34"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Chiropractic-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Chiropractic-1"
+                    ]
+                ],
+                [
+                    [
+                        "Chiropractic-2"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 236,
+        "qid": 686,
+        "question": "Can a lemon aggravate dyspepsia?",
+        "answer": "yes",
+        "id": 686,
+        "term": "Lemon",
+        "description": "citrus fruit",
+        "facts": [
+            "Dyspepsia is a condition where the stomach is irritated.",
+            "Lemons are highly acidic fruits.",
+            "Common stomach irritants include alcohol, coffee, and acidic foods."
+        ],
+        "decomposition": [
+            "Which condition is referred to as dyspepsia?",
+            "What are some common irritants that could aggravate #1?",
+            "Is lemon an example of #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Indigestion-1"
+                    ]
+                ],
+                [
+                    [
+                        "Indigestion-9"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Indigestion-1"
+                    ]
+                ],
+                [
+                    [
+                        "Indigestion-15"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Indigestion-25"
+                    ],
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Indigestion-11"
+                    ]
+                ],
+                [
+                    [
+                        "Indigestion-12"
+                    ]
+                ],
+                [
+                    [
+                        "Lemon-17"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 443,
+        "qid": 681,
+        "question": "Is Samsung accountable to shareholders?",
+        "answer": "yes",
+        "id": 681,
+        "term": "Samsung",
+        "description": "South Korean multinational conglomerate",
+        "facts": [
+            "Samsung is a publicly traded company.",
+            "Publicly traded companies are ultimately accountable to shareholders. "
+        ],
+        "decomposition": [
+            "What kind of company is Samsung?",
+            "Are #1's accountable to shareholders?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Samsung Electronics-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Samsung-1"
+                    ]
+                ],
+                [
+                    [
+                        "Conglomerate (company)-21"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Samsung-14"
+                    ],
+                    "operation"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 201,
+        "qid": 352,
+        "question": "Has Elon Musk's hairline changed?",
+        "answer": "yes",
+        "id": 352,
+        "term": "Elon Musk",
+        "description": "American industrialist and investor",
+        "facts": [
+            "When Elon Musk was much younger, he was clearly balding.",
+            "Elon Musk does not show any signs of balding as of 2020."
+        ],
+        "decomposition": [
+            "What feature of Elon Musk's hair was notable when he was younger?",
+            "Is #1 no longer observable in present times?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Elon Musk-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Elon Musk-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Hair loss-4"
+                    ],
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 245,
+        "qid": 764,
+        "question": "Do placozoa get learning disabilities?",
+        "answer": "no",
+        "id": 764,
+        "term": "Learning disability",
+        "description": "Range of neurodevelopmental conditions",
+        "facts": [
+            "Learning disabilities are neurodevelopmental conditions afflicting a portion of the human population",
+            "Neurodevelopmental conditions affect the nervous system",
+            "Placozoa are multicellular microscopic organisms which do not have a nervous system"
+        ],
+        "decomposition": [
+            "What bodily system do learning disabilities affect?",
+            "Do placozoa possess #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Learning disability-1"
+                    ]
+                ],
+                [
+                    [
+                        "Placozoa-7"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Learning disability-1",
+                        "Learning disability-3"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Placozoa-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Learning disability-5"
+                    ]
+                ],
+                [
+                    [
+                        "Placozoa-7"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 429,
+        "qid": 565,
+        "question": "Did Julio Gonzalez like acetylene?",
+        "answer": "yes",
+        "id": 565,
+        "term": "Acetylene",
+        "description": "chemical compound",
+        "facts": [
+            "Julio Gonzalez was an artist who welded metal to create sculptures",
+            "Welding is achieved by using a blowtorch on metal",
+            "Blowtorches use acetylene as fuel"
+        ],
+        "decomposition": [
+            "What technique did Julio Gonzalez use to create his scultures?",
+            "What is the main tool used for #1?",
+            "What is a common fuel for #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Julio Gonz\u00e1lez (sculptor)-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Welding-10"
+                    ]
+                ],
+                [
+                    [
+                        "Acetylene-14"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Julio Gonz\u00e1lez (sculptor)-4"
+                    ]
+                ],
+                [
+                    [
+                        "Oxy-fuel welding and cutting-3"
+                    ]
+                ],
+                [
+                    [
+                        "Oxy-fuel welding and cutting-30"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Julio Gonz\u00e1lez (sculptor)-1",
+                        "Julio Gonz\u00e1lez (sculptor)-4"
+                    ]
+                ],
+                [
+                    [
+                        "Welding-10"
+                    ]
+                ],
+                [
+                    [
+                        "Acetylene-14"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 318,
+        "qid": 797,
+        "question": "Did DARPA influence Albert Einstein? ",
+        "answer": "no",
+        "id": 797,
+        "term": "DARPA",
+        "description": "Agency of the U.S. Department of Defense responsible for the development of new technologies",
+        "facts": [
+            "DARPA is an agency in the US focused on defense and new technologies.",
+            "DARPA was founded in 1958 under Dwight D Eisenhower.",
+            "Albert Einstein was a famous physicist who died in 1955."
+        ],
+        "decomposition": [
+            "When was DARPA formed?",
+            "When did Albert Einstein die?",
+            "Is #1 before #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "DARPA-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albert Einstein-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "DARPA-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albert Einstein-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "DARPA-2"
+                    ]
+                ],
+                [
+                    [
+                        "Albert Einstein-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 339,
+        "qid": 948,
+        "question": "Can you chew argon?",
+        "answer": "no",
+        "id": 948,
+        "term": "Argon",
+        "description": "Chemical element with atomic number 18",
+        "facts": [
+            "Chewing is the act of breaking down solid objects with your teeth",
+            "Under normal conditions, argon exists as a gas"
+        ],
+        "decomposition": [
+            "What kind of substance is argon?",
+            "Do humans usually chew #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Argon-1"
+                    ]
+                ],
+                [
+                    [
+                        "Chewing-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Argon-1"
+                    ]
+                ],
+                [
+                    [
+                        "Chewing-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Argon-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 366,
+        "qid": 755,
+        "question": "Does Ludacris perform classical music?",
+        "answer": "no",
+        "id": 755,
+        "term": "Ludacris",
+        "description": "American rapper and actor",
+        "facts": [
+            "Ludacris is a rap artist.",
+            "Rap and hip hop music are not related to classical music."
+        ],
+        "decomposition": [
+            "Which kind of music does Ludacris perform?",
+            "Is #1 the same as classical music?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Ludacris-6"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Ludacris-6"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Ludacris-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 446,
+        "qid": 244,
+        "question": "Was Alexander the Great baptized?",
+        "answer": "no",
+        "id": 244,
+        "term": "Baptism",
+        "description": "Christian rite of admission and adoption, almost invariably with the use of water",
+        "facts": [
+            "Baptism is a symbolic Christian rite using water.",
+            "Christianity started in the first century AD.",
+            "Alexander the Great lived from 356 BC- 323 BC."
+        ],
+        "decomposition": [
+            "Baptism is a rite in which religion?",
+            "When did #1 develop?",
+            "When did Alexander the Great die?",
+            "Is #2 before #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Baptism-1"
+                    ]
+                ],
+                [
+                    [
+                        "Christianity in the 1st century-2"
+                    ]
+                ],
+                [
+                    [
+                        "Alexander the Great-62"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Baptism-1"
+                    ]
+                ],
+                [
+                    [
+                        "Baptism-8"
+                    ]
+                ],
+                [
+                    [
+                        "Alexander the Great-62"
+                    ]
+                ],
+                [
+                    [
+                        "Alexander the Great-62",
+                        "Baptism-8"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Baptism-1"
+                    ]
+                ],
+                [
+                    [
+                        "Christianity-3"
+                    ]
+                ],
+                [
+                    [
+                        "Alexander the Great-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 251,
+        "qid": 396,
+        "question": "Is honey associated with queens?",
+        "answer": "yes",
+        "id": 396,
+        "term": "Honey",
+        "description": "Sweet food made by bees mostly using nectar from flowers",
+        "facts": [
+            "Honey is made by bees.",
+            "Each bee hive is led by a queen bee."
+        ],
+        "decomposition": [
+            "What produces honey?",
+            "Do #1 have queens?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Honey-1"
+                    ]
+                ],
+                [
+                    [
+                        "Honey bee-53"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Honey-1"
+                    ]
+                ],
+                [
+                    [
+                        "Honey bee-53"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Honey-1"
+                    ]
+                ],
+                [
+                    [
+                        "Queen bee-1"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 47,
+        "qid": 115,
+        "question": "Is Anakin Skywalker from Star Wars associated with the color black?",
+        "answer": "yes",
+        "id": 115,
+        "term": "Black",
+        "description": "The darkest shade, resulting from the absence or complete absorption of light. Like white and grey, it has no hue",
+        "facts": [
+            "As a Jedi during the Clone Wars, Anakin Skywalker often wore black robes.",
+            "After he was burned and transformed into the cyborg Darth Vader, he received a distinctive and famous all-black outfit including a black mask."
+        ],
+        "decomposition": [
+            "What is the color of most outfits worn by Star Wars' Anakin Skywalker?",
+            "Is #1 the same as black?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Darth Vader-1",
+                        "Darth Vader-15"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Darth Vader-15"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Darth Vader-1",
+                        "Darth Vader-15"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 247,
+        "qid": 879,
+        "question": "Did original Nintendo have games in same format as Playstation 3?",
+        "answer": "no",
+        "id": 879,
+        "term": "Nintendo",
+        "description": "Japanese multinational consumer electronics company",
+        "facts": [
+            "Nintendo was originally released in 1983 and used games that were in a cartridge format.",
+            "Sony Playstation 3 was released in 2006 and had games in a CD format."
+        ],
+        "decomposition": [
+            "What format were Nintendo games originally released in?",
+            "What format were PlayStation 3 games released in?",
+            "Is #1 the same as #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Video game console-11"
+                    ]
+                ],
+                [
+                    [
+                        "PlayStation 3-23"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Nintendo Entertainment System-3"
+                    ]
+                ],
+                [
+                    [
+                        "PlayStation 3-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Nintendo Entertainment System-27"
+                    ]
+                ],
+                [
+                    [
+                        "PlayStation 3-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 161,
+        "qid": 637,
+        "question": "Can sunlight travel to the deepest part of the Black Sea?",
+        "answer": "no",
+        "id": 637,
+        "term": "Black Sea",
+        "description": "Marginal sea of the Atlantic Ocean between Europe and Asia",
+        "facts": [
+            "The Black Sea has a maximum depth of 2,212 meters",
+            "Sunlight does not penetrate water below 1000 meters"
+        ],
+        "decomposition": [
+            "What is the maximum depth of the Black Sea?",
+            "How deep can sunlight penetrate a sea?",
+            "Is #1 less than #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Black Sea-2"
+                    ]
+                ],
+                [
+                    [
+                        "Deep sea-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Black Sea-2"
+                    ]
+                ],
+                [
+                    [
+                        "Photic zone-5"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Black Sea-2"
+                    ]
+                ],
+                [
+                    [
+                        "Photic zone-5"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 431,
+        "qid": 74,
+        "question": "Can oysters be used in guitar manufacturing?",
+        "answer": "yes",
+        "id": 74,
+        "term": "Oyster",
+        "description": "salt-water bivalve mollusc",
+        "facts": [
+            "Oysters produce nacre",
+            "Nacre is also known as mother of pearl",
+            "Mother of pearl is commonly used as an inlay on guitar fretboards, headstocks, and soundboards"
+        ],
+        "decomposition": [
+            "What non-food products are derived from oysters?",
+            "Which of #1 are used for decoration?",
+            "What materials are used to decorate a guitar?",
+            "Is there overlap between #2 and #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Nacre-1",
+                        "Nacre-17"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Oyster-2"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Guitar-45"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Oyster-9"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Oyster-6"
+                    ]
+                ],
+                [
+                    [
+                        "Oyster-2"
+                    ]
+                ],
+                [
+                    [
+                        "Inlay (guitar)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Inlay (guitar)-1",
+                        "Oyster-2"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 131,
+        "qid": 386,
+        "question": "Do some psychotherapy patients have no mental illness?",
+        "answer": "yes",
+        "id": 386,
+        "term": "Psychotherapy",
+        "description": "clinically applied psychology for desired behavior modification",
+        "facts": [
+            "Psychotherapy is useful for couples navigating relationship issues.",
+            "Grief is a common reason that people seek psychotherapy. "
+        ],
+        "decomposition": [
+            "What are some common issues that make people seek psychotherapy?",
+            "Does #1 not always involve mental illness?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Psychotherapy-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Psychotherapy-1"
+                    ]
+                ],
+                [
+                    [
+                        "Psychotherapy-4"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Psychotherapy-1"
+                    ]
+                ],
+                [
+                    [
+                        "Psychotherapy-32"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 456,
+        "qid": 285,
+        "question": "Will bumblebees derail the United States presidential election?",
+        "answer": "no",
+        "id": 285,
+        "term": "United States presidential election",
+        "description": "type of election in the United States",
+        "facts": [
+            "The United States presidential election is held in November of each year.",
+            "Bees die off during the winter months except for the queen bee.",
+            "During November, bees go into their hives and hibernate."
+        ],
+        "decomposition": [
+            "When is the presidential election?",
+            "What is a necessary characteristic for something to disrupt the election? ",
+            "Are bees #2 in #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "United States presidential election-3"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Election Day (United States)-1"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Bumblebee-30"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "2020 United States presidential election-2"
+                    ]
+                ],
+                [
+                    [
+                        "Electrical disruptions caused by squirrels-9"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 125,
+        "qid": 56,
+        "question": "Was the tenth Amendment to the Constitution written using Pitman shorthand?",
+        "answer": "no",
+        "id": 56,
+        "term": "Tenth Amendment to the United States Constitution",
+        "description": "says powers not Constitutionally granted to the Federal Government belong to States or the People",
+        "facts": [
+            "Pitman shorthand was invented in 1837.",
+            "The tenth Amendment to the Constitution was added in 1791."
+        ],
+        "decomposition": [
+            "When was Pitman shorthand invented?",
+            "When was the  tenth Amendment to the Constitution added?",
+            "Did #1 happen before #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Pitman shorthand-1"
+                    ]
+                ],
+                [
+                    [
+                        "Tenth Amendment to the United States Constitution-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Pitman shorthand-5"
+                    ]
+                ],
+                [
+                    [
+                        "Tenth Amendment to the United States Constitution-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Pitman shorthand-1"
+                    ]
+                ],
+                [
+                    [
+                        "Tenth Amendment to the United States Constitution-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 383,
+        "qid": 617,
+        "question": "Is latitude required to determine the coordinates of an area?",
+        "answer": "yes",
+        "id": 617,
+        "term": "Latitude",
+        "description": "The angle between zenith at a point and the plane of the equator",
+        "facts": [
+            "Longitude is one of the required data points needed for determining coordinates.",
+            "Latitude is the other angle required to determine coordinates of an area. "
+        ],
+        "decomposition": [
+            "What are the two sets of data points that determine coordinates of a location?",
+            "Is latitude one of the answers to #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Geographic coordinate system-15"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Geographic coordinate system-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Geographic coordinate system-15"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 38,
+        "qid": 740,
+        "question": "Could Cosmic Girls play League of Legends alone?",
+        "answer": "yes",
+        "id": 740,
+        "term": "League of Legends",
+        "description": "Multiplayer online battle arena video game",
+        "facts": [
+            "Cosmic Girls is a 13 member kpop group",
+            "League of Legends is a video game requiring two teams of five players each"
+        ],
+        "decomposition": [
+            "How many players are needed for a League of Legends match?",
+            "How many people are in the group \"Cosmic Girls\"?",
+            "Is #2 greater than or equal to #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "League of Legends: Wild Rift-2"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Cosmic Girls-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "League of Legends: Wild Rift-4"
+                    ]
+                ],
+                [
+                    [
+                        "Cosmic Girls-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "League of Legends-10"
+                    ]
+                ],
+                [
+                    [
+                        "Cosmic Girls-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 22,
+        "qid": 13,
+        "question": "Are ropes required to operate a frigate?",
+        "answer": "yes",
+        "id": 13,
+        "term": "Frigate",
+        "description": "Type of warship",
+        "facts": [
+            "Frigates are a kind of sailing ship.",
+            "Many features of ships require rope to use."
+        ],
+        "decomposition": [
+            "What force powers frigates?",
+            "What characteristic of frigates allows them to use #1?",
+            "Are ropes used to manipulate #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Sailing-1"
+                    ]
+                ],
+                [
+                    [
+                        "Frigate-6"
+                    ]
+                ],
+                [
+                    [
+                        "Sailing ship-35"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Frigate-11"
+                    ]
+                ],
+                [
+                    [
+                        "Sail-1"
+                    ]
+                ],
+                [
+                    [
+                        "Sail-3"
+                    ],
+                    "no_evidence"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Full-rigged ship-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Rigging-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 476,
+        "qid": 195,
+        "question": "Would 2020 Toyota Supra lag behind at a Nascar rally?",
+        "answer": "yes",
+        "id": 195,
+        "term": "Toyota Supra",
+        "description": "A sports car and grand tourer manufactured by Toyota Motor Corporation",
+        "facts": [
+            "The 2020 Toyota Supra has a top speed of 155 MPH.",
+            "Nascar stock cars routinely exceed 200 MPH."
+        ],
+        "decomposition": [
+            "What speeds do stock cars in a NASCAR race routinely attain?",
+            "What is the top speed of a Toyota Supra?",
+            "Is #2 less than #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Stock car racing-3"
+                    ]
+                ],
+                [
+                    [
+                        "Toyota Supra-61"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Stock car racing-2"
+                    ]
+                ],
+                [
+                    [
+                        "Toyota Supra-77"
+                    ]
+                ],
+                [
+                    [
+                        "Stock car racing-2",
+                        "Toyota Supra-77"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Stock car racing-65"
+                    ]
+                ],
+                [
+                    [
+                        "Toyota Supra-61"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 229,
+        "qid": 238,
+        "question": "Could Charlie Bucket be a hotel manager?",
+        "answer": "no",
+        "id": 238,
+        "term": "Hotel manager",
+        "description": "person managing a hotel",
+        "facts": [
+            "Charlie Bucket is a fictional character from \"Charlie and the Chocolate Factory\", portrayed as a child.",
+            "Children cannot be hotel managers."
+        ],
+        "decomposition": [
+            "How was Charlie Bucket portrayed in Charlie and the Chocolate Factory?",
+            "Is #1 as an adult?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Charlie and the Chocolate Factory (film)-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Charlie and the Chocolate Factory-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Charlie and the Chocolate Factory-27"
+                    ]
+                ],
+                [
+                    [
+                        "Boy-1"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 371,
+        "qid": 90,
+        "question": "Can someone in Uberlandia work for Mitsubishi?",
+        "answer": "yes",
+        "id": 90,
+        "term": "Mitsubishi",
+        "description": "group of autonomous, Japanese multinational companies",
+        "facts": [
+            "Mitsubishi is a Japanese auto manufacturer",
+            "Mitsubishi operates a plant in Catalao, Brazil",
+            "Uberlandia is just under 70 miles from Catalao"
+        ],
+        "decomposition": [
+            "How far is Uberlandia from Catalao?",
+            "Is #1 within reasonable distance to commute to work?",
+            "Is there a Mitsubishi organization in Catalao?",
+            "Are #2 and #3 positive?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Catal\u00e3o-1",
+                        "Uberl\u00e2ndia-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Catal\u00e3o-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Catal\u00e3o-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Catal\u00e3o-1",
+                        "Uberl\u00e2ndia-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ],
+                [
+                    [
+                        "Catal\u00e3o-1"
+                    ],
+                    "operation"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 86,
+        "qid": 849,
+        "question": "Did Dr. Seuss make himself famous?",
+        "answer": "no",
+        "id": 849,
+        "term": "Dr. Seuss",
+        "description": "American children's writer and illustrator",
+        "facts": [
+            "Dr. Seuss's wife was Helen Palmer.",
+            "Helen Palmer suggested that Dr. Seuss become an artist rather than a professor.",
+            "Helen Palmer inspired much of Dr. Seuss's work."
+        ],
+        "decomposition": [
+            "Who was Dr. Seuss' wife?",
+            "Did #1 not serve as inspiration and give key suggestions to Dr. Seuss?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Dr. Seuss-7"
+                    ]
+                ],
+                [
+                    [
+                        "Dr. Seuss-7"
+                    ],
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Helen Palmer (author)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Helen Palmer (author)-5"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Helen Palmer (author)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Helen Palmer (author)-3"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 216,
+        "qid": 810,
+        "question": "Would Cyndi Lauper use milk substitute in her rice pudding?",
+        "answer": "yes",
+        "id": 810,
+        "term": "Rice pudding",
+        "description": "Dish made from rice mixed with water or milk",
+        "facts": [
+            "Cyndi Lauper wrote a song about lactose intolerance.",
+            "Lactose intolerance leads to gastrointestinal discomfort upon eating dairy."
+        ],
+        "decomposition": [
+            "What conditions lead people to using milk substitutes?",
+            "Does Cyndi Lauper suffer from any conditions listed in #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Lactose intolerance-1",
+                        "Veganism-1"
+                    ]
+                ],
+                [
+                    [
+                        "Cyndi Lauper-1"
+                    ],
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Milk allergy-9"
+                    ]
+                ],
+                [
+                    [
+                        "Cyndi Lauper-76"
+                    ],
+                    "no_evidence"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Milk substitute-17"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 421,
+        "qid": 801,
+        "question": "Can black swan's formation type help spell longest word in Dictionary?",
+        "answer": "yes",
+        "id": 801,
+        "term": "Black swan",
+        "description": "species of bird",
+        "facts": [
+            "Black swan's fly in a \"V\" formation.",
+            "The longest word in the dictionary is pneumonoultramicroscopicsilicovolcanoconiosis."
+        ],
+        "decomposition": [
+            "What letter does the formation of black swans in flight resemble?",
+            "What is the longest word in English language?",
+            "Can #1 be found in #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Black swan-6"
+                    ]
+                ],
+                [
+                    [
+                        "Longest word in English-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Black swan-6"
+                    ]
+                ],
+                [
+                    [
+                        "Pneumonoultramicroscopicsilicovolcanoconiosis-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Swan-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Pneumonoultramicroscopicsilicovolcanoconiosis-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 109,
+        "qid": 844,
+        "question": "Do Do It Yourself channels online always show realistic projects?",
+        "answer": "no",
+        "id": 844,
+        "term": "Do it yourself",
+        "description": "building, modifying, or repairing something without the aid of experts or professionals",
+        "facts": [
+            "The Youtube channel '5 Minute Crafts' specializes in DIY projects for all ages.",
+            "\"5 Minute Crafts\" has come under fire for posting videos that were fraudulent or dangerous in nature. "
+        ],
+        "decomposition": [
+            "What are some popular Do It Yourself media?",
+            "Of #1, which are YouTube channels?",
+            "Are all of #2  regarded as realistic projects?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Do it yourself-13"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Do it yourself-13",
+                        "Do it yourself-6"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Do it yourself-10",
+                        "Do it yourself-11",
+                        "Do it yourself-12",
+                        "Do it yourself-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 91,
+        "qid": 596,
+        "question": "If it socially acceptable to wear an icon depicting crucifixion? ",
+        "answer": "yes",
+        "id": 596,
+        "term": "Crucifixion",
+        "description": "Method of capital punishment in which the victim is tied or nailed to a large wooden beam and left to hang until eventual death",
+        "facts": [
+            "The crucifixion of Jesus is a common sign used by Catholics and Christian denominations. ",
+            "Many jewelry stores offer necklaces with the Crucifixion of Jesus Christ."
+        ],
+        "decomposition": [
+            "Which common symbol is used by Catholics to depict crucifixion?",
+            "Is #1 commonly found in jewelry stores?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Christian symbolism-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Christian cross variants-3"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Crucifix-2"
+                    ]
+                ],
+                [
+                    [
+                        "Crucifix-12"
+                    ],
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Crucifixion-2"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 208,
+        "qid": 815,
+        "question": "Would a Superbowl Football Game be crowded on the Gettysburg Battlefield?",
+        "answer": "no",
+        "id": 815,
+        "term": "Gettysburg Battlefield",
+        "description": "site of the Battle of Gettysburg during the American Civil War",
+        "facts": [
+            "Football fields used in the Super Bowl are 100 yards long. ",
+            "The Gettysburg Battlefield is over 5 miles long.",
+            "There are 1760 yards in a mile."
+        ],
+        "decomposition": [
+            "How long is the football field superbowl?",
+            "How long is the Gettysburg Battlefield?",
+            "Is #1 the same as #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Comparison of American football and rugby league-6"
+                    ]
+                ],
+                [
+                    [
+                        "Gettysburg Battlefield-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Football pitch-4"
+                    ]
+                ],
+                [
+                    [
+                        "Gettysburg Battlefield-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "American football-11"
+                    ]
+                ],
+                [
+                    [
+                        "Gettysburg Battlefield-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 100,
+        "qid": 481,
+        "question": "Was the British car, the Mini, the first car manufactured?",
+        "answer": "no",
+        "id": 481,
+        "term": "Mini",
+        "description": "British car model made by the British Motor Corporation (BMC) and its successors from 1959 until 2000",
+        "facts": [
+            "The first car widely manufactured was the Model T.",
+            "The Model T was manufactured in 1908.",
+            "The Mini was made beginning in 1959."
+        ],
+        "decomposition": [
+            "When was the first car manufactured?",
+            "When was the Mini first manufactured?",
+            "Is #2 the same as #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Nicolas-Joseph Cugnot-3"
+                    ]
+                ],
+                [
+                    [
+                        "Mini-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Car-24"
+                    ]
+                ],
+                [
+                    [
+                        "Mini-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Car-2"
+                    ]
+                ],
+                [
+                    [
+                        "Mini-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 79,
+        "qid": 715,
+        "question": "Was King Kong (2005 film) solvent?",
+        "answer": "yes",
+        "id": 715,
+        "term": "King Kong (2005 film)",
+        "description": "2005 film directed by Peter Jackson",
+        "facts": [
+            "Solvent refers to the assets of a project being greater than the liabilities.",
+            "The assets of a movie film are the box office receipts, and the liabilities is the budget.",
+            "King Kong (2005) had box office receipts of 562 million.",
+            "King Kong (2005) had a budget of 207 million."
+        ],
+        "decomposition": [
+            "What does it mean to be solvent in business/finance?",
+            "What was the budget (liabilities) of the 2005 movie King Kong?",
+            "How much did 2005 movie King Kong gross (assets) worldwide?",
+            "Does #3 compare favorably with #2 as defined in #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Solvency-1"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Solvency-1"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Solvency-1"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    [
+                        "King Kong (2005 film)-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 285,
+        "qid": 539,
+        "question": "Did Hanuman ever experience an orgasm?",
+        "answer": "no",
+        "id": 539,
+        "term": "Hanuman",
+        "description": "The divine monkey companion of Rama in Hindu mythology",
+        "facts": [
+            "Hanuman was a life long celibate.",
+            "Celibates refrain from all sexual activity.",
+            "Orgasms are only experienced during sexual activity."
+        ],
+        "decomposition": [
+            "What does one have to do to experience an orgasm?",
+            "Which of Hanuman's characteristics concerned his #1 aspect?",
+            "Do people who identify as #2 engage in #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Sexual intercourse-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hanuman-2"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Orgasm-1"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Orgasm-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hanuman-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 277,
+        "qid": 81,
+        "question": "Did the Presidency of Bill Clinton conclude with his impeachment?",
+        "answer": "no",
+        "id": 81,
+        "term": "Presidency of Bill Clinton",
+        "description": "1993\u20132001 U.S. presidential administration",
+        "facts": [
+            "Bill Clinton was impeached in 1998.",
+            "Bill Clinton remained in office until 2001."
+        ],
+        "decomposition": [
+            "In what year was Bill Clinton impeached?",
+            "In what year did Bill Clinton's presidency end?",
+            "Is #1 the same as #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Bill Clinton-61"
+                    ]
+                ],
+                [
+                    [
+                        "Bill Clinton-1",
+                        "Impeachment of Bill Clinton-29"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Impeachment of Bill Clinton-16"
+                    ]
+                ],
+                [
+                    [
+                        "Bill Clinton-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Bill Clinton-61"
+                    ]
+                ],
+                [
+                    [
+                        "Bill Clinton-61"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 15,
+        "qid": 363,
+        "question": "Has categories of Nobel prizes remained same since Alfred Nobel established them?",
+        "answer": "no",
+        "id": 363,
+        "term": "Alfred Nobel",
+        "description": "Swedish chemist, innovator, and armaments manufacturer (1833\u20131896)",
+        "facts": [
+            "Alfred Nobel established the Nobel prize in his will in 1895.",
+            "Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine.",
+            "The Nobel prize evolved to include a sixth category of Economic Sciences in 1968."
+        ],
+        "decomposition": [
+            "When did Alfred Nobel establish the Nobel prize?",
+            "Has the Nobel Prize remained unchanged in all respects since #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Nobel Prize-1"
+                    ]
+                ],
+                [
+                    [
+                        "Nobel Prize-21"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Nobel Prize-1"
+                    ]
+                ],
+                [
+                    [
+                        "Nobel Prize-2"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Alfred Nobel-13"
+                    ]
+                ],
+                [
+                    [
+                        "Alfred Nobel-14",
+                        "Alfred Nobel-17"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 157,
+        "qid": 430,
+        "question": "Is the use of the word Gypsy by non-Romani people considered okay?",
+        "answer": "no",
+        "id": 430,
+        "term": "Romani people",
+        "description": "Ethnic group living mostly in Europe and the Americas",
+        "facts": [
+            "'Gypsy' is considered a slur in the Americas by Romani people.",
+            "Lady Gaga has faced online criticism regarding her use of the word 'Gypsy' as the title and lyrics of a song."
+        ],
+        "decomposition": [
+            "What kind of word is Gypsy considered in the Americas by Romani people?",
+            "Would using #1 types of words be considered okay?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Names of the Romani people-11"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Antiziganism-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Names of the Romani people-11"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Names of the Romani people-11"
+                    ]
+                ],
+                [
+                    [
+                        "Pejorative-1"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 95,
+        "qid": 170,
+        "question": "Was milliner in Alice in Wonderland (1951 film) likely in need of succimer?",
+        "answer": "yes",
+        "id": 170,
+        "term": "Alice in Wonderland (1951 film)",
+        "description": "1951 American animated musical fantasy film produced by Walt Disney Productions",
+        "facts": [
+            "A milliner is someone who makes hats.",
+            "The character of the Mad Hatter was a milliner in the 1951 Alice in Wonderland film.",
+            "The phrase, Mad as a Hatter, comes from the fact that hat makers used mercury to line their hats and often suffered mercury poisoning.",
+            "Succimer is a chemical that is used to treat lead, mercury, and arsenic poisoning."
+        ],
+        "decomposition": [
+            "What does a milliner do?",
+            "Which Alice in Wonderland (1951 film) character did #1?",
+            "Which element did #2 use for work that could be harmful to their mental health?",
+            "Is succimer useful for treatment of the effects of #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Hatmaking-1"
+                    ]
+                ],
+                [
+                    [
+                        "Alice in Wonderland (1951 film)-7"
+                    ]
+                ],
+                [
+                    [
+                        "Erethism-1"
+                    ]
+                ],
+                [
+                    [
+                        "Dimercaptosuccinic acid-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Hatmaking-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hatter (Alice's Adventures in Wonderland)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hatter (Alice's Adventures in Wonderland)-5"
+                    ]
+                ],
+                [
+                    [
+                        "Dimercaptosuccinic acid-1"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Hatmaking-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hatter (Alice's Adventures in Wonderland)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hatter (Alice's Adventures in Wonderland)-5"
+                    ]
+                ],
+                [
+                    [
+                        "Dimercaptosuccinic acid-1"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 453,
+        "qid": 558,
+        "question": "Are people more likely than normal to get sunburn at Burning Man?",
+        "answer": "yes",
+        "id": 558,
+        "term": "Burning Man",
+        "description": "annual experimental festival based in Nevada, United States",
+        "facts": [
+            "Burning Man often attracts lots of young people who are typically wearing minimal clothing due to the weather and for style. ",
+            "Burning Man festivities occur in the hot summer sun and are often not in shaded areas."
+        ],
+        "decomposition": [
+            "What style of clothing do people wear to the burning man festival?",
+            "Sun burning occurs easily while wearing what style of clothing?",
+            "Is #1 and #2 the same?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Burning Man-37"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Nudity-1",
+                        "Swimsuit-2"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Burning Man-37"
+                    ]
+                ],
+                [
+                    [
+                        "Sunburn-36"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Burning Man-37"
+                    ]
+                ],
+                [
+                    [
+                        "Bikini-71"
+                    ]
+                ],
+                [
+                    [
+                        "Sunburn-26"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 392,
+        "qid": 649,
+        "question": "Would Lord Voldemort hypothetically be an effective fighter after Final Fantasy silence is cast?",
+        "answer": "no",
+        "id": 649,
+        "term": "Lord Voldemort",
+        "description": "Fictional character of Harry Potter series",
+        "facts": [
+            "Lord Voldemort is a powerful wizard from the Harry Potter Series.",
+            "Lord Voldemort casts magical curses and charms on his enemies.",
+            "Silence spell in Final Fantasy mutes the enemies spells.",
+            "Mute makes it impossible for characters to cast any spells."
+        ],
+        "decomposition": [
+            "What does Lord Voldemort use in combat against enemies?",
+            "What would Lord Voldemort have to do in order to cast #1?",
+            "Which ability does the silence spell in Final Fantasy affect?",
+            "Can all of #2 still be done when #3 is gone?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Lord Voldemort-15"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Incantation-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Speech-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Lord Voldemort-28"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Lord Voldemort-29"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Lord Voldemort-2",
+                        "Lord Voldemort-30"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 297,
+        "qid": 183,
+        "question": "Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",
+        "answer": "yes",
+        "id": 183,
+        "term": "Lecturer",
+        "description": "tenure-track or tenured position at a university or similar institution",
+        "facts": [
+            "Quiet is an assassin from the Metal Gear video game series that does not speak.",
+            "Haub is a school at Pace University that has annual lectures.",
+            "Haub is a law school that has annual lectures on topics in the law field."
+        ],
+        "decomposition": [
+            "Who is Quiet?",
+            "What is #1 unable to do?",
+            "How does one convey information as a lecturer?",
+            "Is #2 the same as #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Quiet (Metal Gear)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Quiet (Metal Gear)-5"
+                    ]
+                ],
+                [
+                    [
+                        "Lecture-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Quiet (Metal Gear)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Quiet (Metal Gear)-7"
+                    ]
+                ],
+                [
+                    [
+                        "Lecture-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Quiet (Metal Gear)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Quiet (Metal Gear)-7"
+                    ]
+                ],
+                [
+                    [
+                        "Lecture-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 241,
+        "qid": 521,
+        "question": "Is letter C crucial to spelling the two most common words in English language?",
+        "answer": "no",
+        "id": 521,
+        "term": "C",
+        "description": "Letter of the Latin alphabet",
+        "facts": [
+            "The most common word in the English language is \"the\".",
+            "The second most common word in the English language is \"be\"."
+        ],
+        "decomposition": [
+            "What is the most common word in the English language?",
+            "What is the second most common word in the English language?",
+            "What letters make up #1?",
+            "What letters make up #2?",
+            "Is the letter \"c\" found in both #3 and #4?"
+        ],
+        "evidence": [
+            [
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Most common words in English-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Most common words in English-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Most common words in English-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Most common words in English-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 107,
+        "qid": 638,
+        "question": "Did U.S. soldiers listen to Justin Bieber's Believe album during the Battle of Baghdad?",
+        "answer": "no",
+        "id": 638,
+        "term": "Justin Bieber",
+        "description": "Canadian singer-songwriter and actor",
+        "facts": [
+            "The Battle of Baghdad was the U.S. invasion of Baghdad in the year 2003.",
+            "Justin Bieber's album Believe was released in 2012."
+        ],
+        "decomposition": [
+            "When did the Battle of Baghdad take place?",
+            "When was the Justin Bieber album Believe released?",
+            "Is #2 before #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Battle of Baghdad (2003)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Believe (Justin Bieber album)-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 459,
+        "qid": 869,
+        "question": "Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?",
+        "answer": "no",
+        "id": 869,
+        "term": "Reza Shah",
+        "description": "Shah of Iran, Founder of the Imperial state of iran",
+        "facts": [
+            "Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim.",
+            "Twelver Shia Muslims believe that there are 12 Imams.",
+            "Jesus is typically represented as having 12 disciples."
+        ],
+        "decomposition": [
+            "What was the religion signature of Reza Shah?",
+            "How many Imams do adherents of #1 believe in?",
+            "How many disciples did Jesus have?",
+            "Is #2 greater than #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Reza Shah-19"
+                    ]
+                ],
+                [
+                    [
+                        "Imam-2"
+                    ]
+                ],
+                [
+                    [
+                        "Disciple whom Jesus loved-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Reza Shah-26"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Twelver-1"
+                    ]
+                ],
+                [
+                    [
+                        "Apostles-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Reza Shah-26"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Twelver-1"
+                    ]
+                ],
+                [
+                    [
+                        "Apostles-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 179,
+        "qid": 192,
+        "question": "Was Harry Potter a better investment than The Matrix for Warner Bros.?",
+        "answer": "yes",
+        "id": 192,
+        "term": "The Matrix",
+        "description": "1999 science fiction action film directed by the Wachowskis",
+        "facts": [
+            "Warner Bros. distributes several movie franchises including The Matrix, Harry Potter, and The Dark Knight.",
+            "The Matrix had 2 sequels.",
+            "Harry Potter had 7 sequels and several spin-offs.",
+            "Harry Potter and the Deathly Hallows \u2013 Part 2 is Warner Bros. highest grossing film worldwide with a box office gross of $1,342,932,398."
+        ],
+        "decomposition": [
+            "How much did the Harry Potter (film series) gross?",
+            "How much did the The Matrix (franchise) gross?",
+            "Is #1 greater than #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Harry Potter (film series)-4"
+                    ]
+                ],
+                [
+                    [
+                        "The Matrix (franchise)-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter (film series)-4"
+                    ]
+                ],
+                [
+                    [
+                        "The Matrix (franchise)-4"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Harry Potter-3"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "The Matrix-36"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 287,
+        "qid": 289,
+        "question": "For Hostas to look their best, do they need lots of chlorophyll?",
+        "answer": "yes",
+        "id": 289,
+        "term": "Chlorophyll",
+        "description": "group of chemical compounds",
+        "facts": [
+            "Hostas are characterized by large green striped leaves.",
+            "The green color in plants is attributed to chlorophyll. "
+        ],
+        "decomposition": [
+            "What color is a visually appealing hosta?",
+            "Do the get #1 from chlorophyll?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Hosta-2"
+                    ]
+                ],
+                [
+                    [
+                        "Chlorophyll-2"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Hosta-6"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Chloroplast-1",
+                        "Hosta-2"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Hosta-2"
+                    ]
+                ],
+                [
+                    [
+                        "Chlorophyll-2"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 486,
+        "qid": 544,
+        "question": "Was Walt Disney able to email his illustrations to people living far away?",
+        "answer": "no",
+        "id": 544,
+        "term": "Walt Disney",
+        "description": "American entrepreneur, animator, voice actor and film producer",
+        "facts": [
+            "Walt Disney died in 1966",
+            "Modern email came into existence in 1971"
+        ],
+        "decomposition": [
+            "When was email first used?",
+            "When did Walt Disney die?",
+            "Is #1 before #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Email-9"
+                    ]
+                ],
+                [
+                    [
+                        "Walt Disney-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Email-1"
+                    ]
+                ],
+                [
+                    [
+                        "Walt Disney-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Email-1"
+                    ]
+                ],
+                [
+                    [
+                        "Walt Disney-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 175,
+        "qid": 308,
+        "question": "Is it foolish to stand on giraffe's head to see over Eiffel Tower?",
+        "answer": "yes",
+        "id": 308,
+        "term": "Giraffe",
+        "description": "Tall African ungulate",
+        "facts": [
+            "The neck of a giraffe can be up to 7 feet in length.",
+            "Including their necks, giraffes can be as tall as 20 feet.",
+            "The Eiffel Tower is 1,063 feet tall."
+        ],
+        "decomposition": [
+            "How tall is a giraffe?",
+            "How tall is the Eiffel Tower?",
+            "Is #1 greater than #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Giraffe-16"
+                    ]
+                ],
+                [
+                    [
+                        "Eiffel Tower-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Giraffe-16"
+                    ]
+                ],
+                [
+                    [
+                        "Eiffel Tower-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Giraffe-16"
+                    ]
+                ],
+                [
+                    [
+                        "Eiffel Tower-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 393,
+        "qid": 854,
+        "question": "Could a student at the University of Houston see a caracal on campus?",
+        "answer": "no",
+        "id": 854,
+        "term": "Caracal",
+        "description": "Small wild cat",
+        "facts": [
+            "The caracal is native to Africa, the Middle East, Central Asia, and India.",
+            "The University of Houston is located in the United States.",
+            "The United States is located in North America."
+        ],
+        "decomposition": [
+            "What areas is the caracal native to?",
+            "In what area is the University of Houston located?",
+            "Is there an area present in both #1 and #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Caracal-1"
+                    ]
+                ],
+                [
+                    [
+                        "University of Houston-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Caracal-20"
+                    ]
+                ],
+                [
+                    [
+                        "University of Houston-11"
+                    ]
+                ],
+                [
+                    [
+                        "Houston-2",
+                        "Kyzylkum Desert-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Caracal-1"
+                    ]
+                ],
+                [
+                    [
+                        "University of Houston-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 182,
+        "qid": 119,
+        "question": "Was being a mail carrier considered one of the most dangerous jobs?",
+        "answer": "yes",
+        "id": 119,
+        "term": "Mail carrier",
+        "description": "employee of the post office or postal service, who delivers mail to residences and businesses",
+        "facts": [
+            "The Pony Express was one of the first mail carrier services.",
+            "The Pony Express operated form 1860 to 1861",
+            "Pony Express riders would have to travel hundreds of miles on horse back through extreme weather and terrain. ",
+            "The Pony Express sought to hire young expert horse riders willing to risk death."
+        ],
+        "decomposition": [
+            "What was the name of the mail carrier service that operated from 1860 to 1861?",
+            "What would riders on #1 have to endure?",
+            "Is #2 considered very dangerous?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Pony Express-1"
+                    ]
+                ],
+                [
+                    [
+                        "Pony Express-31"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Pony Express-1"
+                    ]
+                ],
+                [
+                    [
+                        "Pony Express-38",
+                        "Pony Express-40"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Pony Express-1"
+                    ]
+                ],
+                [
+                    [
+                        "Pony Express-30",
+                        "Pony Express-31"
+                    ]
+                ],
+                [
+                    [
+                        "Pony Express-30",
+                        "Pony Express-31"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 124,
+        "qid": 988,
+        "question": "Is the Yellow Pages the fastest way to find a phone number?",
+        "answer": "no",
+        "id": 988,
+        "term": "Yellow pages",
+        "description": "Telephone directory of businesses by category",
+        "facts": [
+            "The Yellow Pages is a book that contains alphabetized phone listings.",
+            "Yellow pages involves going through many listings and remembering your alphabet.",
+            "Google allows a person to type in a name quickly and look for a phone number.",
+            "Household AI assistants like Echo allow people to merely speak a name and ask for number."
+        ],
+        "decomposition": [
+            "How are the phone numbers organized in the Yellow Pages?",
+            "To find a phone number in #1, what does one have to do?",
+            "To find a phone number on Google, what does one have to do?",
+            "Is #2 faster than #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Yellow pages-1"
+                    ]
+                ],
+                [
+                    [
+                        "Yellow pages-5"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Google Search-3"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Yellow pages-1"
+                    ]
+                ],
+                [
+                    [
+                        "Yellow pages-5"
+                    ]
+                ],
+                [
+                    [
+                        "Google Search-16"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Yellow pages-1"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    [
+                        "Web search engine-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 362,
+        "qid": 185,
+        "question": "Could you buy Hershey's Kisses in red foil with farthings after 1960?",
+        "answer": "no",
+        "id": 185,
+        "term": "1960",
+        "description": "Year",
+        "facts": [
+            "The British farthing was made obsolete at the end of 1960",
+            "In 1962, Hershey's Kisses began to be sold in colored wrappers (such as red foil)"
+        ],
+        "decomposition": [
+            "When was the British farthing made obsolete?",
+            "When did Hershey's Kisses begin selling candy sold in colored wrappers?",
+            "Is #2 before #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Farthing (British coin)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hershey's Kisses-10"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Farthing (British coin)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hershey's Kisses-10"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Farthing (British coin)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Hershey's Kisses-11"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 25,
+        "qid": 189,
+        "question": "Could the Jackson 5 play a full game of rugby with each other?",
+        "answer": "no",
+        "id": 189,
+        "term": "The Jackson 5",
+        "description": "American pop music family group",
+        "facts": [
+            "The Jackson 5 consisted of five members.",
+            "A full game of rugby is played between 2 teams of 15 players each."
+        ],
+        "decomposition": [
+            "How many members are in the Jackson 5?",
+            "How many players are there in a full game of rugby?",
+            "Is #1 greater than or equal to #2?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "The Jackson 5-1"
+                    ]
+                ],
+                [
+                    [
+                        "Rugby union-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "The Jackson 5-1"
+                    ]
+                ],
+                [
+                    [
+                        "Rugby union-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "The Jackson 5-1"
+                    ]
+                ],
+                [
+                    [
+                        "Rugby league positions-1"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 136,
+        "qid": 153,
+        "question": "Can you listen to the entire Itunes song catalog in one year?",
+        "answer": "no",
+        "id": 153,
+        "term": "Year",
+        "description": "Orbital period of the Earth around the Sun",
+        "facts": [
+            "Itunes has around 43 million songs as of 2017.",
+            "The average length of a song is 3 minutes.",
+            "There are 525,600 minutes in a year."
+        ],
+        "decomposition": [
+            "How many songs are on iTunes?",
+            "What is the average song length?",
+            "What is #1 multiplies by #2?",
+            "How many minutes are in a year?",
+            "Is #4 greater than #3?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "ITunes Store-2"
+                    ]
+                ],
+                [
+                    [
+                        "Popular music-19"
+                    ]
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Year-57"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "ITunes-20"
+                    ]
+                ],
+                [
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ],
+                [
+                    [
+                        "Seasons of Love-1"
+                    ]
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "ITunes Store-2"
+                    ]
+                ],
+                [
+                    [
+                        "Justin Bieber-29"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ],
+                [
+                    [
+                        "Year-19"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 288,
+        "qid": 908,
+        "question": "Were paparazzi involved in the death of a member of the royal family?",
+        "answer": "yes",
+        "id": 908,
+        "term": "Paparazzi",
+        "description": "profession",
+        "facts": [
+            "Diana Spencer was being pursued by paparazzi when her vehicle was involved in a fatal accident.",
+            "Diana Spencer was known as 'Princess Diana' and was the Princess of Wales."
+        ],
+        "decomposition": [
+            "What were the circumstances surrounding the death of Diana Spencer?",
+            "Is Diana Spencer a member of the royal family?",
+            "Was paparazzi involved in #1?",
+            "Are #2 and #3 positive?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Diana, Princess of Wales-4"
+                    ]
+                ],
+                [
+                    [
+                        "Diana, Princess of Wales-3"
+                    ]
+                ],
+                [
+                    [
+                        "Death of Diana, Princess of Wales-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Death of Diana, Princess of Wales-1"
+                    ]
+                ],
+                [
+                    [
+                        "Diana, Princess of Wales-1",
+                        "Diana, Princess of Wales-26"
+                    ]
+                ],
+                [
+                    [
+                        "Death of Diana, Princess of Wales-2"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Diana, Princess of Wales-53"
+                    ]
+                ],
+                [
+                    [
+                        "Diana, Princess of Wales-1"
+                    ]
+                ],
+                [
+                    [
+                        "Diana, Princess of Wales-53"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ]
+    },
+    {
+        "index": 112,
+        "qid": 523,
+        "question": "In baseball, is a \"Homer\" named after the poet Homer who wrote the Odyssey?",
+        "answer": "no",
+        "id": 523,
+        "term": "Odyssey",
+        "description": "Epic poem attributed to Homer",
+        "facts": [
+            "Homer is a famous poet who wrote the epic poem the Odyssey.",
+            "The Odyssey is about a character Odysseus on an epic journey home after the fall of Troy.",
+            "In baseball a trip around all the bases is called a Home Run.",
+            "\"Homer\" is a shortened name for Home Run."
+        ],
+        "decomposition": [
+            "What does the baseball term homer mean?",
+            "Is #1 the same thing as the poet Homer?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Home run-1",
+                        "Home run-15"
+                    ]
+                ],
+                [
+                    [
+                        "Homer-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Home run-1",
+                        "Home run-35"
+                    ]
+                ],
+                [
+                    [
+                        "Homer-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Home run-1",
+                        "Home run-14",
+                        "Home run-2"
+                    ]
+                ],
+                [
+                    [
+                        "Homer-1"
+                    ],
+                    "operation"
+                ]
+            ]
+        ]
+    }
+]

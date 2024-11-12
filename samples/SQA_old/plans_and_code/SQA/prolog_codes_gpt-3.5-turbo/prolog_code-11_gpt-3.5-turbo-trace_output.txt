@@ -1,0 +1,18 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-11_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) related('Lionel Richie', 'Sheila E.')
+   Call: (14) parent('Lionel Richie', 'Sheila E.')
+   Fail: (14) parent('Lionel Richie', 'Sheila E.')
+   Redo: (13) related('Lionel Richie', 'Sheila E.')
+   Call: (14) parent('Sheila E.', 'Lionel Richie')
+   Fail: (14) parent('Sheila E.', 'Lionel Richie')
+   Redo: (13) related('Lionel Richie', 'Sheila E.')
+   Call: (14) sibling('Lionel Richie', 'Sheila E.')
+   Call: (15) parent('Lionel Richie', _21522)
+   Fail: (15) parent('Lionel Richie', _21522)
+   Fail: (14) sibling('Lionel Richie', 'Sheila E.')
+   Fail: (13) related('Lionel Richie', 'Sheila E.')
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-11_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-11_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

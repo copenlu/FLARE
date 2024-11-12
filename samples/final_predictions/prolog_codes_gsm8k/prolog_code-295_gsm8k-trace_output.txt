@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-295_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_rows_with_5_stars(_5830)
+   Call: (14) total_stars_on_flag(_14508)
+   Exit: (14) total_stars_on_flag(76)
+   Call: (14) total_stars_in_8_rows(_15726)
+   Call: (15) stars_in_8_rows(_16336, _16338)
+   Exit: (15) stars_in_8_rows(3, 8)
+   Call: (15) _15726 is 3*8
+   Exit: (15) 24 is 3*8
+   Exit: (14) total_stars_in_8_rows(24)
+   Call: (14) total_stars_in_6_rows(_19402)
+   Call: (15) stars_in_6_rows(_20012, _20014)
+   Exit: (15) stars_in_6_rows(2, 6)
+   Call: (15) _19402 is 2*6
+   Exit: (15) 12 is 2*6
+   Exit: (14) total_stars_in_6_rows(12)
+   Call: (14) _23078 is 76-24-12
+   Exit: (14) 40 is 76-24-12
+   Call: (14) _5830 is 40/5
+   Exit: (14) 8 is 40/5
+   Exit: (13) total_rows_with_5_stars(8)
+   Exit: (12) query(8)
+path_result:query(8)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-295_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-295_gsm8k-trace_output.txt"), forall(call(query(TotalRows5)), (write(path_result: query(TotalRows5)))).')

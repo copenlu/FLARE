@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-393_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) millie_profit_per_hour(_5830)
+   Call: (14) total_cost(_14508, _14510)
+   Exit: (14) total_cost(18, 3)
+   Call: (14) total_revenue(3, 12, 1, 4, _15736)
+   Call: (15) _15736 is 3*12*1*4
+   Exit: (15) 144 is 3*12*1*4
+   Exit: (14) total_revenue(3, 12, 1, 4, 144)
+   Call: (14) profit_per_hour(18, 144, 1, _5830)
+   Call: (15) _5830 is (144-18)/1
+   Exit: (15) 126 is (144-18)/1
+   Exit: (14) profit_per_hour(18, 144, 1, 126)
+   Exit: (13) millie_profit_per_hour(126)
+   Exit: (12) query(126)
+path_result:query(126)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-393_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-393_gsm8k-trace_output.txt"), forall(call(query(ProfitPerHour)), (write(path_result: query(ProfitPerHour)))).')

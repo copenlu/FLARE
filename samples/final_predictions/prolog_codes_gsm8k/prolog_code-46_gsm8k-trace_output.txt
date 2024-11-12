@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-46_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7356)), write(path_result:query(_7356)))
+   Call: (12) query(_7356)
+   Call: (13) calculate_net_profit(20, 10, 2, _15504, _7356)
+   Call: (14) _16050 is 10+10
+   Exit: (14) 20 is 10+10
+   Call: (14) _17282 is 20*(20/10)
+   Exit: (14) 40 is 20*(20/10)
+   Call: (14) _18520 is 20*2
+   Exit: (14) 40 is 20*2
+   Call: (14) _7356 is 40-40
+   Exit: (14) 0 is 40-40
+   Exit: (13) calculate_net_profit(20, 10, 2, 20, 0)
+   Exit: (12) query(0)
+path_result:query(0)
+^  Exit: (10) forall(user:call(query(_7356)), user:write(path_result:query(_7356)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-46_gsm8k-trace_output.txt"), forall(call(query(_7356)), write(path_result:query(_7356)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-46_gsm8k-trace_output.txt"), forall(call(query(NetProfit)), (write(path_result: query(NetProfit)))).')

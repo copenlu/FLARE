@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-350_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_weight(20, _5830)
+   Call: (14) weight(pink_frog, _14512)
+   Exit: (14) weight(pink_frog, 50)
+   Call: (14) weight(blue_beetle, _15738)
+   Exit: (14) weight(blue_beetle, 50)
+   Call: (14) weight(green_toad, _16964)
+   Exit: (14) weight(green_toad, 50)
+   Call: (14) weight(yellow_snake, _18190)
+   Call: (15) _18190 is 50+10
+   Exit: (15) 60 is 50+10
+   Exit: (14) weight(yellow_snake, 60)
+   Call: (14) weight(red_bird, _20646)
+   Call: (15) _20646 is 50-20
+   Exit: (15) 30 is 50-20
+   Exit: (14) weight(red_bird, 30)
+   Call: (14) _5830 is 20+50+50+50+60+30
+   Exit: (14) 260 is 20+50+50+50+60+30
+   Exit: (13) total_weight(20, 260)
+   Exit: (12) query(260)
+path_result:query(260)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-350_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-350_gsm8k-trace_output.txt"), forall(call(query(TotalWeight)), (write(path_result: query(TotalWeight)))).')

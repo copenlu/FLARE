@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-351_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_outfits(_5830)
+   Call: (14) friend_outfits(_14508)
+   Exit: (14) friend_outfits(24)
+   Call: (14) shower_outfits(_15726)
+   Call: (15) friend_outfits(_16336)
+   Exit: (15) friend_outfits(24)
+   Call: (15) _15726 is 24*2
+   Exit: (15) 48 is 24*2
+   Exit: (14) shower_outfits(48)
+   Call: (14) mom_outfits(_19392)
+   Exit: (14) mom_outfits(15)
+   Call: (14) _5830 is 24+48+15
+   Exit: (14) 87 is 24+48+15
+   Exit: (13) total_outfits(87)
+   Exit: (12) query(87)
+path_result:query(87)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-351_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-351_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

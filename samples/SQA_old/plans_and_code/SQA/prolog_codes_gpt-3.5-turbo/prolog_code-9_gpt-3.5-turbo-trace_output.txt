@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-9_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) ask_condition(_15382)
+   Call: (14) format('Enter the medical condition to search for: ')
+Enter the medical condition to search for: 
+   Exit: (14) format('Enter the medical condition to search for: ')
+   Call: (14) patient(_17212, _17134, _17136, _17138)
+   Exit: (14) patient(1, 'Jon Brower Minnoch', obesity, 635)
+^  Call: (14) format('~w weighs ~w kg and has condition ~w~n', ['Jon Brower Minnoch', 635, obesity])
+Jon Brower Minnoch weighs 635 kg and has condition obesity
+^  Exit: (14) format('~w weighs ~w kg and has condition ~w~n', ['Jon Brower Minnoch', 635, obesity])
+   Exit: (13) ask_condition(obesity)
+   Exit: (12) query
+path_result:query
+   Redo: (14) patient(_20926, _17134, _17136, _17138)
+   Exit: (14) patient(2, 'Jane Doe', 'anorexia nervosa', 45)
+^  Call: (14) format('~w weighs ~w kg and has condition ~w~n', ['Jane Doe', 45, 'anorexia nervosa'])
+Jane Doe weighs 45 kg and has condition anorexia nervosa
+^  Exit: (14) format('~w weighs ~w kg and has condition ~w~n', ['Jane Doe', 45, 'anorexia nervosa'])
+   Exit: (13) ask_condition('anorexia nervosa')
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-9_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-9_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

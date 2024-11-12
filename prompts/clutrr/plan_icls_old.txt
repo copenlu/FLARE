@@ -1,0 +1,94 @@
+[Example 1]
+
+Context: [Scott] and [Lewis] are brothers. [Jason] is father of their father.
+Question: How is [Lewis] related to [Jason]?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task. The 3 sections should be exactly outlined.
+Your plan should show enough intermediate reasoning steps towards the answer and use the provided Relation Transitions.
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+### Explanation
+
+In this scenario, we have three individuals: Scott, Lewis, and Jason. The relationships are as follows:
+- Scott and Lewis are brothers.
+- Jason is the father of Scott and Lewis's father.
+
+From these relationships, we can deduce that:
+- Scott and Lewis share the same father.
+- Jason is the grandfather of both Scott and Lewis because he is the father of their father.
+
+Thus, Lewis is the grandson of Jason.
+
+### Analysis
+
+To analyze the relationship between Lewis and Jason, let's break down the family tree:
+1. Scott and Lewis are brothers, which means they share the same father.
+2. Jason is the father of Scott and Lewis's father. Therefore, Jason is the paternal grandfather of Scott and Lewis.
+
+In other words, Jason is one generation above Scott and Lewis's father, making Jason the grandfather of both Scott and Lewis. Therefore, Lewis is related to Jason as his grandson.
+
+### Plan to Generate a Prompt for Writing a SWI-Prolog Code
+
+#### Step-by-Step Plan
+
+1. **Define the relationships in Prolog:**
+   - Identify the individuals involved: Scott, Lewis, and Jason.
+   - Define the parent-child relationships between them.
+
+2. **Construct the parent relationships:**
+   - Use facts to represent that Jason is the parent of Scott and Lewis's father.
+   - Use facts to represent that Scott and Lewis's father is the parent of both Scott and Lewis.
+
+3. **Define a rule to determine grandparent relationships:**
+   - Create a rule that defines a grandparent relationship based on parent relationships.
+
+4. **Query the relationship:**
+   - Formulate a query to find out how Lewis is related to Jason using the grandparent rule.
+
+[Example 2]
+
+Context: [Jason] always had some great adventure planned for his granddaughter [Guillermina] when she came to visit. So, naturally, when [Myrna] told her daughter [Guillermina] that they would be going to visit [Jason] she could hardly contain herself.
+Question: How is [Jason] related to [Myrna]?
+
+
+
+### Explanation
+
+In this scenario, we have four individuals: Jason, Myrna, Guillermina, and the daughter of Myrna. The relationships are as follows:
+- Guillermina is the granddaughter of Jason.
+- Myrna is Guillermina's mother.
+
+From these relationships, we can deduce that:
+- Jason is the grandfather of Guillermina.
+- Myrna is the daughter of Jason since Myrna's daughter (Guillermina) is Jason's granddaughter.
+
+Thus, Jason is related to Myrna as her father.
+
+### Analysis
+
+To analyze the relationship between Jason and Myrna, let's break down the family tree:
+1. Jason is the grandfather of Guillermina.
+2. Guillermina is the daughter of Myrna.
+
+This implies:
+- Since Jason is Guillermina's grandfather and Myrna is Guillermina's mother, Jason must be Myrna's father.
+
+Therefore, Myrna is related to Jason as his daughter.
+
+### Plan to Generate a Prompt for Writing a SWI-Prolog Code
+
+#### Step-by-Step Plan
+
+1. **Define the relationships in Prolog:**
+   - Identify the individuals involved: Jason, Myrna, and Guillermina.
+   - Define the parent-child and grandparent-grandchild relationships between them.
+
+2. **Construct the parent and grandparent relationships:**
+   - Use facts to represent that Jason is the parent of Myrna.
+   - Use facts to represent that Myrna is the parent of Guillermina.
+
+3. **Define a rule to determine grandparent relationships:**
+   - Create a rule that defines a grandparent relationship based on parent relationships.
+
+4. **Query the relationship:**
+   - Formulate a query to find out how Jason is related to Myrna using the parent rule.

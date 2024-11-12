@@ -1,0 +1,41 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-125_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_hours_slept(_5830)
+   Call: (14) hours_slept(monday, _14508)
+   Exit: (14) hours_slept(monday, 8)
+   Call: (14) hours_slept(tuesday, _15734)
+   Call: (15) hours_slept(monday, _16348)
+   Exit: (15) hours_slept(monday, 8)
+   Call: (15) _15734 is 8-2
+   Exit: (15) 6 is 8-2
+   Exit: (14) hours_slept(tuesday, 6)
+   Call: (14) hours_slept(wednesday, _19416)
+   Call: (15) hours_slept(monday, _20030)
+   Exit: (15) hours_slept(monday, 8)
+   Call: (15) _19416 is 8-2
+   Exit: (15) 6 is 8-2
+   Exit: (14) hours_slept(wednesday, 6)
+   Call: (14) hours_slept(rest_of_week, _23098)
+   Call: (15) hours_slept(tuesday, _23712)
+   Call: (16) hours_slept(monday, _24326)
+   Exit: (16) hours_slept(monday, 8)
+   Call: (16) _23712 is 8-2
+   Exit: (16) 6 is 8-2
+   Exit: (15) hours_slept(tuesday, 6)
+   Call: (15) hours_slept(wednesday, _27394)
+   Call: (16) hours_slept(monday, _28008)
+   Exit: (16) hours_slept(monday, 8)
+   Call: (16) _27394 is 8-2
+   Exit: (16) 6 is 8-2
+   Exit: (15) hours_slept(wednesday, 6)
+   Call: (15) _23098 is 6+6+1
+   Exit: (15) 13 is 6+6+1
+   Exit: (14) hours_slept(rest_of_week, 13)
+   Call: (14) _5830 is 8+6+6+13
+   Exit: (14) 33 is 8+6+6+13
+   Exit: (13) total_hours_slept(33)
+   Exit: (12) query(33)
+path_result:query(33)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-125_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-125_gsm8k-trace_output.txt"), forall(call(query(TotalHours)), (write(path_result: query(TotalHours)))).')

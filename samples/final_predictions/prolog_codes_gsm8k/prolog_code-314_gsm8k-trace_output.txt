@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-314_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) loaves_sold_afternoon(60, _5830)
+   Call: (14) morning_sales(60, _14512)
+   Call: (15) _14512 is 60*2//3
+   Exit: (15) 40 is 60*2//3
+   Exit: (14) morning_sales(60, 40)
+   Call: (14) remaining_loaves(60, 40, _16974)
+   Call: (15) _16974 is 60-40
+   Exit: (15) 20 is 60-40
+   Exit: (14) remaining_loaves(60, 40, 20)
+   Call: (14) afternoon_sales(20, _5830)
+   Call: (15) _5830 is 20//2
+   Exit: (15) 10 is 20//2
+   Exit: (14) afternoon_sales(20, 10)
+   Exit: (13) loaves_sold_afternoon(60, 10)
+   Exit: (12) query(10)
+path_result:query(10)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-314_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-314_gsm8k-trace_output.txt"), forall(call(query(AfternoonSales)), (write(path_result: query(AfternoonSales)))).')

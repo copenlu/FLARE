@@ -1,0 +1,35 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-454_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) james_run_time(_5830)
+   Call: (14) jon_total_time(_14508)
+   Call: (15) _14508 is 40+80+50
+   Exit: (15) 170 is 40+80+50
+   Exit: (14) jon_total_time(170)
+   Call: (14) james_total_time(_16962)
+   Call: (15) james_adjusted_time_swim(_17572)
+   Call: (16) jon_total_time(_18182)
+   Call: (17) _18182 is 40+80+50
+   Exit: (17) 170 is 40+80+50
+   Exit: (16) jon_total_time(170)
+   Call: (16) _17572 is 170*0.9
+   Exit: (16) 153.0 is 170*0.9
+   Exit: (15) james_adjusted_time_swim(153.0)
+   Call: (15) james_adjusted_time_bike(_22486)
+   Call: (16) jon_total_time(_23096)
+   Call: (17) _23096 is 40+80+50
+   Exit: (17) 170 is 40+80+50
+   Exit: (16) jon_total_time(170)
+   Call: (16) _22486 is 170+5
+   Exit: (16) 175 is 170+5
+   Exit: (15) james_adjusted_time_bike(175)
+   Call: (15) _16962 is 153.0+175+50
+   Exit: (15) 378.0 is 153.0+175+50
+   Exit: (14) james_total_time(378.0)
+   Call: (14) _5830 is 378.0-170+50
+   Exit: (14) 258.0 is 378.0-170+50
+   Exit: (13) james_run_time(258.0)
+   Exit: (12) query(258.0)
+path_result:query(258.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-454_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-454_gsm8k-trace_output.txt"), forall(call(query(RunTime)), (write(path_result: query(RunTime)))).')

@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-13_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) total_bucket_list_duration(2, 4, 35, 13, 2, _5834)
+   Call: (14) convert_months_to_years(35, _14532)
+   Call: (15) _14532 is 35/12
+   Exit: (15) 2.9166666666666665 is 35/12
+   Exit: (14) convert_months_to_years(35, 2.9166666666666665)
+   Call: (14) convert_months_to_years(13, _16994)
+   Call: (15) _16994 is 13/12
+   Exit: (15) 1.0833333333333333 is 13/12
+   Exit: (14) convert_months_to_years(13, 1.0833333333333333)
+   Call: (14) _5834 is 2+4+2.9166666666666665+1.0833333333333333+2
+   Exit: (14) 12.0 is 2+4+2.9166666666666665+1.0833333333333333+2
+   Exit: (13) total_bucket_list_duration(2, 4, 35, 13, 2, 12.0)
+   Exit: (12) query(12.0)
+path_result:query(12.0)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-13_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-13_gpt-4-turbo-trace_output.txt"), forall(call(query(TotalYears)), (write(path_result: query(TotalYears)))).')

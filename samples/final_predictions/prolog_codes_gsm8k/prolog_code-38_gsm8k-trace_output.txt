@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-38_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) john_lego_sets(13, 15, 8, 20, _5830)
+   Call: (14) total_earned(13, 15, _14524)
+   Call: (15) _14524 is 13*15
+   Exit: (15) 195 is 13*15
+   Exit: (14) total_earned(13, 15, 195)
+   Call: (14) total_spent(8, 20, _16988)
+   Call: (15) _16988 is 8*20
+   Exit: (15) 160 is 8*20
+   Exit: (14) total_spent(8, 20, 160)
+   Call: (14) remaining_money(195, 160, _19452)
+   Call: (15) _19452 is 195-160
+   Exit: (15) 35 is 195-160
+   Exit: (14) remaining_money(195, 160, 35)
+   Call: (14) lego_sets_remaining(35, 15, _5830)
+   Call: (15) _5830 is 35//15
+   Exit: (15) 2 is 35//15
+   Exit: (14) lego_sets_remaining(35, 15, 2)
+   Exit: (13) john_lego_sets(13, 15, 8, 20, 2)
+   Exit: (12) query(2)
+path_result:query(2)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-38_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-38_gsm8k-trace_output.txt"), forall(call(query(LegoSetsRemaining)), (write(path_result: query(LegoSetsRemaining)))).')

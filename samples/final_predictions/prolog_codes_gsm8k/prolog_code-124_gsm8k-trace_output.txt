@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-124_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_fruits(_5830)
+   Call: (14) morisette_fruits(apples, _14508)
+   Exit: (14) morisette_fruits(apples, 5)
+   Call: (14) morisette_fruits(oranges, _15734)
+   Exit: (14) morisette_fruits(oranges, 8)
+   Call: (14) kael_fruits(apples, _16960)
+   Call: (15) morisette_fruits(apples, _17574)
+   Exit: (15) morisette_fruits(apples, 5)
+   Call: (15) _16960 is 2*5
+   Exit: (15) 10 is 2*5
+   Exit: (14) kael_fruits(apples, 10)
+   Call: (14) kael_fruits(oranges, _20642)
+   Call: (15) morisette_fruits(oranges, _21256)
+   Exit: (15) morisette_fruits(oranges, 8)
+   Call: (15) _20642 is 8/2
+   Exit: (15) 4 is 8/2
+   Exit: (14) kael_fruits(oranges, 4)
+   Call: (14) _5830 is 5+10+8+4
+   Exit: (14) 27 is 5+10+8+4
+   Exit: (13) total_fruits(27)
+   Exit: (12) query(27)
+path_result:query(27)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-124_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-124_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-406_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7512)), write(path_result:query(_7512)))
+   Call: (12) query(_7512)
+   Call: (13) pizza_slices_left(12, _7512)
+   Call: (14) slices_given_to_bill(12, _16194)
+   Call: (15) _16194 is 12*(1/3)
+   Exit: (15) 4.0 is 12*(1/3)
+   Exit: (14) slices_given_to_bill(12, 4.0)
+   Call: (14) slices_given_to_mark(12, _18662)
+   Call: (15) _18662 is 12*(1/4)
+   Exit: (15) 3.0 is 12*(1/4)
+   Exit: (14) slices_given_to_mark(12, 3.0)
+   Call: (14) total_slices_eaten(12, 4.0, 3.0, 2, _21130)
+   Call: (15) _21130 is 4.0+3.0+2
+   Exit: (15) 9.0 is 4.0+3.0+2
+   Exit: (14) total_slices_eaten(12, 4.0, 3.0, 2, 9.0)
+   Call: (14) slices_left(12, 9.0, _7512)
+   Call: (15) _7512 is 12-9.0
+   Exit: (15) 3.0 is 12-9.0
+   Exit: (14) slices_left(12, 9.0, 3.0)
+   Exit: (13) pizza_slices_left(12, 3.0)
+   Exit: (12) query(3.0)
+path_result:query(3.0)
+^  Exit: (10) forall(user:call(query(_7512)), user:write(path_result:query(_7512)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-406_gsm8k-trace_output.txt"), forall(call(query(_7512)), write(path_result:query(_7512)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-406_gsm8k-trace_output.txt"), forall(call(query(SlicesLeft)), (write(path_result: query(SlicesLeft)))).')

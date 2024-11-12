@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-453_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) final_temperature_calculation(_5830)
+   Call: (14) initial_temperature(_14508)
+   Exit: (14) initial_temperature(40)
+   Call: (14) baking_hours(_15726)
+   Exit: (14) baking_hours(3)
+   Call: (14) window_time(_16944)
+   Exit: (14) window_time(30)
+   Call: (14) temperature_increase(3, _18162)
+   Call: (15) _18162 is 3*5
+   Exit: (15) 15 is 3*5
+   Exit: (14) temperature_increase(3, 15)
+   Call: (14) temperature_decrease(30, _20618)
+   Call: (15) _20618 is 30/10*2
+   Exit: (15) 6 is 30/10*2
+   Exit: (14) temperature_decrease(30, 6)
+   Call: (14) final_temperature(40, 15, 6, _5830)
+   Call: (15) _5830 is 40+15-6
+   Exit: (15) 49 is 40+15-6
+   Exit: (14) final_temperature(40, 15, 6, 49)
+   Exit: (13) final_temperature_calculation(49)
+   Exit: (12) query(49)
+path_result:query(49)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-453_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-453_gsm8k-trace_output.txt"), forall(call(query(FinalTemp)), (write(path_result: query(FinalTemp)))).')

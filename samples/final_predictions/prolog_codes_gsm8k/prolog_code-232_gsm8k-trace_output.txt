@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-232_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) percentage_chance_water_type(_5830)
+   Call: (14) total_cards_after_changes(_14508)
+   Call: (15) total_water_cards_after_changes(_15118)
+   Call: (16) _15118 is 40-8+14
+   Exit: (16) 46 is 40-8+14
+   Exit: (15) total_water_cards_after_changes(46)
+   Call: (15) _14508 is 30+46+20
+   Exit: (15) 96 is 30+46+20
+   Exit: (14) total_cards_after_changes(96)
+   Call: (14) total_water_cards_after_changes(_19416)
+   Call: (15) _19416 is 40-8+14
+   Exit: (15) 46 is 40-8+14
+   Exit: (14) total_water_cards_after_changes(46)
+   Call: (14) _5830 is round(46/96*100)
+   Exit: (14) 48 is round(46/96*100)
+   Exit: (13) percentage_chance_water_type(48)
+   Exit: (12) query(48)
+path_result:query(48)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-232_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-232_gsm8k-trace_output.txt"), forall(call(query(Percentage)), (write(path_result: query(Percentage)))).')

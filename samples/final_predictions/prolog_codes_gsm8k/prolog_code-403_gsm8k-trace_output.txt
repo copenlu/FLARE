@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-403_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_percentage_editing(_5830)
+   Call: (14) _14508=4
+   Exit: (14) 4=4
+   Call: (14) _15734 is 4/2
+   Exit: (14) 2 is 4/2
+   Call: (14) _16966=90
+   Exit: (14) 90=90
+   Call: (14) _18192 is 4+2+90
+   Exit: (14) 96 is 4+2+90
+   Call: (14) percentage_editing(90, 96, _5830)
+   Call: (15) _5830 is 90/96*100
+   Exit: (15) 93.75 is 90/96*100
+   Exit: (14) percentage_editing(90, 96, 93.75)
+   Exit: (13) query_percentage_editing(93.75)
+   Exit: (12) query(93.75)
+path_result:query(93.75)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-403_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-403_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

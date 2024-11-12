@@ -1,0 +1,28 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) _4012=1500
+   Exit: (13) 1500=1500
+   Call: (13) _5238=[135, 141]
+   Exit: (13) [135, 141]=[135, 141]
+   Call: (13) _6476=8
+   Exit: (13) 8=8
+   Call: (13) required_rate(1500, [135, 141], 8, _7702)
+   Call: (14) lists:sum_list([135, 141], _8324)
+   Exit: (14) lists:sum_list([135, 141], 276)
+   Call: (14) _9590 is 1500-276
+   Exit: (14) 1224 is 1500-276
+   Call: (14) length([135, 141], _10822)
+   Exit: (14) length([135, 141], 2)
+   Call: (14) _12052 is 8-2
+   Exit: (14) 6 is 8-2
+   Call: (14) _7702 is 1224/6
+   Exit: (14) 204 is 1224/6
+   Exit: (13) required_rate(1500, [135, 141], 8, 204)
+^  Call: (13) format('Rachel needs to stuff ~2f envelopes per hour to finish on time.', [204])
+Rachel needs to stuff 204.00 envelopes per hour to finish on time.
+^  Exit: (13) format('Rachel needs to stuff ~2f envelopes per hour to finish on time.', [204])
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-0_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

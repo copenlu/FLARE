@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-175_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) _13900=25
+   Exit: (13) 25=25
+   Call: (13) jacket_cost(25, _15126)
+   Call: (14) _15126 is 3*25
+   Exit: (14) 75 is 3*25
+   Exit: (13) jacket_cost(25, 75)
+   Call: (13) pants_cost(25, 75, _17582)
+   Call: (14) _17582 is (25+75)/2
+   Exit: (14) 50 is (25+75)/2
+   Exit: (13) pants_cost(25, 75, 50)
+   Call: (13) total_uniform_cost(25, 75, 50, _5830)
+   Call: (14) _5830 is 25+75+50
+   Exit: (14) 150 is 25+75+50
+   Exit: (13) total_uniform_cost(25, 75, 50, 150)
+   Exit: (12) query(150)
+path_result:query(150)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-175_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-175_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

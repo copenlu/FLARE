@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-10_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) check_silver_anniversary(john, cynthia)
+   Call: (14) silver_anniversary(john, cynthia)
+   Call: (15) married(john, cynthia, _16816, _16818)
+   Exit: (15) married(john, cynthia, date(1962, 8, 23), date(1968, 11, 8))
+   Call: (15) date(1962, 8, 23)=date(_18078, _18080, _18082)
+   Exit: (15) date(1962, 8, 23)=date(1962, 8, 23)
+   Call: (15) date(1968, 11, 8)=date(_19310, _19312, _19314)
+   Exit: (15) date(1968, 11, 8)=date(1968, 11, 8)
+   Call: (15) years_married(1962, 8, 23, 1968, 11, 8, _20540)
+   Call: (16) _20540 is 1968-1962
+   Exit: (16) 6 is 1968-1962
+   Exit: (15) years_married(1962, 8, 23, 1968, 11, 8, 6)
+   Call: (15) 6>=25
+   Fail: (15) 6>=25
+   Fail: (14) silver_anniversary(john, cynthia)
+   Redo: (13) check_silver_anniversary(john, cynthia)
+   Call: (14) false
+   Fail: (14) false
+   Fail: (13) check_silver_anniversary(john, cynthia)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-10_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-10_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

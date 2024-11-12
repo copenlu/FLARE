@@ -1,0 +1,52 @@
+[
+    {
+        "index": 10,
+        "question": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date a month ago in MM/DD/YYYY?",
+        "answer": "10/22/2001"
+    },
+    {
+        "index": 4,
+        "question": "It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?",
+        "answer": "04/20/1969"
+    },
+    {
+        "index": 7,
+        "question": "Yesterday was April 30, 2021. What is the date tomorrow in MM/DD/YYYY?",
+        "answer": "05/02/2021"
+    },
+    {
+        "index": 1,
+        "question": "2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?",
+        "answer": "01/05/2015"
+    },
+    {
+        "index": 8,
+        "question": "Today is 12/31/2020. What is the date 1 week ago in MM/DD/YYYY?",
+        "answer": "12/24/2020"
+    },
+    {
+        "index": 9,
+        "question": "It was Sept. 1st, 2021 a week ago. What is the date tomorrow in MM/DD/YYYY?",
+        "answer": "09/09/2021"
+    },
+    {
+        "index": 3,
+        "question": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?",
+        "answer": "05/23/1943"
+    },
+    {
+        "index": 5,
+        "question": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?",
+        "answer": "03/13/2002"
+    },
+    {
+        "index": 0,
+        "question": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date today in MM/DD/YYYY?",
+        "answer": "01/01/1930"
+    },
+    {
+        "index": 2,
+        "question": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?",
+        "answer": "01/07/2019"
+    }
+]

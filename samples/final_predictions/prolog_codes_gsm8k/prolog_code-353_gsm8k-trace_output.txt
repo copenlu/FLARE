@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-353_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) price_difference(4, _5830)
+   Call: (14) price_b(4, _14512)
+   Call: (15) _14512 is 4+5
+   Exit: (15) 9 is 4+5
+   Exit: (14) price_b(4, 9)
+   Call: (14) price_c(4, _16968)
+   Call: (15) _16968 is 4+7
+   Exit: (15) 11 is 4+7
+   Exit: (14) price_c(4, 11)
+   Call: (14) _5830 is 11-9
+   Exit: (14) 2 is 11-9
+   Exit: (13) price_difference(4, 2)
+   Exit: (12) query(2)
+path_result:query(2)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-353_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-353_gsm8k-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

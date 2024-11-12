@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-156_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_change_for_carl(_5830)
+   Call: (14) total_cost_of_cookies(10, 6, 0.1, _14514)
+   Call: (15) _15136 is 10*6
+   Exit: (15) 60 is 10*6
+   Call: (15) _14514 is 60*0.1
+   Exit: (15) 6.0 is 60*0.1
+   Exit: (14) total_cost_of_cookies(10, 6, 0.1, 6.0)
+   Call: (14) calculate_change(6.0, 10, _5830)
+   Call: (15) _5830 is 10-6.0
+   Exit: (15) 4.0 is 10-6.0
+   Exit: (14) calculate_change(6.0, 10, 4.0)
+   Exit: (13) calculate_change_for_carl(4.0)
+   Exit: (12) query(4.0)
+path_result:query(4.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-156_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-156_gsm8k-trace_output.txt"), forall(call(query(Change)), (write(path_result: query(Change)))).')

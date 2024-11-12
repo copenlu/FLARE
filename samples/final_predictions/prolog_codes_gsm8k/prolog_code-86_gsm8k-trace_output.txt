@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-86_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_thorns(_5830)
+   Call: (14) rose_bushes(_14508)
+   Exit: (14) rose_bushes(3)
+   Call: (14) roses_per_bush(_15726)
+   Exit: (14) roses_per_bush(25)
+   Call: (14) thorns_per_rose(_16944)
+   Exit: (14) thorns_per_rose(8)
+   Call: (14) _5830 is 3*25*8
+   Exit: (14) 600 is 3*25*8
+   Exit: (13) total_thorns(600)
+   Exit: (12) query(600)
+path_result:query(600)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-86_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-86_gsm8k-trace_output.txt"), forall(call(query(TotalThorns)), (write(path_result: query(TotalThorns)))).')

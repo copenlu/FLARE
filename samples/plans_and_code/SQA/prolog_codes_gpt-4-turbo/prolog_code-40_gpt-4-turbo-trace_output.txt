@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-40_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) is_solvent(king_kong_2005)
+   Call: (14) budget(king_kong_2005, _14492)
+   Exit: (14) budget(king_kong_2005, 207)
+   Call: (14) total_revenue(king_kong_2005, _15718)
+   Call: (15) box_office(king_kong_2005, _16332)
+   Exit: (15) box_office(king_kong_2005, 562)
+   Call: (15) home_media_sales(king_kong_2005, _17558)
+   Exit: (15) home_media_sales(king_kong_2005, 100)
+   Call: (15) merchandising_revenue(king_kong_2005, _18784)
+   Exit: (15) merchandising_revenue(king_kong_2005, 50)
+   Call: (15) _15718 is 562+100+50
+   Exit: (15) 712 is 562+100+50
+   Exit: (14) total_revenue(king_kong_2005, 712)
+   Call: (14) 712>=207
+   Exit: (14) 712>=207
+   Exit: (13) is_solvent(king_kong_2005)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-40_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-40_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

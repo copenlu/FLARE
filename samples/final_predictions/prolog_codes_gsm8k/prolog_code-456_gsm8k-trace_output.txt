@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-456_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_change(30, 32, 6*5, _5830)
+   Call: (14) distance_covered(30, 32, _14526)
+   Call: (15) _14526 is 30/60*32
+   Exit: (15) 16.0 is 30/60*32
+   Exit: (14) distance_covered(30, 32, 16.0)
+   Call: (14) hay_cost(16.0, _17002)
+   Call: (15) _17002 is 16.0/2*3
+   Exit: (15) 24.0 is 16.0/2*3
+   Exit: (14) hay_cost(16.0, 24.0)
+   Call: (14) change_left(6*5, 24.0, _5830)
+   Call: (15) _5830 is 6*5-24.0
+   Exit: (15) 6.0 is 6*5-24.0
+   Exit: (14) change_left(6*5, 24.0, 6.0)
+   Exit: (13) calculate_change(30, 32, 6*5, 6.0)
+   Exit: (12) query(6.0)
+path_result:query(6.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-456_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-456_gsm8k-trace_output.txt"), forall(call(query(Change)), (write(path_result: query(Change)))).')

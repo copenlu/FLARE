@@ -1,0 +1,35 @@
+[Example 1]
+
+Context: [Jason] always had some great adventure planned for his granddaughter [Guillermina] when she came to visit. So, naturally, when [Myrna] told her daughter [Guillermina] that they would be going to visit [Jason] she could hardly contain herself.
+Question: How is [Jason] related to [Myrna]?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task.
+Your plan should show enough intermediate reasoning steps towards the answer and use the provided Relation Transitions.
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+##Explanation Analysis Plan
+
+1. How is [Jason] related to [Guillermina]? (independent, support: "[Jason] always had some great adventure planned for his granddaughter [Guillermina] when she came to visit.")
+relation(Jason, Guillermina) = grandfather
+2. How is [Guillermina] related to [Myrna]? (independent, support: "So, naturally, when [Myrna] told her daughter [Guillermina] that they would be going to visit [Jason] she could hardly contain herself.")
+relation(Guillermina, Myrna) = daughter
+3. Final answer: How is [Jason] related to [Myrna]? (depends on 1, 2)
+relation(Jason, Myrna) = relation(Jason, Guillermina) @ relation(Guillermina, Myrna)
+
+[Example 2]
+
+Context: [Gabrielle] drove her daughter [Dorothy] to the hospital. [Dorothy]'s son [Vincent] showed up shortly after.
+Question: How is [Vincent] related to [Gabrielle]?
+
+Generate an explanation, analysis and plan to generate a prompt for writing a swi-prolog code for the last task.
+Your plan should show enough intermediate reasoning steps towards the answer and use the provided Relation Transitions.
+Construct the plan as much as you can and describe the logic specifically. When constructing the plan for the code prompt, actively use swi prolog search capabilities.
+
+##Explanation Analysis Plan
+
+1. How is [Vincent] related to [Dorothy]? (independent, support: "[Dorothy]'s son [Vincent] showed up shortly after.")
+relation(Vincent, Dorothy) = son
+2. How is [Dorothy] related to [Gabrielle]? (independent, support: "[Gabrielle] drove her daughter [Dorothy] to the hospital.")
+relation(Dorothy, Gabrielle) = daughter
+3. Final answer: How is [Vincent] related to [Gabrielle]? (depends on 1, 2)
+relation(Vincent, Gabrielle) = relation(Vincent, Dorothy) @ relation(Dorothy, Gabrielle)

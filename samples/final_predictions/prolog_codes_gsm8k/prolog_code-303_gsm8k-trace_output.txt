@@ -1,0 +1,39 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-303_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830, _5832, _5834)), write(path_result:query(_5830, _5832, _5834)))
+   Call: (12) query(_5830, _5832, _5834)
+   Call: (13) total_count(_5830, _5832, _5834)
+   Call: (14) pushups(_14532)
+   Exit: (14) pushups(100)
+   Call: (14) squats(_15750)
+   Exit: (14) squats(50)
+   Call: (14) dumbbell_presses(_16968)
+   Exit: (14) dumbbell_presses(20)
+   Call: (14) pushups_second_day(_18186)
+   Call: (15) pushups(_18796)
+   Exit: (15) pushups(100)
+   Call: (15) _18186 is 100+20
+   Exit: (15) 120 is 100+20
+   Exit: (14) pushups_second_day(120)
+   Call: (14) squats_second_day(_21852)
+   Call: (15) squats(_22462)
+   Exit: (15) squats(50)
+   Call: (15) _21852 is 50-10
+   Exit: (15) 40 is 50-10
+   Exit: (14) squats_second_day(40)
+   Call: (14) dumbbell_presses_second_day(_25518)
+   Call: (15) dumbbell_presses(_26128)
+   Exit: (15) dumbbell_presses(20)
+   Call: (15) _25518 is 20*2
+   Exit: (15) 40 is 20*2
+   Exit: (14) dumbbell_presses_second_day(40)
+   Call: (14) _5830 is 100+120
+   Exit: (14) 220 is 100+120
+   Call: (14) _5832 is 50+40
+   Exit: (14) 90 is 50+40
+   Call: (14) _5834 is 20+40
+   Exit: (14) 60 is 20+40
+   Exit: (13) total_count(220, 90, 60)
+   Exit: (12) query(220, 90, 60)
+path_result:query(220,90,60)
+^  Exit: (10) forall(user:call(query(_5830, _5832, _5834)), user:write(path_result:query(_5830, _5832, _5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-303_gsm8k-trace_output.txt"), forall(call(query(_5830, _5832, _5834)), write(path_result:query(_5830, _5832, _5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-303_gsm8k-trace_output.txt"), forall(call(query(TotalPushups, TotalSquats, TotalDumbbellPresses)), (write(path_result: query(TotalPushups, TotalSquats, TotalDumbbellPresses)))).')

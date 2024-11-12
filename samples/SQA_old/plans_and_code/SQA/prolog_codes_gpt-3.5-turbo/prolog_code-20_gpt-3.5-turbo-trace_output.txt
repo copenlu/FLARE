@@ -1,0 +1,153 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-20_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+^  Call: (13) findall((_13886, _13888), incestuous(_13886, _13888), _13896)
+   Call: (17) incestuous(_13886, _13888)
+   Call: (18) sibling(_13886, _13888)
+   Call: (19) parent(_15778, _13886)
+   Exit: (19) parent(adam, cain)
+   Call: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, cain)
+   Call: (19) cain\=cain
+   Fail: (19) cain\=cain
+   Redo: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, abel)
+   Call: (19) cain\=abel
+   Exit: (19) cain\=abel
+   Exit: (18) sibling(cain, abel)
+   Exit: (17) incestuous(cain, abel)
+   Redo: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, seth)
+   Call: (19) cain\=seth
+   Exit: (19) cain\=seth
+   Exit: (18) sibling(cain, seth)
+   Exit: (17) incestuous(cain, seth)
+   Redo: (19) parent(_15778, _13886)
+   Exit: (19) parent(eve, cain)
+   Call: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, cain)
+   Call: (19) cain\=cain
+   Fail: (19) cain\=cain
+   Redo: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, abel)
+   Call: (19) cain\=abel
+   Exit: (19) cain\=abel
+   Exit: (18) sibling(cain, abel)
+   Exit: (17) incestuous(cain, abel)
+   Redo: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, seth)
+   Call: (19) cain\=seth
+   Exit: (19) cain\=seth
+   Exit: (18) sibling(cain, seth)
+   Exit: (17) incestuous(cain, seth)
+   Redo: (19) parent(_15778, _13886)
+   Exit: (19) parent(adam, abel)
+   Call: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, cain)
+   Call: (19) abel\=cain
+   Exit: (19) abel\=cain
+   Exit: (18) sibling(abel, cain)
+   Exit: (17) incestuous(abel, cain)
+   Redo: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, abel)
+   Call: (19) abel\=abel
+   Fail: (19) abel\=abel
+   Redo: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, seth)
+   Call: (19) abel\=seth
+   Exit: (19) abel\=seth
+   Exit: (18) sibling(abel, seth)
+   Exit: (17) incestuous(abel, seth)
+   Redo: (19) parent(_15778, _13886)
+   Exit: (19) parent(eve, abel)
+   Call: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, cain)
+   Call: (19) abel\=cain
+   Exit: (19) abel\=cain
+   Exit: (18) sibling(abel, cain)
+   Exit: (17) incestuous(abel, cain)
+   Redo: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, abel)
+   Call: (19) abel\=abel
+   Fail: (19) abel\=abel
+   Redo: (19) parent(eve, _13888)
+   Exit: (19) parent(eve, seth)
+   Call: (19) abel\=seth
+   Exit: (19) abel\=seth
+   Exit: (18) sibling(abel, seth)
+   Exit: (17) incestuous(abel, seth)
+   Redo: (19) parent(_15778, _13886)
+   Exit: (19) parent(adam, seth)
+   Call: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, cain)
+   Call: (19) seth\=cain
+   Exit: (19) seth\=cain
+   Exit: (18) sibling(seth, cain)
+   Exit: (17) incestuous(seth, cain)
+   Redo: (19) parent(adam, _13888)
+   Exit: (19) parent(adam, abel)
+   Call: (19) seth\=abel
+   Exit: (19) seth\=abel
+   Exit: (18) sibling(seth, abel)
+   Exit: (17) incestuous(seth, abel)
+   Redo: (19) parent(adam, _158)
+   Exit: (19) parent(adam, seth)
+   Call: (19) seth\=seth
+   Fail: (19) seth\=seth
+   Redo: (19) parent(_196, _156)
+   Exit: (19) parent(eve, seth)
+   Call: (19) parent(eve, _158)
+   Exit: (19) parent(eve, cain)
+   Call: (19) seth\=cain
+   Exit: (19) seth\=cain
+   Exit: (18) sibling(seth, cain)
+   Exit: (17) incestuous(seth, cain)
+   Redo: (19) parent(eve, _158)
+   Exit: (19) parent(eve, abel)
+   Call: (19) seth\=abel
+   Exit: (19) seth\=abel
+   Exit: (18) sibling(seth, abel)
+   Exit: (17) incestuous(seth, abel)
+   Redo: (19) parent(eve, _158)
+   Exit: (19) parent(eve, seth)
+   Call: (19) seth\=seth
+   Fail: (19) seth\=seth
+   Fail: (18) sibling(_156, _158)
+   Redo: (17) incestuous(_156, _158)
+   Call: (18) parent(_156, _158)
+   Exit: (18) parent(adam, cain)
+   Exit: (17) incestuous(adam, cain)
+   Redo: (18) parent(_156, _158)
+   Exit: (18) parent(eve, cain)
+   Exit: (17) incestuous(eve, cain)
+   Redo: (18) parent(_156, _158)
+   Exit: (18) parent(adam, abel)
+   Exit: (17) incestuous(adam, abel)
+   Redo: (18) parent(_156, _158)
+   Exit: (18) parent(eve, abel)
+   Exit: (17) incestuous(eve, abel)
+   Redo: (18) parent(_156, _158)
+   Exit: (18) parent(adam, seth)
+   Exit: (17) incestuous(adam, seth)
+   Redo: (18) parent(_156, _158)
+   Exit: (18) parent(eve, seth)
+   Exit: (17) incestuous(eve, seth)
+^  Exit: (13) findall((_156, _158), user:incestuous(_156, _158), [(cain, abel), (cain, seth), (cain, abel), (cain, seth), (abel, cain), (abel, seth), (abel, cain), (..., ...)|...])
+^  Call: (13) findall(_29802, parent(eve, _29802), _29810)
+   Call: (17) parent(eve, _29802)
+   Exit: (17) parent(eve, cain)
+   Redo: (17) parent(eve, _29802)
+   Exit: (17) parent(eve, abel)
+   Redo: (17) parent(eve, _29802)
+   Exit: (17) parent(eve, seth)
+^  Exit: (13) findall(_29802, user:parent(eve, _29802), [cain, abel, seth])
+^  Call: (13) format('Incestuous Relationships: ~w~n', [[(cain, abel), (cain, seth), (cain, abel), (cain, seth), (abel, cain), (abel, seth), (..., ...)|...]])
+Incestuous Relationships: [(cain,abel),(cain,seth),(cain,abel),(cain,seth),(abel,cain),(abel,seth),(abel,cain),(abel,seth),(seth,cain),(seth,abel),(seth,cain),(seth,abel),(adam,cain),(eve,cain),(adam,abel),(eve,abel),(adam,seth),(eve,seth)]
+^  Exit: (13) format('Incestuous Relationships: ~w~n', [[(cain, abel), (cain, seth), (cain, abel), (cain, seth), (abel, cain), (abel, seth), (..., ...)|...]])
+^  Call: (13) format('Descendants of Eve: ~w~n', [[cain, abel, seth]])
+Descendants of Eve: [cain,abel,seth]
+^  Exit: (13) format('Descendants of Eve: ~w~n', [[cain, abel, seth]])
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-20_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

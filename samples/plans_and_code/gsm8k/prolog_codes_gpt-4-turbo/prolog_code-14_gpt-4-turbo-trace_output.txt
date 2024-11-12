@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-14_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) balloon_ride(_5834)
+   Call: (14) ascent(15, 50, _14512)
+   Call: (15) _14512 is 15*50
+   Exit: (15) 750 is 15*50
+   Exit: (14) ascent(15, 50, 750)
+   Call: (14) descent(10, 10, _16976)
+   Call: (15) _16976 is 10*10
+   Exit: (15) 100 is 10*10
+   Exit: (14) descent(10, 10, 100)
+   Call: (14) ascent(15, 50, _19440)
+   Call: (15) _19440 is 15*50
+   Exit: (15) 750 is 15*50
+   Exit: (14) ascent(15, 50, 750)
+   Call: (14) _5834 is 750-100+750
+   Exit: (14) 1400 is 750-100+750
+   Exit: (13) balloon_ride(1400)
+   Exit: (12) query(1400)
+path_result:query(1400)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-14_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-14_gpt-4-turbo-trace_output.txt"), forall(call(query(HighestElevation)), (write(path_result: query(HighestElevation)))).')

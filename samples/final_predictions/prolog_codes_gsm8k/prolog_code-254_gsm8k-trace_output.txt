@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-254_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_cost_per_person(_5830)
+   Call: (14) _14508=12
+   Exit: (14) 12=12
+   Call: (14) _15734=43
+   Exit: (14) 43=43
+   Call: (14) _16960=15
+   Exit: (14) 15=15
+   Call: (14) _18186=4
+   Exit: (14) 4=4
+   Call: (14) _19412=22
+   Exit: (14) 22=22
+   Call: (14) total_cost_party_supplies(12, 43, 15, 4, 22, _20638)
+   Call: (15) _20638 is 12+43+15+4+22
+   Exit: (15) 96 is 12+43+15+4+22
+   Exit: (14) total_cost_party_supplies(12, 43, 15, 4, 22, 96)
+   Call: (14) split_cost_evenly(96, _5830)
+   Call: (15) _5830 is 96/3
+   Exit: (15) 32 is 96/3
+   Exit: (14) split_cost_evenly(96, 32)
+   Exit: (13) calculate_cost_per_person(32)
+   Exit: (12) query(32)
+path_result:query(32)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-254_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-254_gsm8k-trace_output.txt"), forall(call(query(CostPerPerson)), (write(path_result: query(CostPerPerson)))).')

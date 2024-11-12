@@ -1,0 +1,33 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-283_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_num_cards_d(_5830)
+   Call: (14) _14508=80
+   Exit: (14) 80=80
+   Call: (14) _15734=2/5
+   Exit: (14) 2/5=2/5
+   Call: (14) _16966=1/2
+   Exit: (14) 1/2=1/2
+   Call: (14) _18198=5/8
+   Exit: (14) 5/8=5/8
+   Call: (14) calculate_cards(80, 2/5, _19430)
+   Call: (15) _19430 is round(80*(2/5))
+   Exit: (15) 32 is round(80*(2/5))
+   Exit: (14) calculate_cards(80, 2/5, 32)
+   Call: (14) calculate_cards(80-32, 1/2, _21904)
+   Call: (15) _21904 is round((80-32)*(1/2))
+   Exit: (15) 24 is round((80-32)*(1/2))
+   Exit: (14) calculate_cards(80-32, 1/2, 24)
+   Call: (14) calculate_cards(80-32-24, 5/8, _24384)
+   Call: (15) _24384 is round((80-32-24)*(5/8))
+   Exit: (15) 15 is round((80-32-24)*(5/8))
+   Exit: (14) calculate_cards(80-32-24, 5/8, 15)
+   Call: (14) calculate_cards_d(32, 24, 15, 80, _5830)
+   Call: (15) _5830 is 80-(32+24+15)
+   Exit: (15) 9 is 80-(32+24+15)
+   Exit: (14) calculate_cards_d(32, 24, 15, 80, 9)
+   Exit: (13) calculate_num_cards_d(9)
+   Exit: (12) query(9)
+path_result:query(9)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-283_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-283_gsm8k-trace_output.txt"), forall(call(query(NumCardsD)), (write(path_result: query(NumCardsD)))).')

@@ -1,0 +1,41 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-45_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) annual_visitors(taco_bell, _15542)
+   Call: (14) outlets(taco_bell, _16156)
+   Exit: (14) outlets(taco_bell, 7000)
+   Call: (14) avg_visitors_per_day(taco_bell, _17382)
+   Exit: (14) avg_visitors_per_day(taco_bell, 300)
+   Call: (14) _18608=365
+   Exit: (14) 365=365
+   Call: (14) _19834 is 7000*300*365
+   Exit: (14) 766500000 is 7000*300*365
+   Call: (14) marketing_impact(taco_bell, _21072)
+   Exit: (14) marketing_impact(taco_bell, 9)
+   Call: (14) location_strategy(taco_bell, _22298)
+   Exit: (14) location_strategy(taco_bell, 8)
+   Call: (14) _15542 is 766500000*(9+8)/10
+   Exit: (14) 1303050000 is 766500000*(9+8)/10
+   Exit: (13) annual_visitors(taco_bell, 1303050000)
+   Call: (13) annual_visitors(roy_rogers, _25378)
+   Call: (14) outlets(roy_rogers, _25992)
+   Exit: (14) outlets(roy_rogers, 50)
+   Call: (14) avg_visitors_per_day(roy_rogers, _27218)
+   Exit: (14) avg_visitors_per_day(roy_rogers, 150)
+   Call: (14) _28444=365
+   Exit: (14) 365=365
+   Call: (14) _29670 is 50*150*365
+   Exit: (14) 2737500 is 50*150*365
+   Call: (14) marketing_impact(roy_rogers, _30908)
+   Exit: (14) marketing_impact(roy_rogers, 4)
+   Call: (14) location_strategy(roy_rogers, _32134)
+   Exit: (14) location_strategy(roy_rogers, 5)
+   Call: (14) _25378 is 2737500*(4+5)/10
+   Exit: (14) 2463750 is 2737500*(4+5)/10
+   Exit: (13) annual_visitors(roy_rogers, 2463750)
+   Call: (13) compare(_35286, 1303050000, 2463750)
+   Exit: (13) compare(>, 1303050000, 2463750)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-45_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-45_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

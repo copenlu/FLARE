@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-115_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_cleanings_per_day(_5830)
+   Call: (14) teachers(_14508)
+   Exit: (14) teachers(4)
+   Call: (14) lessons_per_teacher(_15726)
+   Exit: (14) lessons_per_teacher(2)
+   Call: (14) cleanings_per_lesson(_16944)
+   Exit: (14) cleanings_per_lesson(3)
+   Call: (14) _18162 is 4*2
+   Exit: (14) 8 is 4*2
+   Call: (14) _5830 is 8*3
+   Exit: (14) 24 is 8*3
+   Exit: (13) total_cleanings_per_day(24)
+   Exit: (12) query(24)
+path_result:query(24)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-115_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-115_gsm8k-trace_output.txt"), forall(call(query(TotalCleanings)), (write(path_result: query(TotalCleanings)))).')

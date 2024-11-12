@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-180_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_8054)), write(path_result:query(_8054)))
+   Call: (12) query(_8054)
+   Call: (13) total_cost_of_lemons(3, 2, 20, 25, _8054)
+   Call: (14) _16748 is 3*3+2*2
+   Exit: (14) 13 is 3*3+2*2
+   Call: (14) _17992 is 20*0.5
+   Exit: (14) 10.0 is 20*0.5
+   Call: (14) _19236 is 10.0-13
+   Exit: (14) -3.0 is 10.0-13
+   Call: (14) _8054 is 13- -3.0
+   Exit: (14) 16.0 is 13- -3.0
+   Exit: (13) total_cost_of_lemons(3, 2, 20, 25, 16.0)
+   Exit: (12) query(16.0)
+path_result:query(16.0)
+^  Exit: (10) forall(user:call(query(_8054)), user:write(path_result:query(_8054)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-180_gsm8k-trace_output.txt"), forall(call(query(_8054)), write(path_result:query(_8054)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-180_gsm8k-trace_output.txt"), forall(call(query(TotalCost)), (write(path_result: query(TotalCost)))).')

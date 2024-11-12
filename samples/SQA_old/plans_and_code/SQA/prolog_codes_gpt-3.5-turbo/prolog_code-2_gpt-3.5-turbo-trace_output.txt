@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-2_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) opposes_issue(george_fox, stoning)
+   Call: (14) historical_figure(george_fox, _14496)
+   Exit: (14) historical_figure(george_fox, [pacifism, inner_light, social_justice, anti-violence])
+   Call: (14) issue_contrary_beliefs(stoning, _15752)
+   Exit: (14) issue_contrary_beliefs(stoning, [pacifism, anti-violence])
+   Call: (14) intersect([pacifism, inner_light, social_justice, anti-violence], [pacifism, anti-violence], [])
+   Call: (15) intersect([inner_light, social_justice, anti-violence], [pacifism, anti-violence], [])
+   Call: (16) intersect([social_justice, anti-violence], [pacifism, anti-violence], [])
+   Call: (17) intersect([anti-violence], [pacifism, anti-violence], [])
+   Call: (18) intersect([], [pacifism, anti-violence], [])
+   Exit: (18) intersect([], [pacifism, anti-violence], [])
+   Exit: (17) intersect([anti-violence], [pacifism, anti-violence], [])
+   Exit: (16) intersect([social_justice, anti-violence], [pacifism, anti-violence], [])
+   Exit: (15) intersect([inner_light, social_justice, anti-violence], [pacifism, anti-violence], [])
+   Exit: (14) intersect([pacifism, inner_light, social_justice, anti-violence], [pacifism, anti-violence], [])
+   Exit: (13) opposes_issue(george_fox, stoning)
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-2_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-2_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

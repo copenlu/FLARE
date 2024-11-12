@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-387_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_apples_picked(_5830)
+   Call: (14) apples_picked_monday(_14508)
+   Exit: (14) apples_picked_monday(0)
+   Call: (14) apples_picked_tuesday(_15726)
+   Exit: (14) apples_picked_tuesday(12)
+   Call: (14) apples_picked_wednesday(12, _16944)
+   Call: (15) _16944 is 12*2
+   Exit: (15) 24 is 12*2
+   Exit: (14) apples_picked_wednesday(12, 24)
+   Call: (14) _5830 is 0+12+24
+   Exit: (14) 36 is 0+12+24
+   Exit: (13) total_apples_picked(36)
+   Exit: (12) query(36)
+path_result:query(36)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-387_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-387_gsm8k-trace_output.txt"), forall(call(query(TotalApples)), (write(path_result: query(TotalApples)))).')

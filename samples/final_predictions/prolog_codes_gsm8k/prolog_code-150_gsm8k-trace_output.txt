@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-150_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_lego_blocks(500, _13974, _13976, _5830)
+   Call: (14) _14520 is 3*500
+   Exit: (14) 1500 is 3*500
+   Call: (14) _15752 is 500/4
+   Exit: (14) 125 is 500/4
+   Call: (14) _5830 is 500+1500+125
+   Exit: (14) 2125 is 500+1500+125
+   Exit: (13) total_lego_blocks(500, 1500, 125, 2125)
+   Exit: (12) query(2125)
+path_result:query(2125)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-150_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-150_gsm8k-trace_output.txt"), forall(call(query(TotalBlocks)), (write(path_result: query(TotalBlocks)))).')

@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-214_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) cakes_bought(4, _13974, _13976, _5830)
+   Call: (14) _14520 is 4*3
+   Exit: (14) 12 is 4*3
+   Call: (14) _15752 is 12*5
+   Exit: (14) 60 is 12*5
+   Call: (14) _5830 is 4+12+60
+   Exit: (14) 76 is 4+12+60
+   Exit: (13) cakes_bought(4, 12, 60, 76)
+   Exit: (12) query(76)
+path_result:query(76)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-214_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-214_gsm8k-trace_output.txt"), forall(call(query(Total)), (write(path_result: query(Total)))).')

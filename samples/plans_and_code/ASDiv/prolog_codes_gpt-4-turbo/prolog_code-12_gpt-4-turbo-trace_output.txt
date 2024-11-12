@@ -1,0 +1,33 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-12_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) total_students(_13904)
+   Exit: (13) total_students(60)
+   Call: (13) votes_needed(60, _5834)
+   Call: (14) votes_required(60, _15734)
+   Call: (15) _15734 is 60*3//4
+   Exit: (15) 45 is 60*3//4
+   Exit: (14) votes_required(60, 45)
+   Call: (14) total_current_votes(60, _18196)
+   Call: (15) initial_votes(60, _18810)
+   Call: (16) _18810 is 60//2
+   Exit: (16) 30 is 60//2
+   Exit: (15) initial_votes(60, 30)
+   Call: (15) undecided_votes(_21266)
+   Exit: (15) undecided_votes(5)
+   Call: (15) additional_campaign_votes(60, 30, 5, _22484)
+   Call: (16) _23106 is 60-30-5
+   Exit: (16) 25 is 60-30-5
+   Call: (16) _22484 is 25//5
+   Exit: (16) 5 is 25//5
+   Exit: (15) additional_campaign_votes(60, 30, 5, 5)
+   Call: (15) _18196 is 30+5+5
+   Exit: (15) 40 is 30+5+5
+   Exit: (14) total_current_votes(60, 40)
+   Call: (14) _5834 is 45-40
+   Exit: (14) 5 is 45-40
+   Exit: (13) votes_needed(60, 5)
+   Exit: (12) query(5)
+path_result:query(5)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-12_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-12_gpt-4-turbo-trace_output.txt"), forall(call(query(VotesNeeded)), (write(path_result: query(VotesNeeded)))).')

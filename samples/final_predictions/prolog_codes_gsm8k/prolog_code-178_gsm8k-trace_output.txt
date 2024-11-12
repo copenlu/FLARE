@@ -1,0 +1,379 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-178_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) total_annual_payment(300, 200, 500, _5830)
+   Call: (14) total_monthly_payment(300, 200, 500, _14520)
+   Call: (15) increased_payment(300, _15142)
+   Call: (16) _15142 is 300+0.5*300
+   Exit: (16) 450.0 is 300+0.5*300
+   Exit: (15) increased_payment(300, 450.0)
+   Call: (15) increased_payment(200, _17616)
+   Call: (16) _17616 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _20090)
+   Call: (16) _20090 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _20090)
+   Call: (16) _20090 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _20090)
+   Call: (16) _20090 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _17616)
+   Call: (16) _17616 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _42958)
+   Call: (16) _42958 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _42958)
+   Call: (16) _42958 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _42958)
+   Call: (16) _42958 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _14520 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _5830 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _17616)
+   Call: (16) _17616 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _762)
+   Call: (16) _762 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _762)
+   Call: (16) _762 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _762)
+   Call: (16) _762 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(300, _160)
+   Call: (16) _160 is 300+0.5*300
+   Exit: (16) 450.0 is 300+0.5*300
+   Exit: (15) increased_payment(300, 450.0)
+   Call: (15) increased_payment(200, _23630)
+   Call: (16) _23630 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _26104)
+   Call: (16) _26104 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _26104)
+   Call: (16) _26104 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _26104)
+   Call: (16) _26104 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _23630)
+   Call: (16) _23630 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _48972)
+   Call: (16) _48972 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _48972)
+   Call: (16) _48972 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _48972)
+   Call: (16) _48972 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _168)
+   Call: (16) _168 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _6848)
+   Call: (16) _6848 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _6848)
+   Call: (16) _6848 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _6848)
+   Call: (16) _6848 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(300, _160)
+   Call: (16) _160 is 300+0.5*300
+   Exit: (16) 450.0 is 300+0.5*300
+   Exit: (15) increased_payment(300, 450.0)
+   Call: (15) increased_payment(200, _29716)
+   Call: (16) _29716 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _32190)
+   Call: (16) _32190 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _32190)
+   Call: (16) _32190 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _32190)
+   Call: (16) _32190 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _29716)
+   Call: (16) _29716 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _55058)
+   Call: (16) _55058 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _55058)
+   Call: (16) _55058 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _176)
+   Call: (16) _176 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(200, _168)
+   Call: (16) _168 is 200+0.5*200
+   Exit: (16) 300.0 is 200+0.5*200
+   Exit: (15) increased_payment(200, 300.0)
+   Call: (15) increased_payment(500, _12926)
+   Call: (16) _12926 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _12926)
+   Call: (16) _12926 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+   Redo: (15) increased_payment(500, _12926)
+   Call: (16) _12926 is 500+0.5*500
+   Exit: (16) 750.0 is 500+0.5*500
+   Exit: (15) increased_payment(500, 750.0)
+   Call: (15) _158 is 450.0+300.0+750.0
+   Exit: (15) 1500.0 is 450.0+300.0+750.0
+   Exit: (14) total_monthly_payment(300, 200, 500, 1500.0)
+   Call: (14) _76 is 1500.0*12
+   Exit: (14) 18000.0 is 1500.0*12
+   Exit: (13) total_annual_payment(300, 200, 500, 18000.0)
+   Exit: (12) query(18000.0)
+path_result:query(18000.0)
+^  Exit: (10) forall(user:call(query(_76)), user:write(path_result:query(_76)))
+   Exit: (6) run_init_goal('<garbage_collected>', 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-178_gsm8k-trace_output.txt"), forall(call(query(TotalAnnualPayment)), (write(path_result: query(TotalAnnualPayment)))).')

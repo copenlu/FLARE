@@ -1,0 +1,45 @@
+   Exit: (10) protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query(_5834)), write(path_result:query(_5834)))
+   Call: (12) query(_5834)
+   Call: (13) calculate_cost_difference(_5834)
+   Call: (14) _14512=800
+   Exit: (14) 800=800
+   Call: (14) _15738=260
+   Exit: (14) 260=260
+   Call: (14) _16964=31
+   Exit: (14) 31=31
+   Call: (14) _18190=900
+   Exit: (14) 900=900
+   Call: (14) _19416=200
+   Exit: (14) 200=200
+   Call: (14) _20642=21
+   Exit: (14) 21=21
+   Call: (14) _21868=0.58
+   Exit: (14) 0.58=0.58
+   Call: (14) _23100=20
+   Exit: (14) 20=20
+   Call: (14) transportation_cost(31, 0.58, 20, _24326)
+   Call: (15) _24326 is 31*0.58*20
+   Exit: (15) 359.6 is 31*0.58*20
+   Exit: (14) transportation_cost(31, 0.58, 20, 359.6)
+   Call: (14) transportation_cost(21, 0.58, 20, _26810)
+   Call: (15) _26810 is 21*0.58*20
+   Exit: (15) 243.6 is 21*0.58*20
+   Exit: (14) transportation_cost(21, 0.58, 20, 243.6)
+   Call: (14) total_monthly_cost(800, 260, 359.6, _29294)
+   Call: (15) _29294 is 800+260+359.6
+   Exit: (15) 1419.6 is 800+260+359.6
+   Exit: (14) total_monthly_cost(800, 260, 359.6, 1419.6)
+   Call: (14) total_monthly_cost(900, 200, 243.6, _31778)
+   Call: (15) _31778 is 900+200+243.6
+   Exit: (15) 1343.6 is 900+200+243.6
+   Exit: (14) total_monthly_cost(900, 200, 243.6, 1343.6)
+   Call: (14) cost_difference(1419.6, 1343.6, _5834)
+   Call: (15) _5834 is abs(1419.6-1343.6)
+   Exit: (15) 76.0 is abs(1419.6-1343.6)
+   Exit: (14) cost_difference(1419.6, 1343.6, 76.0)
+   Exit: (13) calculate_cost_difference(76.0)
+   Exit: (12) query(76.0)
+path_result:query(76.0)
+^  Exit: (10) forall(user:call(query(_5834)), user:write(path_result:query(_5834)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt"), forall(call(query(_5834)), write(path_result:query(_5834)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/gsm8k/prolog_codes_gpt-4-turbo/prolog_code-15_gpt-4-turbo-trace_output.txt"), forall(call(query(Difference)), (write(path_result: query(Difference)))).')

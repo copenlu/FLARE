@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) tomorrow(date(4, 30, 2021), _16580)
+   Call: (14) adjusted_days_in_month(4, 2021, _17126)
+   Call: (15) days_in_month(4, _17126)
+   Exit: (15) days_in_month(4, 30)
+   Exit: (14) adjusted_days_in_month(4, 2021, 30)
+   Call: (14) 30<30
+   Fail: (14) 30<30
+   Redo: (13) tomorrow(date(4, 30, 2021), date(_17120, _17122, _17124))
+   Call: (14) next_day_first_of_month(date(4, 30, 2021), date(_17120, _17122, _17124))
+   Call: (15) 30=:=31
+   Fail: (15) 30=:=31
+   Fail: (14) next_day_first_of_month(date(4, 30, 2021), date(_17120, _17122, _17124))
+   Fail: (13) tomorrow(date(4, 30, 2021), _23958)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/date/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

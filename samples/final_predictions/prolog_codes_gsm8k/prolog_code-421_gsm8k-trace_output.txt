@@ -1,0 +1,23 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-421_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) sally_money_left(10, 2, _5830)
+   Call: (14) total_cost_taffy(2, _14516)
+   Call: (15) _14516 is 2*3-2//2
+   Exit: (15) 5 is 2*3-2//2
+   Exit: (14) total_cost_taffy(2, 5)
+   Call: (14) total_cost_seashells_and_magnets(_16984)
+   Call: (15) _16984 is 1.5+0.25*4
+   Exit: (15) 2.5 is 1.5+0.25*4
+   Exit: (14) total_cost_seashells_and_magnets(2.5)
+   Call: (14) _19456 is 5+2.5
+   Exit: (14) 7.5 is 5+2.5
+   Call: (14) remaining_money(10, 7.5, _5830)
+   Call: (15) _5830 is 10-7.5
+   Exit: (15) 2.5 is 10-7.5
+   Exit: (14) remaining_money(10, 7.5, 2.5)
+   Exit: (13) sally_money_left(10, 2, 2.5)
+   Exit: (12) query(2.5)
+path_result:query(2.5)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-421_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-421_gsm8k-trace_output.txt"), forall(call(query(MoneyLeft)), (write(path_result: query(MoneyLeft)))).')

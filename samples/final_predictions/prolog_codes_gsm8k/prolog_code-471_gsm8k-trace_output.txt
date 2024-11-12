@@ -1,0 +1,25 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-471_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_trips(_5830)
+   Call: (14) total_weight(_14508)
+   Call: (15) feed_weight(sugar_cubes, _15118)
+   Exit: (15) feed_weight(sugar_cubes, 2)
+   Call: (15) feed_weight(carrots, _16344)
+   Exit: (15) feed_weight(carrots, 48)
+   Call: (15) feed_weight(hay, _17570)
+   Exit: (15) feed_weight(hay, 3150)
+   Call: (15) feed_weight(oats, _18796)
+   Exit: (15) feed_weight(oats, 1300)
+   Call: (15) _14508 is 2+48+3150+1300
+   Exit: (15) 4500 is 2+48+3150+1300
+   Exit: (14) total_weight(4500)
+   Call: (14) _21872=2250
+   Exit: (14) 2250=2250
+   Call: (14) _5830 is ceil(4500/2250)
+   Exit: (14) 2 is ceil(4500/2250)
+   Exit: (13) calculate_trips(2)
+   Exit: (12) query(2)
+path_result:query(2)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-471_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-471_gsm8k-trace_output.txt"), forall(call(query(Trips)), (write(path_result: query(Trips)))).')

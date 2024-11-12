@@ -1,0 +1,20 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-53_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) hosta_looks_best('Blue Hosta')
+   Call: (14) hosta_variety('Blue Hosta', _17360)
+   Exit: (14) hosta_variety('Blue Hosta', high_chlorophyll)
+   Call: (14) light_requirement(high_chlorophyll, _18586)
+   Exit: (14) light_requirement(high_chlorophyll, partial_sun)
+   Call: (14) chlorophyll_effect(high_chlorophyll, _19812, _19890)
+   Exit: (14) chlorophyll_effect(high_chlorophyll, healthy, deep_green)
+   Call: (14) healthy=healthy
+   Exit: (14) healthy=healthy
+   Call: (14) environmental_conditions_good(partial_sun)
+   Call: (15) plant(hosta, partial_sun)
+   Fail: (15) plant(hosta, partial_sun)
+   Fail: (14) environmental_conditions_good(partial_sun)
+   Fail: (13) hosta_looks_best('Blue Hosta')
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-53_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-53_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

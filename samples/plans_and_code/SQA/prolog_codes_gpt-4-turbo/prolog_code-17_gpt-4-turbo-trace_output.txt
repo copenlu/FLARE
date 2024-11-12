@@ -1,0 +1,16 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-17_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) performs_genre(ludacris, classical)
+   Call: (14) primary_genre(ludacris, classical)
+   Fail: (14) primary_genre(ludacris, classical)
+   Redo: (13) performs_genre(ludacris, classical)
+   Call: (14) cross_genre_performance(ludacris, classical, yes)
+   Fail: (14) cross_genre_performance(ludacris, classical, yes)
+   Redo: (13) performs_genre(ludacris, classical)
+   Call: (14) uses_classical_elements(ludacris, yes)
+   Fail: (14) uses_classical_elements(ludacris, yes)
+   Fail: (13) performs_genre(ludacris, classical)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-17_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-4-turbo/prolog_code-17_gpt-4-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

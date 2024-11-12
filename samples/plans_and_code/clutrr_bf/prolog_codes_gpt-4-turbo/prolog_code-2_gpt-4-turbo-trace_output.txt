@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) niece_or_nephew(annie, james)
+   Call: (14) father(_14496, annie)
+   Exit: (14) father(alan, annie)
+   Call: (14) sibling(alan, james)
+   Call: (15) brother(alan, james)
+   Exit: (15) brother(alan, james)
+   Exit: (14) sibling(alan, james)
+   Exit: (13) niece_or_nephew(annie, james)
+   Exit: (12) query
+path_result:query
+   Redo: (14) sibling(alan, james)
+   Call: (15) brother(james, alan)
+   Fail: (15) brother(james, alan)
+   Fail: (14) sibling(alan, james)
+   Fail: (13) niece_or_nephew(annie, james)
+   Fail: (12) query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-2_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

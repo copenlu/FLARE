@@ -1,0 +1,29 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-285_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_sum_in_10_years(_5830)
+   Call: (14) _14508=20
+   Exit: (14) 20=20
+   Call: (14) current_ages(20, _15734, _15736)
+   Call: (15) _15734 is 20//2
+   Exit: (15) 10 is 20//2
+   Call: (15) _15736 is 20//2
+   Exit: (15) 10 is 20//2
+   Exit: (14) current_ages(20, 10, 10)
+   Call: (14) age_in_10_years(10, _19430)
+   Call: (15) _19430 is 10+10
+   Exit: (15) 20 is 10+10
+   Exit: (14) age_in_10_years(10, 20)
+   Call: (14) age_in_10_years(10, _21886)
+   Call: (15) _21886 is 10+10
+   Exit: (15) 20 is 10+10
+   Exit: (14) age_in_10_years(10, 20)
+   Call: (14) sum_of_ages_in_10_years(20, 20, _5830)
+   Call: (15) _5830 is 20+20
+   Exit: (15) 40 is 20+20
+   Exit: (14) sum_of_ages_in_10_years(20, 20, 40)
+   Exit: (13) calculate_sum_in_10_years(40)
+   Exit: (12) query(40)
+path_result:query(40)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-285_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-285_gsm8k-trace_output.txt"), forall(call(query(SumIn10Years)), (write(path_result: query(SumIn10Years)))).')

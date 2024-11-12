@@ -1,0 +1,17 @@
+   Exit: (10) protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-3_gpt-3.5-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+^  Call: (13) findall(_16156, find_tool(hand_axe, 3, _16156), _16242)
+   Call: (17) find_tool(hand_axe, 3, _16156)
+   Call: (18) tool(hand_axe, _17440)
+   Exit: (18) tool(hand_axe, [material(stone), use(cutting), complexity(3)])
+   Call: (18) lists:member(complexity(3), [material(stone), use(cutting), complexity(3)])
+   Exit: (18) lists:member(complexity(3), [material(stone), use(cutting), complexity(3)])
+   Call: (18) _16156=hand_axe
+   Exit: (18) hand_axe=hand_axe
+   Exit: (17) find_tool(hand_axe, 3, hand_axe)
+^  Exit: (13) findall(_16156, user:find_tool(hand_axe, 3, _16156), [hand_axe])
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-3_gpt-3.5-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/SQA/prolog_codes_gpt-3.5-turbo/prolog_code-3_gpt-3.5-turbo-trace_output.txt"), forall(call(query), (write(path_result: query))).')

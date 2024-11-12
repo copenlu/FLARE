@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-57_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) query_bags_filled(_5830)
+   Call: (14) calculate_bags(30, 2, 2, _5830)
+   Call: (15) _15128 is 30-2
+   Exit: (15) 28 is 30-2
+   Call: (15) _5830 is 28/2
+   Exit: (15) 14 is 28/2
+   Exit: (14) calculate_bags(30, 2, 2, 14)
+   Exit: (13) query_bags_filled(14)
+   Exit: (12) query(14)
+path_result:query(14)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-57_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-57_gsm8k-trace_output.txt"), forall(call(query(Answer)), (write(path_result: query(Answer)))).')

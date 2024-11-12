@@ -1,0 +1,20 @@
+   Exit: (10) protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt")
+^  Call: (10) forall(call(query), write(path_result:query))
+   Call: (12) query
+   Call: (13) grandson(vincent, gabrielle)
+   Call: (14) grandparent(gabrielle, vincent)
+   Call: (15) parent(gabrielle, _15108)
+   Exit: (15) parent(gabrielle, dorothy)
+   Call: (15) parent(dorothy, vincent)
+   Exit: (15) parent(dorothy, vincent)
+   Exit: (14) grandparent(gabrielle, vincent)
+   Call: (14) male(vincent)
+   Exit: (14) male(vincent)
+   Exit: (13) grandson(vincent, gabrielle)
+   Call: (13) write('Vincent is the grandson of Gabrielle.')
+Vincent is the grandson of Gabrielle.
+   Exit: (13) write('Vincent is the grandson of Gabrielle.')
+   Exit: (12) query
+path_result:query
+^  Exit: (10) forall(user:call(query), user:write(path_result:query))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call(query), write(path_result:query))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/plans_and_code/clutrr/prolog_codes_gpt-4-turbo/prolog_code-3_gpt-4-turbo-trace_output.txt"), forall(call( query), (write(path_result:  query))).')

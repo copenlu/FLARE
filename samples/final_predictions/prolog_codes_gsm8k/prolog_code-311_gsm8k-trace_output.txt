@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-311_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) money_earned_second_year(_5830)
+   Call: (14) books_sold_second_year(_14508)
+   Call: (15) books_sold_first_year(_15118)
+   Call: (16) books_sold_current_year(_15728)
+   Call: (17) _15728 is 250-50-45
+   Exit: (17) 155 is 250-50-45
+   Exit: (16) books_sold_current_year(155)
+   Call: (16) _15118 is 2*155
+   Exit: (16) 310 is 2*155
+   Exit: (15) books_sold_first_year(310)
+   Call: (15) books_sold_current_year(_20020)
+   Call: (16) _20020 is 250-50-45
+   Exit: (16) 155 is 250-50-45
+   Exit: (15) books_sold_current_year(155)
+   Call: (15) _14508 is 310-155
+   Exit: (15) 155 is 310-155
+   Exit: (14) books_sold_second_year(155)
+   Call: (14) _5830 is 155*20
+   Exit: (14) 3100 is 155*20
+   Exit: (13) money_earned_second_year(3100)
+   Exit: (12) query(3100)
+path_result:query(3100)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-311_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-311_gsm8k-trace_output.txt"), forall(call(query(TotalMoneySecondYear)), (write(path_result: query(TotalMoneySecondYear)))).')

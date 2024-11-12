@@ -1,0 +1,35 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-256_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_calories_difference(_5830)
+   Call: (14) _14508=5
+   Exit: (14) 5=5
+   Call: (14) _15734=4*5
+   Exit: (14) 4*5=4*5
+   Call: (14) _16966=5
+   Exit: (14) 5=5
+   Call: (14) _18192=13
+   Exit: (14) 13=13
+   Call: (14) _19418=200
+   Exit: (14) 200=200
+   Call: (14) total_cookies(5, 4*5, 5, 13, _20644, _20646)
+   Call: (15) _20644 is 5+4*5
+   Exit: (15) 25 is 5+4*5
+   Call: (15) _20646 is 5+13
+   Exit: (15) 18 is 5+13
+   Exit: (14) total_cookies(5, 4*5, 5, 13, 25, 18)
+   Call: (14) total_calories(25, 18, 200, _24364, _24366)
+   Call: (15) _24364 is 25*200
+   Exit: (15) 5000 is 25*200
+   Call: (15) _24366 is 18*200
+   Exit: (15) 3600 is 18*200
+   Exit: (14) total_calories(25, 18, 200, 5000, 3600)
+   Call: (14) calories_difference(5000, 3600, _5830)
+   Call: (15) _5830 is 5000-3600
+   Exit: (15) 1400 is 5000-3600
+   Exit: (14) calories_difference(5000, 3600, 1400)
+   Exit: (13) calculate_calories_difference(1400)
+   Exit: (12) query(1400)
+path_result:query(1400)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-256_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-256_gsm8k-trace_output.txt"), forall(call(query(CaloriesDifference)), (write(path_result: query(CaloriesDifference)))).')

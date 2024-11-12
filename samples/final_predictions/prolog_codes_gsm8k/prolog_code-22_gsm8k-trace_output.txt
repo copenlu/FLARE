@@ -1,0 +1,21 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-22_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_7332)), write(path_result:query(_7332)))
+   Call: (12) query(_7332)
+   Call: (13) calculate_years_ago(_7332)
+   Call: (14) raymond_age_difference(31, _16010)
+   Call: (15) _16010 is 31+6
+   Exit: (15) 37 is 31+6
+   Exit: (14) raymond_age_difference(31, 37)
+   Call: (14) son_age_at_birth(37, _18466)
+   Call: (15) _18466 is 23
+   Exit: (15) 23 is 23
+   Exit: (14) son_age_at_birth(37, 23)
+   Call: (14) years_ago_son_born(37, 23, _7332)
+   Call: (15) _7332 is 37-23
+   Exit: (15) 14 is 37-23
+   Exit: (14) years_ago_son_born(37, 23, 14)
+   Exit: (13) calculate_years_ago(14)
+   Exit: (12) query(14)
+path_result:query(14)
+^  Exit: (10) forall(user:call(query(_7332)), user:write(path_result:query(_7332)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-22_gsm8k-trace_output.txt"), forall(call(query(_7332)), write(path_result:query(_7332)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-22_gsm8k-trace_output.txt"), forall(call(query(YearsAgo)), (write(path_result: query(YearsAgo)))).')

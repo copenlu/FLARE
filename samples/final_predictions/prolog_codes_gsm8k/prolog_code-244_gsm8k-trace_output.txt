@@ -1,0 +1,19 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-244_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) age_relationships(_13900, _13902, _13904)
+   Call: (14) _13900 is 20
+   Exit: (14) 20 is 20
+   Call: (14) _13902 is 20+5
+   Exit: (14) 25 is 20+5
+   Call: (14) _13904 is 25-2
+   Exit: (14) 23 is 25-2
+   Exit: (13) age_relationships(20, 25, 23)
+   Call: (13) sum_of_ages(20, 25, 23, _5830)
+   Call: (14) _5830 is 20+25+23
+   Exit: (14) 68 is 20+25+23
+   Exit: (13) sum_of_ages(20, 25, 23, 68)
+   Exit: (12) query(68)
+path_result:query(68)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-244_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-244_gsm8k-trace_output.txt"), forall(call(query(Sum)), (write(path_result: query(Sum)))).')

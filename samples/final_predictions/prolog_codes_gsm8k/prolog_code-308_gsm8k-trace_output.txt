@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-308_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) additional_time_needed(_5830)
+   Call: (14) goal_time_tuesday(_14508)
+   Call: (15) total_exercise_time(_15118)
+   Call: (16) _15728=23
+   Exit: (16) 23=23
+   Call: (16) _16954=16
+   Exit: (16) 16=16
+   Call: (16) _15118 is 23+16
+   Exit: (16) 39 is 23+16
+   Exit: (15) total_exercise_time(39)
+   Call: (15) _14508 is 2*39
+   Exit: (15) 78 is 2*39
+   Exit: (14) goal_time_tuesday(78)
+   Call: (14) _21856=23
+   Exit: (14) 23=23
+   Call: (14) _23082=16
+   Exit: (14) 16=16
+   Call: (14) _5830 is 78-(23+16)
+   Exit: (14) 39 is 78-(23+16)
+   Exit: (13) additional_time_needed(39)
+   Exit: (12) query(39)
+path_result:query(39)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-308_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-308_gsm8k-trace_output.txt"), forall(call(query(AdditionalTime)), (write(path_result: query(AdditionalTime)))).')

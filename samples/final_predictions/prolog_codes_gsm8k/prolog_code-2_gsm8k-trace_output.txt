@@ -1,0 +1,15 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-2_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) calculate_total_bolts(_5830)
+   Call: (14) total_bolts(2, _5830)
+   Call: (15) _15120 is 2/2
+   Exit: (15) 1 is 2/2
+   Call: (15) _5830 is 2+1
+   Exit: (15) 3 is 2+1
+   Exit: (14) total_bolts(2, 3)
+   Exit: (13) calculate_total_bolts(3)
+   Exit: (12) query(3)
+path_result:query(3)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-2_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-2_gsm8k-trace_output.txt"), forall(call(query(TotalBolts)), (write(path_result: query(TotalBolts)))).')

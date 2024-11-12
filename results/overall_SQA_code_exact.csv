@@ -1,0 +1,9 @@
+,Accuracy,code_runs_perc,model,execmode,prompt,icl
+model=command-r-plus_execmode=trace_prompt=standard_icl=6_output.json,0.5420289855072464,1.0,command-r-plus,trace,standard,6
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=6_output.json,0.5326894502228826,1.0,gpt-3.5-turbo,trace,standard,6
+model=gpt-3.5-turbo_execmode=trace_prompt=standard_icl=2_output.json,0.5279937791601866,1.0,gpt-3.5-turbo,trace,standard,2
+model=command-r_execmode=trace_prompt=standard_icl=2_output.json,0.5167652859960552,1.0,command-r,trace,standard,2
+model=command-r-plus_execmode=trace_prompt=standard_icl=4_output.json,0.5128939828080229,1.0,command-r-plus,trace,standard,4
+model=command-r_execmode=trace_prompt=standard_icl=4_output.json,0.5032967032967033,1.0,command-r,trace,standard,4
+model=command-r-plus_execmode=trace_prompt=standard_icl=2_output.json,0.48830409356725146,1.0,command-r-plus,trace,standard,2
+model=command-r_execmode=trace_prompt=standard_icl=6_output.json,0.4700460829493088,1.0,command-r,trace,standard,6

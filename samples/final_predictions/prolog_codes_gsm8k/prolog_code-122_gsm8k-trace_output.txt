@@ -1,0 +1,27 @@
+   Exit: (10) protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-122_gsm8k-trace_output.txt")
+^  Call: (10) forall(call(query(_5830)), write(path_result:query(_5830)))
+   Call: (12) query(_5830)
+   Call: (13) adrien_initial_salary(_13900)
+   Call: (14) _13900 is 40000/1.4
+   Exit: (14) 28571.428571428572 is 40000/1.4
+   Exit: (13) adrien_initial_salary(28571.428571428572)
+   Call: (13) lylah_initial_salary(_16360, 28571.428571428572)
+   Call: (14) _16360 is 0.7*28571.428571428572
+   Exit: (14) 20000.0 is 0.7*28571.428571428572
+   Exit: (13) lylah_initial_salary(20000.0, 28571.428571428572)
+   Call: (13) adrien_salary_four_years_later(28571.428571428572, _18828)
+   Call: (14) _18828 is 28571.428571428572*1.4
+   Exit: (14) 40000.0 is 28571.428571428572*1.4
+   Exit: (13) adrien_salary_four_years_later(28571.428571428572, 40000.0)
+   Call: (13) lylah_salary_four_years_later(20000.0, _21296)
+   Call: (14) _21296 is 20000.0*1.4
+   Exit: (14) 28000.0 is 20000.0*1.4
+   Exit: (13) lylah_salary_four_years_later(20000.0, 28000.0)
+   Call: (13) total_salary_four_years_later(_5830, 40000.0, 28000.0)
+   Call: (14) _5830 is 40000.0+28000.0
+   Exit: (14) 68000.0 is 40000.0+28000.0
+   Exit: (13) total_salary_four_years_later(68000.0, 40000.0, 28000.0)
+   Exit: (12) query(68000.0)
+path_result:query(68000.0)
+^  Exit: (10) forall(user:call(query(_5830)), user:write(path_result:query(_5830)))
+   Exit: (6) run_init_goal((set_prolog_flag(color_term, false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-122_gsm8k-trace_output.txt"), forall(call(query(_5830)), write(path_result:query(_5830)))), 'set_prolog_flag(color_term,false), leash(-all), trace, protocol("samples/final_predictions/prolog_codes_gsm8k/prolog_code-122_gsm8k-trace_output.txt"), forall(call(query(TotalSalary)), (write(path_result: query(TotalSalary)))).')
